@@ -1,0 +1,84 @@
+{
+  "gitTree": "dfb900c55beaf3e4a8585adfcf364ab7a7894534",
+  "records": [
+    {
+      "command": [
+        "-B",
+        "tools/verificar_dossie.py",
+        "--mode",
+        "public"
+      ],
+      "exitCode": 0,
+      "stdout": "accessibility/references/WCAG.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-best-practices/SKILL.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-quality-audit/DEPENDENCIAS-PENDENTES.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-quality-audit/SKILL.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-quality-audit/scripts/analyze.sh\", \"passed\": true}, {\"id\": \"required:LICENSE\", \"passed\": true}, {\"id\": \"required:LICENSE-SCOPE.md\", \"passed\": true}, {\"id\": \"required:THIRD_PARTY_NOTICES.md\", \"passed\": true}, {\"id\": \"required:specs/shared/process/workflow.md\", \"passed\": true}, {\"id\": \"required:specs/shared/process/evidence-conventions.md\", \"passed\": true}, {\"id\": \"required:docs/comandos/comandos.json\", \"passed\": true}, {\"id\": \"required:docs/modelagem/GUIA.md\", \"passed\": true}, {\"id\": \"authorial-commands\", \"passed\": true}], \"localCorpus\": \"not_run\", \"history\": \"not_checked\", \"limitations\": [\"Nao verifica direitos upstream ou remove historico publico.\"]}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-B",
+        "tools/verificar_dossie.py"
+      ],
+      "exitCode": 0,
+      "stdout": "accessibility/references/WCAG.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-best-practices/SKILL.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-quality-audit/DEPENDENCIAS-PENDENTES.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-quality-audit/SKILL.md\", \"passed\": true}, {\"id\": \"excluded:.agents/skills/web-quality-audit/scripts/analyze.sh\", \"passed\": true}, {\"id\": \"required:LICENSE\", \"passed\": true}, {\"id\": \"required:LICENSE-SCOPE.md\", \"passed\": true}, {\"id\": \"required:THIRD_PARTY_NOTICES.md\", \"passed\": true}, {\"id\": \"required:specs/shared/process/workflow.md\", \"passed\": true}, {\"id\": \"required:specs/shared/process/evidence-conventions.md\", \"passed\": true}, {\"id\": \"required:docs/comandos/comandos.json\", \"passed\": true}, {\"id\": \"required:docs/modelagem/GUIA.md\", \"passed\": true}, {\"id\": \"authorial-commands\", \"passed\": true}], \"localCorpus\": \"not_run\", \"history\": \"not_checked\", \"limitations\": [\"Nao verifica direitos upstream ou remove historico publico.\"]}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/tests",
+        "-q"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 17 tests in 0.130s\n\nOK (skipped=1)\n"
+    },
+    {
+      "command": [
+        "-m",
+        "coverage",
+        "run",
+        "--branch",
+        "--source=framework/src/specflow",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "framework/tests",
+        "-q"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 56 tests in 4.391s\n\nOK (skipped=1)\n"
+    },
+    {
+      "command": [
+        "-m",
+        "coverage",
+        "json",
+        "-o",
+        "D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10034-limpar-acervo-publico\\coverage\\product-clean.json"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "Wrote JSON report to D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10034-limpar-acervo-publico\\coverage\\product-clean.json\n"
+    },
+    {
+      "command": [
+        "build",
+        "framework",
+        "--out-dir",
+        "D:\\desenvolvimento\\ia\\specflow-investigacao\\clean-tree-jy9fikex\\build"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "Building source distribution...\nBuilding wheel from source distribution...\nSuccessfully built D:\\desenvolvimento\\ia\\specflow-investigacao\\clean-tree-jy9fikex\\build\\specflow_cli-0.2.1.tar.gz\nSuccessfully built D:\\desenvolvimento\\ia\\specflow-investigacao\\clean-tree-jy9fikex\\build\\specflow_cli-0.2.1-py3-none-any.whl\n"
+    }
+  ],
+  "privateCorpusPresent": false,
+  "excluded": 469,
+  "authorialReplacements": 8,
+  "limitations": "Tree includes evidence available at test time; later reports are not part of this tree."
+}

@@ -1,0 +1,34 @@
+{
+  "version": "0.2.1",
+  "files": {
+    "specflow_cli-0.2.1-py3-none-any.whl": "d89bb29a556c386544da1859b22aca9bedcd71918285661df0bde722dee981c8",
+    "specflow_cli-0.2.1.tar.gz": "b14cf2b7b50f7a375c1c9bb0485cb2a9d9d61be33e09bc0741f976591b1d275f"
+  },
+  "forbiddenMatches": [],
+  "records": [
+    {
+      "step": "tool",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "Resolved 1 package in 6ms\nPrepared 1 package in 13ms\nInstalled 1 package in 38ms\n + specflow-cli==0.2.1 (from file:///D:/desenvolvimento/ia/specflow-investigacao/specs/changes/10033-organizar-artefatos/evidence/build-0.2.1/specflow_cli-0.2.1-py3-none-any.whl)\nInstalled 1 executable: specflow\nwarning: `D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\build-0.2.1\\tmps4uf3pi2/bin` is not on your PATH. To use installed tools, run `$env:PATH = \"D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\build-0.2.1\\tmps4uf3pi2/bin;$env:PATH\"` or `uv tool update-shell`.\n"
+    },
+    {
+      "step": "--version",
+      "exitCode": 0,
+      "stdout": "0.2.1\n",
+      "stderr": ""
+    },
+    {
+      "step": "init",
+      "exitCode": 0,
+      "stdout": "init: prepared\n",
+      "stderr": ""
+    },
+    {
+      "step": "doctor",
+      "exitCode": 0,
+      "stdout": "    \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"maven\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"node\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"pdf\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"servico\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"sonar\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    }\n  },\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    }
+  ]
+}

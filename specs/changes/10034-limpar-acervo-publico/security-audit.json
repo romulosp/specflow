@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "changeId": "10034-limpar-acervo-publico",
+  "revision": "10034-r1-local-0.2.1",
+  "review": {
+    "skill": "security-audit",
+    "reviewer": "executor da implementacao",
+    "status": "completed",
+    "limitations": [
+      "Mesmo executor; nao autentica pessoas, direitos ou seguranca fora do escopo.",
+      "Historico publico preservado; CI remoto e teste humano nao executados."
+    ]
+  },
+  "scope": [
+    ".agents/skills/security-audit/SKILL.md",
+    ".github/workflows/ci.yml",
+    ".github/workflows/publish-pypi.yml",
+    ".gitignore",
+    "LICENSE-SCOPE.md",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/release/CHECKOUT-PUBLICO.md",
+    "docs/security-audit/README.md",
+    "docs/security-audit/verificar_seguranca.py",
+    "framework/src/specflow/__init__.py",
+    "framework/src/specflow/__main__.py",
+    "framework/src/specflow/assets/bundle-v1.json",
+    "framework/src/specflow/assets/catalog-v1.json",
+    "framework/src/specflow/assets/configuracao.example.properties",
+    "framework/src/specflow/assets/gate_wrapper.py",
+    "framework/src/specflow/assets/policy-v1.json",
+    "framework/src/specflow/assets/record-contracts-v1.json",
+    "framework/src/specflow/assets/resources-v1.json",
+    "framework/src/specflow/cli.py",
+    "framework/src/specflow/configuration.py",
+    "framework/src/specflow/consumer.py",
+    "framework/src/specflow/contracts/__init__.py",
+    "framework/src/specflow/fileops.py",
+    "framework/src/specflow/harness.py",
+    "framework/src/specflow/memory/__init__.py",
+    "framework/src/specflow/policy.py",
+    "framework/src/specflow/security.py",
+    "framework/src/specflow/storage.py",
+    "framework/src/specflow/validation/__init__.py",
+    "framework/src/specflow/workflow/__init__.py",
+    "specs/shared/process/evidence-conventions.md",
+    "specs/shared/process/workflow.md",
+    "specs/templates/design-template.md",
+    "specs/templates/proposal-template.md",
+    "specs/templates/spec-template.md",
+    "specs/templates/tasks-template.md",
+    "specs/templates/validation-template.md",
+    "tools/tests/test_public_checkout.py",
+    "tools/verificar_checkout_publico.py",
+    "tools/verificar_dossie.py"
+  ],
+  "artifacts": [
+    {
+      "path": ".agents/skills/security-audit/SKILL.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "813a93adf546fe1425bba0e426ce0a30d631424b0a137aadbb2f42d67f9431fd"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "b292c3700d024d6ab5cbe7cb287a2bd2ae7900bc2240e9580e7b62fde689943a"
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "80af62e29f62ff1e862471f842a81322eb149b1226ada06968ce0fc4ec250428"
+    },
+    {
+      "path": ".gitignore",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "25ba0ee2e4b26ea6b0a757a8558b5824e51c2ea57aa184424f532e8dcb19d2f3"
+    },
+    {
+      "path": "LICENSE-SCOPE.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "d09c0a9c6de7baabd146a353b4009576d87c024d89823c964fb192cb8f8b41cf"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "aa6dbb62da3ee5afb495b3c660ec148f008560d4f039377f4de29bf440bb9f9b"
+    },
+    {
+      "path": "docs/release/CHECKOUT-PUBLICO.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "fd0e494c848065de970def59d94f01cc8a25d3cd9be079d4e60ae2e7df877bf8"
+    },
+    {
+      "path": "docs/security-audit/README.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "144f60655d6f982cfac96e8e8053635d9e59ed4f96df7526fd3cddf3faa56b2e"
+    },
+    {
+      "path": "docs/security-audit/verificar_seguranca.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "f7723ce035ba28a2ad1351b8f859e707960068ee59a7d5bff12abf412bb9c4ab"
+    },
+    {
+      "path": "framework/src/specflow/__init__.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "8c6d0b00a49946cfbdfa5cd45830bf18c34fb14ccc3032ff20ff22ba342d4834"
+    },
+    {
+      "path": "framework/src/specflow/__main__.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "framework/src/specflow/assets/bundle-v1.json",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "5eefa0f660e7c3022e48fd5daa17580159009ef9d041506de6378b8535138f5a"
+    },
+    {
+      "path": "framework/src/specflow/assets/catalog-v1.json",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "007ab91500db7cab17acc267c8715f2b45a9f3cf5475ef8d5871dcfe175eaa5a"
+    },
+    {
+      "path": "framework/src/specflow/assets/configuracao.example.properties",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "df12b36bcda8f87ebd9eec2fa69de82265c3ea1edee34a62cd905bd3e04c1329"
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "4b919063074d5496880e437ee6f5d5d5b43fae7c19d7ad07add3a9b778274c0f"
+    },
+    {
+      "path": "framework/src/specflow/assets/policy-v1.json",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "108c383c53415bc3950fbf2d557fb5c8ac287a1c5de80621a6385184419160d0"
+    },
+    {
+      "path": "framework/src/specflow/assets/record-contracts-v1.json",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "4839ca245880a7b780d09f120db8311d593971f57e81808023474c7575d02339"
+    },
+    {
+      "path": "framework/src/specflow/assets/resources-v1.json",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "05b8c1342277221cd0b6b7f9c37a0b5b3535fd419d55ef193c50be353392bb0f"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "385397618e37c4c8785bd108efd68955440746e6800f4822e12d84531719d9dd"
+    },
+    {
+      "path": "framework/src/specflow/configuration.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "d2500025b08a150e6007f08da6b9a87af963ac23bf30cb0e4c8ee2d758f1d12f"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "82aa2c24c9266aaebf6c5217b8dcef1f20bc08fcbc8b8ac8068888a13d490b68"
+    },
+    {
+      "path": "framework/src/specflow/contracts/__init__.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "8514172652b8839f2ef93a6a167bd92ca0db93625b949e8e9fbe2d5b7236474e"
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "e1f4aca1cf5a95cef7967c911650371edcdec95c5351bfd09f0805b917a0f8f3"
+    },
+    {
+      "path": "framework/src/specflow/harness.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "39320027252b8b47deac93de680aad5ddbf382fdfb7cf694503e1d58e380a26d"
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "5161ea8221737895db9861239041b14ebce7949d831107a5f61d62f3be9265a7"
+    },
+    {
+      "path": "framework/src/specflow/policy.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "61c6fe3d2c9085723bf9deda2ae9206b72fd7158bfb41ff52ebb36f2cb04fd34"
+    },
+    {
+      "path": "framework/src/specflow/security.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "24b938ccd22cc2e1b8639d7a850c1f449941b61bf0c1e24951aebafcaa92cdc7"
+    },
+    {
+      "path": "framework/src/specflow/storage.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "3757e348185d30c47d71b616aee236574d1dad46b28ec74dc367d96033d72c13"
+    },
+    {
+      "path": "framework/src/specflow/validation/__init__.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "dd60f9abd4e2163ae9a35b62c22da6d8f71305b71189bd26df8848e0f5126be9"
+    },
+    {
+      "path": "framework/src/specflow/workflow/__init__.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "67b633c6ed17dee01616ad34f47cae659c5ee1f87801ac67c926daf02b25697d"
+    },
+    {
+      "path": "specs/shared/process/evidence-conventions.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "cc844d392fe86ec357289f01816c82e425bb67dad6fb9e9e87c40e5193ee22e8"
+    },
+    {
+      "path": "specs/shared/process/workflow.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "4965e4623ac12f987bfed2972c992ea55a98b557cbd48099b33ca4349e4184a0"
+    },
+    {
+      "path": "specs/templates/design-template.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "bd84b3c23c7572a9468f8728fbc7a5db5d0b7ba68fe85db81015dd908af8b494"
+    },
+    {
+      "path": "specs/templates/proposal-template.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "da34eac395404e16e25954b5922df403fed18ef9c2871930a262a631dce4e2cf"
+    },
+    {
+      "path": "specs/templates/spec-template.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "f839841977d973cbf429cb89bfbc404b8440da7d6b57263243d5a21dba5a9571"
+    },
+    {
+      "path": "specs/templates/tasks-template.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "cbdbe451a65450a2014901333f265e774fff2540cb6af2ad366c8516897d585a"
+    },
+    {
+      "path": "specs/templates/validation-template.md",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "e7491eb9d45b99ce09246d5a6195acb859fb89a21a602da91d362164a6899a72"
+    },
+    {
+      "path": "tools/tests/test_public_checkout.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "b61ed73b087275ac06603a7c1e2c24274b34ff67b018f6518ae118d9ba2675cc"
+    },
+    {
+      "path": "tools/verificar_checkout_publico.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "7fce1a19db4d3998f837cd2aef298068313a836e0fb175b09bd820a7bc6136c6"
+    },
+    {
+      "path": "tools/verificar_dossie.py",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "4f42df6f7fafb2cac5357f65836841320180503977b723321e6e73f7199ca51f"
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "id": "SEC-LOCAL",
+      "method": "manual",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "outcome": "passed",
+      "evidenceRefs": [
+        "specs/changes/10034-limpar-acervo-publico/evidence/candidate-final.json",
+        "specs/changes/10034-limpar-acervo-publico/coverage/tools.json",
+        "specs/changes/10034-limpar-acervo-publico/coverage/product-clean.json",
+        "specs/changes/10034-limpar-acervo-publico/evidence/secret-scan.json",
+        "specs/changes/10034-limpar-acervo-publico/evidence/security-review.md",
+        "docs/release/inventario-retirada-acervo.json"
+      ]
+    }
+  ]
+}

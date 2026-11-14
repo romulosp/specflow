@@ -13,10 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 IMPORT = ROOT / 'imports/acervo-local-2026-11-12'
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.parse_args()
-
+def local_main():
     manifest = json.loads((IMPORT / 'manifest.json').read_text(encoding='utf-8'))
     dependencies = json.loads((IMPORT / 'dependencias.json').read_text(encoding='utf-8'))
     checks = []
@@ -147,6 +144,40 @@ def main():
                       'sourceRead': False, 'inheritedMissingReferences': len(known_missing),
                       'failures': [c for c in checks if not c['passed']]}, ensure_ascii=False))
     return 1 if result['failed'] else 0
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--mode', choices=['auto', 'public', 'local'], default='auto')
+    args = parser.parse_args(argv)
+    mode = args.mode
+    if mode == 'auto':
+        mode = 'local' if IMPORT.exists() else 'public'
+    if mode == 'public':
+        from verificar_checkout_publico import evaluate
+        result = evaluate(ROOT)
+        print(json.dumps(result, ensure_ascii=False))
+        return result['exitCode']
+    try:
+        if not IMPORT.resolve().is_relative_to(ROOT.resolve()):
+            raise ValueError('acervo fora do workspace')
+        for item in IMPORT.rglob('*'):
+            if item.is_symlink() or getattr(item, 'is_junction', lambda: False)():
+                raise ValueError('link no acervo local')
+        local_manifest = json.loads((IMPORT / 'manifest.json').read_text(encoding='utf-8'))
+        for entry in local_manifest['files']:
+            ref = entry['path']
+            if not isinstance(ref, str) or any(x in ref for x in ('\\', ':')) or any(
+                    x in {'', '.', '..'} for x in ref.split('/')):
+                raise ValueError('path invalido')
+            target = ROOT / ref
+            if not target.resolve().is_relative_to(ROOT.resolve()):
+                raise ValueError('path externo')
+        return local_main()
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print(json.dumps({'mode': 'local', 'exitCode': 2, 'status': 'error',
+                          'reason': type(error).__name__}))
+        return 2
 
 
 if __name__ == '__main__':

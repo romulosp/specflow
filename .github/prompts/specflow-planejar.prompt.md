@@ -18,6 +18,7 @@ Saida: implementation-plan.md com impactos, ordem de implementacao, testes, segu
 2. Sem esse gate, informe precisamente o que falta e pare sem implementar. O planejamento de produto anterior ao aceite pertence a especificar/esclarecer.
 3. Registre plano preparatorio conforme workflow, sem reescrever contrato aprovado ou gerar configuracao/infraestrutura.
 4. Defina testes de comportamento para todo codigo implementado, ferramenta/versao, comando, escopo por arquivo e relatorio de cobertura: minimo obrigatorio 80%, meta 90%, valores superiores validos, conforme specs/shared/testing/coverage-policy.md. Sem medicao ou abaixo do piso, implementacao nao pode ser concluida/aprovada. Planeje roteiro de entrega executavel; nao marque tarefas como concluidas por estarem planejadas.
+5. Rastreie requisito e criterio -> dominio ou responsabilidade tecnica -> componente -> teste. Explicite contratos e comportamento de falha aplicavel entre dominios; mantenha os modelos nos quatro documentos aprovados.
 
 Argumentos fornecidos pelo usuario: ${input:contexto:Objetivo ou caminho da Change}
 

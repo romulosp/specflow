@@ -20,6 +20,7 @@ Saida: Relatorio REV com achados e recomendacao; SPEC_APROVADA somente se houver
 2. Verifique clareza, requisitos, rastreabilidade, riscos, aceites negativos, direitos e conflitos. Achado material aberto impede avancar.
 3. Registre recomendacao tecnica separada da decisao humana. Apresente contrato concreto, revisao e hashes antes de pedir aceite.
 4. Se o usuario ja aprovou explicitamente essa revisao, registre fonte e escopo sem pedir novamente. Caso contrario, mantenha aprovacao pendente. Nunca use testes ou parecer tecnico como substitutos da decisao humana.
+5. Confira modelos de dominio, invariantes, criterios por dominio e fronteiras no DESIGN.md; aceite dominio unico ou demanda tecnica com justificativa. Todo conteudo contratual de dominio deve integrar os quatro documentos e seus hashes.
 
 ## Regras locais
 

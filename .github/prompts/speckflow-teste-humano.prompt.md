@@ -22,6 +22,7 @@ Saida: Change IMPLEMENTADA, artefato executavel identificado, checks tecnicos re
 6. Crie ou atualize quickstart.md com prerequisitos, caminhos relativos, diretorio de execucao, comandos, endereco quando aplicavel, roteiro manual por criterio de aceite e resultados esperados. Registre checks tecnicos separados dos cenarios humanos, cujo observado e resultado permanecem pendentes.
 7. Pare obrigatoriamente em IMPLEMENTADA quando a entrega estiver utilizavel. Informe artefato/revisao, como executar e quais cenarios o usuario deve testar; aguarde o relato humano. Nao execute specflow-revisar-implementacao, specflow-validar, specflow-aprovar, specflow-encerrar ou seus equivalentes, nem marque testes humanos aprovados por ter escrito o roteiro.
 8. Ao receber falha humana, registre o observado na mesma Change, corrija dentro do escopo aprovado, execute os checks afetados e entregue nova revisao para reteste. Um relato positivo tambem nao autoriza automaticamente aprovacao, system, archive, commit, push ou publicacao; fases seguintes dependem de pedido proprio. Atualize memoria e tasks com o estado real.
+9. Implemente segundo os modelos de dominio aprovados e registre requisito/criterio -> dominio/responsabilidade tecnica -> componente -> teste. Separe regras de dominios independentes, mantendo orquestracao fina e contratos explicitos.
 
 Argumentos fornecidos pelo usuario: ${input:contexto:Objetivo ou caminho da Change}
 

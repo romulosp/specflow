@@ -20,6 +20,7 @@ Saida: Relatorio IMP-REV com IMPLEMENTACAO_APROVADA tecnica ou REPROVADA e retor
 2. Registre ID, severidade, fonte, impacto e recomendacao para cada achado; explicite se a revisao e pelo mesmo executor.
 3. Nao corrija codigo durante esta revisao. Divergencia retorna a implementar; ambiguidade de requisito retorna a especificar/esclarecer.
 4. Somente ausencia de pendencia material e gate obrigatorio de testes/cobertura atendido permite IMPLEMENTACAO_APROVADA tecnica; isso nao e aprovacao humana final.
+5. Confronte modelos de dominio aprovados com classes, modulos e testes. Registre fonte e achado para regras de dominios independentes concentradas, dependencias indevidas ou componentes excessivamente grandes; justifique orquestracao fina. Contagem de linhas isolada nao prova defeito.
 
 ## Regras locais
 

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "specflow_cli-0.2.0-py3-none-any.whl": "88da799e38bbd629479ce8685beec48ccbfe17c032d8808f29b5ed6f624dddb0",
+    "specflow_cli-0.2.0.tar.gz": "2e366b3bf9794d1a5573196c27a544ba5ecc0a3d3c0dfaedaf8d63c037723d1c"
+  },
+  "records": [
+    {
+      "step": "tool",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "Resolved 1 package in 6ms\nPrepared 1 package in 10ms\nInstalled 1 package in 39ms\n + specflow-cli==0.2.0 (from file:///D:/desenvolvimento/ia/specflow-investigacao/specs/changes/10033-organizar-artefatos/evidence/build-0.2.0/specflow_cli-0.2.0-py3-none-any.whl)\nInstalled 1 executable: specflow\nwarning: `D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\build-0.2.0\\tmp7zi2khgm/bin` is not on your PATH. To use installed tools, run `$env:PATH = \"D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\build-0.2.0\\tmp7zi2khgm/bin;$env:PATH\"` or `uv tool update-shell`.\n"
+    },
+    {
+      "step": "--version",
+      "exitCode": 0,
+      "stdout": "0.2.0\n",
+      "stderr": ""
+    },
+    {
+      "step": "init",
+      "exitCode": 0,
+      "stdout": "init: prepared\n",
+      "stderr": ""
+    },
+    {
+      "step": "doctor",
+      "exitCode": 0,
+      "stdout": "    \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"maven\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"node\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"pdf\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"servico\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"sonar\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    }\n  },\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "step": "organized-conventions",
+      "passed": true
+    }
+  ]
+}

@@ -10,7 +10,7 @@ from .policy import POLICY_ID, POLICY_VERSION, POLICY_DIGEST, policy_bytes, load
 from .memory import read_project
 from .storage import (Fault, require, text, read_json, decode_json, dump, confined, digest, fields, version, portable)
 
-VERSION = "0.1.0"
+VERSION = "0.2.1"
 INTEGRATIONS = {"copilot", "codex"}
 
 
@@ -149,13 +149,17 @@ def new_change(root, objective):
         tx.reserve(".specflow/reservations/" + prefix + ".json", dump({"schemaVersion": 1, "number": number}).encode())
         base = project["changesPath"] + "/" + ident
         refs, plan = {}, {}
+        templates = bundle()["common"]
         names = {"proposal": "proposal.md", "spec": "spec.md", "design": "DESIGN.md", "tasks": "tasks.md",
                  "validation": "validation.md", "memory": "AGENTS-MEMORY.md"}
         for role, name in names.items():
             ref = base + "/" + name
             refs[role] = ref
-            plan[ref] = ("# " + role + " — " + ident + "\n\nRASCUNHO. Nenhuma aprovacao ou execucao registrada.\n\nObjetivo autoral:\n\n"
-                         + objective + "\n\nCompletar requisitos, riscos e aceites antes de revisar a SPEC.\n").encode("utf-8")
+            content = ("# " + role + " — " + ident + "\n\nRASCUNHO. Nenhuma aprovacao ou execucao registrada.\n\nObjetivo autoral:\n\n"
+                       + objective + "\n\nCompletar requisitos, riscos e aceites antes de revisar a SPEC.\n")
+            if role in {"spec", "design", "tasks"}:
+                content += "\n" + templates["specs/templates/" + role + "-template.md"]
+            plan[ref] = content.encode("utf-8")
         draft = {"schemaVersion": 1, "changeId": ident, "revision": "r1", "objective": objective, "documentRefs": refs}
         contracts.draft(draft)
         plan[base + "/draft.json"] = dump(draft).encode("utf-8")

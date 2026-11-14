@@ -112,8 +112,27 @@ class CliTests(unittest.TestCase):
         before = (self.root / ref).read_bytes()
         code, out, _ = self.run_cli("validar", "--project", str(self.root), "--change", CHANGE, "--json")
         self.assertEqual(code, 1, out)
-        self.assertIn("CONTENT_CONFLICT", out)
+        generated = json.loads(out)["securityGateRef"]
+        self.assertNotEqual(generated, ref)
+        self.assertTrue((self.root / generated).is_file())
         self.assertEqual((self.root / ref).read_bytes(), before)
+        _, out, _ = self.run_cli("validar", "--project", str(self.root), "--change", CHANGE, "--json")
+        self.assertEqual(json.loads(out)["securityGateRef"], generated)
+
+    def test_validar_uses_explicit_audit_reference(self):
+        make(self.root, 4)
+        folder = f"specs/changes/{CHANGE}"
+        old = self.root / folder / "security-audit.json"
+        new = self.root / folder / "evidence/security/custom-audit.json"
+        new.parent.mkdir(parents=True)
+        new.write_bytes(old.read_bytes())
+        old.unlink()
+        change = json.loads((self.root / folder / "change.json").read_text())
+        binding = self.root / change["securityRefs"][0]
+        edit(binding, lambda value: value.update(auditRef=f"{folder}/evidence/security/custom-audit.json"))
+        code, out, _ = self.run_cli("validar", "--project", str(self.root), "--change", CHANGE, "--json")
+        self.assertEqual(code, 0, out)
+        self.assertEqual(json.loads(out)["localChecksExecuted"], ["security_gate"])
 
     def test_argument_errors_and_configuration_never_expose_values(self):
         for arguments in [["unknown-command", "synthetic-secret"], ["--json"], ["--project"],

@@ -123,9 +123,17 @@ def phase(root, change_id, name):
                         require(previous["changeId"] == change_id, "GATE_DESTINATION_CONFLICT", 1)
                     except Fault as error:
                         raise Fault(1, "GATE_DESTINATION_CONFLICT") from error
-                gate = gate_result(tx.root, ctx["folder"])
-                tx.apply({ref: dump(gate).encode("utf-8")})
+                audit_refs = {item["auditRef"] for item in ctx["securities"]}
+                require(len(audit_refs) <= 1, "SECURITY_AUDIT_CONFLICT", 1)
+                gate = gate_result(tx.root, ctx["folder"], next(iter(audit_refs), None))
+                data = dump(gate).encode("utf-8")
+                if path.exists() and path.read_bytes() != data:
+                    from .storage import digest
+                    ref = (ctx["folder"] / "evidence" / "security" /
+                           ("security-gate-" + digest(data) + ".json")).relative_to(tx.root).as_posix()
+                tx.apply({ref: data})
                 value["localChecksExecuted"] = ["security_gate"]
+                value["securityGateRef"] = ref
                 require(gate["exitCode"] == 0, "SECURITY_PENDING", gate["exitCode"])
                 assess(ctx, "VALIDADA")
         elif name == "aprovar":

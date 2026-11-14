@@ -13,3 +13,7 @@ Há skills declaradas MIT, Apache-2.0 e CC-BY-4.0; outras não trazem licença c
 Os documentos locais do dossiê são derivados editoriais. Originais de pesquisa e seus avisos ficam no arquivo externo de auditoria; não integram o pacote. Direitos dos componentes mantidos continuam preservados.
 
 Licença autoral: [MIT](LICENSE). A autorização de licença não autoriza publicação remota nem aprova SPEC de implementação.
+
+## Checkout publico apos limpeza
+
+A arvore candidata exclui preventivamente os componentes incorporados inventariados, mesmo quando possuem declaracao local de licenca sem verificacao upstream. Os arquivos essenciais de processo foram substituidos por textos autorais empacotados; hashes de originais preservados e substituicoes estao em docs/release/inventario-retirada-acervo.json. A exclusao da arvore atual nao elimina commits ou releases anteriores.

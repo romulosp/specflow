@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "file": "framework/src/specflow/cli.py",
+      "dynamic_eval_lines": []
+    },
+    {
+      "file": "framework/src/specflow/security.py",
+      "dynamic_eval_lines": []
+    },
+    {
+      "file": "framework/src/specflow/consumer.py",
+      "dynamic_eval_lines": []
+    }
+  ],
+  "method": "AST check for direct eval/exec; supplemented by manual path, locking, reference and package inspection; not a general scanner"
+}

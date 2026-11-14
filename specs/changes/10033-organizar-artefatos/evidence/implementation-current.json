@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "revision": "10033-r2",
+  "files": {
+    "framework/src/specflow/cli.py": "385397618e37c4c8785bd108efd68955440746e6800f4822e12d84531719d9dd",
+    "framework/src/specflow/security.py": "24b938ccd22cc2e1b8639d7a850c1f449941b61bf0c1e24951aebafcaa92cdc7",
+    "framework/src/specflow/consumer.py": "c443b23d1c10a64576ad190fbc951e0d9f614a9d06ec7eda9492420911b5be03",
+    "framework/src/specflow/assets/bundle-v1.json": "2721bbb1d6ec485ed74620eaf3deeaa5b535b885d35419033bdf5ef4a472475c",
+    "framework/pyproject.toml": "7e0ae72333d088260d522983b7508b1cb152b3d7ab6d0e987d4d7f27da404cce",
+    "framework/tests/test_cli.py": "0cdbb7842225328adac83ffdcf7eef7a20a635ee49372dd581d1076cfbcb5238",
+    "framework/tests/test_artifact_paths.py": "7a11a9b1849bcb74f42de75e641076669cdd3c2a798c769a2c931012edc3df04",
+    ".github/workflows/ci.yml": "6161a43e813c0cdffe2fae302ff30b2c88f0099e6ce52676325d74ad9142fa48",
+    ".github/workflows/publish-pypi.yml": "0dc40ac0278aac7df9e1364bac7ead32b92be13b57290bdbdff2ce3767697550"
+  }
+}

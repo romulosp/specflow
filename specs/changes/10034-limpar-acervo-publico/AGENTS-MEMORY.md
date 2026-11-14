@@ -1,0 +1,3 @@
+# Estado corrente - 10034 r1
+
+SPEC r1 aprovada pelo usuario neste turno; fonte e manifesto em decisions/spec. Plano precedeu codigo. 469 itens importados excluidos preventivamente, 8 substituicoes autorais; todos originais preservados e verificados por SHA, inclusive dois metadados recuperados do Git antes de suas atualizacoes. Verificacao publica/local/auto implementada. Suites de ferramentas (17) e produto (56, um skip) passaram; cobertura por arquivo>=80%; checkout limpo, build e smoke reais registrados. Revisao e auditoria pelo mesmo executor; gate0. delivery.md descreve limites. Sem commit, push, CI remoto, aceite final ou reescrita de historico. Repositorio permanece publico por decisao expressa. Artefatos da limpeza no indice, originais ignorados locais.

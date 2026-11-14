@@ -1,0 +1,33 @@
+{
+  "version": "0.2.1 local",
+  "sha256": "0565e78677ce50864cc8bad549144c7d56033f133915cc76f31bf462d62f1bcf",
+  "checks": {
+    "domainSpec": true,
+    "preservedReinit": true,
+    "bothIntegrations": true,
+    "examplesPresent": true
+  },
+  "records": [
+    {
+      "step": "tool",
+      "exitCode": 0,
+      "stdout": ""
+    },
+    {
+      "step": "--version",
+      "exitCode": 0,
+      "stdout": "0.2.1\n"
+    },
+    {
+      "step": "init",
+      "exitCode": 0,
+      "stdout": "{\n  \"changeId\": null,\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"filesPrepared\": 60,\n  \"findings\": [],\n  \"integrations\": [\n    \"codex\",\n    \"copilot\"\n  ],\n  \"limitations\": [\n    \"Ignore does not remove previously tracked secrets; no Git or service was executed\"\n  ],\n  \"localChecksExecuted\": [],\n  \"operation\": \"init\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"project\",\n  \"schemaVersion\": 1\n}\n"
+    },
+    {
+      "step": "nova-change",
+      "exitCode": 0,
+      "stdout": "{\n  \"changeId\": \"00001-pedidos-e-estoque\",\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"observedState\": \"RASCUNHO\",\n  \"operation\": \"nova-change\",\n  \"outcome\": \"prepared\",\n  \"path\": \"specs/changes/00001-pedidos-e-estoque\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": null,\n  \"revision\": \"r1\",\n  \"schemaVersion\": 1\n}\n"
+    }
+  ],
+  "forbiddenPaths": []
+}

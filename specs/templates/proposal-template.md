@@ -1,18 +1,3 @@
-# Proposta: <id>-<nome>
+# proposal
 
-## Status
-`RASCUNHO`
-
-## Responsável e data
-
-## Referências
-
-## Problema e objetivo
-
-## Escopo
-
-## Fora de escopo
-
-## Impactos e riscos
-
-## Critérios para aprovação da SPEC
+RASCUNHO. Definir requisitos, aceites, fontes e limites reais. Nao registrar aprovacao ou testes executados por usar este modelo.

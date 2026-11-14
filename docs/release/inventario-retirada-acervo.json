@@ -1,0 +1,2387 @@
+{
+  "baseCommit": "30804fb71c501fc3b6e516e4242d15110a94f02f",
+  "status": "arvore candidata; originais locais preservados, historico remoto permanece publico",
+  "files": [
+    {
+      "path": ".agents/skills/android-native-engineering/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "85bd92e25bdfbd0d3025ded9a5c94c6ba9d9d56af79d4c8e5c13f4a12632a368",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/SKILL.md",
+      "sha256": "d9c97e80548fb4a9afc519387461f701bbc9e7de82b533511ece5e216da0d3ce",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/agents/openai.yaml",
+      "sha256": "5cc7154a7eab097653caef13da46e257cefae4b12035ea88d913786e1e4e92f4",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/INDEX.md",
+      "sha256": "b4d4d53467b2865add3cafee11135ac1f4307563d89626f6e23da71ab1a4380c",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-animations/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "fcc6a886de69a95225bbc2b929deb4c3b6542a97e2ff2910f8f4ed94c9aae02f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-animations/SKILL.md",
+      "sha256": "008f020fe3e366a0f00eab1cd7bdbc4c9836e15c929ee1304ca3dfec3c187841",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-animations/references/animated-content.md",
+      "sha256": "0c09460e27deb1c71580ee67dd3394ad8be1d37a681d8b455b2965a2a6edc924",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-component-design/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "004b891dcf91af6a9b47b968e9742c7d522d890e2b7826a8cffe3b0e35fcb035",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-component-design/SKILL.md",
+      "sha256": "51c78fe4c3df734691eaeff8e694048b57dfd2cad361cb9dd876e5232362f14e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/modifier-layout.md",
+      "sha256": "aa61270f571e65a8b22bd3293a28a850eac56b52f88b6db2aef3d3c46b86fb11",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/slot-apis.md",
+      "sha256": "0ab722760a27c08bae0cb6157865ca7bb1f393b33a3987b52452418efdfe9e14",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-focus-navigation/SKILL.md",
+      "sha256": "3d0c42b847ea26f773bc4ff47dc70af7b9334888da054d6236f4d51a4d41341c",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "527d52d04704cc94e417e3cd00dff07d63a5dbdaac07a2551f450671abe30e81",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+      "sha256": "4764e7bd27064561f538c5428a3dfd6343f72de050b74086bf7a0552d9dc2049",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/local-state.md",
+      "sha256": "bfcceedcef5d75ae646a43b44c5f3aaf1c6da92ae4012dbd731a8a73e73e630f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/side-effects.md",
+      "sha256": "ee4b7052d06983c3b4cb863cf544a4785097eb79d332acfeba67eb7b2b4037ae",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/state-hoisting.md",
+      "sha256": "15ad6bfc65967af02c8f84f6906ca2865ec724f16f68afe98e3b5900087a5325",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-ui-testing-patterns/SKILL.md",
+      "sha256": "57020fba67b595c9534293e296e7d7db0eadf3269e8e3bfab7bc20a7b363cfc3",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/grounded-writing/SKILL.md",
+      "sha256": "4b62605adc888df4178d9bd0f414622c1d34d1afe771bcd0fb77b73ee693fc4f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/grounded-writing/agents/openai.yaml",
+      "sha256": "1882375c0fbd89a51ff74ae22a923c15bba4c1d9ade7a41c6c22d49f925c4874",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/grounded-writing/references/style-profile.md",
+      "sha256": "2ac7bfe4740dc44fe4ff8d713890bab249cfa31b7ad108f00f96ff2396457dbd",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/architecture-and-profiles.md",
+      "sha256": "7522c85f9cd5833dad903926e3db549019286285efc690a6c5d247c2cf886893",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/kdoc-guidelines.md",
+      "sha256": "6555756428500732f34f13c3f4390937dac4cd4c08bd63089f0b9be4d42080b4",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/quality-gates.md",
+      "sha256": "a67d1de11d17fc6cfb472430f5a31fce6ab89239eecc6156a35dd450771abd90",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/sources-and-decisions.md",
+      "sha256": "f1d6edf0860f51431848e9d70d0f2d6a1fa1f98a76a794aebab222e5e99801d8",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/spec-driven-workflow.md",
+      "sha256": "ab33234ab5aeb6b22df6d9d325fd11b27620b2c9c3e31d192266489c75f77f64",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/scripts/validate_android_project.py",
+      "sha256": "747718bdc44d777d5ec1ce19a6ec107c3d98b09f42a9ee68f5af03a879acc0bb",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/backend-golang/SKILL.md",
+      "sha256": "8f3000644beeb2e876a590ec6b30e18df024d5dd3348a88fcdefbe2d08b80988",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/change-approve/SKILL.md",
+      "sha256": "6c1ee108636334b99b42893f0fa7f219f304ac5b511b242b954a6fd8a033dcb8",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-common-domain-detection/QUICK-REFERENCE.md",
+      "sha256": "e5ad9a95a794bbad876d97479091ecb312dd28786a54dd1cf12d2a88a0dc2c90",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-common-domain-detection/README.md",
+      "sha256": "461303b047e0fd76e3c6535e30e6ce924e266583515ad071e3d92a49d0915f9e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-common-domain-detection/SKILL.md",
+      "sha256": "fc21e2e73a0b9adb6da901281ab18130f2890c200670ac074a412d3063497196",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-flattening-analysis/QUICK-REFERENCE.md",
+      "sha256": "5c3199a93373115a40dda9c736ac5eafa0df8ac9975aa1ec0afd4fe988decfc0",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-flattening-analysis/README.md",
+      "sha256": "4a60dd092359e546bc7112ff92ef26f82ebb2f11b0c575a25aafb168e44b3dd0",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-flattening-analysis/SKILL.md",
+      "sha256": "2da32ab47b0386c1687202f2a95ea75f38080acfcf5c7b9d02fa7bb32ab626ba",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-identification-sizing/QUICK-REFERENCE.md",
+      "sha256": "be38ed14527f3678275152cce64459a19c28c0d0103c70ee1f136d8f9e9ca3da",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-identification-sizing/README.md",
+      "sha256": "33eb8ebade57c57f5119339a022d8585450b7cb196e4751f899cef7f73822762",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/component-identification-sizing/SKILL.md",
+      "sha256": "e97ed7757931c4acb4a77ac4add7c8b85c871c9a4b092ee74119bd8ae37d2501",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/coupling-analysis/SKILL.md",
+      "sha256": "7d2364b3f9861c7684b4aa2b07c36833eef1a530f998bc05f4f8ac6ce1232d25",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/decomposition-planning-roadmap/QUICK-REFERENCE.md",
+      "sha256": "1b13a95f4e3d77fcfd3b31d220c102cbdb8dba0bff415d298876353c82b56289",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/decomposition-planning-roadmap/README.md",
+      "sha256": "ea2aa3d50aa2371e26b0825dfd9f39e737e1218e698297acb803ab8be9d21007",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/decomposition-planning-roadmap/SKILL.md",
+      "sha256": "df049193c7048cdaa1eb86b4c8c3c95ec388c6f9e65af47b5ba047e87b3376a6",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/domain-analysis/EXAMPLES.md",
+      "sha256": "cf7b055768dde849b75be8d37a09e6aa3917ce44eb9782c4a6424551db959241",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/domain-analysis/QUICK-REFERENCE.md",
+      "sha256": "c97b52fad030c834b8218ad9f93192e1139005031072082a4835342c095e4101",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/domain-analysis/README.md",
+      "sha256": "b3cf5b1b65e2b1d05d0c02ab78ecd20b8e83f9f3d40c6e0eac7106f8212c18f8",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/domain-analysis/SKILL.md",
+      "sha256": "13183670941a1cd3bc0fabc36a6b261bb0ba1a36531147184a9bcdc15411ab11",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/domain-identification-grouping/QUICK-REFERENCE.md",
+      "sha256": "0d0f9edfbca53927a2c71ce582172cf4a5dc1c1510d9e050f67fdacaf4e7648e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/domain-identification-grouping/README.md",
+      "sha256": "0e1e981521ee3ffa4fe01914864b5eb0e07c8637779d57691274b79234d6cdb6",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/domain-identification-grouping/SKILL.md",
+      "sha256": "f89d3aaa1f707e414da05d27f5cfbdebab3f9ae740f214fc2e694c48a87ef5aa",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/SKILL.md",
+      "sha256": "e175ad9e8f3895549a938e00fc6281ee3be58121fdce0e6a96770aea182e4d24",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/color-and-contrast.md",
+      "sha256": "b88de86bcc9d74dc8698b9111ab43de196a855d610a0199744d2cc6d6d2dce69",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/interaction-design.md",
+      "sha256": "fff3ddcba398965d437b053dc4d17a162feafe6ca4a1b41baf9d78f9c42a9dd4",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/motion-design.md",
+      "sha256": "03e84a02508291e294b42505b592fdf484a868beac09e59fe8bb0169e70e8acb",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/responsive-design.md",
+      "sha256": "712d9c0776d22a420ebc7b2f82d9446ad4621597694f32ca046e371d293f35b6",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/spatial-design.md",
+      "sha256": "c76eb186ddf04c03470f1efca0feeb85db14d53b6a6b770f524b51e6a23754e8",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/typography.md",
+      "sha256": "231d6a9a29e5b8729c72ed50afa0ab633285103edd79b76cf2cfd8a6fd9b4da7",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/ux-writing.md",
+      "sha256": "122312381a5c93a7a7a3d73742d219c1061bd2a025938d2c042cd5eb7c105523",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/git-commit/SKILL.md",
+      "sha256": "72422161e5804f038afbcf514285ff6c94699c7a7d0215bbe308b8c252eb3aa0",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-benchmark/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "e047f96111c02df4c44b2baea55cfa150d163b798cfb7b4e5ac154ea1989607f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-benchmark/SKILL.md",
+      "sha256": "2f3e50c9fa2dc8b717342b0ae988a73c43ed3cd3692cb6baea8f6da0cb495c99",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-cli/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "246dc6e30ded94f9ee4fbe933a82ac3dd28165befaa57013704ecc36bd84a2e7",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-cli/SKILL.md",
+      "sha256": "aeff1f2ed97925132b37ed0bdd22b2515b297f23d4da3988cd496cd293f17cbf",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-code-style/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "e1db665a9c61c03bafa160a87aae71cbc5ba2dca48f7a0bbd3e0532548b31f48",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-code-style/SKILL.md",
+      "sha256": "debe99f2336d9326a36efe3a0982dcf45ea6dff0a401b3275ab19b0f9ba6701e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-concurrency/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "57ae95082a4219569020de8811fb54ba10721fd332434dee20b388f454baf1f6",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-concurrency/SKILL.md",
+      "sha256": "8d4946f79501b1a1bfaf42e36184cfb9c3cbb9ce9a4c163b38abf876172585de",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-context/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "f520c996027cc8931873d22c4037e9cddebcec4dd834d939a12c55677ca1afb1",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-context/SKILL.md",
+      "sha256": "2f26197b393208bf7a432965826cacd96a3a92506f9427cdda46fa8885d90e3b",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-continuous-integration/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "01583e7afb3e7fa64c73ab5bed4625b8d3fc3c1f03b753600dcba94765359bca",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-continuous-integration/SKILL.md",
+      "sha256": "1bc6c7df594d40acbf8e2ba8735556e361134077ded3e1c24e97187a56d89d97",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-data-structures/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "8252d95f8454884e55395e96857e5bd11893bbaaf0224e4ecaf3a781d48fd088",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-data-structures/SKILL.md",
+      "sha256": "be15526694edf1810d97edfc475595de1a949d4afe03451658464b2a29cbfef3",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-database/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "7bfdaf12b6521569cbc78793314da5eef17b0fc5a6a8c1c9afd9ab5124f644f9",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-database/SKILL.md",
+      "sha256": "15bb313d762a2b4c46be6131d863bcb472bfaae0ceae68028a15f032b44f1244",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-dependency-injection/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "e3a9f7c6a7abb50eb98d09d99c70e7ee62c881ecdb293fb0a744000c66306210",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-dependency-injection/SKILL.md",
+      "sha256": "2c284ed268075908a2e1aac5db099b70a3824620be21ed3485b665de85c545a4",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-dependency-management/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "e8e563d5dcee6ea44ed14fa04c6b18d8bfd41a0118a7a652841dad140023a9cb",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-dependency-management/SKILL.md",
+      "sha256": "5a6dea4650f93b6ca91a3c583c95d9ccd7443b5f93c6291d43e8293a39dc6ccc",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-design-patterns/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "e571b604a600ff6bda962eb5bbe73cd39ff9ac6e037d267f9222aa1d7bf47166",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-design-patterns/SKILL.md",
+      "sha256": "ccf5c41d32f61961b659e9120cf6b31fde44a3f5ec0212c1e1e1705d916477c8",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-documentation/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "65b710e5a5fb8c4fef796893785a3c25e5f125f71794f61065357bd736c785b9",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-documentation/SKILL.md",
+      "sha256": "4be01b6a5eff702b00dcef7a73478bdbb048d4057f5af8df73402a886905e0bd",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-error-handling/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "55347e70a5b78de94e2530a8eba55d9967faffb2e6682ef65f809f927fa87bc0",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-error-handling/SKILL.md",
+      "sha256": "e16d4f9cbd5e75c4632ce83d02a9ec9a070559680e9537ff6eba03e7f0590ef1",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-grpc/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "9a421406517fda0d4ae30c0722e6a8382fb64dbdd3ece4f91dee931b7ce167d4",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-grpc/SKILL.md",
+      "sha256": "3fc03f26a43cc5b051aa5781130935eb0eb13dc43f23e80d7ad0f71d0c8d2619",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-linter/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "c671ae48fafe80a9b72b16ec2e27bc5b91381b1475334eed63a0c3950117e8e8",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-linter/SKILL.md",
+      "sha256": "ba7bfaf62459d1e32967ff2a7464d20be741824ee97a949b29aa057bb59a815f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-modernize/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "53a6003126371b44c062427c7332569572d389a293116a138433229a552c1949",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-modernize/SKILL.md",
+      "sha256": "e70bcfd0444c06a75d08724683c487f530813a78ca76909b1a0a172394d55939",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-naming/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "00c808d0f305d3e24b23c8af2de6a9aa7f3a1f07f48b3f8019f2f5d3548d8d82",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-naming/SKILL.md",
+      "sha256": "3fce2e37357d1d3a3c77dd4b946ea468d9335104899348364a986bd123cba3dc",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-observability/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "a0b0ea99192cc06d15df86220459751bf3630e96050bb3f8a9ec20881f6da85e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-observability/SKILL.md",
+      "sha256": "c2c559be5e3e6156477e7b363f504ba24282b065405a6f4a125b1aad53cddaf1",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-performance/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "052be035b6be5c8fe721dff08e31c0fb85298461f744e8e192bff7b9a577fb4f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-performance/SKILL.md",
+      "sha256": "3c32b0dd0ac4a1ca1b31619b84c31057417d31ed89387ba197b5c5581d87fb9f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-popular-libraries/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "7ced935fc91ce19ed92c9ca3113f36ce0842157c0ceacb7abbf91791e306a5f6",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-popular-libraries/SKILL.md",
+      "sha256": "d15220559c17fc5e6cf0bf00fbcaf744bdd31ae6f4141037e51d464bdedc15a3",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-project-layout/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "35c527743840531574c3dfa9302e26ddd1913b288855032689d16bb17980c4f4",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-project-layout/SKILL.md",
+      "sha256": "e90e8a0b56f5c775af39f0009627eedab918ce89cd6bb3d79b4f29334a727630",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-safety/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "835b96c55e43fb8e675d6307fbefd849a556c984cac7e0c304bc9c0cf39ffcfb",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-safety/SKILL.md",
+      "sha256": "7ea89dd75b698c5eb943fd84347ecc9bdb589e6a9d508dad5908ff4021d104bb",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-samber-do/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "1b67b3c7feb3c7be3a7ce5b81382ecece8db44bb05bd9083919ef455bb88c1c4",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-samber-do/SKILL.md",
+      "sha256": "bf7cee8f73fde171757e1c9c6baca5d6b331aaa043d1794709946f3686425855",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-samber-oops/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "6b9857b203d1704cc47d168d02fa8ba2d443e48eb92821b3b8f0f7a92dd351df",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-samber-oops/SKILL.md",
+      "sha256": "30aaa12ccaadc321677c3a9d07ac81dc500d8d08cad64e585e2c8832034a7743",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-security/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "38cfd14c8a2a7c3a861759c8c193f4bc7c49fb629cc33be63917fe386b448274",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-security/SKILL.md",
+      "sha256": "7892b7918c36ca2c039b1763cc589390d489f2982daea8dd3ba39f7bc8fc7045",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-stay-updated/SKILL.md",
+      "sha256": "0b9bc0e64e4aad0d140fd28c2d12955416c6f83cdb4343782122f5de0aabf268",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-stretchr-testify/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "94b40629ea49ea835cecc11a55cce6292de56eef20792a9c351f076a5b66b3f8",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-stretchr-testify/SKILL.md",
+      "sha256": "9215a0a9d7182d90a7553436397cf58b67fd354a562219c365e001c599111a40",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-structs-interfaces/SKILL.md",
+      "sha256": "9249ab52a43ada4da4db808993fab95e677720cfe2dc587057cb8c5b4fafba25",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-testing/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "b761b2f5f98f1680a2d2de64ebebe62162431a4fa0f4659262fb6ea288ce44a3",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-testing/SKILL.md",
+      "sha256": "1832551a3ce01a5e986b837dee82035a0c27723db8f1d9b1b41567e25b6a6ebe",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/golang-troubleshooting/SKILL.md",
+      "sha256": "fd54afa4484fef99dac021c6a0ca79610856f29a89a9b400ce5acf6b3432b150",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/implementation-review/SKILL.md",
+      "sha256": "f6a9740e181f53c6b87ee5b2a5ff9ad5fd586592f5a564c8bbdb1f95843bb10b",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/implementation-validate/SKILL.md",
+      "sha256": "e83a65c67d1f16e9f397849158087be032ac9498c0f901093733b0addb53de2b",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/java-integration-test/SKILL.md",
+      "sha256": "ff61654dd2670bce36c40706a0b16dff5054754955317e119eae82923effb25e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/java-javadoc/SKILL.md",
+      "sha256": "e4ab531059fb621afefc82e1080d8f536cd4d78ae88aa8507cdf33ea2f2fc342",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/java-panache-repository/SKILL.md",
+      "sha256": "b032acecf7d55afb7a0522fb4ec959474a1305f56f4003ee0dcca1847fd4160e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/java-quarkus-resource/SKILL.md",
+      "sha256": "9ad2d47121f4e3cc353913857a89463e9abb0066b0c5195b6d03b936d2b3464c",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/java-unit-test/SKILL.md",
+      "sha256": "c24a72a81b30a43c4cb3658f5ce6835ec0f177757a7c4c5a9ac45bc3834a8fb3",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/SKILL.md",
+      "sha256": "930c092e51564789fd304aaca2dcecd1ebacf56d505c14494bc28510d0e3cb66",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/domain-analysis-examples.md",
+      "sha256": "cf7b055768dde849b75be8d37a09e6aa3917ce44eb9782c4a6424551db959241",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/domain-analysis-quick-reference.md",
+      "sha256": "c97b52fad030c834b8218ad9f93192e1139005031072082a4835342c095e4101",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/domain-analysis.md",
+      "sha256": "142bac2cf1758484d1420129fc8d2729465cfc6f6b3e6f92aa5ba03208749fb9",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-01-identify-and-size-quick-reference.md",
+      "sha256": "be38ed14527f3678275152cce64459a19c28c0d0103c70ee1f136d8f9e9ca3da",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-01-identify-and-size.md",
+      "sha256": "cd277cf539f5875dc8a0edc29a0cffdd669018d8b2c8595b3bdbc463f45ca726",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-02-common-domain-quick-reference.md",
+      "sha256": "e5ad9a95a794bbad876d97479091ecb312dd28786a54dd1cf12d2a88a0dc2c90",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-02-common-domain.md",
+      "sha256": "bbfda5b460e316381a806953a3e88d4c1e68f40446ae088f1d578e2661cf7f9d",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-03-flattening-quick-reference.md",
+      "sha256": "5c3199a93373115a40dda9c736ac5eafa0df8ac9975aa1ec0afd4fe988decfc0",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-03-flattening.md",
+      "sha256": "f03e952e4882aea0c2d9cae401fe07f52cfdfc1126e961c8d6171d47a870d0af",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-04-coupling.md",
+      "sha256": "a3234ad0c6794da0371455afa744ed1c9b6c3e9aa8800b2b211da05249b95d4c",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-05-domain-grouping-quick-reference.md",
+      "sha256": "0d0f9edfbca53927a2c71ce582172cf4a5dc1c1510d9e050f67fdacaf4e7648e",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-05-domain-grouping.md",
+      "sha256": "1d44f4567d9c3414b73ed21c73817feb54336387ac80ed12d3bb61b1f170aa5b",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-design-principles/SKILL.md",
+      "sha256": "65757a9efd6930201edef27daca7f7e148bc0414f0d6903dfa24412cea88d9f5",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/modular-design-principles/references/principles.md",
+      "sha256": "4ad178fc3ba7ce0f62a8712caa5cdffc8b9c3c40825664275a1b2d5965d9f94c",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-ci-monitor/SKILL.md",
+      "sha256": "9f980b1932afde3efaae34250565b28df664fc1186e28562bb34e74a2f7f2fb1",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-generate/SKILL.md",
+      "sha256": "1c1be1f86101362ded1c3d139618d13736d66b17b63a601261be0bcb70306f8b",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-run-tasks/SKILL.md",
+      "sha256": "27fe32c1e07627db240ee2d3b28445cef05902a9d633cc57cfcf78a3c4016ecf",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-workspace/SKILL.md",
+      "sha256": "4a4644e2a14d937f47889892eb7b54b9298a41f4a84cb6d6c22201155148f688",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/best-practices.md",
+      "sha256": "4671ab9cf1a384dea8c9a30cbaf34d55e94efa188badf8b3e8fd52ffb819cd6d",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/ci-cd.md",
+      "sha256": "7f25bffbad73a5130d295c4095759d73759a67d42b26861e142bcc8a82151186",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/commands.md",
+      "sha256": "e3021a5708324715ddd1c41dba1ab336556ef33da35c803bfae246dec9328966",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/configuration.md",
+      "sha256": "e83a8c0640dfb7798ce55c81ecbe7b9bdd0c224c4261cbbf440881aaeb6bd460",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/perf-astro/SKILL.md",
+      "sha256": "141d57e266e612b65f6947f190e49c4e919c182ea01912a4a713ce1161cf0c0f",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/perf-lighthouse/SKILL.md",
+      "sha256": "d58e254a729ae442280cd60076b2eeebfb8e5032713e2df801463b465cd98427",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/SKILL.md",
+      "sha256": "c9a19e4652cd5120840e042aa83a71d656d482a0c12fc1401c95d3260fe44015",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/references/bundle-optimization.md",
+      "sha256": "8cbf4aeb3b4ac30dbd9bc2ee449bca1b0257066396cd896bd548665a17741e07",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/references/core-web-vitals.md",
+      "sha256": "43f9dc7561fb1daa6633049e5709a9e6231ab81236e8764650786d9f4f25a6aa",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/references/image-optimization.md",
+      "sha256": "cd646fd96c729bb13ff856006338c2b5290ee2fae927ac6f3405f567cedd9ede",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/security-audit/SKILL.md",
+      "sha256": "9879c67259280f18c36d838eded175bf71b6d97e9c3f943dd797fd5c443f05c0",
+      "reason": "licenca nao confirmada",
+      "replacementSha256": "813a93adf546fe1425bba0e426ce0a30d631424b0a137aadbb2f42d67f9431fd",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/.agents/skills/security-audit/SKILL.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": ".agents/skills/spec-implement/SKILL.md",
+      "sha256": "70bd5d4c06a002d19645bc6bfb0d8ba1c3b29239bd28e4c6f1401d2c487d7c0c",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/spec-review/SKILL.md",
+      "sha256": "431ffc6511844781b15c80f90a0c299e1bf9604e93e7fb629e9fe03d05c97b3c",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/subagent-creator/SKILL.md",
+      "sha256": "ab1566fd7540ee01b2c245cb7a75d94855e1e9460682d7fb600d1efa93a5d133",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/SKILL.md",
+      "sha256": "034a5d247ff8ebbf1ed7e119a40200627cc96fe1f4b3ae2fe8ccd8959db7c19b",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/detection.md",
+      "sha256": "3f7e4bc1aa96c6618b67ae66bf64faabebb603fc7268a1baffd12b1a4e7228a0",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/refactoring.md",
+      "sha256": "04276b61fddbe7508418387e344f571762eae1ca1cb64fc067eddb737d728d23",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/reference.md",
+      "sha256": "10299bfe4b514d055b1d29a5e1cddd6b84030ff3c911c1c2c870f50c6340d920",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/SKILL.md",
+      "sha256": "a0e45959a490cbb8e6400abb99083ced93cf9fbf16da031c1b8bb4d9b3763725",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/references/guideline.md",
+      "sha256": "cdb129e629ba18cca5f9d1ea8aa00f4f850929b00a6912bb010f23a3c6ec6612",
+      "reason": "licenca nao confirmada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/README.md",
+      "sha256": "83e5c9f81fb5414b2b73b615a2d423a8cb8bfd4133ba942315a57bbf8c57586b",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/change-approve/SKILL.md",
+      "sha256": "a27ecc694fdfdec0c2fffe7231359ec6d14443defbb1a67fbc090edf18c9dae7",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/implementation-review/SKILL.md",
+      "sha256": "3e25e210ef0243d74cd3129086ad3695b6e46a6e9cfe6d453521d68dfef68687",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/implementation-validate/SKILL.md",
+      "sha256": "1c505bd12db525aa5fe2ef3586416cf55c350f3c5976c7b08dbb95f90beffd69",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/mermaid-studio/scripts/render.mjs",
+      "sha256": "258d69aa199fca3ddaa72a60279e5fcb8bfb060dd915d8a256c5ee055bf8ca1b",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/mermaid-studio/scripts/validate.mjs",
+      "sha256": "0d6cb480865a7bc77f1df45effceec366465f8e51d41f85c221bdd2a056c8df6",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/security-audit/SKILL.md",
+      "sha256": "3e7399b041f1606b802d35297c3b8d1ff61b32c31aea929312efbbb433ebcbd9",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/spec-implement/SKILL.md",
+      "sha256": "6038cf2fc217115fce7e2b469d238962c42b9dd46197f1408d2824c5de4bc781",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.agents/skills/spec-review/SKILL.md",
+      "sha256": "edc490e8e77e392d725b1d1029f199babd66b455a609b995ef45027a6fb739dc",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.github/agents/implementador-para-teste.agent.md",
+      "sha256": "f37f3841bd1c79a22b1c41d58a1107ee69ad6f03eab788ee265b20da22c40c90",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/.github/prompts/prompt-execucao.txt",
+      "sha256": "076a0f842297782c1110acdbbc63e5f9ca2b8644b39aad5412dae6502614ebd8",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/shared/process/workflow.md",
+      "sha256": "f03ca1cd64a62c9625479a8555a86aa6f82c08a3ce5938481c3b8f7a40d06a4d",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/shared/testing/testing-strategy.md",
+      "sha256": "ba336409dfe96561465e16a99b2d87d0017a3a470207ab818cc114365971bd06",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/sprint/README.md",
+      "sha256": "427bc2df65305dfd8c98d930675bf143f664905da0a3ad6e5e55623958b9fb40",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/sprint/prompts/prompt-finalizar-sprint.md",
+      "sha256": "db2d3a1f433d8288e71ce7cda9d1e2213e09bb1692481ddac7395b968675a1e1",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/sprint/prompts/prompt-planejar-implementacao.md",
+      "sha256": "21a70b24dce320766a209a5eb0f8194c501f091b6dd1b97df59d70137223f39a",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/sprint/prompts/prompt-planejar-sprint.md",
+      "sha256": "752a501d78a29a06c96c3177886b8fbea198d267c50da60eb85e76543d409317",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/sprint/prompts/prompt-status-sprint.md",
+      "sha256": "952f4c1ea614a6167e4d465d498ddda78ade54efbbc18bdc15476d6a7caa0fbf",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/sprint/templates/template-sprint.md",
+      "sha256": "dfa5de28502bfb9ded9d703757169afc4091fd426d8bbf72d17f5e60dab1706f",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/templates/tasks-template.md",
+      "sha256": "fced53f3aa277c37c434eab07ecf7f3773e390ca3ed76cd4b3c8acd41279cb3e",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/originais/specs/templates/validation-template.md",
+      "sha256": "bf90c7b4c4e6b06c639adbf2643450a71f0baf8c0c56da345c8e7a84e005458d",
+      "reason": "original de acervo local com redistribuicao nao liberada"
+    },
+    {
+      "path": ".github/prompts/implementar-mudanca-para-teste.prompt.md",
+      "sha256": "4b71782f0ecb31db62e292da0ed88d4d06222ac1762504945d47c7603b4f671a",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/specs/sprint/templates/template-sprint.md",
+      "sha256": "dfa5de28502bfb9ded9d703757169afc4091fd426d8bbf72d17f5e60dab1706f",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "scripts/sonar/tests/validar-codigo.Tests.ps1",
+      "sha256": "c03f9505bfe6751ee2020e8e75762fcc26344904e6f04fb9b0a8caac6e309fd7",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/api/golang-rest.md",
+      "sha256": "eba1ccc9723cec6a4e7856363f33754af6d1e9f019a4e2cda4d1b3f12e5fea5f",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/api/rest-conventions.md",
+      "sha256": "575e58a0eebeaa77839a173262204620a7783e14c29c572ecd37d6fa2d04bf94",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/architecture/android-business-plugin.md",
+      "sha256": "e55636dab078d240b9b655b109b442c5a79e118c7dea48343d076a870299f1a4",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/architecture/backend-golang.md",
+      "sha256": "4a07bcf96a6a65011840294b1a0da408748f50963383f8c720514ed5cf2b2f3f",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/architecture/backend-java.md",
+      "sha256": "c94447a134495c9a41696149cb7e29dda33da3163157780bf9a919740d2508fc",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/backend-golang/conventions.md",
+      "sha256": "9c971b48ef283d8abfa2afa3ba37a31d7a10c6bac2eda10a837907c92d0848b9",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/backend-golang/examples/README.md",
+      "sha256": "8ffe5834b5376ac429aaaaf532a2ff7c8584d54b59fc679ed6c6d15b3d71a166",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/backend-golang/templates/README.md",
+      "sha256": "86ea3b1722eccce64a987059bec0671bd76b6ea2a39128bff167d21c4be6b2db",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/database/golang-persistence.md",
+      "sha256": "5dd55fdadeafde2858f159f4644b9e511835ce4ef8caebdef1ab35dd057498f0",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/database/migration-rules.md",
+      "sha256": "7565ae6c0a7644abfebed13c43a9fbaba06c59d367658fca6561a1419eebcfce",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/process/evidence-conventions.md",
+      "sha256": "d7d07291650b7bcb4a6170d9f304b5b74cc04c539620e8c459313ae6b6b22796",
+      "reason": "copia exata de original incorporado sem direito confirmado",
+      "replacementSha256": "cc844d392fe86ec357289f01816c82e425bb67dad6fb9e9e87c40e5193ee22e8",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/specs/shared/process/evidence-conventions.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": "specs/shared/security/golang-security.md",
+      "sha256": "ddf879e5a1758adca9f5a8a0811a63aca1db46b6901a6b702210744fd73e642e",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/shared/testing/golang-testing.md",
+      "sha256": "a303f49be0cc39647c178621939f8cc5800a5fa1095ca889b2f0d3635ebb47ff",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/templates/business-plugin-spec-template.md",
+      "sha256": "abd931f2f8e91bbe8999236aa07ad07cad08163b72a13fd6de93000e5f1dc6da",
+      "reason": "copia exata de original incorporado sem direito confirmado"
+    },
+    {
+      "path": "specs/templates/design-template.md",
+      "sha256": "2c43460d6a96f3a6a695da79e9486d347d2b6af0096759c9168751835cfef4bb",
+      "reason": "copia exata de original incorporado sem direito confirmado",
+      "replacementSha256": "bd84b3c23c7572a9468f8728fbc7a5db5d0b7ba68fe85db81015dd908af8b494",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/specs/templates/design-template.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": "specs/templates/proposal-template.md",
+      "sha256": "4996984d6a17749b3a8f5149b0bdaec649a3023331be4643b5dc3950b38d30e7",
+      "reason": "copia exata de original incorporado sem direito confirmado",
+      "replacementSha256": "da34eac395404e16e25954b5922df403fed18ef9c2871930a262a631dce4e2cf",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/specs/templates/proposal-template.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": "specs/templates/spec-template.md",
+      "sha256": "945a55a57e4d519b82afcc44e45f53793095ba187b6979d3038e56d4c8d782b9",
+      "reason": "copia exata de original incorporado sem direito confirmado",
+      "replacementSha256": "f839841977d973cbf429cb89bfbc404b8440da7d6b57263243d5a21dba5a9571",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/specs/templates/spec-template.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/CATALOGO.md",
+      "sha256": "53ac0ea495d728970e26d8cb0c4c17d90394470be81b4dc60268b8cf555fd2f6",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/README.md",
+      "sha256": "3f6bcca10bf282ea01fc3bad299e69b431a8eef50475ca5eb6970533bfd600e3",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/complemento-originais.json",
+      "sha256": "42c2318f50a3b925bff550ab53a4158e4a2a5524b43163d1264d4f8ce31ad118",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/coverage-check-2026-11-13.json",
+      "sha256": "a49b07ae45082b8145b05ffd982e515f440fd53a16cece82763fdba975bf1cfd",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/delivery-check.json",
+      "sha256": "9a3d4f7cd2721c5edc052e51aaed0709878a24009eb4adb5b55ecf13743ad412",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/dependencias.json",
+      "sha256": "5e100c214000c295fc44f2adaeaff3982e9492b1665028481c3ed78929b55a92",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/dependency-resolution.json",
+      "sha256": "c8f3acee70ea0905d007552a0c3a560851c3aeb5179fd0e53e345ad56e14f798",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/documentation-check.json",
+      "sha256": "e04b19b0afaaa2a895aad4f4f7725b3fc7048af60045d6208e56c928b6b9ef11",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/local-properties/app/build.gradle.kts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/local-properties/app/src/main/AndroidManifest.xml",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/local-properties/gradlew.bat",
+      "sha256": "c134b2f85415ba5cfce3e3fe4745688335745a9bb22152ac8f5c77f190d8aee3",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/local-properties/local.properties",
+      "sha256": "333a1d8ab36aec3a5d6a7ecbaaeb0e96a8fd33b77105f3a2247032a9f3a5d165",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/local-properties/settings.gradle.kts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/missing-wrapper/app/build.gradle.kts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/missing-wrapper/app/src/main/AndroidManifest.xml",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/missing-wrapper/settings.gradle.kts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/valid/app/build.gradle.kts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/valid/app/src/main/AndroidManifest.xml",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/valid/gradlew.bat",
+      "sha256": "c134b2f85415ba5cfce3e3fe4745688335745a9bb22152ac8f5c77f190d8aee3",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/fixtures/valid/settings.gradle.kts",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/local-verification.json",
+      "sha256": "79bd707306cda26d863e575104891b454028c439c46812ebdf1817be43598229",
+      "reason": "acervo definido como local; redistribuicao nao liberada",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/imports/acervo-local-2026-11-12/local-verification.json",
+      "localUpdate": "metadata regenerated by authorized local verification or authorial replacement receipt"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/manifest.json",
+      "sha256": "ae024f0a6b82d3c8d9e44e8988e92549eb036f0b9d8c4110bc61f52c1e4fe59d",
+      "reason": "acervo definido como local; redistribuicao nao liberada",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/imports/acervo-local-2026-11-12/manifest.json",
+      "localUpdate": "metadata regenerated by authorized local verification or authorial replacement receipt"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/neutralizacao.json",
+      "sha256": "e624e7ef2eb3f045399f16566e965e41a31e95639b32b3d2293f265b5fe1da97",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/qa-result-before-import.json",
+      "sha256": "33fbcfe1c7bca18552fb0b9825e3446e0b4f482079f90d19c98dfa20fd53e654",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-ajustes/docs/adr/README.md",
+      "sha256": "40ee73c5574c981bbbf02eb01b1d6a5977f2be5b45c53f8b54fbbd2dcec3e5c7",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-aprovar/SKILL.md",
+      "sha256": "d010fa1a32bc1b7407f4f8aba9b044101abc580f63a648118912b62a3c8fc2cc",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-contexto/SKILL.md",
+      "sha256": "4713df4c021d643efda9d24a0cd58054a0dcf954fe89e44c83a07579a2b0deb3",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-encerrar/SKILL.md",
+      "sha256": "f075db9e6c90241f5c146f44b3bb1a81e521bc545bada4dc24ae4ab1bd1f0320",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-esclarecer/SKILL.md",
+      "sha256": "855a5cd8be406034c318ac8f242533a79fbc20bd4e18bf71c27ba810b7f93149",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-especificar/SKILL.md",
+      "sha256": "28f33f4a26959406cf204a0fc854a3463057caed882e075189bc731d87259833",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-implementar/SKILL.md",
+      "sha256": "7ec1585584e41dda58e39832cdf600ea3ef7a6c5cf1b1ad9941779cac844c54d",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-planejar/SKILL.md",
+      "sha256": "07139859d3e2cc95a6c04e30a925f4d221794f92d3e485f3af8b5d7060e513f0",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-revisar-implementacao/SKILL.md",
+      "sha256": "c4fb69b49f44dafd52ff6f1845f49a9105a6b195f16bbc07b16ce51b72208397",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-revisar-spec/SKILL.md",
+      "sha256": "9e741e752fb25fa199d24e07ee6c9c702513b3636cd253447aca6996dec9e051",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-teste-humano/SKILL.md",
+      "sha256": "30071a147d4ceb338d1a7c30e89e1899f93740b2dd0988b9e96fdfaf8f9d6fb0",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/specflow-validar/SKILL.md",
+      "sha256": "9b7d74862f7ff04e87631310887c7d64fc91f6a309bfa3a49eb2fc472a0adc59",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.agents/skills/speckflow-teste-humano/SKILL.md",
+      "sha256": "adb9e275ac97247c54eb91fbe39eb945b028d237756b108197658c8039a6dc4a",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/executar-mudanca-spec-driven.prompt.md",
+      "sha256": "2165a56875432871da173a2a966c037a3a95c8c446e69989eb1895a975334559",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-aprovar.prompt.md",
+      "sha256": "c09d2cbd0ac7d5c6f9e6887b36fd8c66501df6a6dc27e3f4dc940a53c59db99a",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-contexto.prompt.md",
+      "sha256": "8f0aba6fb988552e7c5fb2b300e66af13e23c6b743f190765f9930e0074b6a38",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-encerrar.prompt.md",
+      "sha256": "a5a380750f39e2438e6764ca7bc776da0c08ccd84196883dae2645df671d0afb",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-esclarecer.prompt.md",
+      "sha256": "1e6388417a08349aef1f260c8bd4616ecedb689576359caa126d907983c57fe5",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-especificar.prompt.md",
+      "sha256": "8237ec3976424d7606a856ed01ec690f7228f74d8a166425fb0936f2301f9b1e",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-implementar.prompt.md",
+      "sha256": "d7da0a30316d5e4bc80a92a76867cebe41a3c565c09aff5d0510508936a8350b",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-planejar.prompt.md",
+      "sha256": "84d5a44e3d0f8109eafbeb575ce36e17965e357d54f7a1f76972021f700d0b48",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-revisar-implementacao.prompt.md",
+      "sha256": "ca34e820e23c1744e170fc2fc3bad6351fb3917d78ae1827fab3b9a9f3b07613",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-revisar-spec.prompt.md",
+      "sha256": "a6fcfd47ea3d02bfe9028d6af29d3120d686aecf767f96de74226a14f901624e",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-teste-humano.prompt.md",
+      "sha256": "ad26519af294c0ca0244c56bbb68223d6b87255c0c584948fb9f734803ea7189",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/specflow-validar.prompt.md",
+      "sha256": "068ba1ba3d2c4fc3d6538e6fa27c9283fd425ca853f2af50e39f69c279570fe7",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/.github/prompts/speckflow-teste-humano.prompt.md",
+      "sha256": "e5c1dea149a6613c09172e810adfce41c0387d7f3ddfb3c21cc638e1894e01d7",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-consolidacao/specs/shared/process/workflow.md",
+      "sha256": "300da9e3c9a13916a3624e8e67de4f150b9c8c800feb6ceedb57ca551ae64d38",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/source-access-denied-check.json",
+      "sha256": "9a6849e796e1de54cd395ba0a35940b5e91ed54e85cf77de016b39e577653e7a",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/source-preservation-final.json",
+      "sha256": "1d5ed2438f4d04fc68339487e1ca8e38427dc90e6a5bdaed5b91b88fdd02ea60",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": "imports/acervo-local-2026-11-12/third-party-inventory.json",
+      "sha256": "220a2e13a072cee87b8e6eda7c45c08a68d33cf4e306e71dfe0bbc63ee756881",
+      "reason": "acervo definido como local; redistribuicao nao liberada"
+    },
+    {
+      "path": ".github/agents/implementador-para-teste.agent.md",
+      "sha256": "061b092b6615ae0c5c16c47d5a57ae035759c3d50619419987213ccac83efd4c",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+      "sha256": "f16d9b94a8cfe5283cee194e57bb2b632834493bc925241adcfbda087612b988",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": ".github/prompts/prompt-execucao.txt",
+      "sha256": "309142041ce3921093df7c87d59ea7cd0137bf3e4c334383fe701d5bdf7f4797",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "scripts/sonar/validar-codigo.ps1",
+      "sha256": "7993355dd85dea79b70d084de5bb50d89f2bc889ec8da65b474deb7d32cf2dde",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/shared/process/workflow.md",
+      "sha256": "bec4c2b1c0cb266bcde03165e8d870d1c41f5e500f96071ef20a13ba62c132b5",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes",
+      "replacementSha256": "4965e4623ac12f987bfed2972c992ea55a98b557cbd48099b33ca4349e4184a0",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/specs/shared/process/workflow.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": "specs/shared/testing/testing-strategy.md",
+      "sha256": "24c93359195e6cfc5b47af28534f760acdb7aabaf2ea9e3e1de93d571450c6cf",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/sprint/README.md",
+      "sha256": "aa920279d23ed13691fc820a550ab5c3d860327c67c3ecc0d11478de10c2ee8a",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-finalizar-sprint.md",
+      "sha256": "72ba7067ae3fb09395e38bbdea2de0d5d857e7bc39d7945baf6fcb396bc08730",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-planejar-implementacao.md",
+      "sha256": "8526ce1364073b864ac0d4c07af5ff4591e9b68c645e0669e982314c36ea1f30",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-planejar-sprint.md",
+      "sha256": "9bf4112165270530004f13654553b42eeb096f00038103329c78b445e8a50413",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-status-sprint.md",
+      "sha256": "0ef318c03bd5185cc8f5a410ed7f06488078e69953da9bc87d393b6a1f1af5ef",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/sprint/templates/template-sprint.md",
+      "sha256": "681ae2e8fa87f0f36de537c613d573bb45f60a3e803256d19bc6b26c660c7353",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "specs/templates/tasks-template.md",
+      "sha256": "28ef7636de0d60f114ab79e1f248ae4bb5ee8f1cebebe013587e743e9d8a3f69",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes",
+      "replacementSha256": "cbdbe451a65450a2014901333f265e774fff2540cb6af2ad366c8516897d585a",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/specs/templates/tasks-template.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": "specs/templates/validation-template.md",
+      "sha256": "89b861e69318417cc84c7a9384208e6842eb464251f72a82c61b9a323c13a97b",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes",
+      "replacementSha256": "e7491eb9d45b99ce09246d5a6195acb859fb89a21a602da91d362164a6899a72",
+      "preservedAt": "imports/acervo-local-2026-11-12/retirada-preservada/specs/templates/validation-template.md",
+      "action": "substituicao autoral; original preservado localmente",
+      "replacementDigestProfile": "sha256-utf8-lf-v1"
+    },
+    {
+      "path": "docs/security-audit/gerar_relatorio.py",
+      "sha256": "e10e81ce99bfdb310a915e5326a8ed387358e67f3130bdd92390b25df0ba7e75",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "bf1410669e060ef8e225ba4237a2279b94f149090e70134f62bcdf48289ccb74",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": "docs/adr/exemplos/ADR-001-java-17-quarkus-3.md",
+      "sha256": "5962168d51032ed9d44b4bc2152c056aff6ffd6800125463aa069a37a9320bfd",
+      "reason": "recurso incorporado adaptado com direitos ainda pendentes"
+    },
+    {
+      "path": ".agents/skills/README.md",
+      "sha256": "fad58bd5b65009050b0a718345db30f1c898b3c9cb6c680194a2118b44e2df91",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/chrome-devtools/SKILL.md",
+      "sha256": "d7742933d037059b53f43523cb3d78929af1fadffdddf47ad28ca12b939d84ab",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/SKILL.md",
+      "sha256": "f42265c813a17006ae673f0a8af06c27ddfda1905b8a931ee80c4c2931aa6759",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/assets/architecture-template.html",
+      "sha256": "a2b661ff0706b1b9f919eba7bf1b7e5c74cbe2a419830ae86b34aeb35bbc7937",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/acl-and-communication.md",
+      "sha256": "8c4b381b815c555bf838b116fcaee0e0c09a84533b472ed99c63443cb62db846",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/architecture-doc.md",
+      "sha256": "569d777433967463b9c820988abbac5facb4652a44cea396564a21a4f93b7fd5",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/ddd.md",
+      "sha256": "5c7265749b68933faa00ad084a74d2d135308a8f769f42d25cb0b965b0e5b057",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/flat-by-aggregate.md",
+      "sha256": "502d168d04b676774e56b7aaf79109982f67dfbf561f3a9ff06a8c4418792602",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/principles.md",
+      "sha256": "6d382c3c80f87f1fd329a956aa62e1adda9b3d4a5a1f42d376214a6832026e18",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/resilience.md",
+      "sha256": "2f147b0ff7fed4cc547f263cea1ac1b6628e743b2e5eda6bc724421c28258749",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/stack-2026.md",
+      "sha256": "3dac9995aba8f8b388d7bbd096ab164ee67017855c9567a5fc3a09c370c381f1",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/scripts/validate-boundaries.mjs",
+      "sha256": "269dff46dd2dd8ce1197b4fb722bdbf052ff88e4ecbecba99789bd92a8dfca9c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/scripts/validate-structure.mjs",
+      "sha256": "119abd931ace000fe4121438165a5bd7f782f6acf9780f89545650a024f609ee",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/SKILL.md",
+      "sha256": "d7cf49062743f4fd6ccff3325a17bfb1ca4c6e812845d21c015aadd2d46c8989",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/business-flow-swimlane-template.json",
+      "sha256": "36ecd1ed6a50bfddf5d515c2dbf9e0dfc7e707fd1cd4deb86548667593953920",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/class-diagram-template.json",
+      "sha256": "0d083a5ee614755cd2a1772ba4099f46b44b70a107a0283aeaff5d3573e0674e",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/data-flow-diagram-template.json",
+      "sha256": "8b77db0e83db6b709744eb9a46d64ec45d7ce6f0386ae75a4c5fb085dfee53a7",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/er-diagram-template.json",
+      "sha256": "aa189a47f6ba5f6158d00acf1fa23d54d59cfaae50d5647f08a0b6bce36ebd6d",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/flowchart-template.json",
+      "sha256": "8e428968579c8f05aa0926ea974737b0a243c38aebc6ea7645ad6f4f7b5d7a25",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/mindmap-template.json",
+      "sha256": "5cf76f569ee5de79b8e8e5ef00bf411da531ce77341ba3ac0664d6d08d296262",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/relationship-template.json",
+      "sha256": "437328bdb9c22b3fd5008d9e1c62d8b74fae00b158189967dea242aae708f631",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/sequence-diagram-template.json",
+      "sha256": "cb60460e30636a9f85b4ec22548cdf6d2ca794331afea93fb9af2c0e46114dd0",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/references/element-types.md",
+      "sha256": "0967fc96e6493ff675d0797287578dbc29aa6255e91899d1a6cc2dbf086c32c8",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/references/excalidraw-schema.md",
+      "sha256": "b99e4fc8b8b91b29ff6cb52af04a4302b84ea073352d3e16222d0963d103c0bd",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/references/icon-libraries.md",
+      "sha256": "dab9c36e24b005c0cff94dcf39c76eabe22a175585fb171cbcfb80e8ee4f4477",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/.gitignore",
+      "sha256": "49f9ee4c099793eb02a72838891842a5ce6e26ecde0a79bd658dab5af79fa8ca",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/README.md",
+      "sha256": "790018c757f4fde5da9b4d59410eff67ba8727a74ac7b4f54c4dcb1a43e5be67",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/add-arrow.py",
+      "sha256": "2895b8bc96d3fc298c3c33c5ff0470e0f89fd3727c7668d007fc9a635d779778",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/add-icon-to-diagram.py",
+      "sha256": "2f8a013d3ea6f73b4154a3abb86fa1781d32786d0ec905517de0628f1493b203",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/split-excalidraw-library.py",
+      "sha256": "160fa6e88cf10a0f3300aa948daa32abf3925f90c3befccba5afb9240cf360a8",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/SKILL.md",
+      "sha256": "77a5b1ef34093dc5264d45b9d0005c025d6cfe518449abcb85c6c45df9c32916",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/references/collection-guide.md",
+      "sha256": "6a7a9d85e2becf56b1f87d3d72b9a78532faed43a3c1ae562547bf55e07e71f8",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/references/design-principles.md",
+      "sha256": "05466d5704792a9732e7c9811d9301796967281c266c3a699d136a585af83f45",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/references/stitch-integration.md",
+      "sha256": "1ab91b609097d298fa1565fdb59e5e2d651705ceed62e0b208e0aefea1c4cb80",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/gh-fix-ci/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/gh-fix-ci/SKILL.md",
+      "sha256": "94365ff39a1cd8b4bc63792c311720cf3dd6782d3de47570b1566d9903baddb2",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/gh-fix-ci/scripts/inspect_pr_checks.py",
+      "sha256": "9459e5b03f86785d184a83e5cd8d621b832e918ec04158a2962d867785812c6c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/SKILL.md",
+      "sha256": "a9601eccfa086e8c28e9b2f6ba56d73a7ba4c41228f62ea152617ed9b4b6bf03",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/assessment-framework.md",
+      "sha256": "065f8ec37ad60e30c1618bb4e44b489d865170162db5b7d6a8eed6e896b4fd89",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/frontend-backend-strategies.md",
+      "sha256": "f3c5cc5d86a4bc40ddf4bba5074288962e553cfa7ef68cf340a3937a9ea41ff5",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/plan-phase.md",
+      "sha256": "9db418582847f17b6d02346c134822e82ea3ce204dfb13e0e88d9187af8f2fa7",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/research-phase.md",
+      "sha256": "e4786f6c674183ce82d1962721373d2863ec34340f304d072ebfe58873581319",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/strangler-fig-patterns.md",
+      "sha256": "9d74cfe8fb90fd36dc4937c81eeaa7c455c88a71b68268c8a172153ccb21f63c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/testing-safety-nets.md",
+      "sha256": "6fa5326e3042cbdf8fbe014469d5edeea3d29125dbcf45f5a6a5f92017f9ca20",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/SKILL.md",
+      "sha256": "fce1306df953d3d89687646d5cb56e0f68d4f40f27b8ec404ac33242c7d57b60",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/assets/puppeteer-config.json",
+      "sha256": "6c7543a9be6885e1b975fde094b3e9565a83343ac648220551823f809ffd4ac2",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/aws-architecture.md",
+      "sha256": "881613f120523ac005af8c269cd85a6ab3b3cc642f11c1f3e7b2be4def1fb490",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/c4-architecture.md",
+      "sha256": "6cbdf4969c41266bb8bd33dce3c7ad94a4ffe9e13a6eb3c073933d696d11b9a6",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/code-to-diagram.md",
+      "sha256": "1902a2b62a8bfe7bd5f15cf178f296c609d73ccb058fbec5fd4ed82d507a04ee",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/diagram-types.md",
+      "sha256": "74c14ad44f187610ede06441a40daf448cb198453c2fc3275715633ebdd02096",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/themes.md",
+      "sha256": "00deff85f93b6bdae1af26dd97b3c0e925f258a720856ac8bc59fb0d62604774",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/troubleshooting.md",
+      "sha256": "732c57360583322a53e2bf1763dddc3d5fe6ddaf0c20a8a482c4bea22d114ddb",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/batch.mjs",
+      "sha256": "2fb34cc0b0ec5e5aab6bda864adf855aa54387521c9d3202c01c0c5892432cc9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/render-ascii.mjs",
+      "sha256": "32caf69ac63255ce458fadd720f906b550446969bf082f1d1fcf3c28d7011100",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/render.mjs",
+      "sha256": "bd490da99ebffaac65046a615248ad19880c1d2238a5075735c09139bee49e35",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/setup.sh",
+      "sha256": "9e190f4ad3893b183764cc263a63baad2adfeb08cd8789d803d742a96b8beae7",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/validate.mjs",
+      "sha256": "560818dd45d4027bf9945dab81f1a595d0e34da267f560186d22cd2487c7cf31",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/pr-review/SKILL.md",
+      "sha256": "b3fca321e22e69624bd450fdeda4198cf449d18cc2368c0d02bc21ef2fcbf8da",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/AGENTS.md",
+      "sha256": "2f99883abb8b0702727c7437ad895f9132afe2c521d680eb76f86f6042952221",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/README.md",
+      "sha256": "2e7e6cbe3952689bf9c00b9a7032f1bffb263cde2d01635f0aa49d3375c33ff5",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/SKILL.md",
+      "sha256": "e5d2d7b43572453ba8fb329a6fbb15c5d7c939d4a80adb8d88c17121b2049ae0",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/_sections.md",
+      "sha256": "f352f75b84d6c6ee644c3fade99eaf2186bdfdc1d9e5b598bae436f32b3bce4f",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/_template.md",
+      "sha256": "21231af1b4c70cfe6f07625830d982934295c735f91fddd9741b3a8e3688d735",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/advanced-event-handler-refs.md",
+      "sha256": "029f0c929c665fb9263b8c72a44e50610caf94a6e22a8142821a84482eda825d",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/advanced-init-once.md",
+      "sha256": "3d209bc4b17c2a503fdbb53b39261bc5ee824703a8b387daef3f53bad1f32ce4",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/advanced-use-latest.md",
+      "sha256": "84b3504ef0dc85f171c6aa0c5d15ac6d252ba72e38fc4e87872c0a3b1728345f",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-api-routes.md",
+      "sha256": "adf38ea4f34fa74b275b908e49aa20de20af9d9935b4a656314a49217b182663",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-defer-await.md",
+      "sha256": "6a2b9e19555a17662755e01d129fa21b8c6a659731d860b7cc918ba47be2a942",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-dependencies.md",
+      "sha256": "4901341bd7f7b7036eb8d98b243515ce294e6e4079370b3187c1514c3e597ec6",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-parallel.md",
+      "sha256": "ff95abbb67b62a889d7ef71f1d06834238c47ecd3d49483f7823b4cd17d92680",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-suspense-boundaries.md",
+      "sha256": "8a6e88c6e5190e10d3e3ebca89a1bc4fefc4bdb0cbc9c6f406ce02452a5759df",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-barrel-imports.md",
+      "sha256": "f3a0d74c71aaa98547d970901d73d1bc4c082762e891244e9103def40846eecb",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-conditional.md",
+      "sha256": "16992beeaf9bdd1e7ff20989b8672cfffc8b918deb0783c058560c7a233dd37c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-defer-third-party.md",
+      "sha256": "64de0f01dfe58b4d3a3865baa623f743ef1b8c363106c7dfaf2b2867f69b96d4",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-dynamic-imports.md",
+      "sha256": "0fb947cdfec5ce0e95a894c6b68220f88983eff73ce65b98e4f00c885ebd9b36",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-preload.md",
+      "sha256": "b673a49f4cf4bf385ddf6956ca704139ec2915802bade1925134f8cfabb2278c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-event-listeners.md",
+      "sha256": "e2229c8e121dfdd6bad8063ba6c41213ff612e19e077f17ba805b70d48151775",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-localstorage-schema.md",
+      "sha256": "f9d177a557f4bd4bd1a81f30f841f75041821dd88f706a6b8c4eac86c7472e05",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-passive-event-listeners.md",
+      "sha256": "277118e32363381459bc7439fa942966da668d2c128d93968f9a289f0bb32861",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-swr-dedup.md",
+      "sha256": "866e6cc267f06df39129c44c68c5e6a2e62faa554bc8cdb6ada1f58afe4bcbbe",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-batch-dom-css.md",
+      "sha256": "d7343005afc6a9c7e86368e22318f49b88492973e673f7b0ba2eb65697597143",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-cache-function-results.md",
+      "sha256": "bbef6423ad250227e8c73a5d9be6fd687707dd187ef50236fd5b6883a41d49b6",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-cache-property-access.md",
+      "sha256": "bbecc553a5b51caab2ddc90423a23d4c3245669439ff91e5204e48d62aaf1c5e",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-cache-storage.md",
+      "sha256": "7710a2ceb421d9b6d3828d7f38ec8a093af4a372c2b3b4ea2299d5df2518f770",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-combine-iterations.md",
+      "sha256": "c43a02979586d39f341fa6da7fc61bdd6a6917fa0c4f9c926091fa540cdf8022",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-early-exit.md",
+      "sha256": "b6b967ab80d2a5fc19851d9db9464cf8e4d0e57dccb607a474b8f7818015951d",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-hoist-regexp.md",
+      "sha256": "86f4772c5d732c1f5f0656412713c6dc919360f0f3ea32bb1a45937eaaa5866e",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-index-maps.md",
+      "sha256": "752dd0803a7394a70e8d437b7eb025d1e085566e30ad733e75b9d2e04cc6c4d9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-length-check-first.md",
+      "sha256": "9e57362d76e57ea6a2ff8cd137cf2a87b094aaff152eac61758305acb450a25c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-min-max-loop.md",
+      "sha256": "f0054bcd1c3168ea8a6474df33c398bc0066eb1e813d59ae57fe36806ec900b6",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-set-map-lookups.md",
+      "sha256": "7143f8d7b71cdbc77a171fc801bdcf5e7a209e0f471ff17bb669acc986a6b064",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-tosorted-immutable.md",
+      "sha256": "2722514cac46990f3361fa35ee20d499a12da2539362e7871b670978664d158a",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-activity.md",
+      "sha256": "e23dd494d955db99d376b5bf62a59ce7df9f14576d94094f2e53cfdc388453a0",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "sha256": "dca7f0251244489b3bbb6f5aaf7d70f280d91dc13de8ebd24403286f382ec0f4",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-conditional-render.md",
+      "sha256": "6db58f36c8b080c35e91f6504281f85ea2dbd133030610c860e60181d6d9556a",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-content-visibility.md",
+      "sha256": "45437e9594857ee1066ee061e946ed129731cf2e80f7e08f3cc621fa0554c567",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-hoist-jsx.md",
+      "sha256": "c5fa7274f067ce3760107196a9416df333a7b4187254ef66c547fad7c45cd8d3",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "sha256": "bfedc3a73f9687c7836acf915165fb845880453b6dfcf2fa6475dfec96b23027",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-hydration-suppress-warning.md",
+      "sha256": "7ec1623c69e1a82b09b8b5a6028005e3eb8485741898447af1bcaed8ff8c0139",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-svg-precision.md",
+      "sha256": "d57cdfaaaf660a28a9a5d6d10e97202a5eb13e1bc1675e024cb1ccbfa8bb2c32",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-usetransition-loading.md",
+      "sha256": "c2186f944b60630c67d42222f60ecb12b5a85395e7f31f193982f85983165720",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-defer-reads.md",
+      "sha256": "bb98d9b7c7622641887df6407406a8c4f61510af9cc1bd275574ebee71bac8c8",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-dependencies.md",
+      "sha256": "4f0a1806694c2391c0b5b79bb4dee89fdf2c02ee322acf308509c17542240446",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-derived-state-no-effect.md",
+      "sha256": "1d50f7b1b86d24f987c557415590f79b06250e3ec1ca552da981e31a31f9edb9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-derived-state.md",
+      "sha256": "6a501211aa53036905df7531deaf25fdb8582697366fd071d4c2607828662dcb",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-functional-setstate.md",
+      "sha256": "e46096d4c2c8fc89ab717bd7e56b8a884b612a88013a99b0c63e7dfc45d8cf25",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-lazy-state-init.md",
+      "sha256": "b8b9e6b6001a1e94979776e744eb38a98432858dd2369995731c9a095ecd1d2e",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-memo-with-default-value.md",
+      "sha256": "e69d637687b85967554df7d5fcfd83cc6fbb89237e9b80d10fbea7916244aa8b",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-memo.md",
+      "sha256": "8cc2d062f22ae762f7f5f93baf2bfc374c917079131896559721f9dfbd402a7c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-move-effect-to-event.md",
+      "sha256": "00f5eaf8d4380c736c9177b67583f6b33f6b1f84addc252653cd6dea9551ad8d",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-simple-expression-in-memo.md",
+      "sha256": "1e41299336d72ce42ffe0b4d397496e520eae13ea544b1412b83761555f4e631",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-transitions.md",
+      "sha256": "b51a82fb6b223d13c585dfddaeb753c79d7da0524da87b708f61fd6939600ab6",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-use-ref-transient-values.md",
+      "sha256": "26ddded1d59cc04cddf7c1412ffb05315dd1f358510edcce3c3474d5acb63f32",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-after-nonblocking.md",
+      "sha256": "86c8670ad8e6285753645c2cebd164c56baf6f0fa74f914c0ca496d0a0156bcc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-auth-actions.md",
+      "sha256": "a413aba63b73f7f82cf2482646c8c1598eaa75753c8f73f33055b8508de99fea",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-cache-lru.md",
+      "sha256": "19d844eebd1fb7ef5f43f4d1e85baf1fc0160547400ab838ba4d40226eb891b9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-cache-react.md",
+      "sha256": "7448470adc9f0066455f9cf45b658f5c3f1884a7990c89f880fbb272a4028b05",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-dedup-props.md",
+      "sha256": "5c4d4c9930812d3ab98e28ad97ca2f5af778effbf9b50b6a7558c18abf2e98b5",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-parallel-fetching.md",
+      "sha256": "f8f275fea2378e7707a50f2df4af6a2f65fe1fa84edb3ffc4720af805ebabe42",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-serialization.md",
+      "sha256": "567ce457f775d4e03e2a6ef7bf67213fee35c6c3b9d1bcfa783007d1df414d4b",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/AGENTS.md",
+      "sha256": "ad5b5de8eef5c67b7fa370ea8f9ca79e9e17e3c1727e71af612b699fc90c9c90",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/README.md",
+      "sha256": "d6dc98821fb02558c54faf6cd39e5af15837b808c25c0fb4f16e4ec66b9f595c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/SKILL.md",
+      "sha256": "0a248e8720fd5f5a0c3e5270910060433ce17f95cd75255875d4ae8eab04ecde",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/_sections.md",
+      "sha256": "738f4d5a8f96e939d5a2d38e59b53613074a173c2b9207ab813fd72f417f4f9f",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/_template.md",
+      "sha256": "d688f7c382511d1354bbaf05accdf0c93b5c2ce1d2ab60ab4cc217120fc29f8f",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "sha256": "bf497b4166c70efca0328558ff3b30cf16bccd94bdc321adf5fa690d759739cb",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/architecture-compound-components.md",
+      "sha256": "dfad1d28de90868a8b8311a3974f5b89648a2a8208caa316ff63ead0b6194914",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/patterns-children-over-render-props.md",
+      "sha256": "6e44da5931fcb09f2d631a462324035fb4d42d0a4ddbf4064ae1bddd2cbe387c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/patterns-explicit-variants.md",
+      "sha256": "b741d51cefc5bad25ae725a3e8791b47198cdb576aa5f34e609e13b4e910d2d9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/react19-no-forwardref.md",
+      "sha256": "10ab8f9b640133f371c327ebbdde0169d94fdf9684c6798f135d5f0f5efd2b21",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/state-context-interface.md",
+      "sha256": "1d6923baa2726aa2fd8f3d75b7e820e895f89efc4c42d9f71cff229cbe21cb41",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/state-decouple-implementation.md",
+      "sha256": "1b8757b07e62d869c4019f40cf75545516cc86386896b429090b2a54b13f301f",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/state-lift-state.md",
+      "sha256": "2c70589fc7c8e2104269d1fda424f005daa470d38e1efe3feef32e0dd01d2ead",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-native-expert/SKILL.md",
+      "sha256": "b22c188cac58a9ec5324e979cdaebc23b3eac4491a1284e629be327be1655383",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/expo-router.md",
+      "sha256": "ffc516a32a8f07b24af027b4c3bb7abff18ae15532c108121fc8f3b887acda8d",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/performance-rules.md",
+      "sha256": "3a0ab04a8a0bbcbf62c0a193ba84ff7c4451fc914802483d6106af9a565907f5",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/platform-handling.md",
+      "sha256": "939566c7bead33cdede0085148e5754c1878597c0963045968b37f8a0276c16a",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/project-structure.md",
+      "sha256": "04b46c62440bb0ebbcbef9f62f1ecdb374877d0dd474751c8c6ba1405e333eeb",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/storage-patterns.md",
+      "sha256": "9d87e49fdf491b453143ba831d875838f6cf9b47aeb22e5671ff914760fd4162",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/SKILL.md",
+      "sha256": "53011bb93069dee94930c9f6c4234051e6767d5e5ad1441b432053d8ad398562",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/golang-general-backend-security.md",
+      "sha256": "e304ea508d271195bbeb783d43a01ad7fcd2af1f8ec63a47bf939b9ddd626f10",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-express-web-server-security.md",
+      "sha256": "2775b882057abf34a4adc708eeff39da31e8f7f9ce3911c8715f4243c474c0a3",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "sha256": "540538f312cb78b9398d9431e9c36af81e82806426c5de3415db6b21de68d3ff",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-jquery-web-frontend-security.md",
+      "sha256": "d74a7b32ff189521b664cbbe25d4893a58252cce28200249c74cf24557e64a05",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "sha256": "c937465c375545318fd3d4da065d361ff185145e6881dc21a5fdcd1bb4a86732",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+      "sha256": "df89de68e9a286ca90a7db86e725e5150319dec3bfacc6f1afa48e18e8c12aaf",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-typescript-vue-web-frontend-security.md",
+      "sha256": "19993b4e4f57775d51e87517256fd4d0f548b957cbc4256908efd10ceedf1b84",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/python-django-web-server-security.md",
+      "sha256": "de0121b6ac64644a660df70c1e60742888f90b6bf3e4e095f3d487157ec4e955",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/python-fastapi-web-server-security.md",
+      "sha256": "641d4ae372ae250a4d98ecc3b7273944484f7a9eb01f92e1966ed41e2de46669",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/python-flask-web-server-security.md",
+      "sha256": "65658bbe00776e1b9514a46be258692d6073be35ca73eb89b47e2b213ea2b06a",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/SKILL.md",
+      "sha256": "1fb522f7fac0286f1947d636365522c62e0df363a61ab65b185c6c765ead0c13",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/references/neo4j-import.md",
+      "sha256": "497c4d601d96d10bdb178c81b375f80f17855e705349a74dfc22dd5600b6b2d9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/build_ownership_map.py",
+      "sha256": "c0454c47c7eb001b6e247cd7e473df1b28a3a148a2dca6b2fe88a74a7602cc9b",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/community_maintainers.py",
+      "sha256": "95adec5458cc85b41d0ae7965b0a17e4e8eaa6aaab274459324580d9a91cc3cc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/query_ownership.py",
+      "sha256": "0f8d1a1ac3ef807a9b66939a8cdfd02564f4cda018489a3664d37f8c3a7b1b93",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/run_ownership_map.py",
+      "sha256": "362b547d6133659eb5c4fe889b8b930bea790f31e412f3198671baae09eec692",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-threat-model/LICENSE.txt",
+      "sha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-threat-model/SKILL.md",
+      "sha256": "824d2c494e17eccf6e5da409ce78fe2579fb6255d0c1a121cf67c8de7871825c",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-threat-model/references/prompt-template.md",
+      "sha256": "e77a1b90ac578538ac613eac3a72e0545ea145e20a7e84b5f9a3dff5a94cd117",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/security-threat-model/references/security-controls-and-assets.md",
+      "sha256": "849afdd72f8e9b32aabd23a373bf72a62dda5539d974e6755b250dc0e33dd9cc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/seo/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "3951d2bf548eb142e2740e52452e26dfd45a1c3cfd822b447b64d1314001e220",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/seo/SKILL.md",
+      "sha256": "bdd97aa54ffe9c82e394ce365298a80b02f01ff5da85d7111bbaefc6a612bd4e",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/skill-architect/SKILL.md",
+      "sha256": "f18f868ead23869d817224e314aca0e4edd9d287c3cdc061f0213f9bd35f5ff0",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/skill-architect/references/examples.md",
+      "sha256": "18f2857bd5e27399ad3b2522bd7594267525ea064a328d83e2f6c5f12c86706f",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/skill-architect/references/patterns.md",
+      "sha256": "38b65644738bcd24583301af3c909ed8ead4aedb2726fb81d6a43cda7086c0b3",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/skill-architect/references/quality-checklist.md",
+      "sha256": "19c20cd2842e565faf8b161249fa38087a2245e32166f908dad4f2283573db27",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/skill-architect/scripts/validate_skill.py",
+      "sha256": "56fa253b7de06b6c8d30d4cb5011c8961ddb7b87af49d686dbeaad5e0b454910",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/SKILL.md",
+      "sha256": "75c56b3cc12a8801a72374ee095fd964f59c8ea5ea8eef274b3e33559b5a5bfd",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/references/cognitive-bias-inventory.md",
+      "sha256": "b2592a0cec10901b98fa9e8fec1f11eb63a94a336899d16b31130ad857ce2167",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/references/dialectic-synthesis.md",
+      "sha256": "440afd034ad216475973f92fd541cc86e6265a051021304f6f85fced2bc8a500",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/references/evidence-audit.md",
+      "sha256": "db319eab785277584c0203a5563f7b637f91fcf844341f3c23ec03687d8e5ace",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/references/mode-selection-guide.md",
+      "sha256": "f0cdbd72e94afced1a75089d16c5ee4cfc32e9164e9f3ad4e37a158b080aa990",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/references/pre-mortem-analysis.md",
+      "sha256": "56e440d16c30ab2f4abf88c57897e90576caf9ef7e80c6144caedfb13a054c3b",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/references/red-team-adversarial.md",
+      "sha256": "d9bae06519d2f8b73ee31007045ea4f1b5a0ed5648cc5a13b13fb690bc9b2a51",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-fool/references/socratic-questioning.md",
+      "sha256": "4bccb61572cffb7f9a8f5cebdd34f614ab2c8ef69d849b320d1f4197b32fc90f",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-jury/SKILL.md",
+      "sha256": "b1e30d457a53252d88561198dd5a8ee664758a93cadab89d28353b4cddc7cd2b",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-jury/references/deliberation-craft.md",
+      "sha256": "7521cd0a3abfd0caf8e8bf8a68df33c6d2b9292e12712c8041d9a1abb196aff2",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-jury/references/juror-archetypes.md",
+      "sha256": "c6eaf5156ff91d5604ecd6d2426937466c130c032aded2d90cdf16a4b38eab79",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/the-jury/scripts/tally.py",
+      "sha256": "d30fcaca2bd5910dc9d950b54dcd10e1192626724b50233a5dffe9b785d7defb",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/SKILL.md",
+      "sha256": "1c8974fb39a10681881367125159d57a24e6e9682cffedcf7a8b9169f289c088",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/references/measurement-and-tools.md",
+      "sha256": "eb8ed0511de7b9c75f721beb4db7e87dac023edee05f524d8a2d0681d1b9ed8d",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/references/pillars-and-workflow.md",
+      "sha256": "d423a7ff3746e8acbdd90ebcffd8b9e181066d55bf598634f82b9da18a4958a9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/faqpage.jsonld",
+      "sha256": "dbb204f13f5cd96d337c812698f3db5133dc078b7fe5a785e4c83577a121bd85",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/llms.txt",
+      "sha256": "76f3973b9e62fa68c9efa4432c5c3533955d01fd980891e0989c61018e27bdf9",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/page-metadata.html",
+      "sha256": "db7e665e88e4814573e832817263f7582f4bdd787bbb03663e4a37d36dfb7b24",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/quotable-article-outline.md",
+      "sha256": "94f16ae413abb8c4ba8cfc142409698a5dc9ef75880f4348b95ca390466ae73e",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/robots-ai-crawlers.txt",
+      "sha256": "aaa8cfadeeb60337a23551c9fd9c59daaa58df39c062ea433f855b35378f2767",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/techarticle.jsonld",
+      "sha256": "e06eefd1a047c6704a4345aed326663c7bec995a4afc0ca0a25c1780362db1b0",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/web-accessibility/SKILL.md",
+      "sha256": "861b28263ea3b661db6da54c70efd9c0ba553f3ffdce2889849422156313acd3",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/web-accessibility/references/WCAG.md",
+      "sha256": "a71b5bd47aa35a9be34edc1c8c8121c0a14761df2c8e619df4d49893151ff687",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/web-best-practices/SKILL.md",
+      "sha256": "a0e751a9aa34a3249b63e2cd16569df237bf46fd7b3bd75ed0304446be63c26b",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/web-quality-audit/DEPENDENCIAS-PENDENTES.md",
+      "sha256": "5aac2c71e8837c27c05462b44aa2c4ba19c70b5c0ee06aeda1539cc0c206a1c8",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/web-quality-audit/SKILL.md",
+      "sha256": "a437822424460a33a8276d2db1fae04c04017bfe8fb85d46bdc44ad7efb767dc",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    },
+    {
+      "path": ".agents/skills/web-quality-audit/scripts/analyze.sh",
+      "sha256": "5c500ceda2848f2e328ca54a2a5a2338e955176089a4f945e917d8473a4b4253",
+      "reason": "componente incorporado; declaracao de licenca sem confirmacao upstream, exclusao preventiva"
+    }
+  ]
+}

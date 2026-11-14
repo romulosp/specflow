@@ -1,0 +1,3 @@
+# Revisao tecnica da SPEC 10034 r1
+
+Parecer do executor: favoravel a decisao humana, sem aprovar a SPEC. Requisitos cobrem retirada, preservacao local, dependencia do verificador, testes positivos e negativos, licencas e limites do historico. CA02 impede classificar a verificacao local nao executada como aprovada; CA03 mantem cobertura minima por arquivo e agregado. A remocao fisica local, reescrita de historico e publicacao estao fora do escopo. A classificacao de licencas, criacao autoral das substituicoes e execucao em checkout limpo precisam ser demonstradas, nao presumidas. O checkout proposto atual ainda nao atende CA02.

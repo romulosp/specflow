@@ -1,0 +1,3 @@
+# Estado corrente - 10035 r1
+
+Usuario autorizou avancar ate implementacao apos apresentacao da r1, com correcao e repeticao dos checks. Fonte registrada em decisions/spec. Plano antes de codigo. IMPLEMENTADA localmente: geracao de rascunhos por modelos, catalogos e instrucoes, modelos e exemplos autorais. 56 testes, 1 skip, cobertura atual e build/smoke isolado. delivery.md e manifesto em evidence descrevem escopo e limites. Pedido limita antes de revisao/validacao formais; nao VALIDADA, aceite final, commit ou publicacao. Limpeza 10034 separada, pendente; indice com retirada de acervo preservado.

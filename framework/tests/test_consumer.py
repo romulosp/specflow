@@ -24,6 +24,34 @@ class ConsumerTests(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name).resolve() / "consumer"
 
+    def test_domain_drafts_preserve_existing_change_and_contract_shape(self):
+        initialize(self.root, ["codex", "copilot"])
+        first = new_change(self.root, "Pedidos e estoque")
+        folder = self.root / first["path"]
+        spec = (folder / "spec.md").read_text(encoding="utf-8")
+        self.assertIn("Modelos de dominio", spec)
+        self.assertIn("Regras e invariantes", spec)
+        self.assertIn("Um unico dominio e valido", spec)
+        self.assertIn("demanda tecnica transversal", spec)
+        self.assertIn("PENDENTE", spec)
+        examples = (self.root / "docs/modelagem/EXEMPLOS.md").read_text(encoding="utf-8")
+        for scenario in ("Pedidos e Estoque", "Um dominio", "Demanda tecnica", "GestorGeral", "CA-E01"):
+            self.assertIn(scenario, examples)
+        for ref in (".agents/skills/specflow-implementar/SKILL.md", ".github/prompts/specflow-implementar.prompt.md"):
+            self.assertIn("modelos de dominio aprovados", (self.root / ref).read_text(encoding="utf-8"))
+        self.assertIn("Fronteiras por dominio", (folder / "DESIGN.md").read_text(encoding="utf-8"))
+        self.assertIn("componente -> teste", (folder / "tasks.md").read_text(encoding="utf-8"))
+        draft = json.loads((folder / "draft.json").read_text())
+        self.assertEqual(set(draft["documentRefs"]), {"proposal", "spec", "design", "tasks", "validation", "memory"})
+        self.assertEqual(result(self.root, first["changeId"])["observedState"], "RASCUNHO")
+        (folder / "spec.md").write_text(spec + "\nDominio autoral preenchido.\n", encoding="utf-8")
+        before = snapshot(folder)
+        properties = (self.root / "configuracao.properties").read_bytes()
+        initialize(self.root, ["codex", "copilot"])
+        new_change(self.root, "Ajustar ferramenta tecnica")
+        self.assertEqual(snapshot(folder), before)
+        self.assertEqual((self.root / "configuracao.properties").read_bytes(), properties)
+
     def test_initialize_empty_and_repeated_adaptive_integrations(self):
         initialize(self.root)
         self.assertFalse((self.root / ".github/prompts").exists())

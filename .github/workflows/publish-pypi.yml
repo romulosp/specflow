@@ -29,7 +29,7 @@ jobs:
               version = tomllib.load(f)['project']['version']
           assert os.environ['RELEASE_TAG'] == 'v' + version
           PY
-          python -B docs/security-audit/verificar_seguranca.py --change specs/changes/10032-publicar-specflow-cli-pypi
+          python -B docs/security-audit/verificar_seguranca.py --change specs/changes/10034-limpar-acervo-publico
       - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
         with:
           name: package-ubuntu-latest-3.11

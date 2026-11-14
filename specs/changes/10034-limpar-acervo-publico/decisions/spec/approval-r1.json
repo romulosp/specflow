@@ -1,0 +1,9 @@
+{
+  "revision": "r1",
+  "outcome": "approved",
+  "actor": "usuario",
+  "source": "concluir a limpeza do acervo da Change 10034: aprovar",
+  "manifestSha256": "73a07e8491e196e33577e38b46c77da380478658c89b976a3d11890ac0035f04",
+  "scope": "10034-limpar-acervo-publico",
+  "limitations": "Registro contextual, nao autentica identidade ou aceite final."
+}

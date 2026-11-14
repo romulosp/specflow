@@ -68,7 +68,7 @@ def security_path(root, folder, filename):
     return legacy if old.exists() else organized
 
 
-def gate_result(root, folder):
+def gate_result(root, folder, audit_ref=None):
     """Compute only: writing is performed by the shared transaction layer."""
     from .storage import Fault
     root = root.resolve()
@@ -76,7 +76,7 @@ def gate_result(root, folder):
     require(folder.is_relative_to(root.resolve()), "PATH_ESCAPE")
     code, reasons = 0, []
     try:
-        ref = security_path(root, folder, "security-audit.json")
+        ref = audit_ref if audit_ref is not None else security_path(root, folder, "security-audit.json")
         path = confined(root, ref)
         require(path.is_file(), "AUDIT_REPORT_MISSING", 1)
         audit(read_json(path), root, folder.name)

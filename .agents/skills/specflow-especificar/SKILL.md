@@ -20,6 +20,7 @@ Saida: proposal.md, spec.md, DESIGN.md e tasks.md em EM_REVISAO_SPEC, com requis
 2. Use specs/templates e as convencoes locais. Defina escopo, exclusoes, riscos, dependencias, RF, CA e tarefas rastreaveis. Para codigo, inclua testes obrigatorios e cobertura minima medida de 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md; codigo gerado pelo agente nao e exclusao.
 3. Registre alternativas e decisoes pendentes; use docs/adr/ADR-TEMPLATE.md quando necessario, mantendo PROPOSTO.
 4. Identifique revisao e manifesto dos documentos. Nao herde aprovacoes de outra Change ou revisao. Pare em EM_REVISAO_SPEC; nao produza codigo do produto.
+5. Divida spec.md em secoes por modelo de dominio com responsabilidade, conceitos, regras/invariantes e criterios de aceite; no DESIGN.md registre limites, ownership dos dados, contratos e dependencias. Justifique dominio unico ou demanda tecnica sem dominio de negocio, sem criar divisao artificial. Consulte docs/modelagem/GUIA.md.
 
 ## Regras locais
 

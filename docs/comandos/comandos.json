@@ -24,7 +24,8 @@
         "Descubra a Change existente antes de criar outra; escolha ID livre sem renumerar o historico.",
         "Use specs/templates e as convencoes locais. Defina escopo, exclusoes, riscos, dependencias, RF, CA e tarefas rastreaveis. Para codigo, inclua testes obrigatorios e cobertura minima medida de 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md; codigo gerado pelo agente nao e exclusao.",
         "Registre alternativas e decisoes pendentes; use docs/adr/ADR-TEMPLATE.md quando necessario, mantendo PROPOSTO.",
-        "Identifique revisao e manifesto dos documentos. Nao herde aprovacoes de outra Change ou revisao. Pare em EM_REVISAO_SPEC; nao produza codigo do produto."
+        "Identifique revisao e manifesto dos documentos. Nao herde aprovacoes de outra Change ou revisao. Pare em EM_REVISAO_SPEC; nao produza codigo do produto.",
+        "Divida spec.md em secoes por modelo de dominio com responsabilidade, conceitos, regras/invariantes e criterios de aceite; no DESIGN.md registre limites, ownership dos dados, contratos e dependencias. Justifique dominio unico ou demanda tecnica sem dominio de negocio, sem criar divisao artificial. Consulte docs/modelagem/GUIA.md."
       ]
     },
     {
@@ -50,7 +51,8 @@
         "Use o guia local specs/shared/process/helpers/spec-review.md e confronte proposta, SPEC, design e tarefas sem alterar implementacao.",
         "Verifique clareza, requisitos, rastreabilidade, riscos, aceites negativos, direitos e conflitos. Achado material aberto impede avancar.",
         "Registre recomendacao tecnica separada da decisao humana. Apresente contrato concreto, revisao e hashes antes de pedir aceite.",
-        "Se o usuario ja aprovou explicitamente essa revisao, registre fonte e escopo sem pedir novamente. Caso contrario, mantenha aprovacao pendente. Nunca use testes ou parecer tecnico como substitutos da decisao humana."
+        "Se o usuario ja aprovou explicitamente essa revisao, registre fonte e escopo sem pedir novamente. Caso contrario, mantenha aprovacao pendente. Nunca use testes ou parecer tecnico como substitutos da decisao humana.",
+        "Confira modelos de dominio, invariantes, criterios por dominio e fronteiras no DESIGN.md; aceite dominio unico ou demanda tecnica com justificativa. Todo conteudo contratual de dominio deve integrar os quatro documentos e seus hashes."
       ]
     },
     {
@@ -63,7 +65,8 @@
         "Confirme SPEC_APROVADA humana sobre a revisao atual em proposal e spec, verificando a evidencia; palavra isolada no arquivo nao basta.",
         "Sem esse gate, informe precisamente o que falta e pare sem implementar. O planejamento de produto anterior ao aceite pertence a especificar/esclarecer.",
         "Registre plano preparatorio conforme workflow, sem reescrever contrato aprovado ou gerar configuracao/infraestrutura.",
-        "Defina testes de comportamento para todo codigo implementado, ferramenta/versao, comando, escopo por arquivo e relatorio de cobertura: minimo obrigatorio 80%, meta 90%, valores superiores validos, conforme specs/shared/testing/coverage-policy.md. Sem medicao ou abaixo do piso, implementacao nao pode ser concluida/aprovada. Planeje roteiro de entrega executavel; nao marque tarefas como concluidas por estarem planejadas."
+        "Defina testes de comportamento para todo codigo implementado, ferramenta/versao, comando, escopo por arquivo e relatorio de cobertura: minimo obrigatorio 80%, meta 90%, valores superiores validos, conforme specs/shared/testing/coverage-policy.md. Sem medicao ou abaixo do piso, implementacao nao pode ser concluida/aprovada. Planeje roteiro de entrega executavel; nao marque tarefas como concluidas por estarem planejadas.",
+        "Rastreie requisito e criterio -> dominio ou responsabilidade tecnica -> componente -> teste. Explicite contratos e comportamento de falha aplicavel entre dominios; mantenha os modelos nos quatro documentos aprovados."
       ]
     },
     {
@@ -76,7 +79,8 @@
         "Confirme decisao humana de SPEC_APROVADA e validade da revisao, plano preparatorio e escopo de escrita.",
         "Use o guia local specs/shared/process/helpers/spec-implement.md. Para todo codigo implementado, codifique e execute testes de comportamento e meca cobertura conforme specs/shared/testing/coverage-policy.md: minimo 80% por arquivo novo/alterado e agregado do escopo, meta 90%, aceitando valores superiores. Inclua codigo gerado pelo agente. Registre inventario arquivo-teste-aceite, revisao/hashes, comando/cwd, ferramenta/versao, metricas e relatorio. Suíte falha, medicao ausente/desatualizada ou valor abaixo do piso impede IMPLEMENTADA e IMPLEMENTACAO_APROVADA. LLM ou falta de Sonar nao dispensam cobertura.",
         "Retorne a especificacao para mudanca de requisito; nao altere contrato para fazer uma falha desaparecer. Preserve pendencias de humano/ambiente. Omitir a validacao formal por prompt nao dispensa testes/cobertura da implementacao.",
-        "Nao aprove, arquive, publique ou crie commits automaticamente. Sem satisfazer o gate de testes/cobertura, mantenha em andamento/bloqueada e registre a condicao de desbloqueio; finalize IMPLEMENTADA apenas com evidencia atual suficiente. Atualize a memoria."
+        "Nao aprove, arquive, publique ou crie commits automaticamente. Sem satisfazer o gate de testes/cobertura, mantenha em andamento/bloqueada e registre a condicao de desbloqueio; finalize IMPLEMENTADA apenas com evidencia atual suficiente. Atualize a memoria.",
+        "Implemente conforme os modelos de dominio aprovados. Cada regra pertence ao seu dominio; se uma classe ou modulo acumular regras de dominios independentes, separe responsabilidades e use contratos explicitos. Orquestracao fina pode coordenar dominios sem concentrar suas regras. Tamanho e sinal de revisao, sem limite arbitrario de linhas."
       ]
     },
     {
@@ -97,7 +101,8 @@
         "Prepare resultado real utilizavel: build, pacote, harness ou ambiente local autorizado, com revisao/hash e comandos de execucao verificados. Nao basta apresentar codigo ou roteiro. Nao suba infraestrutura fora do escopo; se faltar recurso indispensavel, registre BLOQUEADA, impacto e proxima acao, sem afirmar pronto para teste.",
         "Crie ou atualize quickstart.md com prerequisitos, caminhos relativos, diretorio de execucao, comandos, endereco quando aplicavel, roteiro manual por criterio de aceite e resultados esperados. Registre checks tecnicos separados dos cenarios humanos, cujo observado e resultado permanecem pendentes.",
         "Pare obrigatoriamente em IMPLEMENTADA quando a entrega estiver utilizavel. Informe artefato/revisao, como executar e quais cenarios o usuario deve testar; aguarde o relato humano. Nao execute specflow-revisar-implementacao, specflow-validar, specflow-aprovar, specflow-encerrar ou seus equivalentes, nem marque testes humanos aprovados por ter escrito o roteiro.",
-        "Ao receber falha humana, registre o observado na mesma Change, corrija dentro do escopo aprovado, execute os checks afetados e entregue nova revisao para reteste. Um relato positivo tambem nao autoriza automaticamente aprovacao, system, archive, commit, push ou publicacao; fases seguintes dependem de pedido proprio. Atualize memoria e tasks com o estado real."
+        "Ao receber falha humana, registre o observado na mesma Change, corrija dentro do escopo aprovado, execute os checks afetados e entregue nova revisao para reteste. Um relato positivo tambem nao autoriza automaticamente aprovacao, system, archive, commit, push ou publicacao; fases seguintes dependem de pedido proprio. Atualize memoria e tasks com o estado real.",
+        "Implemente segundo os modelos de dominio aprovados e registre requisito/criterio -> dominio/responsabilidade tecnica -> componente -> teste. Separe regras de dominios independentes, mantendo orquestracao fina e contratos explicitos."
       ]
     },
     {
@@ -110,7 +115,8 @@
         "Use o guia local specs/shared/process/helpers/implementation-review.md. Verifique codigo real, testes, diff e rastreabilidade contra contrato corrente. Confira obrigatoriamente testes codificados/executados e cobertura medida atual minima de 80% por arquivo/escopo implementado, meta 90%, conforme specs/shared/testing/coverage-policy.md. Relatorio ausente/desatualizado, suite falha, arquivo sem testes ou abaixo do piso impede IMPLEMENTACAO_APROVADA e retorna a implementacao.",
         "Registre ID, severidade, fonte, impacto e recomendacao para cada achado; explicite se a revisao e pelo mesmo executor.",
         "Nao corrija codigo durante esta revisao. Divergencia retorna a implementar; ambiguidade de requisito retorna a especificar/esclarecer.",
-        "Somente ausencia de pendencia material e gate obrigatorio de testes/cobertura atendido permite IMPLEMENTACAO_APROVADA tecnica; isso nao e aprovacao humana final."
+        "Somente ausencia de pendencia material e gate obrigatorio de testes/cobertura atendido permite IMPLEMENTACAO_APROVADA tecnica; isso nao e aprovacao humana final.",
+        "Confronte modelos de dominio aprovados com classes, modulos e testes. Registre fonte e achado para regras de dominios independentes concentradas, dependencias indevidas ou componentes excessivamente grandes; justifique orquestracao fina. Contagem de linhas isolada nao prova defeito."
       ]
     },
     {

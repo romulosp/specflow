@@ -1,0 +1,23 @@
+[
+  {
+    "command": [
+      "python",
+      "-B",
+      "tools/verificar_dossie.py"
+    ],
+    "exitCode": 1,
+    "stdout": "",
+    "stderr": "^\n  File \"D:\\desenvolvimento\\ia\\specflow-investigacao\\specflow-check-w_7lr8_y\\tools\\verificar_dossie.py\", line 20, in main\n    manifest = json.loads((IMPORT / 'manifest.json').read_text(encoding='utf-8'))\n                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pathlib\\__init__.py\", line 787, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\desenvolvimento\\\\ia\\\\specflow-investigacao\\\\specflow-check-w_7lr8_y\\\\imports\\\\acervo-local-2026-11-12\\\\manifest.json'\n"
+  },
+  {
+    "command": [
+      "python",
+      "-B",
+      "tools/gerar_comandos_specflow.py",
+      "--check"
+    ],
+    "exitCode": 0,
+    "stdout": "{\"commands\": 11, \"aliases\": 1, \"artifacts\": 24, \"mismatch\": []}\n",
+    "stderr": ""
+  }
+]

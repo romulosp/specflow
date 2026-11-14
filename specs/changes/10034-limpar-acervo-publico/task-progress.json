@@ -1,0 +1,11 @@
+{
+  "revision": "r1",
+  "state": "IMPLEMENTACAO_APROVADA",
+  "localValidation": "passed",
+  "securityGate": 0,
+  "remoteCI": "not_run",
+  "humanAcceptance": "pending",
+  "commit": "not_run",
+  "remoteCleanup": "not_run",
+  "historyRewrite": "not_authorized"
+}

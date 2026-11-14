@@ -1,0 +1,23 @@
+{
+  "revision": "r1",
+  "state": "IMPLEMENTADA",
+  "implemented": [
+    "RF01",
+    "RF02",
+    "RF03",
+    "RF04",
+    "RF05",
+    "RF06",
+    "RF07",
+    "RF08"
+  ],
+  "tests": {
+    "run": 56,
+    "skipped": 1,
+    "exitCode": 0
+  },
+  "formalReview": "not_run",
+  "formalValidation": "not_run",
+  "humanAcceptance": "pending",
+  "publication": "not_run"
+}

@@ -1,0 +1,7 @@
+# Limpeza da arvore publica candidata - 10034 r1
+
+Usuario manteve o repositorio publico e aprovou a SPEC 10034 r1. Foram inventariados 469 arquivos incorporados para exclusao preventiva: componentes sem licenca confirmada, componentes apenas declarados licenciados sem confirmacao upstream e acervo imports/. Todas as copias originais permanecem locais; oito arquivos essenciais foram substituidos por textos autorais do pacote, com backup privado e hashes no recibo. A arvore candidata mantem somente as substituicoes autorais desses oito caminhos, sem os demais arquivos do inventario.
+
+O verificador agora possui modos public/local/auto. Public nao certifica o acervo ausente e registra localCorpus=not_run; local mantem conferencias de integridade e suporte e falha com acervo parcial ou paths invalidos. A arvore isolada foi conferida por seu identificador Git, com verificador publico e automatico, suites de ferramentas e produto e build. Evidencias correntes estao na Change 10034; o antigo resultado de falha verificacao-retirada-index.json e historico anterior a correcao.
+
+As copias do historico e das releases GitHub continuam publicas. Essa exposicao permanece expressa e nao foi eliminada por esta limpeza. Nao houve commit, push, reescrita de historico, troca de tag ou publicacao. Declaracoes locais de licenca nao equivalem a confirmacao de direitos upstream; os componentes importados foram excluidos em vez de certificar esses direitos.

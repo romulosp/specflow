@@ -1,0 +1,10 @@
+{
+  "files": {
+    "specs/changes/10034-limpar-acervo-publico/evidence/candidate-final.json": "6063fa11af035a298ffaa6d8a9d1f5c4750286385d9f16a9097b60ee31481d44",
+    "specs/changes/10034-limpar-acervo-publico/coverage/tools.json": "c6695f5e627bead837839dfe6f05d9d460764a8efc2164b9f3e99d0529f47d66",
+    "specs/changes/10034-limpar-acervo-publico/coverage/product-clean.json": "a45c2c444dac7eeeb1a3c28b1928bbe1bea10c1a8faf5ad1ac8559a74a1ec555",
+    "specs/changes/10034-limpar-acervo-publico/evidence/secret-scan.json": "d20cb8460531b1f800c633faa7c38ff5b99ed51ed3a724dbeaad9f0e549bcc2c",
+    "specs/changes/10034-limpar-acervo-publico/evidence/security-review.md": "6d8d2bb7669ec97061d6a2ebc5f4962391a874637f09445f426a93494003c02d",
+    "docs/release/inventario-retirada-acervo.json": "554a863d0f5f06436bd7986b436341ffe2315cc181d430c326db346d5f8fd0db"
+  }
+}

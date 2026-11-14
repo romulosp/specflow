@@ -1,0 +1,293 @@
+{
+  "method": "manifesto local e comparacao de bytes; nao e verificacao juridica ou upstream",
+  "resources": [
+    {
+      "path": ".github/agents/implementador-para-teste.agent.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": ".github/prompts/implementar-mudanca-para-teste.prompt.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": ".github/prompts/prompt-execucao.txt",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "scripts/sonar/tests/validar-codigo.Tests.ps1",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "scripts/sonar/validar-codigo.ps1",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/api/golang-rest.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/api/rest-conventions.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/architecture/android-business-plugin.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/architecture/backend-golang.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/architecture/backend-java.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/backend-golang/conventions.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/backend-golang/examples/README.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/backend-golang/templates/README.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/database/golang-persistence.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/database/migration-rules.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/process/evidence-conventions.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/process/workflow.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/security/golang-security.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/testing/golang-testing.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/shared/testing/testing-strategy.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/sprint/README.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-finalizar-sprint.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-planejar-implementacao.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-planejar-sprint.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-status-sprint.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/sprint/templates/template-sprint.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/templates/business-plugin-spec-template.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/templates/design-template.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/templates/proposal-template.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/templates/spec-template.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": true,
+      "adaptationDeclared": false,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/templates/tasks-template.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "specs/templates/validation-template.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "docs/security-audit/gerar_relatorio.py",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "docs/adr/README.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    },
+    {
+      "path": "docs/adr/exemplos/ADR-001-java-17-quarkus-3.md",
+      "trackedInProposedTree": false,
+      "matchesOriginal": false,
+      "adaptationDeclared": true,
+      "rights": "pendente de confirmacao",
+      "action": "retirada preparada; copia local preservada"
+    }
+  ]
+}

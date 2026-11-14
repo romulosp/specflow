@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "changeId": "10035-modelagem-por-dominio",
+  "revision": "r1",
+  "outcome": "approved",
+  "actor": "usuario da conversa",
+  "source": "Resposta ao contrato 10035 r1 apresentado: vamos avancar ate a implementacao caso tiver algo favor arrumar e revalidar novamente",
+  "sourceText": "vamos avan\u00e7ar ate a implementa\u00e7\u00e3o caso tiver algo favor arrumar e revalidar novamente",
+  "scope": "10035 r1 apresentada no turno anterior; autorizacao para avancar a implementacao e corrigir/retestar",
+  "manifestSha256": "90186345f6a6c8ca82874fc4c4f60ae2b346444abfef392fde12a68eec40310e",
+  "limitations": [
+    "Registro contextual; nao autentica identidade nem representa aceite final."
+  ]
+}

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "specflow-cli"
-version = "0.1.0"
+version = "0.2.1"
 description = "Processo Spec Driven proprio: CLI local, gates verificaveis e agente no editor"
 readme = "README.md"
 requires-python = ">=3.11"
