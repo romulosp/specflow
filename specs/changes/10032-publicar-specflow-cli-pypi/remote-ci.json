@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "commit": "f564677d61c0638cee6cfcba539294fc11a6a02d",
+  "runUrl": "https://github.com/romulosp/specflow/actions/runs/43603359955",
+  "jobs": [
+    {
+      "name": "package (windows-latest, 3.14)",
+      "conclusion": "success",
+      "htmlUrl": "https://github.com/romulosp/specflow/actions/runs/43603359955/job/132472656579"
+    },
+    {
+      "name": "package (windows-latest, 3.11)",
+      "conclusion": "success",
+      "htmlUrl": "https://github.com/romulosp/specflow/actions/runs/43603359955/job/132472656842"
+    },
+    {
+      "name": "package (ubuntu-latest, 3.11)",
+      "conclusion": "success",
+      "htmlUrl": "https://github.com/romulosp/specflow/actions/runs/43603359955/job/132472656855"
+    },
+    {
+      "name": "package (ubuntu-latest, 3.14)",
+      "conclusion": "success",
+      "htmlUrl": "https://github.com/romulosp/specflow/actions/runs/43603359955/job/132472656898"
+    }
+  ],
+  "environment": "pypi",
+  "reviewer": "romulosp",
+  "adminBypass": false,
+  "tagPolicy": "v* tags only; active ruleset 27264923 prevents updates/deletion",
+  "pypiPublisher": "pending_account_authentication",
+  "upload": "not_run"
+}

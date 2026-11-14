@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revision": "r1",
+  "specApproval": "passed",
+  "tasks": {
+    "T01": "completed",
+    "T02": "completed",
+    "T03": "passed_four_remote_matrix_jobs",
+    "T04": "passed_local_audit_pending_publisher_check",
+    "T05": "github_environment_complete_pypi_account_pending",
+    "T06": "source_commit_push_complete_tag_pending",
+    "T07": "not_run",
+    "T08": "partial_publication_pending"
+  },
+  "publication": "pending_pypi_authentication",
+  "finalHumanAcceptance": "pending"
+}

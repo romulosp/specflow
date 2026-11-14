@@ -32,3 +32,7 @@ specflow nova-change "Criar cadastro de clientes"
 ```
 
 Esse bloco é o aceite a demonstrar, ainda não uma publicação realizada. A versão inicial é experimental; descoberta nos clientes e teste humano mantêm seu estado real enquanto não executados. A autorização de publicar não fabrica aceite final das Changes anteriores.
+
+## Evidencia atual
+
+Os quatro jobs Windows/Linux e Python3.11/3.14 passaram no [run43603359955](https://github.com/romulosp/specflow/actions/runs/43603359955), commit f564677d61c0638cee6cfcba539294fc11a6a02d. Ambiente pypi criado com reviewer romulosp e sem bypass administrativo; tags v* protegidas contra atualizacao/exclusao pelo ruleset27264923. Usuario informou conta PyPI criada; verificacao de email/2FA e cadastro do publisher ainda precisam ser confirmados. Sem upload ou instalacao nominal confirmada.
