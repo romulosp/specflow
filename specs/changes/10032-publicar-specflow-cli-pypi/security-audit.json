@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "changeId": "10032-publicar-specflow-cli-pypi",
-  "revision": "r1-candidate-20261114",
+  "revision": "r1-post-publication-documentation-20261114",
   "review": {
     "skill": "security-audit",
     "reviewer": "Assistant executor; docs/release/security-review.md",
     "status": "completed",
     "limitations": [
-      "Local review only; remote matrix and PyPI authentication still pending",
-      "Environment/publisher protections must be verified before manual dispatch",
-      "No independent security auditor"
+      "Review by executor, not independent security auditor",
+      "Editor discovery and final human product acceptance remain separate",
+      "Published bytes are identified by immutable v0.1.0 tag and PyPI receipt; latest README documents verified availability"
     ]
   },
   "scope": [
@@ -56,7 +56,7 @@
     {
       "path": "README.md",
       "digestProfile": "sha256-bytes-v1",
-      "sha256": "da6fb4a8750a1da0c398a77d08baf9fbc6574b61948b4ac55a581a2b41cb267d"
+      "sha256": "d07759bb9b0fee013e432b801b7caacdd0558bdeac4e17366c401cfd76468938"
     },
     {
       "path": "docs/release/build-tools.lock",
@@ -206,6 +206,18 @@
       "evidenceRefs": [
         "docs/release/package-checks.json",
         "docs/release/security-review.md"
+      ]
+    },
+    {
+      "id": "SEC-PUBLISHED-INTEGRITY",
+      "method": "automated",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "outcome": "passed",
+      "evidenceRefs": [
+        "specs/changes/10032-publicar-specflow-cli-pypi/pypi-verification.json",
+        "specs/changes/10032-publicar-specflow-cli-pypi/expected-pypi-files.json",
+        "docs/release/pypi-installation-smoke.json"
       ]
     }
   ]

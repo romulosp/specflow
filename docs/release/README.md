@@ -36,3 +36,7 @@ Esse bloco é o aceite a demonstrar, ainda não uma publicação realizada. A ve
 ## Evidencia atual
 
 Os quatro jobs Windows/Linux e Python3.11/3.14 passaram no [run43603359955](https://github.com/romulosp/specflow/actions/runs/43603359955), commit f564677d61c0638cee6cfcba539294fc11a6a02d. Ambiente pypi criado com reviewer romulosp e sem bypass administrativo; tags v* protegidas contra atualizacao/exclusao pelo ruleset27264923. Usuario informou conta PyPI criada; verificacao de email/2FA e cadastro do publisher ainda precisam ser confirmados. Sem upload ou instalacao nominal confirmada.
+
+## Resultado da publicacao
+
+[PyPI 0.1.0](https://pypi.org/project/specflow-cli/0.1.0/) confirmado. Run43604099173 aprovado pelo titular e concluido com sucesso. Wheel/sdist no indice tem os mesmos SHA-256 do artifact14117059756, conferido com digest do ZIP. Quinze operacoes locais de instalacao pelo indice/CLI passaram sem dist, indice privado ou cache anterior; nenhuma instalacao global pessoal. Registros em pypi-installation-smoke.json e ../../specs/changes/10032-publicar-specflow-cli-pypi/pypi-verification.json. Trechos anteriores sobre configuracao/preparacao sao o roteiro historico reutilizavel. A publicacao nao declara teste humano do produto ou descoberta nos clientes concluidos.

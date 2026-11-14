@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-14",
+  "publisher": "User screenshot confirms pending specflow-cli / romulosp/specflow / publish-pypi.yml / pypi",
+  "tag": "v0.1.0",
+  "workflow": "dispatched",
+  "upload": "verified_on_pypi",
+  "humanEnvironmentApproval": "approved_by_romulosp",
+  "runId": 43604099173,
+  "runUrl": "https://github.com/romulosp/specflow/actions/runs/43604099173",
+  "runStatus": "completed",
+  "conclusion": "success",
+  "expectedArtifactDigests": "expected-pypi-files.json",
+  "nominalInstallation": "passed_15_operations",
+  "goal": "completed_public_installation"
+}

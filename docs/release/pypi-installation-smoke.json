@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "package": "specflow-cli",
+  "version": "0.1.0",
+  "source": "Default PyPI index; no private index/find-links/dist/cache source",
+  "expectedCode": 0,
+  "actualCode": 0,
+  "environment": "Windows CPython 3.14.6; isolated workspace tool/bin/cache; consumer in sandbox",
+  "results": [
+    {
+      "command": [
+        "C:/Users/RomuloPenha/.local/bin/uv.exe",
+        "tool",
+        "install",
+        "specflow-cli"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "",
+      "stderr": "Resolved 1 package in 497ms\nPrepared 1 package in 192ms\nInstalled 1 package in 48ms\n + specflow-cli==0.1.0\nInstalled 1 executable: specflow\nwarning: `D:\\desenvolvimento\\ia\\specflow-investigacao\\framework\\.test-output\\pypi-verified-20261114\\bin` is not on your PATH. To use installed tools, run `$env:PATH = \"D:\\desenvolvimento\\ia\\specflow-investigacao\\framework\\.test-output\\pypi-verified-20261114\\bin;$env:PATH\"` or `uv tool update-shell`.\n"
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "--version"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "0.1.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\tools\\specflow-cli\\Scripts\\python.exe",
+        "-m",
+        "specflow",
+        "--version"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "0.1.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "--help"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "usage: specflow [-h] [--version] [--project PROJECT] [--json]\n                {init,doctor,nova-change,contexto,context,especificar,esclarecer,revisar-spec,planejar,implementar,teste-humano,revisar-implementacao,validar,aprovar,encerrar,check,evaluate} ...\n\nProcesso Spec Driven proprio: CLI local e agente no editor\n\npositional arguments:\n  {init,doctor,nova-change,contexto,context,especificar,esclarecer,revisar-spec,planejar,implementar,teste-humano,revisar-implementacao,validar,aprovar,encerrar,check,evaluate}\n    init                Inicializar consumidor sem ativar recursos\n    doctor              Conferir arquivos e configuracao sem probes\n    nova-change         Criar rascunho sem aprovacao\n    contexto (context)  Retomar uma Change SpecFlow lendo estado, contrato,\n                        decisoes e pendencias sem promover gates.\n    especificar         Criar ou revisar proposta, SPEC, design e tarefas de\n                        uma Change SpecFlow, sem implementar.\n    esclarecer          Resolver ambiguidades materiais da SPEC com perguntas\n                        objetivas e registrar respostas sem inventar aceite.\n    revisar-spec        Revisar tecnicamente o contrato SpecFlow e preparar a\n                        decisao humana de SPEC_APROVADA sem aprovar\n                        automaticamente.\n    planejar            Preparar implementation-plan de uma Change SpecFlow\n                        com SPEC_APROVADA vigente, sem iniciar codigo.\n    implementar         Implementar apenas tarefas autorizadas de uma Change\n                        SpecFlow com SPEC_APROVADA corrente e plano\n                        preparatorio.\n    teste-humano        Conduzir uma Change ate IMPLEMENTADA com entrega\n                        executavel e roteiro para teste humano, respeitando\n                        SPEC_APROVADA e parando antes de revisao formal,\n                        validacao e aceite final.\n    revisar-implementacao\n                        Confrontar implementacao e SPEC aprovada e registrar\n                        achados de aderencia, sem corrigir codigo nesta fase.\n    validar             Comando padrao da fase de validacao da implementacao,\n                        omitido apenas por prompt explicito; exige security-\n                        audit e gate de seguranca sem achados ou pendencias.\n    aprovar             Consolidar evidencias e registrar aceite humano final\n                        da revisao SpecFlow testada, sem fabricar aprovacao.\n    encerrar            Preparar encerramento de Change SpecFlow aceita e\n                        efetivar archive ou commit apenas com autorizacao\n                        aplicavel.\n    check               Avaliacao deterministica, sem aplicar transicao\n    evaluate            Avaliacao deterministica, sem aplicar transicao\n\noptions:\n  -h, --help            show this help message and exit\n  --version             show program's version number and exit\n  --project PROJECT     Raiz explicita; aceita antes/depois do subcomando\n  --json                Saida estruturada\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "init",
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+        "--integration",
+        "copilot",
+        "--integration",
+        "codex"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "init: prepared\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "doctor",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": null,\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [\n    \"Configuration readiness does not execute or certify integrations\",\n    \"Editor discovery requires a real client test\"\n  ],\n  \"localChecksExecuted\": [],\n  \"operation\": \"doctor\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"resources\": {\n    \"android\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"cobertura\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"diagramas\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"git\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"go\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"java\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"maven\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"node\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"pdf\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"servico\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"sonar\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    }\n  },\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "nova-change",
+        "Criar cadastro de clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"observedState\": \"RASCUNHO\",\n  \"operation\": \"nova-change\",\n  \"outcome\": \"prepared\",\n  \"path\": \"specs/changes/00001-criar-cadastro-de-clientes\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": null,\n  \"revision\": \"r1\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "contexto",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"allowed\": null,\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"decisions\": [],\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"lessons\": [],\n  \"limitations\": [\n    \"Checks record consistency; does not authenticate people or prove evidence truth\"\n  ],\n  \"nextSteps\": [\n    \"COMPLETE_SPECIFICATION\"\n  ],\n  \"observedState\": \"RASCUNHO\",\n  \"operation\": \"context\",\n  \"pending\": [],\n  \"projectId\": \"meu-projeto\",\n  \"requestedState\": null,\n  \"schemaVersion\": 1,\n  \"sources\": [\n    \".specflow/project.json\",\n    \"specs/changes/00001-criar-cadastro-de-clientes/draft.json\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "especificar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-especificar\",\n    \"command\": \"specflow-especificar\",\n    \"copilot\": \"/specflow-especificar\",\n    \"phase\": \"1. Especificacao\",\n    \"steps\": [\n      \"Descubra a Change existente antes de criar outra; escolha ID livre sem renumerar o historico.\",\n      \"Use specs/templates e as convencoes locais. Defina escopo, exclusoes, riscos, dependencias, RF, CA e tarefas rastreaveis. Para codigo, inclua testes obrigatorios e cobertura minima medida de 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md; codigo gerado pelo agente nao e exclusao.\",\n      \"Registre alternativas e decisoes pendentes; use docs/adr/ADR-TEMPLATE.md quando necessario, mantendo PROPOSTO.\",\n      \"Identifique revisao e manifesto dos documentos. Nao herde aprovacoes de outra Change ou revisao. Pare em EM_REVISAO_SPEC; nao produza codigo do produto.\"\n    ]\n  },\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"especificar\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "implementar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-implementar\",\n    \"command\": \"specflow-implementar\",\n    \"copilot\": \"/specflow-implementar\",\n    \"phase\": \"3. Implementacao\",\n    \"steps\": [\n      \"Confirme decisao humana de SPEC_APROVADA e validade da revisao, plano preparatorio e escopo de escrita.\",\n      \"Use o guia local specs/shared/process/helpers/spec-implement.md. Para todo codigo implementado, codifique e execute testes de comportamento e meca cobertura conforme specs/shared/testing/coverage-policy.md: minimo 80% por arquivo novo/alterado e agregado do escopo, meta 90%, aceitando valores superiores. Inclua codigo gerado pelo agente. Registre inventario arquivo-teste-aceite, revisao/hashes, comando/cwd, ferramenta/versao, metricas e relatorio. Su\u00edte falha, medicao ausente/desatualizada ou valor abaixo do piso impede IMPLEMENTADA e IMPLEMENTACAO_APROVADA. LLM ou falta de Sonar nao dispensam cobertura.\",\n      \"Retorne a especificacao para mudanca de requisito; nao altere contrato para fazer uma falha desaparecer. Preserve pendencias de humano/ambiente. Omitir a validacao formal por prompt nao dispensa testes/cobertura da implementacao.\",\n      \"Nao aprove, arquive, publique ou crie commits automaticamente. Sem satisfazer o gate de testes/cobertura, mantenha em andamento/bloqueada e registre a condicao de desbloqueio; finalize IMPLEMENTADA apenas com evidencia atual suficiente. Atualize a memoria.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"implementar\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "teste-humano",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Este fluxo composto pode conduzir contexto, especificacao/esclarecimento, revisao da SPEC, plano e implementacao, sempre respeitando SPEC_APROVADA humana. Pare na entrega IMPLEMENTADA para teste humano; nao execute revisao formal de implementacao, validacao formal, aprovacao ou encerramento. Nao crie subagentes como efeito colateral.\",\n    \"codex\": \"$specflow-teste-humano\",\n    \"command\": \"specflow-teste-humano\",\n    \"copilot\": \"/specflow-teste-humano\",\n    \"phase\": \"Fluxo composto ate a entrega para teste humano\",\n    \"steps\": [\n      \"Retome a Change com specflow-contexto. Se nao existir contrato, conduza specflow-especificar e specflow-esclarecer apenas para lacunas materiais. Reutilize a mesma Change e preserve suas evidencias.\",\n      \"Conduza specflow-revisar-spec. Confirme decisao humana explicita de SPEC_APROVADA sobre a revisao corrente; parecer tecnico e invocacao deste comando nao aprovam o contrato. Se faltar aceite, apresente contrato, revisao e condicao de avanco, e pare antes do codigo. Nao repita pedido de aprovacao ja valido para a mesma revisao.\",\n      \"Com SPEC_APROVADA vigente, conduza specflow-planejar e depois specflow-implementar apenas no escopo autorizado. Este e um fluxo composto: essa sequencia e permitida dentro dele, mas nao libera fases posteriores ao limite de parada.\",\n      \"Durante a implementacao, codifique e execute testes de comportamento para todo codigo implementado e meca cobertura minima de 80% por arquivo/escopo, meta 90%, permitindo valores superiores, conforme specs/shared/testing/coverage-policy.md. Execute build, lint e smoke aplicaveis, corrija falhas e lacunas de cobertura dentro do contrato. Sao checks tecnicos da implementacao, nao a fase formal specflow-validar. Sem suite aprovada, medicao atual e piso atendido, nao entregue como IMPLEMENTADA/pronta para teste humano; registre bloqueio quando necessario. Inclua relatorio, revisao/hashes, comando e ferramenta nas evidencias. Se corrigir requisito, volte a SPEC e obtenha aceite da nova revisao antes de continuar.\",\n      \"Prepare resultado real utilizavel: build, pacote, harness ou ambiente local autorizado, com revisao/hash e comandos de execucao verificados. Nao basta apresentar codigo ou roteiro. Nao suba infraestrutura fora do escopo; se faltar recurso indispensavel, registre BLOQUEADA, impacto e proxima acao, sem afirmar pronto para teste.\",\n      \"Crie ou atualize quickstart.md com prerequisitos, caminhos relativos, diretorio de execucao, comandos, endereco quando aplicavel, roteiro manual por criterio de aceite e resultados esperados. Registre checks tecnicos separados dos cenarios humanos, cujo observado e resultado permanecem pendentes.\",\n      \"Pare obrigatoriamente em IMPLEMENTADA quando a entrega estiver utilizavel. Informe artefato/revisao, como executar e quais cenarios o usuario deve testar; aguarde o relato humano. Nao execute specflow-revisar-implementacao, specflow-validar, specflow-aprovar, specflow-encerrar ou seus equivalentes, nem marque testes humanos aprovados por ter escrito o roteiro.\",\n      \"Ao receber falha humana, registre o observado na mesma Change, corrija dentro do escopo aprovado, execute os checks afetados e entregue nova revisao para reteste. Um relato positivo tambem nao autoriza automaticamente aprovacao, system, archive, commit, push ou publicacao; fases seguintes dependem de pedido proprio. Atualize memoria e tasks com o estado real.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"teste-humano\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "validar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-validar\",\n    \"command\": \"specflow-validar\",\n    \"copilot\": \"/specflow-validar\",\n    \"phase\": \"5. Validacao\",\n    \"steps\": [\n      \"Este e o comando padrao quando um fluxo autorizado alcancar a fase de validacao da implementacao; nao exija nova solicitacao rotineira do usuario. Se o prompt do usuario pedir explicitamente nao executar essa fase ou limitar o fluxo antes dela, nao execute seus checks: registre em validation.md e na memoria a revisao, a solicitacao, o motivo e a fase nao executada, mantenha os gates posteriores pendentes e pare sem VALIDADA ou aprovacao. Nao infira dispensa de silencio, falha, ferramenta ausente ou pedido para nao gerar PDF. Esta regra nao amplia comandos de fase unica nem ultrapassa a parada do teste-humano.\",\n      \"Confirme IMPLEMENTACAO_APROVADA da revisao corrente e a validade do gate de testes/cobertura da implementacao (minimo medido 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md). Evidencia ausente/desatualizada ou abaixo do piso retorna a implementacao; nao crie testes ou corrija codigo nesta fase. Use o guia specs/shared/process/helpers/implementation-validate.md para executar cenarios aplicaveis e registrar comandos, codigos e limites, sem concluir VALIDADA antes de satisfazer o gate de seguranca abaixo.\",\n      \"Chame obrigatoriamente a skill local security-audit: analise a implementacao atual, execute verificacoes de seguranca aplicaveis autorizadas e registre escopo, findings, checks, limitacoes e manifesto dos artefatos em <Change>/security-audit.json conforme docs/security-audit/GATE-SEGURANCA.md. Nao copie resultados do exemplo ou gere conclusoes favoraveis por ausencia de relatorio.\",\n      \"Execute obrigatoriamente python -B docs/security-audit/verificar_seguranca.py --change <caminho-da-Change>. Este verificador confere evidencias e digests da auditoria; o gerador gerar_relatorio.py apenas formata PDF e nao o substitui. Registre comando, codigo e security-gate.json em validation.md.\",\n      \"Somente codigo 0 com status verificada permite considerar o gate de seguranca satisfeito. Qualquer achado aberto, check falho/nao executado, auditoria ausente/incompleta/desatualizada, erro do script ou dependencia indispensavel ausente deixa seguranca e fase de validacao pendentes. Nao escreva VALIDADA nem avance para specflow-aprovar enquanto isso persistir; informe IDs, impacto e condicao de desbloqueio sem expor segredos.\",\n      \"Nao corrija codigo durante a validacao. Encaminhe os problemas para implementacao ou SPEC conforme a causa; depois da correcao, exija revisao tecnica atual, nova auditoria sobre os artefatos atuais e nova execucao do gate. Achados resolvidos exigem evidencia; nao basta renomear status para liberar.\",\n      \"Disponibilize build/harness real identificado e quickstart verificavel antes de pedir teste manual; resultado humano pendente continua pendente. PDF de auditoria so se solicitado, com dados atuais, extracao de texto e inspecao visual de todas as paginas. Nao aprove ou encerre automaticamente nem execute comandos do JSON de evidencia.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"validar\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "aprovar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-aprovar\",\n    \"command\": \"specflow-aprovar\",\n    \"copilot\": \"/specflow-aprovar\",\n    \"phase\": \"6. Aprovacao humana\",\n    \"steps\": [\n      \"Use o guia local specs/shared/process/helpers/change-approve.md. Confira relatorios, revisao validada e resultado manual da mesma entrega.\",\n      \"Se faltar evidencia ou teste, informe a condicao e mantenha pendente. Invocar este comando pede a fase de aprovacao, nao significa por si so que o usuario aprovou o produto.\",\n      \"Apresente o resultado concreto e obtenha decisao humana explicita, aproveitando aceite ja dado para a mesma revisao. Registre fonte, escopo, motivo e hashes.\",\n      \"Nao execute commit, archive, push, deploy ou publicacao como efeito do aceite.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"aprovar\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "encerrar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-encerrar\",\n    \"command\": \"specflow-encerrar\",\n    \"copilot\": \"/specflow-encerrar\",\n    \"phase\": \"7. Encerramento\",\n    \"steps\": [\n      \"Confirme aprovacao humana e politica de encerramento da Change. Prepare atualizacao de system e candidato de archive; nao mova automaticamente.\",\n      \"Verifique Git real sem inicializa-lo como efeito colateral. Neste workspace sem Git, nao execute git-commit nem afirme commit existente.\",\n      \"A skill git-commit so se aplica se houver repositorio e autorizacao explicita para commit/encerramento. A politica da Change e AGENTS prevalecem sobre sequencias legadas de prompts.\",\n      \"Apos acoes autorizadas, registre recibo posterior com localizacao e hash quando aplicavel, sem circularidade. Sem autorizacao ou acao efetiva, mantenha APROVADA com encerramento pendente. Publicacao nunca e implicita.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"encerrar\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\bin\\specflow.exe",
+        "init",
+        ".",
+        "--integration",
+        "codex",
+        "--integration",
+        "copilot",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\pypi-verified-20261114\\meu-projeto",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": null,\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"filesPrepared\": 55,\n  \"findings\": [],\n  \"integrations\": [\n    \"codex\",\n    \"copilot\"\n  ],\n  \"limitations\": [\n    \"Ignore does not remove previously tracked secrets; no Git or service was executed\"\n  ],\n  \"localChecksExecuted\": [],\n  \"operation\": \"init\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"meu-projeto\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    }
+  ],
+  "limitations": [
+    "Files for integrations verified; real editor discovery and final human product acceptance remain separate",
+    "No global user installation performed; operator may run documented command in chosen environment"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "projectUrl": "https://pypi.org/project/specflow-cli/0.1.0/",
+  "runUrl": "https://github.com/romulosp/specflow/actions/runs/43604099173",
+  "runConclusion": "success",
+  "version": "0.1.0",
+  "files": {
+    "specflow_cli-0.1.0-py3-none-any.whl": "eb48b5b12832712632eaed39313c7500843ddd745f5892aee196180b14ca41d5",
+    "specflow_cli-0.1.0.tar.gz": "0d298a838d01644d388e9bf75274c449dc6873575bd780613a282e6019387c46"
+  },
+  "publishedHashesMatchReviewedArtifact": true,
+  "humanDeploymentApproval": "User screenshots and successful protected workflow confirm approval; not final product acceptance"
+}

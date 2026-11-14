@@ -1,3 +1,15 @@
+# Estado corrente - 14/11/2026
+
+Objetivo da publicacao concluido: specflow-cli0.1.0 disponivel em https://pypi.org/project/specflow-cli/0.1.0/ e uv tool install specflow-cli verificado em ferramenta/venv/cache isolados com acesso ao indice padrao PyPI, sem dist local ou indice alternativo. Quinze operacoes passaram: versao console/modulo, ajuda, init duplo, propriedadesDEFINIR, doctor, rascunho/contexto, orientacao e bloqueios implementar/teste-humano/validar/aprovar/encerrar; reinit preservou configuracao e instrucoes autorais.
+
+Upload aprovado pelo titular no ambiente protegido pypi e run43604099173 concluido com sucesso. Quatro jobs Windows/Linux3.11/3.14 passaram. Hashes do PyPI iguais aos artefatos revisados em expected-pypi-files.json; recibo pypi-verification.json e docs/release/pypi-installation-smoke.json.
+
+Tagv0.1.0 imutavel aponta para5e5c46e85389160b6a199bfdc968d4555f9f68bc. Nao alterar/republicar0.1.0. Proximas alteracoes de produto exigem nova Change/revisao e nova versao quando distribuida. Contratos aprovados10029r6/10030r4/10031r2/10032r1 preservados.
+
+Teste humano final do produto e descoberta/invocacao visual nos clientes continuam pendentes e separados da liberacao do upload. Nenhum aceite final APROVADA/arquivo ARQUIVADA inferido. Acervo e checkouts externos intocados. Instalacao pessoal global nao foi realizada; usuario pode executar o comando documentado.
+
+## Historico
+
 # Memoria corrente - 14/11/2026
 
 SPEC10032r1 aprovada expressamente: "Aprovo a SPEC 10032 r1"; fonte/manifesto em spec-approval-r1.json. Plano antes de implementacao. Nunca pedir essa aprovacao novamente.

@@ -5,13 +5,14 @@
   "tasks": {
     "T01": "completed",
     "T02": "completed",
-    "T03": "passed_four_remote_matrix_jobs",
-    "T04": "passed_local_audit_pending_publisher_check",
-    "T05": "github_environment_complete_pypi_account_pending",
-    "T06": "source_commit_push_complete_tag_pending",
-    "T07": "not_run",
-    "T08": "partial_publication_pending"
+    "T03": "completed",
+    "T04": "completed",
+    "T05": "completed",
+    "T06": "completed",
+    "T07": "completed",
+    "T08": "completed"
   },
-  "publication": "pending_pypi_authentication",
-  "finalHumanAcceptance": "pending"
+  "publication": "verified",
+  "finalHumanAcceptance": "pending_product_acceptance_separate_from_publication",
+  "status": "VALIDADA"
 }

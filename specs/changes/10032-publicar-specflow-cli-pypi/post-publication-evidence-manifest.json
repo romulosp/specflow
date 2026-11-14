@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "docs/release/coverage.json",
+      "sha256": "6d974c0426e3e929b90036cfcca960d639d5321f18efad72046fcd00ff9400a4",
+      "digestProfile": "sha256-bytes-v1"
+    },
+    {
+      "path": "docs/release/local-checks.json",
+      "sha256": "e0846bc2d32a973900786e9b1be2912e76a40becd0c5b3546ddac79a96685181",
+      "digestProfile": "sha256-bytes-v1"
+    },
+    {
+      "path": "docs/release/package-checks.json",
+      "sha256": "ab191fadfb5c2baacd18e528e5778879d2a3d6047febfedeac3b8c10a4b84097",
+      "digestProfile": "sha256-bytes-v1"
+    },
+    {
+      "path": "docs/release/pypi-installation-smoke.json",
+      "sha256": "ab42577d88193ebfd3133bf33f7d94e6cf2b83056a83bd65135962c8b1d21c3c",
+      "digestProfile": "sha256-bytes-v1"
+    },
+    {
+      "path": "docs/release/security-review.md",
+      "sha256": "64eb87a7454533b45966026fc26c90a1cd9e9651a1355127aee15f96ef15fb46",
+      "digestProfile": "sha256-bytes-v1"
+    },
+    {
+      "path": "specs/changes/10032-publicar-specflow-cli-pypi/expected-pypi-files.json",
+      "sha256": "b15357c6a23d0ba26aea05fb3bfc0f4962b6f8be6665caf5231a49850afb39f5",
+      "digestProfile": "sha256-bytes-v1"
+    },
+    {
+      "path": "specs/changes/10032-publicar-specflow-cli-pypi/pypi-verification.json",
+      "sha256": "ce37ece99e9db944afcd20d1d51426b933e0e138f1b744a3bf27d459110d5494",
+      "digestProfile": "sha256-bytes-v1"
+    }
+  ]
+}
