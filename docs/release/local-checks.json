@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "environment": "Windows CPython 3.14.6; exact CI run blocks executed with Git Bash",
+  "checks": [
+    {
+      "name": "Behavior and coverage",
+      "command": "python -m coverage run --branch --source=framework/src/specflow -m unittest discover -v -s framework/tests -p 'test_*.py'\npython -m coverage json -o coverage.json\npython -m coverage report --fail-under=80\npython - <<'PY'\nimport json\nvalue = json.load(open('coverage.json'))\nassert all(x['summary']['percent_covered'] >= 80 for x in value['files'].values())\nPY\n",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "evidenceRef": "docs/release/ci-local-0.log"
+    },
+    {
+      "name": "Build wheel from source distribution",
+      "command": "python -m build --no-isolation --outdir ../release-dist",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "evidenceRef": "docs/release/ci-local-1.log"
+    },
+    {
+      "name": "Clean installation and consumer smoke",
+      "command": "python - <<'PY'\nimport pathlib, subprocess, sys, venv, json, os\nvenv.create('.smoke', with_pip=True)\nscripts = pathlib.Path('.smoke') / ('Scripts' if os.name == 'nt' else 'bin')\npython = scripts / ('python.exe' if os.name == 'nt' else 'python')\nexe = scripts / ('specflow.exe' if os.name == 'nt' else 'specflow')\nwheel, = pathlib.Path('release-dist').glob('*.whl')\nsubprocess.run([str(python), '-m', 'pip', 'install', '--no-index', '--no-deps', str(wheel)], check=True)\ndef run(*args, expected=0):\n    r = subprocess.run([str(exe), *args], capture_output=True, text=True)\n    assert r.returncode == expected, (r.stdout, r.stderr)\n    return r.stdout\nassert run('--version').strip() == '0.1.0'\nrun('--help')\nrun('init', '.consumer', '--integration', 'copilot', '--integration', 'codex', '--json')\nrun('--project', '.consumer', 'doctor', '--json')\nchange = json.loads(run('--project', '.consumer', 'nova-change', 'Smoke release', '--json'))['changeId']\nassert json.loads(run('--project', '.consumer', 'contexto', '--change', change, '--json'))['observedState'] == 'RASCUNHO'\nrun('--project', '.consumer', 'implementar', '--change', change, '--json', expected=1)\nassert not pathlib.Path('.consumer/apps').exists()\nPY\n",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "evidenceRef": "docs/release/ci-local-2.log"
+    }
+  ],
+  "workflowPolicyChecks": "passed",
+  "remoteMatrix": "not_run",
+  "limitations": [
+    "Local checks do not certify remote Linux/Python 3.11; real CI required before publishing"
+  ]
+}

@@ -1,0 +1,15 @@
+tools/diagramas/node_modules/
+__pycache__/
+*.pyc
+docs/security-audit/*.pdf
+/configuracao.properties
+
+/.venv-specflow/
+/framework/.coverage
+/.coverage
+/framework/htmlcov/
+/framework/.test-output/
+/.smoke/
+/.consumer/
+/release-dist/
+/coverage.json

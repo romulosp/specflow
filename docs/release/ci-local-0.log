@@ -1,0 +1,76 @@
+Name                                            Stmts   Miss Branch BrPart  Cover
+---------------------------------------------------------------------------------
+framework\src\specflow\__init__.py                  0      0      0      0   100%
+framework\src\specflow\__main__.py                  2      0      0      0   100%
+framework\src\specflow\assets\gate_wrapper.py      36      0      6      0   100%
+framework\src\specflow\cli.py                     165      3     60      3    97%
+framework\src\specflow\configuration.py            76      1     26      2    97%
+framework\src\specflow\consumer.py                153      3     36      1    98%
+framework\src\specflow\contracts\__init__.py      174     14     26      5    90%
+framework\src\specflow\fileops.py                 144     11     44      2    92%
+framework\src\specflow\harness.py                  18      0      2      0   100%
+framework\src\specflow\memory\__init__.py         120      0     48      1    99%
+framework\src\specflow\policy.py                   17      0      0      0   100%
+framework\src\specflow\security.py                 59      2     16      3    93%
+framework\src\specflow\storage.py                 140      4     28      2    96%
+framework\src\specflow\validation\__init__.py      81      1     18      2    97%
+framework\src\specflow\workflow\__init__.py       139      5     58      4    95%
+---------------------------------------------------------------------------------
+TOTAL                                            1324     44    368     25    96%
+test_argument_errors_and_configuration_never_expose_values (test_cli.CliTests.test_argument_errors_and_configuration_never_expose_values) ... ok
+test_busy_and_doctor_invalid_filled_resource (test_cli.CliTests.test_busy_and_doctor_invalid_filled_resource) ... ok
+test_check_and_evaluate_use_core_without_writes (test_cli.CliTests.test_check_and_evaluate_use_core_without_writes) ... ok
+test_code_handoff_cannot_ignore_state_conflict (test_cli.CliTests.test_code_handoff_cannot_ignore_state_conflict) ... ok
+test_explicit_project_init_cannot_escape_base (test_cli.CliTests.test_explicit_project_init_cannot_escape_base) ... ok
+test_first_time_cli_flow_and_mixed_global_flag_positions (test_cli.CliTests.test_first_time_cli_flow_and_mixed_global_flag_positions) ... ok
+test_help_version_project_discovery_and_text_mode (test_cli.CliTests.test_help_version_project_discovery_and_text_mode) ... ok
+test_packaged_catalog_matches_every_editor_instruction (test_cli.CliTests.test_packaged_catalog_matches_every_editor_instruction) ... ok
+test_phase_preconditions_and_read_only_handoffs (test_cli.CliTests.test_phase_preconditions_and_read_only_handoffs) ... ok
+test_validar_any_security_problem_remains_pending (test_cli.CliTests.test_validar_any_security_problem_remains_pending) ... ok
+test_validar_calls_real_gate_and_requires_bindings (test_cli.CliTests.test_validar_calls_real_gate_and_requires_bindings) ... ok
+test_actual_junction_cannot_escape_or_receive_writes (test_consumer.ConsumerTests.test_actual_junction_cannot_escape_or_receive_writes) ... ok
+test_atomic_replace_does_not_modify_hardlink_target (test_consumer.ConsumerTests.test_atomic_replace_does_not_modify_hardlink_target) ... ok
+test_every_placeholder_prevents_probes_independently (test_consumer.ConsumerTests.test_every_placeholder_prevents_probes_independently) ... ok
+test_existing_authorial_files_conflict_before_any_content_write (test_consumer.ConsumerTests.test_existing_authorial_files_conflict_before_any_content_write) ... ok
+test_explicit_wrapper_uses_only_trusted_fixed_cli_operation (test_consumer.ConsumerTests.test_explicit_wrapper_uses_only_trusted_fixed_cli_operation) ... ok
+test_failed_mutable_update_restores_baseline (test_consumer.ConsumerTests.test_failed_mutable_update_restores_baseline) ... ok
+test_failed_write_rolls_back_without_deleting_external_edit (test_consumer.ConsumerTests.test_failed_write_rolls_back_without_deleting_external_edit) ... ok
+test_generation_gate_and_paths (test_consumer.ConsumerTests.test_generation_gate_and_paths) ... ok
+test_ignore_preserves_bytes_and_detects_negation (test_consumer.ConsumerTests.test_ignore_preserves_bytes_and_detects_negation) ... ok
+test_initialize_empty_and_repeated_adaptive_integrations (test_consumer.ConsumerTests.test_initialize_empty_and_repeated_adaptive_integrations) ... ok
+test_new_changes_never_recycle_reservations_or_overwrite (test_consumer.ConsumerTests.test_new_changes_never_recycle_reservations_or_overwrite) ... ok
+test_optional_authentication_and_bad_configuration (test_consumer.ConsumerTests.test_optional_authentication_and_bad_configuration) ... ok
+test_owned_divergence_and_invalid_ownership_never_overwritten (test_consumer.ConsumerTests.test_owned_divergence_and_invalid_ownership_never_overwritten) ... ok
+test_preflight_case_and_file_directory_collisions (test_consumer.ConsumerTests.test_preflight_case_and_file_directory_collisions) ... ok
+test_properties_literal_values_and_errors_are_redacted (test_consumer.ConsumerTests.test_properties_literal_values_and_errors_are_redacted) ... ok
+test_write_lock_conflict_and_ownership (test_consumer.ConsumerTests.test_write_lock_conflict_and_ownership) ... ok
+test_actual_links_cannot_escape (test_core.CoreTests.test_actual_links_cannot_escape) ... skipped 'OS does not permit symlink creation'
+test_all_gates_read_only_deterministic_and_two_consumers (test_core.CoreTests.test_all_gates_read_only_deterministic_and_two_consumers) ... ok
+test_changed_test_log_report_or_source_invalidates (test_core.CoreTests.test_changed_test_log_report_or_source_invalidates) ... ok
+test_contract_change_and_scope_invalidate_approval (test_core.CoreTests.test_contract_change_and_scope_invalidate_approval) ... ok
+test_coverage_floor_exact_and_no_zero_success (test_core.CoreTests.test_coverage_floor_exact_and_no_zero_success) ... ok
+test_digest_profiles (test_core.CoreTests.test_digest_profiles) ... ok
+test_draft_and_conflicting_records (test_core.CoreTests.test_draft_and_conflicting_records) ... ok
+test_executable_source_cannot_be_excluded (test_core.CoreTests.test_executable_source_cannot_be_excluded) ... ok
+test_harness_and_redacted_errors (test_core.CoreTests.test_harness_and_redacted_errors) ... ok
+test_harness_invalid_arguments_do_not_echo_values (test_core.CoreTests.test_harness_invalid_arguments_do_not_echo_values) ... ok
+test_input_diagnostic_names_source_without_echoing_unknown_keys (test_core.CoreTests.test_input_diagnostic_names_source_without_echoing_unknown_keys) ... ok
+test_manifest_invariants_and_errors (test_core.CoreTests.test_manifest_invariants_and_errors) ... ok
+test_manual_and_omission_never_approve (test_core.CoreTests.test_manual_and_omission_never_approve) ... ok
+test_manual_source_and_quickstart_bytes_are_bound (test_core.CoreTests.test_manual_source_and_quickstart_bytes_are_bound) ... ok
+test_missing_human_never_advanced_by_filename_or_checkbox (test_core.CoreTests.test_missing_human_never_advanced_by_filename_or_checkbox) ... ok
+test_module_entrypoint (test_core.CoreTests.test_module_entrypoint) ... ok
+test_new_contract_cannot_reuse_old_implementation_evidence (test_core.CoreTests.test_new_contract_cannot_reuse_old_implementation_evidence) ... ok
+test_policy_is_pinned (test_core.CoreTests.test_policy_is_pinned) ... ok
+test_security_all_severities_pending_and_no_command_execution (test_core.CoreTests.test_security_all_severities_pending_and_no_command_execution) ... ok
+test_status_and_declared_state_conflicts (test_core.CoreTests.test_status_and_declared_state_conflicts) ... ok
+test_strict_json_and_paths (test_core.CoreTests.test_strict_json_and_paths) ... ok
+test_strict_records_mutations (test_core.CoreTests.test_strict_records_mutations) ... ok
+test_supersession_and_human_rejection (test_core.CoreTests.test_supersession_and_human_rejection) ... ok
+test_traceability_methods_and_missing_ids (test_core.CoreTests.test_traceability_methods_and_missing_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 4.581s
+
+OK (skipped=1)
+Wrote JSON report to coverage.json

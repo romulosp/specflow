@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "status": "SPEC_APROVADA",
+  "humanMessage": "Aprovo a SPEC 10032 r1",
+  "scope": "10032-publicar-specflow-cli-pypi r1",
+  "targetManifest": [
+    {
+      "path": "proposal.md",
+      "role": "proposal",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "d87e8efc47e2e74ac6b70a8a3489028b15eee5bd6eb50422babdc7e30bb4013a"
+    },
+    {
+      "path": "spec.md",
+      "role": "spec",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "ba3be485b8c6169bafeca139f61fcf6fb655ca1f6ccf197d4ec1f2f8b03566d3"
+    },
+    {
+      "path": "DESIGN.md",
+      "role": "design",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "1aaf1a32376b59f61ee9040b941be30406c0358d105217a6b02f166afeb1a80d"
+    },
+    {
+      "path": "tasks.md",
+      "role": "tasks",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "23804c1587b6e920a7d5671a8a5c3bca6802de9a7f45090c3d99f13264bbb289"
+    }
+  ],
+  "note": "Explicit reply to approval question; publication already authorized. Final human acceptance remains separate."
+}

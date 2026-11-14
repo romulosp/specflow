@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling==1.33.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "specflow-cli"
+version = "0.1.0"
+description = "Processo Spec Driven proprio: CLI local, gates verificaveis e agente no editor"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Rômulo Penha" }]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/romulosp/specflow"
+Issues = "https://github.com/romulosp/specflow/issues"
+
+[project.scripts]
+specflow = "specflow.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/specflow"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src/specflow", "/tests", "/README.md", "/LICENSE", "/pyproject.toml"]
+exclude = ["**/__pycache__", "**/*.pyc"]

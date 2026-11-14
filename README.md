@@ -1,27 +1,22 @@
 # SpecFlow
 
-Framework de processo Spec Driven próprio, com CLI local e agente no editor. O pacote **specflow-cli 0.1.0** está implementado em [framework/](framework/README.md), com os comandos `specflow` e `python -m specflow`.
+Processo Spec Driven proprio, com CLI local e agente no editor. Copyright (c) 2026 Rômulo Penha. Licenca MIT para este codigo autoral.
 
-Copyright (c) 2026 **Rômulo Penha**. [MIT](LICENSE) para o material autoral; componentes incorporados preservam seus autores e licenças em [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md) e [LICENSE-SCOPE](LICENSE-SCOPE.md). O pacote contém somente recursos autorais selecionados, sem as extensões incompletas do acervo.
+## Instalacao
 
-As SPECs **10029 r6, 10030 r4 e 10031 r2 foram aprovadas expressamente**. [Fonte da decisão](docs/cli/aprovacao-humana-2026-11-13.json). Os documentos aprovados permanecem congelados; aprovação e progresso ficam em registros separados das Changes.
+A publicacao inicial no PyPI esta em preparacao. Quando confirmada, a instalacao sera:
 
 ```powershell
-uv tool install .\dist\specflow_cli-0.1.0-py3-none-any.whl
+uv tool install specflow-cli
 specflow init meu-projeto --integration copilot --integration codex
 cd meu-projeto
 specflow doctor
-specflow nova-change "Criar cadastro de clientes"
 ```
 
-Python >=3.11; runtime sem dependências externas. Instalar o wheel é uma ação explícita do operador. A verificação local usou instalação isolada dentro do workspace. Nenhuma instalação pessoal ou publicação foi realizada.
+Enquanto o pacote nao estiver publicado, a partir deste checkout use `uv tool install ./framework`. Python >=3.11; runtime sem dependencias externas. [Guia do CLI](framework/README.md) e [estado da publicacao](docs/release/README.md).
 
-O terminal prepara arquivos, verifica condições e mostra instruções para o agente. Preparar uma fase retorna `phaseExecuted=false`. A implementação de aplicações exige SPEC aprovada e plano; o código fica em `apps/`. `init` cria `configuracao.properties` com 25 valores `DEFINIR`, preserva arquivos existentes e não ativa serviços. Atualizar o pacote não modifica consumidores automaticamente.
+Versao inicial experimental. O terminal prepara arquivos, verifica gates e entrega instrucoes ao agente no editor; nao chama modelos automaticamente. Especificacao humana aprovada e plano precedem codigo; testes/cobertura e auditoria de seguranca precedem os gates tecnicos. Testes verdes nao fabricam aceite humano.
 
-Testes atuais: **51 casos, 50 aprovados e um pulado por permissão de symlink**; junction e hardlink reais passaram. Cobertura de linhas **96,68%**, acima de 80% em cada arquivo executável. Instalação/reinstalação isolada e fluxo Windows conferidos. [Entrega e evidências](docs/cli/ENTREGA-0.1.0.md), [guia e diagrama dos comandos](docs/cli/README.md), [pendências reais](PENDENCIAS.md).
+Init preserva configuracoes e arquivos autorais, cria configuracao.properties com valores DEFINIR e nao inicia servicos. Geracao de aplicacoes autorizada fica em apps/. Recursos incompletos e acervo historico nao fazem parte desta distribuicao.
 
-Compatibilidade Linux, descoberta/invocação nos clientes Copilot/Codex e teste humano permanecem pendentes. Esses limites impedem declarar homologação completa, VALIDADA ou aceite final. A aprovação das SPECs autoriza o desenvolvimento; o aceite do build é outra decisão.
-
-As [regras consolidadas](specs/shared/process/regras-consolidadas.md) exigem testes/cobertura, evidências atuais, segurança sem achados abertos e decisões humanas distintas. [AGENTS.md](AGENTS.md) orienta a continuidade. Recursos opcionais do acervo conservam suas limitações e não são capacidades certificadas do pacote.
-
-O [relatório consolidado](relatorio/relatorio-consolidado.md) e a [memória da investigação](specs/changes/10028-investigar-specflow-framework/AGENTS-MEMORY.md) preservam o histórico. Nenhum checkout externo foi alterado; não houve extração definitiva, migração, commit ou publicação.# specflow
+Descoberta/invocacao nos clientes e teste humano permanecem pendentes ate serem demonstrados. CI multiplataforma registra os resultados reais de cada execucao; nao alegar homologacao a partir de arquivos presentes.

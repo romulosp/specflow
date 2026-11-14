@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "validationMode": "closed-domain-records",
+  "authority": "specflow.contracts",
+  "records": [
+    "project",
+    "draft",
+    "change",
+    "review",
+    "decision",
+    "evidence",
+    "traceability",
+    "coverage",
+    "security",
+    "phase",
+    "handoff",
+    "knowledge"
+  ],
+  "methods": [
+    "structural",
+    "functional",
+    "manual"
+  ],
+  "digestProfiles": [
+    "sha256-bytes-v1",
+    "sha256-utf8-lf-v1"
+  ],
+  "unknownFields": "rejected"
+}

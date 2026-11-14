@@ -1,0 +1,138 @@
+{
+  "resources": {
+    "android": {
+      "capability": "configuration-only",
+      "fields": {
+        "android.adb": "text",
+        "android.sdk": "text"
+      },
+      "optionalResource": true
+    },
+    "cobertura": {
+      "capability": "configuration-only",
+      "fields": {
+        "cobertura.executavel": "text",
+        "cobertura.ferramenta": "text",
+        "cobertura.relatorio": "text"
+      },
+      "optionalResource": true
+    },
+    "diagramas": {
+      "capability": "configuration-only",
+      "fields": {
+        "diagramas.destino": "text",
+        "diagramas.node": "text"
+      },
+      "optionalResource": true
+    },
+    "git": {
+      "capability": "configuration-only",
+      "fields": {
+        "git.executavel": "text"
+      },
+      "optionalResource": true
+    },
+    "go": {
+      "capability": "configuration-only",
+      "fields": {
+        "go.executavel": "text"
+      },
+      "optionalResource": true
+    },
+    "java": {
+      "capability": "configuration-only",
+      "fields": {
+        "java.jdk": "text"
+      },
+      "optionalResource": true
+    },
+    "maven": {
+      "capability": "configuration-only",
+      "fields": {
+        "maven.executavel": "text"
+      },
+      "optionalResource": true
+    },
+    "node": {
+      "capability": "configuration-only",
+      "fields": {
+        "node.executavel": "text"
+      },
+      "optionalResource": true
+    },
+    "pdf": {
+      "capability": "configuration-only",
+      "fields": {
+        "pdf.destino": "text",
+        "pdf.python": "text"
+      },
+      "optionalResource": true
+    },
+    "servico": {
+      "authKey": "servico.autenticacao",
+      "capability": "configuration-only",
+      "fields": {
+        "servico.autenticacao": "text",
+        "servico.senha": "text",
+        "servico.token": "text",
+        "servico.url": "url",
+        "servico.usuario": "text"
+      },
+      "modes": {
+        "basic": {
+          "optional": [
+            "servico.token"
+          ]
+        },
+        "none": {
+          "optional": [
+            "servico.usuario",
+            "servico.senha",
+            "servico.token"
+          ]
+        },
+        "token": {
+          "optional": [
+            "servico.usuario",
+            "servico.senha"
+          ]
+        }
+      },
+      "optionalResource": true
+    },
+    "sonar": {
+      "authKey": "sonar.autenticacao",
+      "capability": "configuration-only",
+      "fields": {
+        "sonar.autenticacao": "text",
+        "sonar.projeto": "text",
+        "sonar.senha": "text",
+        "sonar.token": "text",
+        "sonar.url": "url",
+        "sonar.usuario": "text"
+      },
+      "modes": {
+        "basic": {
+          "optional": [
+            "sonar.token"
+          ]
+        },
+        "none": {
+          "optional": [
+            "sonar.usuario",
+            "sonar.senha",
+            "sonar.token"
+          ]
+        },
+        "token": {
+          "optional": [
+            "sonar.usuario",
+            "sonar.senha"
+          ]
+        }
+      },
+      "optionalResource": true
+    }
+  },
+  "schemaVersion": 1
+}

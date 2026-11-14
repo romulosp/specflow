@@ -1,0 +1,23 @@
+{
+  "coverageFloor": 80,
+  "coverageTarget": 90,
+  "humanApprovalRequired": true,
+  "methods": [
+    "structural",
+    "functional",
+    "manual"
+  ],
+  "policyId": "specflow-local",
+  "policyVersion": "1",
+  "schemaVersion": 1,
+  "securityAllOpenFindingsBlock": true,
+  "states": [
+    "EM_REVISAO_SPEC",
+    "SPEC_APROVADA",
+    "IMPLEMENTADA",
+    "IMPLEMENTACAO_APROVADA",
+    "VALIDADA",
+    "APROVADA",
+    "ARQUIVADA"
+  ]
+}

@@ -1,0 +1,59 @@
+name: Publish verified package
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checks:
+    if: github.repository == 'romulosp/specflow' && github.ref_type == 'tag'
+    uses: ./.github/workflows/ci.yml
+  publish:
+    needs: checks
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Verify tag against metadata and current audit
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          python - <<'PY'
+          import os, tomllib
+          with open('framework/pyproject.toml', 'rb') as f:
+              version = tomllib.load(f)['project']['version']
+          assert os.environ['RELEASE_TAG'] == 'v' + version
+          PY
+          python -B docs/security-audit/verificar_seguranca.py --change specs/changes/10032-publicar-specflow-cli-pypi
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: package-ubuntu-latest-3.11
+          path: verified
+      - name: Select exact distributions and refuse existing version
+        run: |
+          python - <<'PY'
+          import pathlib, shutil, tomllib, urllib.request, urllib.error, hashlib
+          with open('framework/pyproject.toml', 'rb') as f:
+              version = tomllib.load(f)['project']['version']
+          files = list(pathlib.Path('verified/release-dist').glob('*'))
+          expected = {'specflow_cli-' + version + '-py3-none-any.whl', 'specflow_cli-' + version + '.tar.gz'}
+          assert {p.name for p in files} == expected
+          try:
+              urllib.request.urlopen('https://pypi.org/pypi/specflow-cli/' + version + '/json', timeout=30)
+          except urllib.error.HTTPError as e:
+              if e.code != 404: raise
+          else:
+              raise SystemExit('Version already exists; refusing upload')
+          pathlib.Path('upload').mkdir()
+          for p in files:
+              shutil.copyfile(p, pathlib.Path('upload') / p.name)
+              print(hashlib.sha256(p.read_bytes()).hexdigest(), p.name)
+          PY
+      - uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086
+        with:
+          packages-dir: upload/

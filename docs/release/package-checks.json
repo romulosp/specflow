@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "actualCode": 0,
+  "packages": [
+    {
+      "name": "specflow_cli-0.1.0-py3-none-any.whl",
+      "sha256": "44b71342a4b6710feecb6d50b1b77cce1005340a0772b9193f6b8ac67c943296"
+    },
+    {
+      "name": "specflow_cli-0.1.0.tar.gz",
+      "sha256": "05e672bf379f9dfba58725dcd240e88f6e6d38e740595d0895d98c52b9def81d"
+    }
+  ],
+  "checks": [
+    "metadata/license/author/runtime dependencies",
+    "authorial resource allowlist",
+    "removed identities absent"
+  ],
+  "publicUpload": "not_run"
+}
