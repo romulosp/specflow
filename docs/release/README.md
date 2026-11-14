@@ -1,6 +1,6 @@
 # Publicação do SpecFlow CLI
 
-Estado: SPEC 10032 r1 aprovada; distribuição pública ainda pendente de execução e acesso ao PyPI. Não anunciar instalação nominal como disponível antes da confirmação do índice.
+Estado em 14/11/2026: specflow-cli 0.1.0 publicado no PyPI. Workflow concluido com sucesso, hashes conferidos e instalacao pelo nome verificada em ambiente limpo.
 
 Destino autorizado: `specflow-cli` no PyPI; repositório `romulosp/specflow`. Conta e segundo fator pertencem ao titular. Nenhuma senha ou token deve entrar no chat, fonte ou logs.
 
@@ -31,7 +31,7 @@ specflow doctor
 specflow nova-change "Criar cadastro de clientes"
 ```
 
-Esse bloco é o aceite a demonstrar, ainda não uma publicação realizada. A versão inicial é experimental; descoberta nos clientes e teste humano mantêm seu estado real enquanto não executados. A autorização de publicar não fabrica aceite final das Changes anteriores.
+Esse fluxo foi demonstrado com instalacao real pelo PyPI; veja pypi-installation-smoke.json. A versao inicial e experimental; descoberta nos clientes e teste humano continuam separados da publicacao.
 
 ## Evidencia atual
 
