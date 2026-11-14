@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "changeId": "10033-organizar-artefatos",
+  "revision": "r2",
+  "outcome": "approved",
+  "actor": "usuario",
+  "source": "Resposta do usuario SIM PROSEGUIR a pergunta explicita de aprovacao da SPEC 10033 r2",
+  "manifest": "contract-r2.json",
+  "manifestSha256": "5324d738289ea1678fd2403f715a66d6c7e6ae4d554c1d75071a53c61803ce5a",
+  "recordedAt": "2026-11-14T12:40:22.131935-03:00",
+  "limitations": "Registro de contexto, nao autenticacao criptografica."
+}

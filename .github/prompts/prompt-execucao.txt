@@ -1,0 +1,1 @@
+Use [executar-mudanca-spec-driven.prompt.md](executar-mudanca-spec-driven.prompt.md). Respeite os gates e as autorizacoes explicitas de AGENTS.md deste projeto.

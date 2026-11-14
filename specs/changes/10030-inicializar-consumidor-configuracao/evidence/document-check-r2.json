@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-13",
+  "revision": "r2",
+  "scope": "documentary-only",
+  "approval": false,
+  "evidence": "docs/revisao-pendencias-2026-11-13.json",
+  "evidenceSha256": "edf509eb0640b7593e5a763ed7e9acc373d92536aedb981e1fcb7615625844c0",
+  "passed": 36,
+  "failed": 0
+}

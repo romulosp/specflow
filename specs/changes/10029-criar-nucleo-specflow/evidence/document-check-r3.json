@@ -1,0 +1,7 @@
+{
+  "revision": "r3",
+  "scope": "contract documentary checks only",
+  "passed": 13,
+  "failed": 0,
+  "evidence": "../../../../imports/acervo-local-2026-11-12/delivery-check.json"
+}

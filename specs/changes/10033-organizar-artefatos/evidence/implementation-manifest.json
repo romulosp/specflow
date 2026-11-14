@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "contract": "contract-r2.json",
+  "files": {
+    "framework/src/specflow/cli.py": "48529a746814ffb278b5ed0070fd1cc3cc42b1a4bf8b67ae702ff75e34a3a845",
+    "framework/src/specflow/security.py": "2e1bef6dd59a92784941029b99dcc599121107db0aa439c9f325d3d065790956",
+    "framework/src/specflow/assets/bundle-v1.json": "8edb0387379e02afae3b32ba32af2207b452b6558b7337ccfd19335c83e4d1ae",
+    "framework/tests/test_cli.py": "e87af879172c6531fa3650194980f3469636eb0c76b5af6c61be19f3a3105eb0",
+    "framework/tests/test_artifact_paths.py": "7a11a9b1849bcb74f42de75e641076669cdd3c2a798c769a2c931012edc3df04",
+    "framework/README.md": "b97c76c6ffb4b0604101e32ea7dcbb70d0f46bc28fe4f4d36a4a358eaf1a9f5d",
+    "README.md": "3c95958fe3b51ab36400e4d5aaba4590caecfda855b5442d2160d91d38c99fd4"
+  }
+}

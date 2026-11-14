@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "revision": "r2",
+  "status": "IMPLEMENTACAO_APROVADA",
+  "implementation": "completed_local",
+  "gates": {
+    "humanSpecApproval": "passed",
+    "testsCoverage": "passed",
+    "technicalReview": "passed_local_after_IMP_REV_001",
+    "security": "passed_local",
+    "globalValidation": "pending_linux_clients_human",
+    "humanTest": "not_run",
+    "finalAcceptance": "pending"
+  },
+  "tasks": {
+    "P01": "completed",
+    "G01": "passed_spec",
+    "G02": "passed_local_integration",
+    "T01": "completed",
+    "T02": "completed",
+    "T03": "completed",
+    "T04": "completed",
+    "T05": "completed",
+    "T06": "completed",
+    "T07": "completed",
+    "T08": "completed",
+    "T09": "completed",
+    "T10": "completed",
+    "T11": "partial_windows_security_pending_linux",
+    "G03": "pending",
+    "G04": "pending"
+  },
+  "evidenceRefs": [
+    "specs/changes/10031-criar-specflow-cli/evidence/test-suite.json",
+    "specs/changes/10031-criar-specflow-cli/evidence/coverage-current.json",
+    "specs/changes/10031-criar-specflow-cli/evidence/implementation-manifest.json"
+  ],
+  "note": "Frozen approved contract and tasks remain unchanged. Linux, real editor discovery and final human test are not passed. Shared distribution; scope bindings include current contract and implementation."
+}

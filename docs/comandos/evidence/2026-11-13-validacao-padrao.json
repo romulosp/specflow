@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-13",
+  "scope": "Workflow instruction update; no phase execution or new security runtime tests",
+  "reviewedFiles": [
+    "AGENTS.md",
+    "specs/shared/process/workflow.md",
+    ".agents/skills/specflow-validar/SKILL.md",
+    ".github/prompts/specflow-validar.prompt.md",
+    ".agents/skills/implementation-validate/SKILL.md",
+    ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "docs/comandos/COMANDOS.md"
+  ],
+  "default": "specflow-validar when authorized flow reaches implementation validation",
+  "exception": "Only explicit user prompt omission or earlier stop; record request, reason, revision, non-execution",
+  "skippedValidationDoesNotPassGate": true,
+  "humanTestStopPreserved": true,
+  "singlePhaseScopePreserved": true,
+  "securityGateUnchangedAndMandatoryWhenValidationRuns": true,
+  "generatedArtifacts": 24,
+  "materializationMismatch": [],
+  "localChecks": {
+    "passed": 36,
+    "failed": 0
+  },
+  "coreContractR3Unchanged": true,
+  "coreSpecApproved": false
+}

@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-13",
+  "scope": "technical contract corrections; documentary checks only",
+  "passed": 52,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "10029-criar-nucleo-specflow current revision pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow four roles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow current hash proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow current hash spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow current hash design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow current hash tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow exact prior snapshot",
+      "passed": true,
+      "details": "Exact raw files retained in verified ZIP; loose Markdown retired to avoid relocated relative links"
+    },
+    {
+      "name": "10029-criar-nucleo-specflow prior manifest kept exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow current review and manual scenarios",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao current revision pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao four roles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao current hash proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao current hash spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao current hash design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao current hash tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao exact prior snapshot",
+      "passed": true,
+      "details": "Exact raw files retained in verified ZIP; loose Markdown retired to avoid relocated relative links"
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao prior manifest kept exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao current review and manual scenarios",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli current revision pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli four roles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli current hash proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli current hash spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli current hash design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli current hash tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli exact prior snapshot",
+      "passed": true,
+      "details": "Exact raw files retained in verified ZIP; loose Markdown retired to avoid relocated relative links"
+    },
+    {
+      "name": "10031-criar-specflow-cli prior manifest kept exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli current review and manual scenarios",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "core 16 requirement acceptance pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "draft context and invalid advancement separated",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "evidence bytes and policy bound",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "support gate limitations explicit",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "consumer 14 requirements unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "properties grammar preserves literals",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "shared write protocol and conservative rollback",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "25 initial properties remain DEFINIR",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CLI 21 requirement acceptance pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all CLI requirements assigned to tasks",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "name": "doctor optional inactive is healthy",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "additive init preserves previous integrations",
+      "passed": true,
+      "details": "Init preservation explicit; CLI-20 mapped by range/suffix expansion in tasks rather than literal token"
+    },
+    {
+      "name": "no metadata self-digest or writer self-deadlock",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "gate action distinct from full phase",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "gate bindings required",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "eleven canonical phases retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "delegation recorded without approval",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "architecture decision remains proposed",
+      "passed": true,
+      "details": "Textual contract check with Unicode-safe comparison; no runtime claim"
+    },
+    {
+      "name": "authored Markdown links close",
+      "passed": true,
+      "details": {
+        "documents": 104,
+        "missing": []
+      }
+    },
+    {
+      "name": "all Markdown retains cleanup",
+      "passed": true,
+      "details": {
+        "examined": 727,
+        "matches": []
+      }
+    },
+    {
+      "name": "360 imported current digests",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ADR index prior local snapshot preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "dossier 36/0 final recheck",
+      "passed": true,
+      "details": {
+        "sha256": "79bd707306cda26d863e575104891b454028c439c46812ebdf1817be43598229",
+        "resolvedInitialFailure": "ADR index was updated; prior local bytes preserved and local representation hash refreshed without changing source hash"
+      }
+    },
+    {
+      "name": "no product or execution fabricated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "flow artifacts still available",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "humanApprovalRecorded": false,
+  "frameworkImplemented": false,
+  "sourceCheckoutAccess": false,
+  "supportTests": {
+    "securityGateTests": 10,
+    "exitCode": 0,
+    "scope": "unchanged support helper, not proof of proposed hardening"
+  },
+  "currentContracts": [
+    {
+      "changeId": "10029-criar-nucleo-specflow",
+      "revision": "r6"
+    },
+    {
+      "changeId": "10030-inicializar-consumidor-configuracao",
+      "revision": "r4"
+    },
+    {
+      "changeId": "10031-criar-specflow-cli",
+      "revision": "r2"
+    }
+  ],
+  "previousDocumentChecks": "Historical structural checks did not prove semantic consistency",
+  "rechecks": [
+    "10 initial text checks were corrected for PowerShell Unicode transport, not treated as product defects",
+    "Historical relocated document links resolved by exact verified ZIP snapshots instead of changing raw historical documents",
+    "Dossier ADR index digest updated with prior bytes preserved and source digest unchanged",
+    "Task coverage recognizes CLI-20 included in grouped CLI-02..06/09/16/20 assignment"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "SPEC-10031-r2",
+  "kind": "spec",
+  "actor": "usuario nesta conversa",
+  "occurredAt": "2026-11-14T02:03:18.476119+00:00",
+  "scope": {
+    "projectId": "specflow-investigacao",
+    "changeId": "10031-criar-specflow-cli",
+    "revision": "r2"
+  },
+  "targetManifest": [
+    {
+      "path": "specs/changes/10031-criar-specflow-cli/proposal.md",
+      "role": "proposal",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "c8b77cc755c419c79f0411463494d71dce3d7d2268679239cedff9109fb8dd4d",
+      "rawSha256": "6eb1fdcb35318d977dc8269c541ea6aa2866f06959c4cf01e2f0de8b7db87027"
+    },
+    {
+      "path": "specs/changes/10031-criar-specflow-cli/spec.md",
+      "role": "spec",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "02e9dac6266eed30f37a6cdb8e005efe54d0a33c180adeb5f4ae429f35b30a77",
+      "rawSha256": "cae4ea4b949934abe472f2b02fadb40ba891eec9a11f7e1a37a12c3edd9155a2"
+    },
+    {
+      "path": "specs/changes/10031-criar-specflow-cli/DESIGN.md",
+      "role": "design",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "0473db186ee2a075196e0072b55cc9ecd8a8d45702c05626404e36e36fbe9c12",
+      "rawSha256": "3f667735613d2be2b920e5e89b3dd55de0131b741fbc2b2fa693cc95be888ef1"
+    },
+    {
+      "path": "specs/changes/10031-criar-specflow-cli/tasks.md",
+      "role": "tasks",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "0809723da3ef746e6e4b574194913364e6fd2031f4cdcde4b0aa9246fb29d290",
+      "rawSha256": "47cd658573f3b40b55ba42a20bbe2a79cc28f298e2c80784156a9b2844d4e27e"
+    }
+  ],
+  "outcome": "approved",
+  "rationale": "Explicit human approval of the revised contract in this conversation",
+  "sourceRef": "docs/cli/aprovacao-humana-2026-11-13.json"
+}

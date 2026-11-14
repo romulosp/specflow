@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "recordType": "human_feedback",
+  "date": "2026-11-13",
+  "source": "Latest user message in this conversation",
+  "response": "veja o melhor projeto e resolva",
+  "outcome": "technical_choices_delegated",
+  "supersedesClarificationWait": "docs/cli/feedback-humano-2026-11-13.json",
+  "corrections": "docs/cli/AJUSTES-TECNICOS.md",
+  "proposedContracts": [
+    {
+      "changeId": "10029",
+      "revision": "r6"
+    },
+    {
+      "changeId": "10030",
+      "revision": "r4"
+    },
+    {
+      "changeId": "10031",
+      "revision": "r2"
+    }
+  ],
+  "approved": false,
+  "notAnApprovalDecision": true,
+  "detailsRequestedFromUser": false,
+  "technicalCorrectionsStatus": "applied_to_contracts",
+  "nextAction": "Review and human decision of corrected concrete contracts; no production code before SPEC_APROVADA"
+}

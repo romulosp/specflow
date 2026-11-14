@@ -1,0 +1,14 @@
+%%{init: {"theme":"base","themeVariables":{"primaryColor":"#eef2ff","primaryTextColor":"#1e293b","primaryBorderColor":"#6366f1","lineColor":"#94a3b8","background":"#ffffff","edgeLabelBackground":"#ffffff"}}}%%
+flowchart TD
+    comando["specflow-teste-humano<br/>Objetivo ou Change existente"] --> contexto["Retomar contexto<br/>e preservar evidencias"]
+    contexto --> contrato["Especificar e esclarecer<br/>se necessario"]
+    contrato --> revisao["Revisar SPEC<br/>contrato e criterios verificaveis"]
+    revisao --> gate{"SPEC_APROVADA humana<br/>desta revisao?"}:::human
+    gate -->|Nao| pausa["PARE antes do codigo<br/>apresente o contrato para decisao"]:::human
+    gate -->|Sim, inclusive aceite ja registrado| plano["Planejar implementacao"]
+    plano --> implementar["Implementar escopo aprovado<br/>build, testes e correcoes tecnicas"]
+    implementar --> artefato{"Artefato real utilizavel<br/>e checks aplicaveis passaram?"}
+    artefato -->|Nao| bloqueio["Corrija no escopo ou registre BLOQUEADA<br/>nao afirme pronto para teste"]
+    artefato -->|Sim| entrega["IMPLEMENTADA<br/>build/harness + revisao/hash + quickstart"]
+    entrega --> usuario["PARE e aguarde o usuario testar<br/>nao revise, valide ou aprove formalmente"]:::human
+    classDef human fill:#fffbeb,stroke:#d97706,color:#78350f;

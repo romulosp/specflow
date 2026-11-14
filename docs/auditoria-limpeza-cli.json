@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-13",
+  "operation": "authorized documentary cleanup before CLI specification",
+  "archiveFile": "20261113T125531Z-pre-cli-limpeza.zip",
+  "archiveSha256": "b4858ac685f741843869f7cac01afe0a64d8673847b6bc2f19bd96bf3c8d10ff",
+  "fileCount": 573,
+  "verification": "zip CRC and every entry SHA-256 verified before local edits",
+  "sourceCheckoutAccess": false,
+  "humanSpecApproval": false,
+  "removedHistoricalFiles": 30,
+  "removedEntriesLocation": "archive-index.json inside external ZIP",
+  "postCleanupFrameworkImplemented": false
+}

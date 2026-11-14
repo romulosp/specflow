@@ -1,0 +1,332 @@
+{
+  "date": "2026-11-12",
+  "command": "python -B tools/verificar_dossie.py",
+  "checks": [
+    {
+      "name": "cobertura e propriedade",
+      "passed": true,
+      "details": {
+        "files": 1385,
+        "components": 240
+      }
+    },
+    {
+      "name": "campos de inventário",
+      "passed": true,
+      "details": [
+        "id",
+        "name",
+        "path",
+        "purpose",
+        "dependencies",
+        "category",
+        "reason",
+        "risk",
+        "recommendation",
+        "provenance",
+        "license",
+        "level",
+        "files"
+      ]
+    },
+    {
+      "name": "indexação do corpus",
+      "passed": true,
+      "details": 1385
+    },
+    {
+      "name": "preservação SHA-256",
+      "passed": true,
+      "details": {
+        "examined": 1385,
+        "changed": []
+      }
+    },
+    {
+      "name": "revisão Git preservada",
+      "passed": true,
+      "details": {
+        "command": "git rev-parse HEAD",
+        "cwd": "origem-externa",
+        "code": 0,
+        "stdout": "2c48154cdc5e2abdeb65733eb47b920d89a3235f",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "estado Git preservado",
+      "passed": true,
+      "details": {
+        "command": "git status --porcelain=v1",
+        "cwd": "origem-externa",
+        "code": 0,
+        "stdout": "M apps/frontend/smartphone/sistema-prototipo-android/.idea/misc.xml",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "referências internas autorais",
+      "passed": true,
+      "details": {
+        "documents": 22,
+        "links": 1732,
+        "missing": []
+      }
+    },
+    {
+      "name": "14 entregáveis consolidados",
+      "passed": true,
+      "details": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "name": "18 áreas investigadas",
+      "passed": true,
+      "details": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ]
+    },
+    {
+      "name": "12 lacunas D registradas",
+      "passed": true,
+      "details": "D-01..D-12"
+    },
+    {
+      "name": "artefatos de governança",
+      "passed": true,
+      "details": [
+        "proposal.md",
+        "spec.md",
+        "DESIGN.md",
+        "tasks.md",
+        "implementation-plan.md",
+        "validation.md",
+        "AGENTS-MEMORY.md",
+        "DIARIO.md",
+        "DECISOES-PENDENTES.md"
+      ]
+    },
+    {
+      "name": "fixtures fora da origem",
+      "passed": true,
+      "details": "D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10028-investigar-specflow-framework\\evidence\\fixtures"
+    },
+    {
+      "name": "fixture Android: valid",
+      "passed": true,
+      "details": {
+        "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B origem-externa\\.agents\\skills\\android-native-engineering\\scripts\\validate_android_project.py D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10028-investigar-specflow-framework\\evidence\\fixtures\\valid",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 0,
+        "stdout": "OK: invariantes estruturais Android atendidos",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "fixture Android: missing-wrapper",
+      "passed": true,
+      "details": {
+        "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B origem-externa\\.agents\\skills\\android-native-engineering\\scripts\\validate_android_project.py D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10028-investigar-specflow-framework\\evidence\\fixtures\\missing-wrapper",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 1,
+        "stdout": "ERRO: Gradle Wrapper ausente (gradlew ou gradlew.bat)",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "fixture Android: local-properties",
+      "passed": true,
+      "details": {
+        "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B origem-externa\\.agents\\skills\\android-native-engineering\\scripts\\validate_android_project.py D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10028-investigar-specflow-framework\\evidence\\fixtures\\local-properties",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 1,
+        "stdout": "ERRO: arquivo local potencialmente sens�vel presente: local.properties",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "sintaxe MJS: .agents/skills/evolutionary-modular-architecture/scripts/validate-boundaries.mjs",
+      "passed": true,
+      "details": {
+        "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\evolutionary-modular-architecture\\scripts\\validate-boundaries.mjs",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "sintaxe MJS: .agents/skills/evolutionary-modular-architecture/scripts/validate-structure.mjs",
+      "passed": true,
+      "details": {
+        "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\evolutionary-modular-architecture\\scripts\\validate-structure.mjs",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "sintaxe MJS: .agents/skills/mermaid-studio/scripts/batch.mjs",
+      "passed": true,
+      "details": {
+        "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\batch.mjs",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "sintaxe MJS: .agents/skills/mermaid-studio/scripts/render-ascii.mjs",
+      "passed": true,
+      "details": {
+        "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\render-ascii.mjs",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "sintaxe MJS: .agents/skills/mermaid-studio/scripts/render.mjs",
+      "passed": true,
+      "details": {
+        "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\render.mjs",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "sintaxe MJS: .agents/skills/mermaid-studio/scripts/validate.mjs",
+      "passed": true,
+      "details": {
+        "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\validate.mjs",
+        "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+        "code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "name": "sintaxe auxiliar Python: verificar_dossie.py",
+      "passed": true,
+      "details": "compile em memória; sem pyc"
+    },
+    {
+      "name": "preservação após cenários",
+      "passed": true,
+      "details": {
+        "changed": [],
+        "git": {
+          "command": "git status --porcelain=v1",
+          "cwd": "origem-externa",
+          "code": 0,
+          "stdout": "M apps/frontend/smartphone/sistema-prototipo-android/.idea/misc.xml",
+          "stderr": ""
+        }
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B origem-externa\\.agents\\skills\\android-native-engineering\\scripts\\validate_android_project.py D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10028-investigar-specflow-framework\\evidence\\fixtures\\valid",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 0,
+      "stdout": "OK: invariantes estruturais Android atendidos",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B origem-externa\\.agents\\skills\\android-native-engineering\\scripts\\validate_android_project.py D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10028-investigar-specflow-framework\\evidence\\fixtures\\missing-wrapper",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 1,
+      "stdout": "ERRO: Gradle Wrapper ausente (gradlew ou gradlew.bat)",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B origem-externa\\.agents\\skills\\android-native-engineering\\scripts\\validate_android_project.py D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10028-investigar-specflow-framework\\evidence\\fixtures\\local-properties",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 1,
+      "stdout": "ERRO: arquivo local potencialmente sens�vel presente: local.properties",
+      "stderr": ""
+    },
+    {
+      "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\evolutionary-modular-architecture\\scripts\\validate-boundaries.mjs",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\evolutionary-modular-architecture\\scripts\\validate-structure.mjs",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\batch.mjs",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\render-ascii.mjs",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\render.mjs",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "\"C:\\Program Files\\nodejs\\node.EXE\" --check origem-externa\\.agents\\skills\\mermaid-studio\\scripts\\validate.mjs",
+      "cwd": "D:\\desenvolvimento\\ia\\specflow-investigacao",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "passed": 23,
+  "failed": 0,
+  "editorialStatus": "Historical evidence with identifiers neutralized; exact original retained externally, not rerun by this edit"
+}

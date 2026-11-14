@@ -1,0 +1,347 @@
+{
+  "date": "2026-11-13",
+  "scope": "Documentary preparation and cleanup, not product implementation",
+  "passed": 55,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "10029-criar-nucleo-specflow pending human gate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow four contract roles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow hash proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow text proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow hash spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow text spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow hash design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow text design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow hash tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow text tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow preparatory docs and review",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow no implementation plan prematurely executed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao pending human gate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao four contract roles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao hash proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao text proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao hash spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao text spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao hash design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao text design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao hash tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao text tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao preparatory docs and review",
+      "passed": true,
+      "details": "Incremental recheck: future manual scenario guide added; no runtime claimed"
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao no implementation plan prematurely executed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli pending human gate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli four contract roles",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli hash proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli text proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli hash spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli text spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli hash design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli text design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli hash tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli text tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli preparatory docs and review",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10031-criar-specflow-cli no implementation plan prematurely executed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "core 14 requirements and acceptance pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "consumer 11 requirements",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "25 initial properties DEFINIR",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CLI 19 requirement acceptance pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CLI requirement task coverage",
+      "passed": true,
+      "details": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "name": "11 phase names in CLI spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "external archive location",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archive SHA-256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archive CRC and all entry digests",
+      "passed": true,
+      "details": {
+        "entries": 573
+      }
+    },
+    {
+      "name": "30 verified historical files retired",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow previous manifests explicitly historical",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao previous manifests explicitly historical",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "removed identities absent in authored text",
+      "passed": true,
+      "details": {
+        "examinedTextFiles": 586,
+        "markdownFiles": 486,
+        "matches": []
+      }
+    },
+    {
+      "name": "removed identities absent in filenames",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "authored Markdown local links",
+      "passed": true,
+      "details": {
+        "documents": 95,
+        "missing": []
+      }
+    },
+    {
+      "name": "360 imported local digests preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local dossier check 36/0",
+      "passed": true,
+      "details": {
+        "sha256": "79bd707306cda26d863e575104891b454028c439c46812ebdf1817be43598229",
+        "embeddedDateHistorical": true
+      }
+    },
+    {
+      "name": "no simulated product output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "diagram source and rendered artifacts",
+      "passed": true,
+      "details": {
+        "parser": "passed",
+        "renderer": "beautiful-mermaid github-light",
+        "svg": "standalone",
+        "visualInspection": "passed: complete final PNG inspected",
+        "nonblockingHeuristicWarnings": 3
+      }
+    }
+  ],
+  "humanApprovalRecorded": false,
+  "frameworkImplemented": false,
+  "packageBuilt": false,
+  "sourceCheckoutAccess": false,
+  "supportTests": {
+    "securityGate": {
+      "command": "python -B -m unittest discover -s tools/tests -p test_security_gate.py",
+      "code": 0,
+      "tests": 10,
+      "scope": "support validator, synthetic evidence only"
+    },
+    "dossier": {
+      "command": "python -B tools/verificar_dossie.py",
+      "code": 0,
+      "passed": 36,
+      "failed": 0
+    }
+  },
+  "remaining": [
+    "Human approval of current contracts",
+    "Implementation and coverage",
+    "Real product audit",
+    "Windows/Linux and editor homologation",
+    "146 optional missing resource references and unconfirmed third-party rights"
+  ],
+  "recheck": "Only failed missing preparatory guide rechecked after adding it; contract bytes unchanged"
+}

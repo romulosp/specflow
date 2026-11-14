@@ -24,6 +24,9 @@ class CliTests(unittest.TestCase):
     def test_packaged_catalog_matches_every_editor_instruction(self):
         initialize(self.root, ["copilot", "codex"])
         installed = json.loads((self.root / "docs/comandos/comandos.json").read_text(encoding="utf-8"))
+        conventions = (self.root / "specs/shared/process/evidence-conventions.md").read_text(encoding="utf-8")
+        for destination in ("reviews/spec/", "reviews/implementation/", "decisions/spec/", "decisions/final/", "coverage/", "evidence/security/"):
+            self.assertIn(destination, conventions)
         self.assertEqual({x["name"].removeprefix("specflow-"): x for x in installed["commands"]}, catalog())
         for item in installed["commands"]:
             for ref in [".agents/skills/" + item["name"] + "/SKILL.md",
@@ -95,9 +98,22 @@ class CliTests(unittest.TestCase):
         make(self.root, 3)
         code, out, _ = self.run_cli("validar", "--project", str(self.root), "--change", CHANGE, "--json")
         self.assertEqual(code, 1, out)
-        gate = json.loads((self.root / f"specs/changes/{CHANGE}/security-gate.json").read_text())
+        gate = json.loads((self.root / f"specs/changes/{CHANGE}/evidence/security/security-gate.json").read_text())
         self.assertFalse(gate["validationAllowed"])
         self.assertIn("AUDIT_REPORT_MISSING", gate["reasons"])
+
+    def test_validar_preserves_conflicting_gate(self):
+        make(self.root, 3)
+        ref = f"specs/changes/{CHANGE}/evidence/security/security-gate.json"
+        gate = {"schemaVersion": 1, "changeId": CHANGE, "status": "pendente",
+                "validationAllowed": False, "exitCode": 1, "reasons": ["old"],
+                "method": "old", "limitations": []}
+        put(self.root, ref, gate)
+        before = (self.root / ref).read_bytes()
+        code, out, _ = self.run_cli("validar", "--project", str(self.root), "--change", CHANGE, "--json")
+        self.assertEqual(code, 1, out)
+        self.assertIn("CONTENT_CONFLICT", out)
+        self.assertEqual((self.root / ref).read_bytes(), before)
 
     def test_argument_errors_and_configuration_never_expose_values(self):
         for arguments in [["unknown-command", "synthetic-secret"], ["--json"], ["--project"],

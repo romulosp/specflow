@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-13",
+  "scope": "synthetic fixtures only; not real product audit",
+  "checks": [
+    {
+      "scenario": "complete",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "status": "verificada"
+    },
+    {
+      "scenario": "open_finding",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "status": "pendente"
+    },
+    {
+      "scenario": "malformed",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "status": "pendente"
+    }
+  ],
+  "passed": true
+}

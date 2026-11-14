@@ -1,0 +1,670 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "expectedCode": 0,
+  "actualCode": 0,
+  "packages": [
+    {
+      "path": "dist/specflow_cli-0.1.0-py3-none-any.whl",
+      "sha256": "14b1909be9e7c400dbb7f9aec27d87180cde2166c0f3de86d3def4f3295f8437",
+      "size": 58501,
+      "files": [
+        {
+          "path": "specflow/__init__.py",
+          "sha256": "8c6d0b00a49946cfbdfa5cd45830bf18c34fb14ccc3032ff20ff22ba342d4834",
+          "size": 91
+        },
+        {
+          "path": "specflow/__main__.py",
+          "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+          "size": 48
+        },
+        {
+          "path": "specflow/cli.py",
+          "sha256": "4a3a4a71f4bc5c164b6caf375bbd0c232c3a97f49d1a2728a8265351e7c1c39b",
+          "size": 9676
+        },
+        {
+          "path": "specflow/configuration.py",
+          "sha256": "d2500025b08a150e6007f08da6b9a87af963ac23bf30cb0e4c8ee2d758f1d12f",
+          "size": 3703
+        },
+        {
+          "path": "specflow/consumer.py",
+          "sha256": "1b54a5f1738433af1e52703ef4c2c8260ab8d3f9266e5b238f6fc992420a4069",
+          "size": 9773
+        },
+        {
+          "path": "specflow/fileops.py",
+          "sha256": "e1f4aca1cf5a95cef7967c911650371edcdec95c5351bfd09f0805b917a0f8f3",
+          "size": 6665
+        },
+        {
+          "path": "specflow/harness.py",
+          "sha256": "39320027252b8b47deac93de680aad5ddbf382fdfb7cf694503e1d58e380a26d",
+          "size": 754
+        },
+        {
+          "path": "specflow/policy.py",
+          "sha256": "12d92ab4f5ad43c6009755666542936a5413dac87c7dab4d2c47bd170cf7422e",
+          "size": 1236
+        },
+        {
+          "path": "specflow/security.py",
+          "sha256": "2e08e6fad4e0bfe9da91aa44759c6df9f87d9ca92dcc38aa21562a3277b153b6",
+          "size": 4487
+        },
+        {
+          "path": "specflow/storage.py",
+          "sha256": "3757e348185d30c47d71b616aee236574d1dad46b28ec74dc367d96033d72c13",
+          "size": 6750
+        },
+        {
+          "path": "specflow/assets/bundle-v1.json",
+          "sha256": "3058a2f9b5d99e4ba622feb39ca66d968b94a9812c09802f4ea395ccfa76c1a4",
+          "size": 100878
+        },
+        {
+          "path": "specflow/assets/catalog-v1.json",
+          "sha256": "fadc2c186e9d5b111e0688db25c9853d302231a532616f18f63f72b461e665b4",
+          "size": 18183
+        },
+        {
+          "path": "specflow/assets/configuracao.example.properties",
+          "sha256": "df12b36bcda8f87ebd9eec2fa69de82265c3ea1edee34a62cd905bd3e04c1329",
+          "size": 999
+        },
+        {
+          "path": "specflow/assets/gate_wrapper.py",
+          "sha256": "4b919063074d5496880e437ee6f5d5d5b43fae7c19d7ad07add3a9b778274c0f",
+          "size": 1702
+        },
+        {
+          "path": "specflow/assets/policy-v1.json",
+          "sha256": "108c383c53415bc3950fbf2d557fb5c8ac287a1c5de80621a6385184419160d0",
+          "size": 431
+        },
+        {
+          "path": "specflow/assets/record-contracts-v1.json",
+          "sha256": "b9831ba2fb3c634c24da9021660afeee618d94d1724be745597aed63469e7078",
+          "size": 514
+        },
+        {
+          "path": "specflow/assets/resources-v1.json",
+          "sha256": "4cffbf864939e8684f736a11e6b08fe006b97970e37b53a9fb1223af90e99144",
+          "size": 3224
+        },
+        {
+          "path": "specflow/contracts/__init__.py",
+          "sha256": "8514172652b8839f2ef93a6a167bd92ca0db93625b949e8e9fbe2d5b7236474e",
+          "size": 9147
+        },
+        {
+          "path": "specflow/memory/__init__.py",
+          "sha256": "5161ea8221737895db9861239041b14ebce7949d831107a5f61d62f3be9265a7",
+          "size": 7548
+        },
+        {
+          "path": "specflow/validation/__init__.py",
+          "sha256": "dd60f9abd4e2163ae9a35b62c22da6d8f71305b71189bd26df8848e0f5126be9",
+          "size": 6150
+        },
+        {
+          "path": "specflow/workflow/__init__.py",
+          "sha256": "67b633c6ed17dee01616ad34f47cae659c5ee1f87801ac67c926daf02b25697d",
+          "size": 7742
+        },
+        {
+          "path": "specflow_cli-0.1.0.dist-info/METADATA",
+          "sha256": "010a7bca006d8bd70dc087d2ebabe737dddaeb67199f571ba418aeba16077427",
+          "size": 4469
+        },
+        {
+          "path": "specflow_cli-0.1.0.dist-info/WHEEL",
+          "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c",
+          "size": 87
+        },
+        {
+          "path": "specflow_cli-0.1.0.dist-info/entry_points.txt",
+          "sha256": "722642ea3a0fc60c817748c32c7a15298d1981509bb390383760245ea1ccffc5",
+          "size": 47
+        },
+        {
+          "path": "specflow_cli-0.1.0.dist-info/licenses/LICENSE",
+          "sha256": "6a82725ff1ce7cd25d6a0bd46c03f29f968dabfb62caaafc409334fa5b272b3e",
+          "size": 1070
+        },
+        {
+          "path": "specflow_cli-0.1.0.dist-info/RECORD",
+          "sha256": "36dd235f9c3db777b415a197c01caeca75d452934469f5ff3f4dea3d2e5a7328",
+          "size": 2169
+        }
+      ]
+    },
+    {
+      "path": "dist/specflow_cli-0.1.0.tar.gz",
+      "sha256": "d0146ab570033c1cc49d9863b3e6069c036955680ad46c0eddbb37fc9a9bfe9e",
+      "size": 56336,
+      "files": [
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/__init__.py",
+          "sha256": "8c6d0b00a49946cfbdfa5cd45830bf18c34fb14ccc3032ff20ff22ba342d4834",
+          "size": 91
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/__main__.py",
+          "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+          "size": 48
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/cli.py",
+          "sha256": "4a3a4a71f4bc5c164b6caf375bbd0c232c3a97f49d1a2728a8265351e7c1c39b",
+          "size": 9676
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/configuration.py",
+          "sha256": "d2500025b08a150e6007f08da6b9a87af963ac23bf30cb0e4c8ee2d758f1d12f",
+          "size": 3703
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/consumer.py",
+          "sha256": "1b54a5f1738433af1e52703ef4c2c8260ab8d3f9266e5b238f6fc992420a4069",
+          "size": 9773
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/fileops.py",
+          "sha256": "e1f4aca1cf5a95cef7967c911650371edcdec95c5351bfd09f0805b917a0f8f3",
+          "size": 6665
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/harness.py",
+          "sha256": "39320027252b8b47deac93de680aad5ddbf382fdfb7cf694503e1d58e380a26d",
+          "size": 754
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/policy.py",
+          "sha256": "12d92ab4f5ad43c6009755666542936a5413dac87c7dab4d2c47bd170cf7422e",
+          "size": 1236
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/security.py",
+          "sha256": "2e08e6fad4e0bfe9da91aa44759c6df9f87d9ca92dcc38aa21562a3277b153b6",
+          "size": 4487
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/storage.py",
+          "sha256": "3757e348185d30c47d71b616aee236574d1dad46b28ec74dc367d96033d72c13",
+          "size": 6750
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/assets/bundle-v1.json",
+          "sha256": "3058a2f9b5d99e4ba622feb39ca66d968b94a9812c09802f4ea395ccfa76c1a4",
+          "size": 100878
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/assets/catalog-v1.json",
+          "sha256": "fadc2c186e9d5b111e0688db25c9853d302231a532616f18f63f72b461e665b4",
+          "size": 18183
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/assets/configuracao.example.properties",
+          "sha256": "df12b36bcda8f87ebd9eec2fa69de82265c3ea1edee34a62cd905bd3e04c1329",
+          "size": 999
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/assets/gate_wrapper.py",
+          "sha256": "4b919063074d5496880e437ee6f5d5d5b43fae7c19d7ad07add3a9b778274c0f",
+          "size": 1702
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/assets/policy-v1.json",
+          "sha256": "108c383c53415bc3950fbf2d557fb5c8ac287a1c5de80621a6385184419160d0",
+          "size": 431
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/assets/record-contracts-v1.json",
+          "sha256": "b9831ba2fb3c634c24da9021660afeee618d94d1724be745597aed63469e7078",
+          "size": 514
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/assets/resources-v1.json",
+          "sha256": "4cffbf864939e8684f736a11e6b08fe006b97970e37b53a9fb1223af90e99144",
+          "size": 3224
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/contracts/__init__.py",
+          "sha256": "8514172652b8839f2ef93a6a167bd92ca0db93625b949e8e9fbe2d5b7236474e",
+          "size": 9147
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/memory/__init__.py",
+          "sha256": "5161ea8221737895db9861239041b14ebce7949d831107a5f61d62f3be9265a7",
+          "size": 7548
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/validation/__init__.py",
+          "sha256": "dd60f9abd4e2163ae9a35b62c22da6d8f71305b71189bd26df8848e0f5126be9",
+          "size": 6150
+        },
+        {
+          "path": "specflow_cli-0.1.0/src/specflow/workflow/__init__.py",
+          "sha256": "67b633c6ed17dee01616ad34f47cae659c5ee1f87801ac67c926daf02b25697d",
+          "size": 7742
+        },
+        {
+          "path": "specflow_cli-0.1.0/tests/support.py",
+          "sha256": "d9a1bebf7ce80d684b2b1b7d1aeca747bd7fd96a69a9aeb5b3176eed4e1de850",
+          "size": 7721
+        },
+        {
+          "path": "specflow_cli-0.1.0/tests/test_cli.py",
+          "sha256": "15a7111c132b9ce196ecd53c02b9c37318a56c6220424a1f6e810043d73b8113",
+          "size": 9752
+        },
+        {
+          "path": "specflow_cli-0.1.0/tests/test_consumer.py",
+          "sha256": "02df3d756dd65745308a7a51849efe34cbdbd1193232410a12d0b543c8429704",
+          "size": 16889
+        },
+        {
+          "path": "specflow_cli-0.1.0/tests/test_core.py",
+          "sha256": "74b5199440a8f7b494c1072ef97b7497cd12eb0a2ce2a9fc5623db5cf406cab2",
+          "size": 17099
+        },
+        {
+          "path": "specflow_cli-0.1.0/.gitignore",
+          "sha256": "376e9419c56f9b39cec233611722ba4dd24bdbd6b1a59d2e6f750e5633a19bb3",
+          "size": 206
+        },
+        {
+          "path": "specflow_cli-0.1.0/LICENSE",
+          "sha256": "6a82725ff1ce7cd25d6a0bd46c03f29f968dabfb62caaafc409334fa5b272b3e",
+          "size": 1070
+        },
+        {
+          "path": "specflow_cli-0.1.0/README.md",
+          "sha256": "aa36797905e9cd4abbee4bcec084c8f291ef9f9abb258b8b77cab02888208cc2",
+          "size": 4192
+        },
+        {
+          "path": "specflow_cli-0.1.0/pyproject.toml",
+          "sha256": "f304ef1692849f3da0f6740099f2a67ddc3029981b321c1e511a0b3abf033603",
+          "size": 647
+        },
+        {
+          "path": "specflow_cli-0.1.0/PKG-INFO",
+          "sha256": "010a7bca006d8bd70dc087d2ebabe737dddaeb67199f571ba418aeba16077427",
+          "size": 4469
+        }
+      ]
+    }
+  ],
+  "markdownFilesScanned": 512,
+  "generatedMarkdownLinksBroken": [],
+  "findings": [],
+  "runtimeRiskyCalls": [
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "line": 36,
+      "call": "subprocess.run"
+    }
+  ],
+  "runtimeImports": [
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 2,
+      "module": "argparse"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 3,
+      "module": "importlib"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 4,
+      "module": "pathlib"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 5,
+      "module": "sys"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 6,
+      "module": ""
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 7,
+      "module": "consumer"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 8,
+      "module": "fileops"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 9,
+      "module": "memory"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 10,
+      "module": "workflow"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 11,
+      "module": "security"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 12,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "line": 176,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/configuration.py",
+      "line": 2,
+      "module": "importlib.resources"
+    },
+    {
+      "path": "framework/src/specflow/configuration.py",
+      "line": 3,
+      "module": "urllib.parse"
+    },
+    {
+      "path": "framework/src/specflow/configuration.py",
+      "line": 4,
+      "module": "re"
+    },
+    {
+      "path": "framework/src/specflow/configuration.py",
+      "line": 5,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 2,
+      "module": "importlib.resources"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 3,
+      "module": "pathlib"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 4,
+      "module": "re"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 5,
+      "module": "unicodedata"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 6,
+      "module": ""
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 7,
+      "module": "configuration"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 8,
+      "module": "fileops"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 9,
+      "module": "policy"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 10,
+      "module": "memory"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 11,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 167,
+      "module": "memory"
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "line": 168,
+      "module": "workflow"
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "line": 2,
+      "module": "contextlib"
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "line": 3,
+      "module": "pathlib"
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "line": 4,
+      "module": "os"
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "line": 5,
+      "module": "tempfile"
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "line": 6,
+      "module": "uuid"
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "line": 7,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/harness.py",
+      "line": 2,
+      "module": "cli"
+    },
+    {
+      "path": "framework/src/specflow/harness.py",
+      "line": 3,
+      "module": "memory"
+    },
+    {
+      "path": "framework/src/specflow/harness.py",
+      "line": 4,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/policy.py",
+      "line": 2,
+      "module": "importlib.resources"
+    },
+    {
+      "path": "framework/src/specflow/policy.py",
+      "line": 3,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/security.py",
+      "line": 2,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/security.py",
+      "line": 60,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/storage.py",
+      "line": 2,
+      "module": "pathlib"
+    },
+    {
+      "path": "framework/src/specflow/storage.py",
+      "line": 3,
+      "module": "hashlib"
+    },
+    {
+      "path": "framework/src/specflow/storage.py",
+      "line": 4,
+      "module": "json"
+    },
+    {
+      "path": "framework/src/specflow/storage.py",
+      "line": 5,
+      "module": "re"
+    },
+    {
+      "path": "framework/src/specflow/storage.py",
+      "line": 6,
+      "module": "stat"
+    },
+    {
+      "path": "framework/src/specflow/__main__.py",
+      "line": 1,
+      "module": "cli"
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "line": 2,
+      "module": "pathlib"
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "line": 3,
+      "module": "argparse"
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "line": 4,
+      "module": "json"
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "line": 5,
+      "module": "shutil"
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "line": 6,
+      "module": "subprocess"
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "line": 7,
+      "module": "sys"
+    },
+    {
+      "path": "framework/src/specflow/contracts/__init__.py",
+      "line": 2,
+      "module": "re"
+    },
+    {
+      "path": "framework/src/specflow/contracts/__init__.py",
+      "line": 3,
+      "module": "datetime"
+    },
+    {
+      "path": "framework/src/specflow/contracts/__init__.py",
+      "line": 4,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/contracts/__init__.py",
+      "line": 95,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "line": 2,
+      "module": "pathlib"
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "line": 3,
+      "module": "re"
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "line": 4,
+      "module": ""
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "line": 5,
+      "module": "policy"
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "line": 6,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "line": 7,
+      "module": "workflow"
+    },
+    {
+      "path": "framework/src/specflow/validation/__init__.py",
+      "line": 2,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/validation/__init__.py",
+      "line": 3,
+      "module": "security"
+    },
+    {
+      "path": "framework/src/specflow/validation/__init__.py",
+      "line": 66,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/workflow/__init__.py",
+      "line": 2,
+      "module": ""
+    },
+    {
+      "path": "framework/src/specflow/workflow/__init__.py",
+      "line": 3,
+      "module": "storage"
+    },
+    {
+      "path": "framework/src/specflow/workflow/__init__.py",
+      "line": 5,
+      "module": "contracts"
+    },
+    {
+      "path": "framework/src/specflow/workflow/__init__.py",
+      "line": 6,
+      "module": "re"
+    }
+  ],
+  "limitations": [
+    "Selected credential regex patterns are not exhaustive; no Git history available",
+    "Only trusted explicit wrapper uses subprocess with shell=False; no native runtime network/process activation",
+    "Python 3.11 grammar parsed; runtime tested only on CPython 3.14.6/Windows",
+    "Wheel built from sdist; Linux/editor/human homologation not_run"
+  ]
+}

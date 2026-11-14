@@ -1,0 +1,16 @@
+%% Diagram: Fluxo futuro do SpecFlow CLI | Author: Romulo Penha | Date: 2026-11-13
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#dbeafe', 'primaryTextColor': '#172554', 'primaryBorderColor': '#3b82f6', 'lineColor': '#94a3b8', 'secondaryColor': '#d1fae5', 'tertiaryColor': '#fef3c7', 'background': '#ffffff', 'mainBkg': '#f8fafc', 'textColor': '#334155', 'edgeLabelBackground': '#ffffff'}}}%%
+flowchart TD
+    installCli["Instalar wheel local"] --> initialize["specflow init + doctor"]
+    initialize --> draftChange["specflow nova-change"]
+    draftChange --> editorContract["Editor: especificar e revisar SPEC"]
+    editorContract --> humanSpec{"SPEC aprovada pelo humano?"}
+    humanSpec -->|Sim| editorCode["Editor: planejar e implementar"]
+    editorCode --> technicalChecks["Testes e cobertura: minimo 80%"]
+    technicalChecks -->|Satisfeitos| humanTest["Entregar build para teste humano"]
+    humanTest -->|Continuacao autorizada| formalReview["Revisar implementacao e validar"]
+    formalReview -->|Evidencias atuais| humanAcceptance{"Aceite humano final"}
+    humanAcceptance -->|Aprovado| closure["Preparar encerramento autorizado"]
+    style humanSpec fill:#fef3c7,stroke:#d97706,color:#78350f
+    style humanTest fill:#fef3c7,stroke:#d97706,color:#78350f
+    style humanAcceptance fill:#fef3c7,stroke:#d97706,color:#78350f

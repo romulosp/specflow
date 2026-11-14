@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "revision": "r4",
+  "status": "IMPLEMENTACAO_APROVADA",
+  "implementation": "completed_local",
+  "gates": {
+    "humanSpecApproval": "passed",
+    "testsCoverage": "passed",
+    "technicalReview": "passed_local_after_IMP_REV_001",
+    "security": "passed_local",
+    "globalValidation": "pending_linux_clients_human",
+    "humanTest": "not_run",
+    "finalAcceptance": "pending"
+  },
+  "tasks": {
+    "P01": "completed",
+    "G01": "passed_spec",
+    "T01": "completed",
+    "T02": "completed",
+    "T03": "completed",
+    "T04": "completed",
+    "T05": "completed",
+    "T06": "completed",
+    "T07": "pending_validation",
+    "G02": "not_run",
+    "G03": "pending"
+  },
+  "evidenceRefs": [
+    "specs/changes/10030-inicializar-consumidor-configuracao/evidence/test-suite.json",
+    "specs/changes/10030-inicializar-consumidor-configuracao/evidence/coverage-current.json",
+    "specs/changes/10030-inicializar-consumidor-configuracao/evidence/implementation-manifest.json"
+  ],
+  "note": "Frozen approved contract and tasks remain unchanged. Linux, real editor discovery and final human test are not passed. Shared distribution; scope bindings include current contract and implementation."
+}

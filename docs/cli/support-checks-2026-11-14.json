@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "commands": [
+    {
+      "command": [
+        "D:\\desenvolvimento\\ia\\specflow-investigacao\\.venv-specflow\\Scripts\\python.exe",
+        "-B",
+        "tools/gerar_comandos_specflow.py",
+        "--check"
+      ],
+      "actualCode": 0,
+      "stdout": "{\"commands\": 11, \"aliases\": 1, \"artifacts\": 24, \"mismatch\": []}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\desenvolvimento\\ia\\specflow-investigacao\\.venv-specflow\\Scripts\\python.exe",
+        "-B",
+        "tools/verificar_dossie.py"
+      ],
+      "actualCode": 0,
+      "stdout": "{\"passed\": 36, \"failed\": 0, \"sourceRead\": false, \"inheritedMissingReferences\": 149, \"failures\": []}\n",
+      "stderr": ""
+    }
+  ],
+  "limitations": [
+    "Legacy dossier date remains historical; this execution date is current",
+    "149 inherited missing reference pairs are the original-source baseline; current dependency-resolution retains 146 unresolved after three earlier corrections",
+    "Support checks do not replace current product tests or coverage"
+  ]
+}

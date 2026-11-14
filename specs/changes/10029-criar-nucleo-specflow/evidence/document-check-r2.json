@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-12",
+  "revision": "r2",
+  "scope": "documentary checks only; no framework runtime tests",
+  "passed": 20,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "local_links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "RF_CA_01",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_02",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_03",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_04",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_05",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_06",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_07",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_08",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_09",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_10",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "RF_CA_11",
+      "passed": true,
+      "details": "identifiers present; not semantic validation"
+    },
+    {
+      "name": "tasks_pending",
+      "passed": true,
+      "details": "T01..T10"
+    },
+    {
+      "name": "human_gate_pending",
+      "passed": true,
+      "details": "no approval inferred"
+    },
+    {
+      "name": "no_implementation",
+      "passed": true,
+      "details": "no runtime tested"
+    },
+    {
+      "name": "profiles_explicit",
+      "passed": true,
+      "details": "both profiles documented"
+    },
+    {
+      "name": "context_exit_explicit",
+      "passed": true,
+      "details": "textual coverage only"
+    },
+    {
+      "name": "evidence_method_explicit",
+      "passed": true,
+      "details": "textual coverage only"
+    },
+    {
+      "name": "r1_preserved",
+      "passed": true,
+      "details": "four old raw-byte digests match snapshots"
+    },
+    {
+      "name": "r2_manifest_files",
+      "passed": true,
+      "details": "four contract artifacts; canonical and raw digests recorded"
+    }
+  ]
+}

@@ -1,0 +1,1706 @@
+[
+  {
+    "path": "specs/README.md.bak",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/debug-keyboard.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/debug.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/referencia/tela1.jpg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-2-src/images/botao_pix.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-2-src/images/botao_pix_confirmar.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-2-src/images/botao_pix_confirmar_v1.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-2-src/images/botao_pix_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-2-src/images/botao_pix_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-2-src/images/botao_pix_pressed_confirmado.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-2-src/images/botao_pix_pressed_confirmado_v1.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/botao_diminuir_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/botao_diminuir_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/botao_diminuir_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/botao_somar_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/botao_somar_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/botao_somar_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/icon_diagnostico.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/icon_help_1.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/icon_help_2.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/img_ordenacao.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/logo_bolao.gif",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/seta_combo_box.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/seta_direita.gif",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/seta_esquerda.gif",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/Seta_Left.gif",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/Seta_Right.gif",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/Thumbs.db",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/vp.jpg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_2_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_2_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_2_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_2_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_3_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_3_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_3_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_3_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux0_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux0_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux1_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux1_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux1_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux1_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux2_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux2_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux2_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux2_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux3_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux3_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux3_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_aux3_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_calculadora_fechar.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_calculadora_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_calculadora_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_diminuir_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_diminuir_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_diminuir_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_jogo_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_jogo_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu2_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu2_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu2_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu2_seta_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu2_seta_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu2_seta_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_peq_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_peq_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_peq_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_seta_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_seta_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_menu_seta_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_retang_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_retang_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_retang_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_dn.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_dn_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_lf.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_lf_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_rt.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_rt_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_up.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_scroll_up_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_somar_disabled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_somar_pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botao_somar_released.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botoes-ordenar-disable.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botoes-ordenar-normal.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/botoes-ordenar-pressed.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/faixatituloprincipal.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/fundo.jpg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/icon_pagamento_eletronico_caixa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/icon_paga_bilhete_instantanea.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/icon_tabela_rodape.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/icon_tabela_rodape_2.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_barra_calculadora.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_logon.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_lot_amarelo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_lot_amarelo_x.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_lot_azul.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_lot_rosa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_lot_rosa_titulo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_lot_rosa_transparente.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_msg.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_tabela_cabecalho.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_tabela_cabecalho_2.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_tabela_titulo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/label_tabela_titulo_2.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/led_amarelo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/led_verde.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/led_vermelho.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_calculadora.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_confirmacao.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_logoff.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_notificacao.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_report_grande.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_report_selected.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_report_simples.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_report_texto.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_report_titulo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_tabela.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_totalizacao.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/painel_transparente_510_360.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/azul/skin.properties",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/icon/icon_notificacao.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/icon/Impressora.gif",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/icon/Thumbs.db",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/imagens-1-src/images/treinamento/fundo.jpg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/anelar_direito.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/anelar_esquerdo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/biometria-gray.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/biometria-green.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/biometria-red.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/indicador_direito.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/indicador_esquerdo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/mao-00.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/mao_biometria_nova.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/mao_biometria_nova_sem_descricao.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/medio_direito.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/medio_esquerdo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/minimo_direito.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/minimo_esquerdo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/polegar_direito.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/imagens/biometria-src/images/polegar_esquerdo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/fontes-src/images/fonts/futurabi.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/fontes-src/images/fonts/futurah.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/fontes-src/images/fonts/futurak.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/fontes-src/images/fonts/futuram.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/fontes-src/images/fonts/futura_mh.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/fontes-src/images/fonts/futurbci.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/fontes-src/images/fonts/veramobd.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/fontes/arial-src/images/fonts/arial.ttf",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/conf/menu.xsd",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/conf/skin.xsd",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/menu/menu.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/menu/menu_en_US.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/skin/skin.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/SkinConfig.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/SkinPainter.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/SkinRender.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/AtualizaData.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/Data.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/DefaultUIManager.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLButton.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLButtonGroup.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLComboBox.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLComboBoxUf.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLFrame.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLInternalReport.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLLabel.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLPanel.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLPanel2.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLProgressBar.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReport.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReport2.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReport3.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReportEvent.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReportEvent2.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReportEventListener.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReportNotificacao.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLReportSelecaoMultipla.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLScrollBarUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLScrollPane.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLScrollPane2.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLTable.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLTextArea.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLTextField.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLTextFieldAdapter.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLToggleButton.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLTwoLabelButton.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLValorSurpresaSuperSete.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLVirtualKeyboard.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLVirtualKeyboardCalculator.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EFLVirtualKeyboardNumeric.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/EventoCalculadora.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/FabricaDeComponentesGraficos.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/FabricaUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/IPortadorNaoJogo.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/MecanismoNotificacao.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/MenuBotaoDesabilitadoEnum.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/MonitorLabel.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/MonitorPanel.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/PnlSenhaUsuarioEFL.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/PortadorNaoJogoAtendimentoImpl.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/RegistroPosicaoPnlCrononometro.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/SwingWorker.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/SwingWorkerActionListener.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/TypeCase.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/UIAbstractControle.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/UIEFL.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/UIException.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/UIIniciaAtendimentoEFL.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/UIManager.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/UIMenuControle.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/DlgCalculadora.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/DlgModuloOfertas.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/DlgModuloOfertasLista.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/DlgNotificacao.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/DlgNotificacaoSituacaoCadastralUsuario.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/DlgReenvio.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/DlgTermoConfidencialidade.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/dlg/EFLDialog.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLAlfaDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLAlfaNumDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLCelularDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLCepDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLCpfCnpjDocumento.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLCpfDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLDateDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLDddDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLMaskCelularDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLMaskedDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLMonetaryDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLNisDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLNsbcDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLNsbDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLNsbiDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLNsbMascaradoDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLNumericDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLNumeroContratoDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLPasswordDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLPlainDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLRicDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLShortDateDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/document/EFLUserDocument.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/BasicEFLButtonListener.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/BasicEFLPanelListener.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/BasicEFLTextFieldListener.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/BasicEFLToggleButtonListener.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLButtonUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLComboBoxIcon.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLComboBoxUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLLabelUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLPanelUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLSelectionListener.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLTextFieldUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/plaf/EFLToggleButtonUI.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlCapturaOTP.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlConfirmarResposta.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlCronometroJogo.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlFilaImpressao.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlInicializacaoSistema.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMensagem.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMensagemConfirmada.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMensagemCriticaPix.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMensagemErroNegocial.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMensagemOferta1.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMensagemOferta2.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMensagemOferta3.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlMenu.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlSenSup.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/ui/pnl/PnlTotalizador.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/builder/SkinBuilder.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/builder/SkinBuilderFactory.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/ComponentSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/ComponentSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/SkinState.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/exception/SkinException.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/reader/SkinReader.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/reader/SkinReaderFactory.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/util/FontLoader.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/util/ImageLoader.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/util/SkinUtil.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/reader/impl/jaxb/JaxbSkinReader.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/button/ButtonSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/button/ButtonSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/dialog/DialogSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/dialog/DialogSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/label/LabelSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/label/LabelSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/panel/PanelSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/panel/PanelSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/passwordfield/PasswordFieldSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/passwordfield/PasswordFieldSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/scrollPane/ScrollBarSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/scrollPane/ScrollBarSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/state/ColorBean.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/state/FontBean.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/state/SkinStateXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/table/TableHeaderSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/table/TableHeaderSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/table/TableSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/table/TableSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/textarea/TextAreaSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/textarea/TextAreaSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/textfield/TextFieldSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/textfield/TextFieldSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/togglebutton/ToggleButtonSkin.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/component/togglebutton/ToggleButtonSkinXML.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/9999-sistema-prototipo-android/source-material/codigo-java/componentes-src/java/br/gov/caixa/sispl/infra/skin/builder/impl/SkinBuilderImpl.java",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10027-resumo-compra-visivel/evidence/coverage.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10027-resumo-compra-visivel/evidence/eventos-casais-pedido.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10027-resumo-compra-visivel/evidence/ingressos-catalogo-compacto-pedido.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10027-resumo-compra-visivel/evidence/ingressos-catalogo-fonte-ampliada.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10027-resumo-compra-visivel/evidence/resumo-tablet-altura-limitada.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10027-resumo-compra-visivel/evidence/resumo-tablet-selecao.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10027-resumo-compra-visivel/evidence/ui-completa.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/coverage.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/eventos-casais-pedido.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/eventos-mapa-ampliado.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/eventos-show-misto.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/host-integration.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/ingressos-catalogo-compacto-pedido.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/ingressos-catalogo-fonte-ampliada.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/ingressos-sucesso.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/plugin-ui-focal.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10026-eventos-mapa-comercial/evidence/plugin-ui-full.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10025-retorno-cartao-ao-plugin/evidence/ingressos-captured-novo-atendimento.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10025-retorno-cartao-ao-plugin/evidence/ingressos-captured-sucesso.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10024-animacao-conclusao-atendimento/evidence/ingressos-novo-atendimento.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10024-animacao-conclusao-atendimento/evidence/ingressos-sucesso-fluxo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10024-animacao-conclusao-atendimento/evidence/ingressos-sucesso.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10023-filmes-sessao-preconfigurada/evidence/ingressos-catalogo-amplo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10023-filmes-sessao-preconfigurada/evidence/ingressos-catalogo-compacto-pedido.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10023-filmes-sessao-preconfigurada/evidence/ingressos-catalogo-compacto.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10023-filmes-sessao-preconfigurada/evidence/ingressos-catalogo-fonte-ampliada.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-fonte-ampliada-r4.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-fonte-ampliada.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-layout-amplo-r4.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-layout-amplo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-layout-compacto-pedido-r4.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-layout-compacto-pedido.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-layout-compacto-r4-review.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-layout-compacto-r4.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-layout-compacto.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-prototipo-amplo-r4-review.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10022-layout-plugin-ingressos/evidence/ingressos-prototipo-amplo.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/validate-external-des.go",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/app-instrumented.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1024x768-d1.0-f1.0-initial.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1024x768-d1.0-f1.0-scrolled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1366x768-d0.75-f1.0-initial.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1366x768-d0.75-f1.0-scrolled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1366x768-d1.0-f1.0-initial.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1366x768-d1.0-f1.0-scrolled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1920x1080-d1.0-f1.0-initial.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-1920x1080-d1.0-f1.0-scrolled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-360x640-d2.0-f1.3-initial.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/menu10010-360x640-d2.0-f1.3-scrolled.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10010-estilo-menu-aplicacao/evidence/plugin-login-instrumented.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/gemini/1_TELA_MODALIDADE.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/gemini/2_CONFIRMACAO_COMPRA_PINPAD.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/gemini/3_LEITURA_CARTAO.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/gemini/4_DIGITACAO_SENHA_PINPAD.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/gemini/5_FINALIZACAO_TRANSACAO.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/original/1_TELA_MODALIDADE.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/original/2_CONFIRMACAO_COMPRA_PINPAD.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/original/3_LEITURA_CARTAO.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/original/4_DIGITACAO_SENHA_PINPAD.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/source-material/original/5_FINALIZACAO_TRANSACAO.svg",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/cinco-etapas.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/referencia-valores.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/coverage-rev008.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/lint-plugin-rev008.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.PluginSaqueCartaoAppTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueJourneyTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueModelsTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-009/coverage-rev009.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-009/lint-plugin-rev009.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-009/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.PluginSaqueCartaoAppTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-009/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueJourneyTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-009/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueModelsTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-010/coverage-rev010.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-010/lint-plugin-rev010.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-010/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.PluginSaqueCartaoAppTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-010/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueJourneyTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-010/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueModelsTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-015/00-preparacao-emv.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-015/lint-results-debug.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-015/saqueCoverageReport.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-015/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.PluginSaqueCartaoAppTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-015/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueJourneyTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-015/TEST-br.com.romulopenha.sistemaprototipoandroid.pluginsaquecartao.SaqueModelsTest.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-016/00-preparacao-emv-REV016.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-016/TEST-SaqueCartaoScreenTest-REV016.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/technical/android-coverage.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/technical/go-coverage.out",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/technical/host-tests.xml",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/layout-10004/01-valores.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/layout-10004/02-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/layout-10004/03-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/layout-10004/04-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/layout-10004/05-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/layout-10004/06-compacto-fonte150.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-008/layout-10004/07-primeira-tela-sem-perfil.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-007/layout-10004/01-valores.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-007/layout-10004/02-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-007/layout-10004/03-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-007/layout-10004/04-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-007/layout-10004/05-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-007/layout-10004/06-compacto-fonte150.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/rev-007/layout-10004/07-primeira-tela-sem-perfil.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/layout-10004/01-valores.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/layout-10004/02-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/layout-10004/03-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/layout-10004/04-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/layout-10004/05-etapa.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/layout-10004/06-compacto-fonte150.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  },
+  {
+    "path": "specs/changes/10004-plugin-saque-cartao/evidence/layout/layout-10004/07-primeira-tela-sem-perfil.png",
+    "reason": "Material particular de referência/aplicação, backup ou artefato binário; fora do pacote metodológico"
+  }
+]

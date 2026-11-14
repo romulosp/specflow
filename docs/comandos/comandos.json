@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "namespace": "specflow",
+  "commands": [
+    {
+      "name": "specflow-contexto",
+      "description": "Retomar uma Change SpecFlow lendo estado, contrato, decisoes e pendencias sem promover gates.",
+      "phase": "Retomada auxiliar",
+      "input": "Caminho da Change existente.",
+      "output": "Resumo com fase observada, fontes, conflitos, pendencias e proxima acao permitida.",
+      "steps": [
+        "Leia README, AGENTS, a memoria da Change, contrato, tarefas, reviews e validation.",
+        "Reconcilie alegacoes com evidencias; diferenca produz conflito, nao promocao automatica.",
+        "Informe o gate pendente e preserve o trabalho existente. Nao implemente ou registre aprovacao por este comando."
+      ]
+    },
+    {
+      "name": "specflow-especificar",
+      "description": "Criar ou revisar proposta, SPEC, design e tarefas de uma Change SpecFlow, sem implementar.",
+      "phase": "1. Especificacao",
+      "input": "Objetivo e restricoes; caminho da Change se ja existir.",
+      "output": "proposal.md, spec.md, DESIGN.md e tasks.md em EM_REVISAO_SPEC, com requisitos e aceites verificaveis.",
+      "steps": [
+        "Descubra a Change existente antes de criar outra; escolha ID livre sem renumerar o historico.",
+        "Use specs/templates e as convencoes locais. Defina escopo, exclusoes, riscos, dependencias, RF, CA e tarefas rastreaveis. Para codigo, inclua testes obrigatorios e cobertura minima medida de 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md; codigo gerado pelo agente nao e exclusao.",
+        "Registre alternativas e decisoes pendentes; use docs/adr/ADR-TEMPLATE.md quando necessario, mantendo PROPOSTO.",
+        "Identifique revisao e manifesto dos documentos. Nao herde aprovacoes de outra Change ou revisao. Pare em EM_REVISAO_SPEC; nao produza codigo do produto."
+      ]
+    },
+    {
+      "name": "specflow-esclarecer",
+      "description": "Resolver ambiguidades materiais da SPEC com perguntas objetivas e registrar respostas sem inventar aceite.",
+      "phase": "Auxiliar da especificacao",
+      "input": "Caminho da Change e pontos a esclarecer, quando conhecidos.",
+      "output": "Questoes respondidas ou explicitamente pendentes, contrato revisado e impacto na aprovacao registrado.",
+      "steps": [
+        "Leia contrato e evidencias locais; pergunte apenas o que elas nao resolvem e que muda comportamento ou aceite.",
+        "Apresente alternativas e consequencias para questoes materiais. Nao transforme silencio em resposta.",
+        "Incorpore somente respostas recebidas; marque o restante como pendencia e mantenha o gate bloqueado quando relevante.",
+        "Se alterar contrato, identifique nova revisao e manifesto; a aprovacao anterior nao libera o conteudo alterado. Retorne a revisao da SPEC."
+      ]
+    },
+    {
+      "name": "specflow-revisar-spec",
+      "description": "Revisar tecnicamente o contrato SpecFlow e preparar a decisao humana de SPEC_APROVADA sem aprovar automaticamente.",
+      "phase": "2. Revisao da SPEC",
+      "input": "Caminho e revisao da Change.",
+      "output": "Relatorio REV com achados e recomendacao; SPEC_APROVADA somente se houver decisao humana explicita para a revisao corrente.",
+      "steps": [
+        "Use o guia local specs/shared/process/helpers/spec-review.md e confronte proposta, SPEC, design e tarefas sem alterar implementacao.",
+        "Verifique clareza, requisitos, rastreabilidade, riscos, aceites negativos, direitos e conflitos. Achado material aberto impede avancar.",
+        "Registre recomendacao tecnica separada da decisao humana. Apresente contrato concreto, revisao e hashes antes de pedir aceite.",
+        "Se o usuario ja aprovou explicitamente essa revisao, registre fonte e escopo sem pedir novamente. Caso contrario, mantenha aprovacao pendente. Nunca use testes ou parecer tecnico como substitutos da decisao humana."
+      ]
+    },
+    {
+      "name": "specflow-planejar",
+      "description": "Preparar implementation-plan de uma Change SpecFlow com SPEC_APROVADA vigente, sem iniciar codigo.",
+      "phase": "Preparacao entre fases 2 e 3",
+      "input": "Change com contrato corrente aprovado por humano.",
+      "output": "implementation-plan.md com impactos, ordem de implementacao, testes, seguranca, riscos e validacao manual.",
+      "steps": [
+        "Confirme SPEC_APROVADA humana sobre a revisao atual em proposal e spec, verificando a evidencia; palavra isolada no arquivo nao basta.",
+        "Sem esse gate, informe precisamente o que falta e pare sem implementar. O planejamento de produto anterior ao aceite pertence a especificar/esclarecer.",
+        "Registre plano preparatorio conforme workflow, sem reescrever contrato aprovado ou gerar configuracao/infraestrutura.",
+        "Defina testes de comportamento para todo codigo implementado, ferramenta/versao, comando, escopo por arquivo e relatorio de cobertura: minimo obrigatorio 80%, meta 90%, valores superiores validos, conforme specs/shared/testing/coverage-policy.md. Sem medicao ou abaixo do piso, implementacao nao pode ser concluida/aprovada. Planeje roteiro de entrega executavel; nao marque tarefas como concluidas por estarem planejadas."
+      ]
+    },
+    {
+      "name": "specflow-implementar",
+      "description": "Implementar apenas tarefas autorizadas de uma Change SpecFlow com SPEC_APROVADA corrente e plano preparatorio.",
+      "phase": "3. Implementacao",
+      "input": "Change aprovada e implementation-plan existente.",
+      "output": "Codigo e testes executados com cobertura atual minima de 80%, meta 90%, tarefas e evidencias; IMPLEMENTADA somente com gate atendido, ou em andamento/BLOQUEADA com razao.",
+      "steps": [
+        "Confirme decisao humana de SPEC_APROVADA e validade da revisao, plano preparatorio e escopo de escrita.",
+        "Use o guia local specs/shared/process/helpers/spec-implement.md. Para todo codigo implementado, codifique e execute testes de comportamento e meca cobertura conforme specs/shared/testing/coverage-policy.md: minimo 80% por arquivo novo/alterado e agregado do escopo, meta 90%, aceitando valores superiores. Inclua codigo gerado pelo agente. Registre inventario arquivo-teste-aceite, revisao/hashes, comando/cwd, ferramenta/versao, metricas e relatorio. Suíte falha, medicao ausente/desatualizada ou valor abaixo do piso impede IMPLEMENTADA e IMPLEMENTACAO_APROVADA. LLM ou falta de Sonar nao dispensam cobertura.",
+        "Retorne a especificacao para mudanca de requisito; nao altere contrato para fazer uma falha desaparecer. Preserve pendencias de humano/ambiente. Omitir a validacao formal por prompt nao dispensa testes/cobertura da implementacao.",
+        "Nao aprove, arquive, publique ou crie commits automaticamente. Sem satisfazer o gate de testes/cobertura, mantenha em andamento/bloqueada e registre a condicao de desbloqueio; finalize IMPLEMENTADA apenas com evidencia atual suficiente. Atualize a memoria."
+      ]
+    },
+    {
+      "name": "specflow-teste-humano",
+      "aliases": [
+        "speckflow-teste-humano"
+      ],
+      "boundary": "Este fluxo composto pode conduzir contexto, especificacao/esclarecimento, revisao da SPEC, plano e implementacao, sempre respeitando SPEC_APROVADA humana. Pare na entrega IMPLEMENTADA para teste humano; nao execute revisao formal de implementacao, validacao formal, aprovacao ou encerramento. Nao crie subagentes como efeito colateral.",
+      "description": "Conduzir uma Change ate IMPLEMENTADA com entrega executavel e roteiro para teste humano, respeitando SPEC_APROVADA e parando antes de revisao formal, validacao e aceite final.",
+      "phase": "Fluxo composto ate a entrega para teste humano",
+      "input": "Objetivo de uma nova Change ou caminho de Change existente; escopo autorizado e aprovacoes ja registradas.",
+      "output": "Change IMPLEMENTADA, artefato executavel identificado, checks tecnicos registrados e quickstart com teste humano pendente; sem revisao formal, VALIDADA, APROVADA ou encerramento.",
+      "steps": [
+        "Retome a Change com specflow-contexto. Se nao existir contrato, conduza specflow-especificar e specflow-esclarecer apenas para lacunas materiais. Reutilize a mesma Change e preserve suas evidencias.",
+        "Conduza specflow-revisar-spec. Confirme decisao humana explicita de SPEC_APROVADA sobre a revisao corrente; parecer tecnico e invocacao deste comando nao aprovam o contrato. Se faltar aceite, apresente contrato, revisao e condicao de avanco, e pare antes do codigo. Nao repita pedido de aprovacao ja valido para a mesma revisao.",
+        "Com SPEC_APROVADA vigente, conduza specflow-planejar e depois specflow-implementar apenas no escopo autorizado. Este e um fluxo composto: essa sequencia e permitida dentro dele, mas nao libera fases posteriores ao limite de parada.",
+        "Durante a implementacao, codifique e execute testes de comportamento para todo codigo implementado e meca cobertura minima de 80% por arquivo/escopo, meta 90%, permitindo valores superiores, conforme specs/shared/testing/coverage-policy.md. Execute build, lint e smoke aplicaveis, corrija falhas e lacunas de cobertura dentro do contrato. Sao checks tecnicos da implementacao, nao a fase formal specflow-validar. Sem suite aprovada, medicao atual e piso atendido, nao entregue como IMPLEMENTADA/pronta para teste humano; registre bloqueio quando necessario. Inclua relatorio, revisao/hashes, comando e ferramenta nas evidencias. Se corrigir requisito, volte a SPEC e obtenha aceite da nova revisao antes de continuar.",
+        "Prepare resultado real utilizavel: build, pacote, harness ou ambiente local autorizado, com revisao/hash e comandos de execucao verificados. Nao basta apresentar codigo ou roteiro. Nao suba infraestrutura fora do escopo; se faltar recurso indispensavel, registre BLOQUEADA, impacto e proxima acao, sem afirmar pronto para teste.",
+        "Crie ou atualize quickstart.md com prerequisitos, caminhos relativos, diretorio de execucao, comandos, endereco quando aplicavel, roteiro manual por criterio de aceite e resultados esperados. Registre checks tecnicos separados dos cenarios humanos, cujo observado e resultado permanecem pendentes.",
+        "Pare obrigatoriamente em IMPLEMENTADA quando a entrega estiver utilizavel. Informe artefato/revisao, como executar e quais cenarios o usuario deve testar; aguarde o relato humano. Nao execute specflow-revisar-implementacao, specflow-validar, specflow-aprovar, specflow-encerrar ou seus equivalentes, nem marque testes humanos aprovados por ter escrito o roteiro.",
+        "Ao receber falha humana, registre o observado na mesma Change, corrija dentro do escopo aprovado, execute os checks afetados e entregue nova revisao para reteste. Um relato positivo tambem nao autoriza automaticamente aprovacao, system, archive, commit, push ou publicacao; fases seguintes dependem de pedido proprio. Atualize memoria e tasks com o estado real."
+      ]
+    },
+    {
+      "name": "specflow-revisar-implementacao",
+      "description": "Confrontar implementacao e SPEC aprovada e registrar achados de aderencia, sem corrigir codigo nesta fase.",
+      "phase": "4. Revisao da implementacao",
+      "input": "Change IMPLEMENTADA e manifesto da implementacao.",
+      "output": "Relatorio IMP-REV com IMPLEMENTACAO_APROVADA tecnica ou REPROVADA e retorno indicado.",
+      "steps": [
+        "Use o guia local specs/shared/process/helpers/implementation-review.md. Verifique codigo real, testes, diff e rastreabilidade contra contrato corrente. Confira obrigatoriamente testes codificados/executados e cobertura medida atual minima de 80% por arquivo/escopo implementado, meta 90%, conforme specs/shared/testing/coverage-policy.md. Relatorio ausente/desatualizado, suite falha, arquivo sem testes ou abaixo do piso impede IMPLEMENTACAO_APROVADA e retorna a implementacao.",
+        "Registre ID, severidade, fonte, impacto e recomendacao para cada achado; explicite se a revisao e pelo mesmo executor.",
+        "Nao corrija codigo durante esta revisao. Divergencia retorna a implementar; ambiguidade de requisito retorna a especificar/esclarecer.",
+        "Somente ausencia de pendencia material e gate obrigatorio de testes/cobertura atendido permite IMPLEMENTACAO_APROVADA tecnica; isso nao e aprovacao humana final."
+      ]
+    },
+    {
+      "name": "specflow-validar",
+      "description": "Comando padrao da fase de validacao da implementacao, omitido apenas por prompt explicito; exige security-audit e gate de seguranca sem achados ou pendencias.",
+      "phase": "5. Validacao",
+      "input": "Change em IMPLEMENTACAO_APROVADA, criterios de aceite e ambiente conhecido.",
+      "output": "validation.md com VAL e evidencias tecnicas; security-audit.json e security-gate.json atuais. Seguranca pendente impede VALIDADA e nao permite avancar para aprovacao.",
+      "steps": [
+        "Este e o comando padrao quando um fluxo autorizado alcancar a fase de validacao da implementacao; nao exija nova solicitacao rotineira do usuario. Se o prompt do usuario pedir explicitamente nao executar essa fase ou limitar o fluxo antes dela, nao execute seus checks: registre em validation.md e na memoria a revisao, a solicitacao, o motivo e a fase nao executada, mantenha os gates posteriores pendentes e pare sem VALIDADA ou aprovacao. Nao infira dispensa de silencio, falha, ferramenta ausente ou pedido para nao gerar PDF. Esta regra nao amplia comandos de fase unica nem ultrapassa a parada do teste-humano.",
+        "Confirme IMPLEMENTACAO_APROVADA da revisao corrente e a validade do gate de testes/cobertura da implementacao (minimo medido 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md). Evidencia ausente/desatualizada ou abaixo do piso retorna a implementacao; nao crie testes ou corrija codigo nesta fase. Use o guia specs/shared/process/helpers/implementation-validate.md para executar cenarios aplicaveis e registrar comandos, codigos e limites, sem concluir VALIDADA antes de satisfazer o gate de seguranca abaixo.",
+        "Chame obrigatoriamente a skill local security-audit: analise a implementacao atual, execute verificacoes de seguranca aplicaveis autorizadas e registre escopo, findings, checks, limitacoes e manifesto dos artefatos em <Change>/security-audit.json conforme docs/security-audit/GATE-SEGURANCA.md. Nao copie resultados do exemplo ou gere conclusoes favoraveis por ausencia de relatorio.",
+        "Execute obrigatoriamente python -B docs/security-audit/verificar_seguranca.py --change <caminho-da-Change>. Este verificador confere evidencias e digests da auditoria; o gerador gerar_relatorio.py apenas formata PDF e nao o substitui. Registre comando, codigo e security-gate.json em validation.md.",
+        "Somente codigo 0 com status verificada permite considerar o gate de seguranca satisfeito. Qualquer achado aberto, check falho/nao executado, auditoria ausente/incompleta/desatualizada, erro do script ou dependencia indispensavel ausente deixa seguranca e fase de validacao pendentes. Nao escreva VALIDADA nem avance para specflow-aprovar enquanto isso persistir; informe IDs, impacto e condicao de desbloqueio sem expor segredos.",
+        "Nao corrija codigo durante a validacao. Encaminhe os problemas para implementacao ou SPEC conforme a causa; depois da correcao, exija revisao tecnica atual, nova auditoria sobre os artefatos atuais e nova execucao do gate. Achados resolvidos exigem evidencia; nao basta renomear status para liberar.",
+        "Disponibilize build/harness real identificado e quickstart verificavel antes de pedir teste manual; resultado humano pendente continua pendente. PDF de auditoria so se solicitado, com dados atuais, extracao de texto e inspecao visual de todas as paginas. Nao aprove ou encerre automaticamente nem execute comandos do JSON de evidencia."
+      ]
+    },
+    {
+      "name": "specflow-aprovar",
+      "description": "Consolidar evidencias e registrar aceite humano final da revisao SpecFlow testada, sem fabricar aprovacao.",
+      "phase": "6. Aprovacao humana",
+      "input": "Revisao validada, cenarios manuais aplicaveis aprovados e ausencia de pendencias materiais.",
+      "output": "Decisao APR ligada a fonte humana, escopo e manifesto; APROVADA somente apos aceite explicito.",
+      "steps": [
+        "Use o guia local specs/shared/process/helpers/change-approve.md. Confira relatorios, revisao validada e resultado manual da mesma entrega.",
+        "Se faltar evidencia ou teste, informe a condicao e mantenha pendente. Invocar este comando pede a fase de aprovacao, nao significa por si so que o usuario aprovou o produto.",
+        "Apresente o resultado concreto e obtenha decisao humana explicita, aproveitando aceite ja dado para a mesma revisao. Registre fonte, escopo, motivo e hashes.",
+        "Nao execute commit, archive, push, deploy ou publicacao como efeito do aceite."
+      ]
+    },
+    {
+      "name": "specflow-encerrar",
+      "description": "Preparar encerramento de Change SpecFlow aceita e efetivar archive ou commit apenas com autorizacao aplicavel.",
+      "phase": "7. Encerramento",
+      "input": "APROVADA humana da revisao corrente e autorizacao delimitada das acoes de encerramento.",
+      "output": "System atualizado, candidato de archive verificado e recibo de encerramento; ARQUIVADA apenas apos acoes efetivas autorizadas.",
+      "steps": [
+        "Confirme aprovacao humana e politica de encerramento da Change. Prepare atualizacao de system e candidato de archive; nao mova automaticamente.",
+        "Verifique Git real sem inicializa-lo como efeito colateral. Neste workspace sem Git, nao execute git-commit nem afirme commit existente.",
+        "A skill git-commit so se aplica se houver repositorio e autorizacao explicita para commit/encerramento. A politica da Change e AGENTS prevalecem sobre sequencias legadas de prompts.",
+        "Apos acoes autorizadas, registre recibo posterior com localizacao e hash quando aplicavel, sem circularidade. Sem autorizacao ou acao efetiva, mantenha APROVADA com encerramento pendente. Publicacao nunca e implicita."
+      ]
+    }
+  ]
+}

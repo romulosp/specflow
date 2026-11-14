@@ -1,0 +1,27 @@
+{
+  "revision": "r1",
+  "representation": "exact local ZIP snapshot",
+  "manifestSha256": "6952d218ff94bd89e5447537a9b02d5107e14e4e2f2e49d9bc458b29d91076ad",
+  "approved": false,
+  "files": [
+    {
+      "path": "proposal.md",
+      "rawSha256": "6dbb2e6cf63fd55271fdaf8305e581e868d93ddaa6e854fa91d210d4eac7e44e"
+    },
+    {
+      "path": "spec.md",
+      "rawSha256": "5e872058e07969fc5cb7c962dc4e9496b11cb716bdd148e763d59f53eafa372f"
+    },
+    {
+      "path": "DESIGN.md",
+      "rawSha256": "8e8d71c9f9188169277debd5473b8659fb952bc6fb8c41a02497c5a5ed5e3c78"
+    },
+    {
+      "path": "tasks.md",
+      "rawSha256": "721de734b4ec364374e235404c0475be76faf3c98a82f676fe3931559e322a9c"
+    }
+  ],
+  "archiveRelative": "../r1.zip",
+  "archiveSha256": "7735e0d0bf3bfb51fa5db732b4b32f8b54f496459c650552d42ab60054a59085",
+  "looseContractFiles": false
+}

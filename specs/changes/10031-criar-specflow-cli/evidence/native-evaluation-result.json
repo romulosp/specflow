@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "method": "library_direct_context",
+  "actualChecks": [
+    {
+      "requestedState": "SPEC_APROVADA",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "allowed": true,
+      "reason": null
+    },
+    {
+      "requestedState": "IMPLEMENTADA",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "allowed": true,
+      "reason": null
+    },
+    {
+      "requestedState": "IMPLEMENTACAO_APROVADA",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "allowed": true,
+      "reason": null
+    },
+    {
+      "requestedState": "VALIDADA",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "allowed": false,
+      "reason": "EVIDENCE_NOT_PASSED"
+    },
+    {
+      "requestedState": "APROVADA",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "allowed": false,
+      "reason": "EVIDENCE_NOT_PASSED"
+    }
+  ],
+  "securityBindingVerified": true,
+  "limitations": [
+    "No consumer bootstrap or transition. VALIDADA/APROVADA blocked by real not_run environment evidence; final human decision absent."
+  ]
+}

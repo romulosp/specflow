@@ -9,7 +9,7 @@ CLI local para preparar projetos, recuperar contexto e verificar gates de um pro
 Python >=3.11. Uv é recomendado, não obrigatório; o wheel também é um pacote Python padrão instalável em ambiente isolado.
 
 ```powershell
-uv tool install .\dist\specflow_cli-0.1.0-py3-none-any.whl
+uv tool install specflow-cli
 specflow --version
 specflow init meu-projeto --integration copilot
 cd meu-projeto
@@ -40,3 +40,7 @@ SPEC_APROVADA humana corrente e plano precedem código. Aplicações são gerada
 O lock coordena escritores conformes; um editor externo pode causar conflito/WRITE_PARTIAL, sem rollback destrutivo. Recuperação de lock abandonado é ação explícita do operador. O produto verifica consistência, não autentica pessoas nem garante a verdade de evidências. Não importa código do consumidor nem inicializa infraestrutura. Extensões incompletas/direitos desconhecidos e material de pesquisa não integram esta distribuição.
 
 Compatibilidade e descoberta de comandos nos clientes só são homologadas por evidência do ambiente executado; testes unitários e arquivos presentes não certificam Linux ou interface de editor. Publicação e aceite humano do build são etapas separadas.
+
+## Organizacao de artefatos (em desenvolvimento)
+
+Na Change 10033, a proposta organiza revisoes em `reviews/spec/` e `reviews/implementation/`, decisoes em `decisions/spec/` e `decisions/final/`, cobertura em `coverage/` e evidencias em `evidence/`. Referencias legadas permanecem validas. Esta alteracao ainda nao foi publicada no PyPI.

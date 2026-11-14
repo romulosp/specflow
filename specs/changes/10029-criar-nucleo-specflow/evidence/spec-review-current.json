@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "REVIEW-SPEC",
+  "kind": "spec",
+  "reviewer": "Assistant executor; not independent audit",
+  "targetManifest": [
+    {
+      "path": "specs/changes/10029-criar-nucleo-specflow/proposal.md",
+      "role": "proposal",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "8665280790516013a463ec54c9e5e69924f47859e0d7c57f0045169150741579",
+      "rawSha256": "1d0c4a1a06ee55074fa5164f405e5e7c1d4a481f0616f095190b46c50d88a4a4"
+    },
+    {
+      "path": "specs/changes/10029-criar-nucleo-specflow/spec.md",
+      "role": "spec",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "c963387fa8745ccc3179450f4502e1c47e422875de008a35774dc9cf93b8f320",
+      "rawSha256": "8882ac2dfd81573efb2771326a258e4b71b8da9dfc2ea0f14d02cca555d6376e"
+    },
+    {
+      "path": "specs/changes/10029-criar-nucleo-specflow/DESIGN.md",
+      "role": "design",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "d847ab5e444af7385058a079eaea765af4ff2028ed76bba2d3c8bbbfd9197cad",
+      "rawSha256": "5c7a1d4860e80ffbca3ac21926c4f985652aa564449883638f583b5fed1eb66e"
+    },
+    {
+      "path": "specs/changes/10029-criar-nucleo-specflow/tasks.md",
+      "role": "tasks",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "c790d712086a1d5be949a357d42a8078a1ee4e069b253cadafb9b89adb1ca013",
+      "rawSha256": "cec0b7bada6ca8347bb8df1cf41491e28f56c24e712f5b9080189da19e782624"
+    }
+  ],
+  "findings": []
+}

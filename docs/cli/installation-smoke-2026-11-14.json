@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "platform": "win32",
+  "runtimeDependencies": [],
+  "wheelSha256": "14b1909be9e7c400dbb7f9aec27d87180cde2166c0f3de86d3def4f3295f8437",
+  "consumerFilesUnchangedOnReinstall": true,
+  "consumerSnapshot": {
+    ".gitignore": "426dabfc9334bb8ae7b6bab594ee43e403a03b8711fe2c752aafc10dc4c05aba",
+    "AGENTS.md": "383a3b014b32b87da4ae9d206f0bebce348b5eefbadd6e9743f8064ba56c411f",
+    "configuracao.properties": "df12b36bcda8f87ebd9eec2fa69de82265c3ea1edee34a62cd905bd3e04c1329",
+    ".agents/SPECFLOW.md": "58ec04c45c9e0f13575970c5020abee9f65eda12a667ae7c8d41b848942e964e",
+    ".specflow/managed-files.json": "c12c9c37eba9faa03a7d3380ae3fb4731a202556559983f0309aa10db3b8ab1b",
+    ".specflow/project.json": "f0b094104a049059f4082b30276f57d32f147697462485ceb88bd44783303896",
+    "specs/changes/README.md": "d3e5ea9e3aeb653949eaa0585adaca8e2092173d0783f6294e0c803f80308396",
+    "specs/knowledge/README.md": "89b25c622be7e783cbfedbc6bcb33ccef8bca143f8d4d8d96a64a63655736c46",
+    "specs/templates/design-template.md": "93f9917d1b73af7f2069f75163c0e6b4bcb9349b567441bfb280303df8d95aa2",
+    "specs/templates/proposal-template.md": "da34eac395404e16e25954b5922df403fed18ef9c2871930a262a631dce4e2cf",
+    "specs/templates/spec-template.md": "43cc49efcbe3770422eb0b7d20cbde1e8cffb09b9d7cf0561bb25e8eb8ba1d1c",
+    "specs/templates/tasks-template.md": "66b985f6af0f6dce8f1b716903889c735ea33cb58192101af6c62105cbaeed68",
+    "specs/templates/validation-template.md": "e7491eb9d45b99ce09246d5a6195acb859fb89a21a602da91d362164a6899a72",
+    "specs/shared/process/evidence-conventions.md": "5ed705d41f31225367e691b97b786894172594ed42d9d5aa57b362eb553370f8",
+    "specs/shared/process/workflow.md": "4965e4623ac12f987bfed2972c992ea55a98b557cbd48099b33ca4349e4184a0",
+    "specs/shared/testing/coverage-policy.md": "2b8a9a2838c6338d0931b8cabe484caaebb2711d3eb8b2ef080a3f2c3508c366",
+    "specs/shared/process/helpers/change-approve.md": "1260d4a3734b7977508c727111be9a0a469c887d626bc7c041c91f7f9303fba4",
+    "specs/shared/process/helpers/git-commit.md": "f9108b81a2220922d8f83980cca3bf4bbcd57402db88260029289c6ed82be841",
+    "specs/shared/process/helpers/implementation-review.md": "bd06f20893696c073086067cb60f2cadaddeca8b117fa57a983a0db268355a92",
+    "specs/shared/process/helpers/implementation-validate.md": "cbef5cad9a985724e9c2323f0198a9b75cf1cf22d793ac8531116e374918222c",
+    "specs/shared/process/helpers/spec-implement.md": "55bd4167856263ab0719e06b4011339bc4aee477d24992c5f4b70a6b718587b4",
+    "specs/shared/process/helpers/spec-review.md": "88f85760dd61366537374816849b58138ddf2d073158d57a7591efde57e93ee4",
+    "specs/changes/00001-criar-cadastro-de-clientes/AGENTS-MEMORY.md": "d9f1ad9a4d437db3098a2a3c26b7ecdc97fd94eeed4c40140c028dd6653919dc",
+    "specs/changes/00001-criar-cadastro-de-clientes/DESIGN.md": "8adb63d98d38bd396a6a20a7b1a159ef912cf4c4a13bca27f980912524600f98",
+    "specs/changes/00001-criar-cadastro-de-clientes/draft.json": "a0217267dd4e602225b98887249bfb647e51f6f45ab97afc89f28dddeb96810c",
+    "specs/changes/00001-criar-cadastro-de-clientes/proposal.md": "0be09cbd5011199f2f348619aaf4fe1d735512fa768ae217c9f5d6adbf3039f1",
+    "specs/changes/00001-criar-cadastro-de-clientes/spec.md": "997456f63ab10733d8fb38b71edf3eefe0083a4343c788b4d14165d310a145eb",
+    "specs/changes/00001-criar-cadastro-de-clientes/tasks.md": "b1fc89651f85e6bd97739ea9d63c4705f5e0c3e1b2ca0492662ab95d672ee637",
+    "specs/changes/00001-criar-cadastro-de-clientes/validation.md": "40e5e397e4b20bec3dc7f65ac7b0c6736a5b519bce266764d5fcd07ae25e2213",
+    "docs/adr/ADR-TEMPLATE.md": "a766863fa9b059055932998026c4c675645f59c7bc2c9ab0dc3cc9197854a635",
+    "docs/adr/README.md": "3ce45f5f4f8b45eba1ff7130b7747c7c8c02b6a1a006f718e93f76b73f6ff524",
+    "docs/comandos/comandos.json": "fadc2c186e9d5b111e0688db25c9853d302231a532616f18f63f72b461e665b4",
+    "docs/comandos/COMANDOS.md": "08b3e25e224ed8c3adc1c148c568e36ed721a718ca1dc01a646a1278d317d2d1",
+    "docs/comandos/fluxo-cli.mmd": "4b1dec55a7e727f54b0c222f71e247f3f290ebc8c196a6ab81d1daf8934ca222",
+    "docs/comandos/fluxo-cli.svg": "a1acf6c305fbeb50d0c6a531428d804c9042efa169f3409debd73bd37923bf9f",
+    "docs/security-audit/auditoria-template.json": "6180007eb42bf0efb8b8c8950b6cd3a96bdd78183f3cdeb359ceb204dab1d102",
+    "docs/security-audit/GATE-SEGURANCA.md": "6f0c51dd0625421deb44de5407e574a5961fbdb5ae7696d61ba4b6b2b04f4983",
+    "docs/security-audit/verificar_seguranca.py": "4b919063074d5496880e437ee6f5d5d5b43fae7c19d7ad07add3a9b778274c0f",
+    ".specflow/policies/policy-v1.json": "108c383c53415bc3950fbf2d557fb5c8ac287a1c5de80621a6385184419160d0",
+    ".specflow/reservations/00001.json": "6e5ea3ca2a8ecb32d8980b69c61687ec7ec26bc3f2671534f046a4086d7f3371",
+    ".github/instructions/specflow.instructions.md": "81fcd65fd26498190f99df5c2445ef8d3ad7e64f5b12096a6b48f12d1aeaf192",
+    ".github/prompts/specflow-aprovar.prompt.md": "4703d8d3ef32c80fbce7de9ebc4c576d13acad9b61b3820b124c1f0cf8a975ce",
+    ".github/prompts/specflow-contexto.prompt.md": "8f0aba6fb988552e7c5fb2b300e66af13e23c6b743f190765f9930e0074b6a38",
+    ".github/prompts/specflow-encerrar.prompt.md": "a5a380750f39e2438e6764ca7bc776da0c08ccd84196883dae2645df671d0afb",
+    ".github/prompts/specflow-esclarecer.prompt.md": "1e6388417a08349aef1f260c8bd4616ecedb689576359caa126d907983c57fe5",
+    ".github/prompts/specflow-especificar.prompt.md": "498ccf7d54b8a7614216e592ba51e9900009ffb9612f46f4a90cea595ef4b080",
+    ".github/prompts/specflow-implementar.prompt.md": "2e567dcc15016153109273203590db546fecc8a96829e968daaebecea0fbbe64",
+    ".github/prompts/specflow-planejar.prompt.md": "ebb4ccd0ae75fe6a80c0e19e701183510ca52bf4e68ab421c645dd087557d39d",
+    ".github/prompts/specflow-revisar-implementacao.prompt.md": "f68281006b22b345111ce21f9e017307facb64974aa4f168f01a150454f80fae",
+    ".github/prompts/specflow-revisar-spec.prompt.md": "d32e45f40aa3022948acdabe942a7a2d050367325c756069edd7ddb8f779e106",
+    ".github/prompts/specflow-teste-humano.prompt.md": "e4a9ba1f10a261bfe71c16d76934cb028e33154494cd93f7850d473c7f8c9b16",
+    ".github/prompts/specflow-validar.prompt.md": "d399ada0e4eb624686eec3d6d3388f0991b21c90a774e9bd9f7a0a0bed6f7595",
+    ".github/prompts/speckflow-teste-humano.prompt.md": "e23283e9913a2a242853fd60e1bab620b3d85e132ca75650c5ca92430bffc044",
+    ".agents/skills/security-audit/SKILL.md": "813a93adf546fe1425bba0e426ce0a30d631424b0a137aadbb2f42d67f9431fd",
+    ".agents/skills/specflow-aprovar/SKILL.md": "3eeace89672827505f0b01ffe36b2787fe586006dfb1a25e51bb916822032a2a",
+    ".agents/skills/specflow-contexto/SKILL.md": "4713df4c021d643efda9d24a0cd58054a0dcf954fe89e44c83a07579a2b0deb3",
+    ".agents/skills/specflow-encerrar/SKILL.md": "f075db9e6c90241f5c146f44b3bb1a81e521bc545bada4dc24ae4ab1bd1f0320",
+    ".agents/skills/specflow-esclarecer/SKILL.md": "855a5cd8be406034c318ac8f242533a79fbc20bd4e18bf71c27ba810b7f93149",
+    ".agents/skills/specflow-especificar/SKILL.md": "f5b50c003cb401c872449a006a716f55c02aa2a16c148e7d3859f9bba6d4b5d6",
+    ".agents/skills/specflow-implementar/SKILL.md": "5b814f23f8d702408a6ec3f8f3dccf79f926d763f22d4bb845ac6c85869ffbf9",
+    ".agents/skills/specflow-planejar/SKILL.md": "2905713a088467ac39f5d605db39de950a8d0386382d8d62c076dca56b3744f0",
+    ".agents/skills/specflow-revisar-implementacao/SKILL.md": "7cb6025d0ca14f5c4ac6117a723022f7cdb6f4a470b3f0db269169215a43e04f",
+    ".agents/skills/specflow-revisar-spec/SKILL.md": "6803aa3135104abc0f212b6db8d6cd2e0d3887defb0b64a6e95e821d3931efa1",
+    ".agents/skills/specflow-teste-humano/SKILL.md": "90d2d1a2c3819904e3633d6d3a57d570145573b675c7ec6b93f9f258eaee7650",
+    ".agents/skills/specflow-validar/SKILL.md": "fffed0c6742a76eb3048de4f8634b7510cbeb77624bc050f0b9df9709688d416",
+    ".agents/skills/speckflow-teste-humano/SKILL.md": "275d92a6893eda4d0cfc6c60a3f60806a4bbf41662a7638fe83f0183bc5ddd99"
+  },
+  "results": [
+    {
+      "command": [
+        "C:/Users/RomuloPenha/.local/bin/uv.EXE",
+        "tool",
+        "install",
+        "--offline",
+        "--no-index",
+        "--no-python-downloads",
+        "--no-config",
+        "--python",
+        "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "<workspace>\\dist\\specflow_cli-0.1.0-py3-none-any.whl"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "",
+      "stderr": "Resolved 1 package in 6ms\nPrepared 1 package in 13ms\nInstalled 1 package in 40ms\n + specflow-cli==0.1.0 (from file:///D:/desenvolvimento/ia/specflow-investigacao/dist/specflow_cli-0.1.0-py3-none-any.whl)\nInstalled 1 executable: specflow\nwarning: `D:\\desenvolvimento\\ia\\specflow-investigacao\\framework\\.test-output\\delivery-r2-20261114\\bin` is not on your PATH. To use installed tools, run `$env:PATH = \"D:\\desenvolvimento\\ia\\specflow-investigacao\\framework\\.test-output\\delivery-r2-20261114\\bin;$env:PATH\"` or `uv tool update-shell`.\n"
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "--version"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "0.1.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\tools\\specflow-cli\\Scripts\\python.exe",
+        "-m",
+        "specflow",
+        "--version"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "0.1.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "--help"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "usage: specflow [-h] [--version] [--project PROJECT] [--json]\n                {init,doctor,nova-change,contexto,context,especificar,esclarecer,revisar-spec,planejar,implementar,teste-humano,revisar-implementacao,validar,aprovar,encerrar,check,evaluate} ...\n\nProcesso Spec Driven proprio: CLI local e agente no editor\n\npositional arguments:\n  {init,doctor,nova-change,contexto,context,especificar,esclarecer,revisar-spec,planejar,implementar,teste-humano,revisar-implementacao,validar,aprovar,encerrar,check,evaluate}\n    init                Inicializar consumidor sem ativar recursos\n    doctor              Conferir arquivos e configuracao sem probes\n    nova-change         Criar rascunho sem aprovacao\n    contexto (context)  Retomar uma Change SpecFlow lendo estado, contrato,\n                        decisoes e pendencias sem promover gates.\n    especificar         Criar ou revisar proposta, SPEC, design e tarefas de\n                        uma Change SpecFlow, sem implementar.\n    esclarecer          Resolver ambiguidades materiais da SPEC com perguntas\n                        objetivas e registrar respostas sem inventar aceite.\n    revisar-spec        Revisar tecnicamente o contrato SpecFlow e preparar a\n                        decisao humana de SPEC_APROVADA sem aprovar\n                        automaticamente.\n    planejar            Preparar implementation-plan de uma Change SpecFlow\n                        com SPEC_APROVADA vigente, sem iniciar codigo.\n    implementar         Implementar apenas tarefas autorizadas de uma Change\n                        SpecFlow com SPEC_APROVADA corrente e plano\n                        preparatorio.\n    teste-humano        Conduzir uma Change ate IMPLEMENTADA com entrega\n                        executavel e roteiro para teste humano, respeitando\n                        SPEC_APROVADA e parando antes de revisao formal,\n                        validacao e aceite final.\n    revisar-implementacao\n                        Confrontar implementacao e SPEC aprovada e registrar\n                        achados de aderencia, sem corrigir codigo nesta fase.\n    validar             Comando padrao da fase de validacao da implementacao,\n                        omitido apenas por prompt explicito; exige security-\n                        audit e gate de seguranca sem achados ou pendencias.\n    aprovar             Consolidar evidencias e registrar aceite humano final\n                        da revisao SpecFlow testada, sem fabricar aprovacao.\n    encerrar            Preparar encerramento de Change SpecFlow aceita e\n                        efetivar archive ou commit apenas com autorizacao\n                        aplicavel.\n    check               Avaliacao deterministica, sem aplicar transicao\n    evaluate            Avaliacao deterministica, sem aplicar transicao\n\noptions:\n  -h, --help            show this help message and exit\n  --version             show program's version number and exit\n  --project PROJECT     Raiz explicita; aceita antes/depois do subcomando\n  --json                Saida estruturada\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "init",
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+        "--integration",
+        "copilot",
+        "--json"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": null,\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"filesPrepared\": 45,\n  \"findings\": [],\n  \"integrations\": [\n    \"copilot\"\n  ],\n  \"limitations\": [\n    \"Ignore does not remove previously tracked secrets; no Git or service was executed\"\n  ],\n  \"localChecksExecuted\": [],\n  \"operation\": \"init\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "--project",
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+        "init",
+        ".",
+        "--integration",
+        "codex",
+        "--json"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": null,\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"filesPrepared\": 55,\n  \"findings\": [],\n  \"integrations\": [\n    \"codex\",\n    \"copilot\"\n  ],\n  \"limitations\": [\n    \"Ignore does not remove previously tracked secrets; no Git or service was executed\"\n  ],\n  \"localChecksExecuted\": [],\n  \"operation\": \"init\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "doctor",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": null,\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [\n    \"Configuration readiness does not execute or certify integrations\",\n    \"Editor discovery requires a real client test\"\n  ],\n  \"localChecksExecuted\": [],\n  \"operation\": \"doctor\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"resources\": {\n    \"android\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"cobertura\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"diagramas\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"git\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"go\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"java\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"maven\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"node\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"pdf\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"servico\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"sonar\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    }\n  },\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "nova-change",
+        "Criar cadastro de clientes",
+        "--project",
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+        "--json"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"observedState\": \"RASCUNHO\",\n  \"operation\": \"nova-change\",\n  \"outcome\": \"prepared\",\n  \"path\": \"specs/changes/00001-criar-cadastro-de-clientes\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": null,\n  \"revision\": \"r1\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "contexto",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"allowed\": null,\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"decisions\": [],\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"lessons\": [],\n  \"limitations\": [\n    \"Checks record consistency; does not authenticate people or prove evidence truth\"\n  ],\n  \"nextSteps\": [\n    \"COMPLETE_SPECIFICATION\"\n  ],\n  \"observedState\": \"RASCUNHO\",\n  \"operation\": \"context\",\n  \"pending\": [],\n  \"projectId\": \"consumer\",\n  \"requestedState\": null,\n  \"schemaVersion\": 1,\n  \"sources\": [\n    \".specflow/project.json\",\n    \"specs/changes/00001-criar-cadastro-de-clientes/draft.json\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "especificar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-especificar\",\n    \"command\": \"specflow-especificar\",\n    \"copilot\": \"/specflow-especificar\",\n    \"phase\": \"1. Especificacao\",\n    \"steps\": [\n      \"Descubra a Change existente antes de criar outra; escolha ID livre sem renumerar o historico.\",\n      \"Use specs/templates e as convencoes locais. Defina escopo, exclusoes, riscos, dependencias, RF, CA e tarefas rastreaveis. Para codigo, inclua testes obrigatorios e cobertura minima medida de 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md; codigo gerado pelo agente nao e exclusao.\",\n      \"Registre alternativas e decisoes pendentes; use docs/adr/ADR-TEMPLATE.md quando necessario, mantendo PROPOSTO.\",\n      \"Identifique revisao e manifesto dos documentos. Nao herde aprovacoes de outra Change ou revisao. Pare em EM_REVISAO_SPEC; nao produza codigo do produto.\"\n    ]\n  },\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"especificar\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "implementar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-implementar\",\n    \"command\": \"specflow-implementar\",\n    \"copilot\": \"/specflow-implementar\",\n    \"phase\": \"3. Implementacao\",\n    \"steps\": [\n      \"Confirme decisao humana de SPEC_APROVADA e validade da revisao, plano preparatorio e escopo de escrita.\",\n      \"Use o guia local specs/shared/process/helpers/spec-implement.md. Para todo codigo implementado, codifique e execute testes de comportamento e meca cobertura conforme specs/shared/testing/coverage-policy.md: minimo 80% por arquivo novo/alterado e agregado do escopo, meta 90%, aceitando valores superiores. Inclua codigo gerado pelo agente. Registre inventario arquivo-teste-aceite, revisao/hashes, comando/cwd, ferramenta/versao, metricas e relatorio. Suíte falha, medicao ausente/desatualizada ou valor abaixo do piso impede IMPLEMENTADA e IMPLEMENTACAO_APROVADA. LLM ou falta de Sonar nao dispensam cobertura.\",\n      \"Retorne a especificacao para mudanca de requisito; nao altere contrato para fazer uma falha desaparecer. Preserve pendencias de humano/ambiente. Omitir a validacao formal por prompt nao dispensa testes/cobertura da implementacao.\",\n      \"Nao aprove, arquive, publique ou crie commits automaticamente. Sem satisfazer o gate de testes/cobertura, mantenha em andamento/bloqueada e registre a condicao de desbloqueio; finalize IMPLEMENTADA apenas com evidencia atual suficiente. Atualize a memoria.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"implementar\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "teste-humano",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Este fluxo composto pode conduzir contexto, especificacao/esclarecimento, revisao da SPEC, plano e implementacao, sempre respeitando SPEC_APROVADA humana. Pare na entrega IMPLEMENTADA para teste humano; nao execute revisao formal de implementacao, validacao formal, aprovacao ou encerramento. Nao crie subagentes como efeito colateral.\",\n    \"codex\": \"$specflow-teste-humano\",\n    \"command\": \"specflow-teste-humano\",\n    \"copilot\": \"/specflow-teste-humano\",\n    \"phase\": \"Fluxo composto ate a entrega para teste humano\",\n    \"steps\": [\n      \"Retome a Change com specflow-contexto. Se nao existir contrato, conduza specflow-especificar e specflow-esclarecer apenas para lacunas materiais. Reutilize a mesma Change e preserve suas evidencias.\",\n      \"Conduza specflow-revisar-spec. Confirme decisao humana explicita de SPEC_APROVADA sobre a revisao corrente; parecer tecnico e invocacao deste comando nao aprovam o contrato. Se faltar aceite, apresente contrato, revisao e condicao de avanco, e pare antes do codigo. Nao repita pedido de aprovacao ja valido para a mesma revisao.\",\n      \"Com SPEC_APROVADA vigente, conduza specflow-planejar e depois specflow-implementar apenas no escopo autorizado. Este e um fluxo composto: essa sequencia e permitida dentro dele, mas nao libera fases posteriores ao limite de parada.\",\n      \"Durante a implementacao, codifique e execute testes de comportamento para todo codigo implementado e meca cobertura minima de 80% por arquivo/escopo, meta 90%, permitindo valores superiores, conforme specs/shared/testing/coverage-policy.md. Execute build, lint e smoke aplicaveis, corrija falhas e lacunas de cobertura dentro do contrato. Sao checks tecnicos da implementacao, nao a fase formal specflow-validar. Sem suite aprovada, medicao atual e piso atendido, nao entregue como IMPLEMENTADA/pronta para teste humano; registre bloqueio quando necessario. Inclua relatorio, revisao/hashes, comando e ferramenta nas evidencias. Se corrigir requisito, volte a SPEC e obtenha aceite da nova revisao antes de continuar.\",\n      \"Prepare resultado real utilizavel: build, pacote, harness ou ambiente local autorizado, com revisao/hash e comandos de execucao verificados. Nao basta apresentar codigo ou roteiro. Nao suba infraestrutura fora do escopo; se faltar recurso indispensavel, registre BLOQUEADA, impacto e proxima acao, sem afirmar pronto para teste.\",\n      \"Crie ou atualize quickstart.md com prerequisitos, caminhos relativos, diretorio de execucao, comandos, endereco quando aplicavel, roteiro manual por criterio de aceite e resultados esperados. Registre checks tecnicos separados dos cenarios humanos, cujo observado e resultado permanecem pendentes.\",\n      \"Pare obrigatoriamente em IMPLEMENTADA quando a entrega estiver utilizavel. Informe artefato/revisao, como executar e quais cenarios o usuario deve testar; aguarde o relato humano. Nao execute specflow-revisar-implementacao, specflow-validar, specflow-aprovar, specflow-encerrar ou seus equivalentes, nem marque testes humanos aprovados por ter escrito o roteiro.\",\n      \"Ao receber falha humana, registre o observado na mesma Change, corrija dentro do escopo aprovado, execute os checks afetados e entregue nova revisao para reteste. Um relato positivo tambem nao autoriza automaticamente aprovacao, system, archive, commit, push ou publicacao; fases seguintes dependem de pedido proprio. Atualize memoria e tasks com o estado real.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"teste-humano\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "validar",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"editorInstructions\": {\n    \"boundary\": \"Somente a fase solicitada\",\n    \"codex\": \"$specflow-validar\",\n    \"command\": \"specflow-validar\",\n    \"copilot\": \"/specflow-validar\",\n    \"phase\": \"5. Validacao\",\n    \"steps\": [\n      \"Este e o comando padrao quando um fluxo autorizado alcancar a fase de validacao da implementacao; nao exija nova solicitacao rotineira do usuario. Se o prompt do usuario pedir explicitamente nao executar essa fase ou limitar o fluxo antes dela, nao execute seus checks: registre em validation.md e na memoria a revisao, a solicitacao, o motivo e a fase nao executada, mantenha os gates posteriores pendentes e pare sem VALIDADA ou aprovacao. Nao infira dispensa de silencio, falha, ferramenta ausente ou pedido para nao gerar PDF. Esta regra nao amplia comandos de fase unica nem ultrapassa a parada do teste-humano.\",\n      \"Confirme IMPLEMENTACAO_APROVADA da revisao corrente e a validade do gate de testes/cobertura da implementacao (minimo medido 80%, meta 90%, conforme specs/shared/testing/coverage-policy.md). Evidencia ausente/desatualizada ou abaixo do piso retorna a implementacao; nao crie testes ou corrija codigo nesta fase. Use o guia specs/shared/process/helpers/implementation-validate.md para executar cenarios aplicaveis e registrar comandos, codigos e limites, sem concluir VALIDADA antes de satisfazer o gate de seguranca abaixo.\",\n      \"Chame obrigatoriamente a skill local security-audit: analise a implementacao atual, execute verificacoes de seguranca aplicaveis autorizadas e registre escopo, findings, checks, limitacoes e manifesto dos artefatos em <Change>/security-audit.json conforme docs/security-audit/GATE-SEGURANCA.md. Nao copie resultados do exemplo ou gere conclusoes favoraveis por ausencia de relatorio.\",\n      \"Execute obrigatoriamente python -B docs/security-audit/verificar_seguranca.py --change <caminho-da-Change>. Este verificador confere evidencias e digests da auditoria; o gerador gerar_relatorio.py apenas formata PDF e nao o substitui. Registre comando, codigo e security-gate.json em validation.md.\",\n      \"Somente codigo 0 com status verificada permite considerar o gate de seguranca satisfeito. Qualquer achado aberto, check falho/nao executado, auditoria ausente/incompleta/desatualizada, erro do script ou dependencia indispensavel ausente deixa seguranca e fase de validacao pendentes. Nao escreva VALIDADA nem avance para specflow-aprovar enquanto isso persistir; informe IDs, impacto e condicao de desbloqueio sem expor segredos.\",\n      \"Nao corrija codigo durante a validacao. Encaminhe os problemas para implementacao ou SPEC conforme a causa; depois da correcao, exija revisao tecnica atual, nova auditoria sobre os artefatos atuais e nova execucao do gate. Achados resolvidos exigem evidencia; nao basta renomear status para liberar.\",\n      \"Disponibilize build/harness real identificado e quickstart verificavel antes de pedir teste manual; resultado humano pendente continua pendente. PDF de auditoria so se solicitado, com dados atuais, extracao de texto e inspecao visual de todas as paginas. Nao aprove ou encerre automaticamente nem execute comandos do JSON de evidencia.\"\n    ]\n  },\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"source\": null\n    }\n  ],\n  \"limitations\": [],\n  \"localChecksExecuted\": [],\n  \"operation\": \"validar\",\n  \"outcome\": \"blocked\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "check",
+        "--change",
+        "00001-criar-cadastro-de-clientes",
+        "--target",
+        "SPEC_APROVADA",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "stdout": "{\n  \"allowed\": false,\n  \"changeId\": \"00001-criar-cadastro-de-clientes\",\n  \"decisions\": [],\n  \"exitCode\": 1,\n  \"findings\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"method\": \"structural\",\n      \"reason\": \"DRAFT_CONTRACT_INCOMPLETE\",\n      \"severity\": \"material\",\n      \"source\": null\n    }\n  ],\n  \"lessons\": [],\n  \"limitations\": [\n    \"Checks record consistency; does not authenticate people or prove evidence truth\"\n  ],\n  \"nextSteps\": [],\n  \"observedState\": \"RASCUNHO\",\n  \"operation\": \"check\",\n  \"pending\": [\n    {\n      \"id\": \"DRAFT_CONTRACT_INCOMPLETE\"\n    }\n  ],\n  \"projectId\": \"consumer\",\n  \"requestedState\": \"SPEC_APROVADA\",\n  \"schemaVersion\": 1,\n  \"sources\": [\n    \".specflow/project.json\",\n    \"specs/changes/00001-criar-cadastro-de-clientes/draft.json\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Users/RomuloPenha/.local/bin/uv.EXE",
+        "tool",
+        "install",
+        "--force",
+        "--reinstall",
+        "--offline",
+        "--no-index",
+        "--no-python-downloads",
+        "--no-config",
+        "--python",
+        "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "<workspace>\\dist\\specflow_cli-0.1.0-py3-none-any.whl"
+      ],
+      "cwd": "<workspace>",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "",
+      "stderr": "Resolved 1 package in 1ms\nPrepared 1 package in 0.28ms\nInstalled 1 package in 37ms\n + specflow-cli==0.1.0 (from file:///D:/desenvolvimento/ia/specflow-investigacao/dist/specflow_cli-0.1.0-py3-none-any.whl)\nInstalled 1 executable: specflow\nwarning: `D:\\desenvolvimento\\ia\\specflow-investigacao\\framework\\.test-output\\delivery-r2-20261114\\bin` is not on your PATH. To use installed tools, run `$env:PATH = \"D:\\desenvolvimento\\ia\\specflow-investigacao\\framework\\.test-output\\delivery-r2-20261114\\bin;$env:PATH\"` or `uv tool update-shell`.\n"
+    },
+    {
+      "command": [
+        "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\bin\\specflow.exe",
+        "doctor",
+        "--json"
+      ],
+      "cwd": "<workspace>\\framework\\.test-output\\delivery-r2-20261114\\consumer",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\n  \"changeId\": null,\n  \"editorInstructions\": null,\n  \"exitCode\": 0,\n  \"findings\": [],\n  \"limitations\": [\n    \"Configuration readiness does not execute or certify integrations\",\n    \"Editor discovery requires a real client test\"\n  ],\n  \"localChecksExecuted\": [],\n  \"operation\": \"doctor\",\n  \"outcome\": \"prepared\",\n  \"pending\": [],\n  \"phaseExecuted\": false,\n  \"projectId\": \"consumer\",\n  \"resources\": {\n    \"android\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"cobertura\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"diagramas\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"git\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"go\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"java\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"maven\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"node\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"pdf\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"servico\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    },\n    \"sonar\": {\n      \"automaticExecution\": false,\n      \"configurationReady\": false,\n      \"invalidKeys\": [],\n      \"missingKeys\": [],\n      \"status\": \"inactive_placeholder\"\n    }\n  },\n  \"schemaVersion\": 1\n}\n",
+      "stderr": ""
+    }
+  ],
+  "limitations": [
+    "Linux not_run; real Copilot/Codex discovery and human test not_run",
+    "Only workspace-isolated UV_TOOL_DIR/UV_TOOL_BIN_DIR used"
+  ],
+  "resourceCorrection": "Canonical catalog, CLI handoffs and generated editor steps now name the same packaged helper guides"
+}

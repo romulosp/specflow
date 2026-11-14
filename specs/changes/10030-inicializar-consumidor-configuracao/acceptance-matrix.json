@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "revision": "r4",
+  "items": [
+    {
+      "requirementId": "INIT-01",
+      "acceptanceId": "CA-I01",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_initialize_empty_and_repeated_adaptive_integrations",
+          "line": 27
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "INIT-02",
+      "acceptanceId": "CA-I02",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_every_placeholder_prevents_probes_independently",
+          "line": 100
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "INIT-03",
+      "acceptanceId": "CA-I03",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_every_placeholder_prevents_probes_independently",
+          "line": 100
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "INIT-04",
+      "acceptanceId": "CA-I04",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_optional_authentication_and_bad_configuration",
+          "line": 116
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "INIT-05",
+      "acceptanceId": "CA-I05",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_properties_literal_values_and_errors_are_redacted",
+          "line": 89
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_ignore_preserves_bytes_and_detects_negation",
+          "line": 77
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "INIT-06",
+      "acceptanceId": "CA-I06",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_initialize_empty_and_repeated_adaptive_integrations",
+          "line": 27
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "APP-01",
+      "acceptanceId": "CA-A01",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_generation_gate_and_paths",
+          "line": 156
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "APP-02",
+      "acceptanceId": "CA-A02",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_generation_gate_and_paths",
+          "line": 156
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_actual_junction_cannot_escape_or_receive_writes",
+          "line": 248
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "GATE-01",
+      "acceptanceId": "CA-G01",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_generation_gate_and_paths",
+          "line": 156
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "GATE-02",
+      "acceptanceId": "CA-G02",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_every_placeholder_prevents_probes_independently",
+          "line": 100
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_security_all_severities_pending_and_no_command_execution",
+          "line": 202
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "QUAL-01",
+      "acceptanceId": "CA-Q01",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_coverage_floor_exact_and_no_zero_success",
+          "line": 188
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "INIT-07",
+      "acceptanceId": "CA-I07",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_properties_literal_values_and_errors_are_redacted",
+          "line": 89
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "INIT-08",
+      "acceptanceId": "CA-I08",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_initialize_empty_and_repeated_adaptive_integrations",
+          "line": 27
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_write_lock_conflict_and_ownership",
+          "line": 176
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_failed_write_rolls_back_without_deleting_external_edit",
+          "line": 210
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "APP-03",
+      "acceptanceId": "CA-A03",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_preflight_case_and_file_directory_collisions",
+          "line": 193
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_atomic_replace_does_not_modify_hardlink_target",
+          "line": 202
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    }
+  ],
+  "note": "Local evidence mapping, not a blanket acceptance. Manual homologation is separately not_run. Shared suite includes functional and negative cases; taskIds identify implementation work supporting the checks."
+}

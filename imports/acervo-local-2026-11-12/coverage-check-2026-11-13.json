@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "method": "Existing inventory and manifest comparison plus scoped read-only source path presence; no source content re-investigation or rehash",
+  "sourceIdentity": "not distributed",
+  "sourceDirectories": {
+    ".agents/skills": {
+      "sourceFileCount": 324,
+      "unimportedNonBinary": []
+    },
+    ".github": {
+      "sourceFileCount": 4,
+      "unimportedNonBinary": []
+    },
+    "scripts": {
+      "sourceFileCount": 10,
+      "unimportedNonBinary": [
+        "scripts/corrigir-fotogaleria-lob.sql",
+        "scripts/gerar_start_aplicacao.ps1",
+        "scripts/gerar_start_aplicacao_autenticador_sso.ps1",
+        "scripts/gerar_start_aplicacao_fotogaleria.ps1",
+        "scripts/templates/start_aplicacao-autenticadorsso.bat.template",
+        "scripts/templates/start_aplicacao-fotogaleria.bat.template",
+        "scripts/templates/start_aplicacao-gerenciartarefas.bat.template",
+        "scripts/tests/fixtures/chaves-multiplos-projetos.properties"
+      ]
+    },
+    "docs/adr": {
+      "sourceFileCount": 2,
+      "unimportedNonBinary": []
+    },
+    "docs/security-audit": {
+      "sourceFileCount": 13,
+      "unimportedNonBinary": []
+    }
+  },
+  "incorporatedResources": 360,
+  "reusableCandidates": 126,
+  "fullyIncorporatedCandidates": 125,
+  "adaptedLocally": [
+    {
+      "id": "CMP-099",
+      "path": "AGENTS.md",
+      "missing": [
+        "AGENTS.md"
+      ]
+    }
+  ],
+  "localDigestVerification": {
+    "examined": 360,
+    "changed": []
+  },
+  "inheritedMissingReferences": 149,
+  "coreSpecStatus": "EM_REVISAO_SPEC",
+  "coreImplemented": false,
+  "sourceWritten": false
+}

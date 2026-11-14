@@ -1,0 +1,6 @@
+﻿{
+    "comando":  "Invoke-Pester -Script scripts/sonar/tests/validar-codigo.Tests.ps1 -PassThru",
+    "passed":  4,
+    "failed":  0,
+    "codigo":  0
+}

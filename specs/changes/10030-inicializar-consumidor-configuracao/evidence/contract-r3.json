@@ -1,0 +1,35 @@
+{
+  "revision": "r3",
+  "status": "EM_REVISAO_SPEC",
+  "approved": false,
+  "files": [
+    {
+      "path": "proposal.md",
+      "role": "proposal",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "37b6e335ae36f087d7d05ac261081d0829016947da37d489c25904855e107788",
+      "rawSha256": "a755e21ee057e7e9345c966b859cee2c068099b8a752e0748e58905951ff7c92"
+    },
+    {
+      "path": "spec.md",
+      "role": "spec",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "5d2a5e2db5871c4f04107e5f7841b0dc8d394dc64be76668d5a9ef789c055a2d",
+      "rawSha256": "4accd606b679cc1935c32be5dcba0d54d9a2fdf8f621451a4ad505d6ba8a2321"
+    },
+    {
+      "path": "DESIGN.md",
+      "role": "design",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "5e76cf64b7b6376d43fa30e25ef7b6253ded5484c63204c5dc893fa86d9936a8",
+      "rawSha256": "a703071a674c5f977e3d130f081110cbbde8cc1645ac41604d983dd2df3d5d1b"
+    },
+    {
+      "path": "tasks.md",
+      "role": "tasks",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "eee3690ea26d4db15917bd6c7976059f488d02d0ae0e2790234e905edaef069e",
+      "rawSha256": "582a7937ae0803b84f4dfb6b3fc814a3ff7dd0e28c11cedd5190343611a2bf63"
+    }
+  ]
+}

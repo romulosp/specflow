@@ -1,0 +1,63 @@
+{
+  "environment": "isolated tool, bin and cache directories",
+  "records": [
+    {
+      "arguments": [
+        "tool",
+        "install",
+        "specflow-cli"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "Resolved 1 package in 143ms\nPrepared 1 package in 40ms\nInstalled 1 package in 46ms\n + specflow-cli==0.1.0\nInstalled 1 executable: specflow\nwarning: `D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\version\\tmpv30nr6qq/bin` is not on your PATH. To use installed tools, run `$env:PATH = \"D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\version\\tmpv30nr6qq/bin;$env:PATH\"` or `uv tool update-shell`.\n"
+    },
+    {
+      "arguments": [
+        "tool",
+        "list"
+      ],
+      "exitCode": 0,
+      "stdout": "specflow-cli v0.1.0\n- specflow\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "tool",
+        "install",
+        "specflow-cli==0.1.0"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "Resolved 1 package in 2ms\nChecked 1 package in 0.38ms\nInstalled 1 executable: specflow\nwarning: `D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\version\\tmpv30nr6qq/bin` is not on your PATH. To use installed tools, run `$env:PATH = \"D:\\desenvolvimento\\ia\\specflow-investigacao\\specs\\changes\\10033-organizar-artefatos\\evidence\\version\\tmpv30nr6qq/bin;$env:PATH\"` or `uv tool update-shell`.\n"
+    },
+    {
+      "arguments": [
+        "tool",
+        "upgrade",
+        "specflow-cli"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "Nothing to upgrade\n\nhint: `specflow-cli` is pinned to `0.1.0` (installed with an exact version pin); reinstall with `uv tool install specflow-cli@latest` to upgrade to a new version.\n"
+    },
+    {
+      "arguments": [
+        "tool",
+        "install",
+        "specflow-cli==999999.0.0"
+      ],
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "  \u00c3\u2014 No solution found when resolving dependencies:\n  \u00e2\u2022\u00b0\u00e2\u201d\u20ac\u00e2\u2013\u00b6 Because there is no version of specflow-cli==999999.0.0 and you require\n      specflow-cli==999999.0.0, we can conclude that your requirements are\n      unsatisfiable.\n"
+    },
+    {
+      "arguments": [
+        "tool",
+        "list"
+      ],
+      "exitCode": 0,
+      "stdout": "specflow-cli v0.1.0\n- specflow\n",
+      "stderr": ""
+    }
+  ]
+}

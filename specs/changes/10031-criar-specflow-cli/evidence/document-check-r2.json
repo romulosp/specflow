@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-13",
+  "revision": "r2",
+  "scope": "documentary-only",
+  "approved": false,
+  "evidence": "docs/cli/verificacao-ajustes-2026-11-13.json",
+  "evidenceSha256": "0a32aea05a7c283ae24838aab661f162c25dc09491906b1d7cc03c55786f17c7",
+  "passed": 52,
+  "failed": 0
+}

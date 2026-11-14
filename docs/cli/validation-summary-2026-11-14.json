@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "changes": [
+    {
+      "changeId": "10029-criar-nucleo-specflow",
+      "gateCode": 0,
+      "securityBindingVerified": true,
+      "checks": [
+        {
+          "requestedState": "SPEC_APROVADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "IMPLEMENTADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "IMPLEMENTACAO_APROVADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "VALIDADA",
+          "expectedCode": 1,
+          "actualCode": 1,
+          "allowed": false,
+          "reason": "EVIDENCE_NOT_PASSED"
+        },
+        {
+          "requestedState": "APROVADA",
+          "expectedCode": 1,
+          "actualCode": 1,
+          "allowed": false,
+          "reason": "EVIDENCE_NOT_PASSED"
+        }
+      ]
+    },
+    {
+      "changeId": "10030-inicializar-consumidor-configuracao",
+      "gateCode": 0,
+      "securityBindingVerified": true,
+      "checks": [
+        {
+          "requestedState": "SPEC_APROVADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "IMPLEMENTADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "IMPLEMENTACAO_APROVADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "VALIDADA",
+          "expectedCode": 1,
+          "actualCode": 1,
+          "allowed": false,
+          "reason": "EVIDENCE_NOT_PASSED"
+        },
+        {
+          "requestedState": "APROVADA",
+          "expectedCode": 1,
+          "actualCode": 1,
+          "allowed": false,
+          "reason": "EVIDENCE_NOT_PASSED"
+        }
+      ]
+    },
+    {
+      "changeId": "10031-criar-specflow-cli",
+      "gateCode": 0,
+      "securityBindingVerified": true,
+      "checks": [
+        {
+          "requestedState": "SPEC_APROVADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "IMPLEMENTADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "IMPLEMENTACAO_APROVADA",
+          "expectedCode": 0,
+          "actualCode": 0,
+          "allowed": true,
+          "reason": null
+        },
+        {
+          "requestedState": "VALIDADA",
+          "expectedCode": 1,
+          "actualCode": 1,
+          "allowed": false,
+          "reason": "EVIDENCE_NOT_PASSED"
+        },
+        {
+          "requestedState": "APROVADA",
+          "expectedCode": 1,
+          "actualCode": 1,
+          "allowed": false,
+          "reason": "EVIDENCE_NOT_PASSED"
+        }
+      ]
+    }
+  ],
+  "overall": "pending_homologation",
+  "humanTest": "not_run",
+  "finalAcceptance": "pending",
+  "resolvedFinding": "IMP-REV-001"
+}

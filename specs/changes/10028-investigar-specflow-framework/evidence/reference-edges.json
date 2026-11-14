@@ -1,0 +1,2997 @@
+[
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-animations/SKILL.md",
+    "target": "references/animated-content.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-animations/SKILL.md",
+    "target": "../compose-performance/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-animations/SKILL.md",
+    "target": "../compose-state-and-effects/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-animations/SKILL.md",
+    "target": "../compose-performance/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/modifier-layout.md",
+    "target": "../../compose-performance/references/deferred-reads.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/modifier-layout.md",
+    "target": "slot-apis.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/modifier-layout.md",
+    "target": "../../compose-performance/references/composition-contracts.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/slot-apis.md",
+    "target": "modifier-layout.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/slot-apis.md",
+    "target": "modifier-layout.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/SKILL.md",
+    "target": "references/modifier-layout.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/SKILL.md",
+    "target": "references/slot-apis.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/SKILL.md",
+    "target": "../compose-animations/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/SKILL.md",
+    "target": "../compose-state-and-effects/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-component-design/SKILL.md",
+    "target": "../compose-ui-testing-patterns/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-focus-navigation/SKILL.md",
+    "target": "../compose-ui-testing-patterns/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/local-state.md",
+    "target": "../../compose-performance/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/local-state.md",
+    "target": "side-effects.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/local-state.md",
+    "target": "../../compose-focus-navigation/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/side-effects.md",
+    "target": "../../compose-focus-navigation/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/side-effects.md",
+    "target": "../../compose-performance/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/state-hoisting.md",
+    "target": "local-state.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/state-hoisting.md",
+    "target": "side-effects.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/state-hoisting.md",
+    "target": "../../compose-ui-testing-patterns/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+    "target": "references/state-hoisting.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+    "target": "../compose-performance/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+    "target": "references/local-state.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+    "target": "references/state-hoisting.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+    "target": "references/side-effects.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+    "target": "../compose-focus-navigation/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+    "target": "../compose-ui-testing-patterns/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/compose-ui-testing-patterns/SKILL.md",
+    "target": "../compose-focus-navigation/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/kotlin/grounded-writing/SKILL.md",
+    "target": "references/style-profile.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/references/quality-gates.md",
+    "target": "kdoc-guidelines.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/SKILL.md",
+    "target": "references/sources-and-decisions.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/SKILL.md",
+    "target": "references/spec-driven-workflow.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/SKILL.md",
+    "target": "references/architecture-and-profiles.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/SKILL.md",
+    "target": "references/quality-gates.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/android-native-engineering/SKILL.md",
+    "target": "references/sources-and-decisions.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/frontend-design/SKILL.md",
+    "target": "references/typography.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/frontend-design/SKILL.md",
+    "target": "references/color-and-contrast.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/frontend-design/SKILL.md",
+    "target": "references/spatial-design.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/frontend-design/SKILL.md",
+    "target": "references/motion-design.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/frontend-design/SKILL.md",
+    "target": "references/interaction-design.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/frontend-design/SKILL.md",
+    "target": "references/responsive-design.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/frontend-design/SKILL.md",
+    "target": "references/ux-writing.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/pprof.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/trace.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/benchstat.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/pprof.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/benchstat.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/trace.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/tools.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/compiler-analysis.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/ci-regression.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/investigation-session.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-benchmark/SKILL.md",
+    "target": "./references/prometheus-go-metrics.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/main.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/root.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/serve.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/flags.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/args.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/config.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/version.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/exit_codes.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/output.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/signal.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/completion.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-cli/SKILL.md",
+    "target": "assets/examples/cli_test.go",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-code-style/SKILL.md",
+    "target": "./references/details.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-code-style/SKILL.md",
+    "target": "./references/details.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-code-style/SKILL.md",
+    "target": "slice []T, target T",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-concurrency/SKILL.md",
+    "target": "references/channels-and-select.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-concurrency/SKILL.md",
+    "target": "references/sync-primitives.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-concurrency/SKILL.md",
+    "target": "references/pipelines.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-context/SKILL.md",
+    "target": "./references/cancellation.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-context/SKILL.md",
+    "target": "./references/values-tracing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-context/SKILL.md",
+    "target": "./references/http-services.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/test.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/codecov.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/integration.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/lint.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/security.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/codeql-config.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/docker.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/dependabot.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/dependabot-auto-merge.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/renovate.json",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/release.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/goreleaser-cli.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/goreleaser-lib.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/goreleaser-monorepo.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./assets/docker.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-continuous-integration/SKILL.md",
+    "target": "./references/repo-security.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-data-structures/SKILL.md",
+    "target": "./references/slice-internals.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-data-structures/SKILL.md",
+    "target": "./references/map-internals.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-data-structures/SKILL.md",
+    "target": "./references/containers.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-data-structures/SKILL.md",
+    "target": "./references/containers.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-data-structures/SKILL.md",
+    "target": "./references/generics.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-data-structures/SKILL.md",
+    "target": "./references/pointers.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-database/SKILL.md",
+    "target": "./references/scanning.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-database/SKILL.md",
+    "target": "./references/transactions.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-database/SKILL.md",
+    "target": "./references/performance.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-database/SKILL.md",
+    "target": "./references/transactions.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-database/SKILL.md",
+    "target": "./references/testing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-database/SKILL.md",
+    "target": "./references/performance.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-database/SKILL.md",
+    "target": "./references/scanning.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "./references/manual-di.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "./references/google-wire.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "./references/uber-dig-fx.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "./references/samber-do.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "i",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "testInjector, &MockUserStore{\n        users: map[string]*User{\"1\": {ID: \"1\", Name: \"Alice\"}},\n    }",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "testInjector, func(i *do.Injector",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-injection/SKILL.md",
+    "target": "testInjector",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-management/SKILL.md",
+    "target": "./references/versioning.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-management/SKILL.md",
+    "target": "./references/auditing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-management/SKILL.md",
+    "target": "./references/conflicts.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-management/SKILL.md",
+    "target": "./references/workspaces.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-management/SKILL.md",
+    "target": "./references/automated-updates.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-dependency-management/SKILL.md",
+    "target": "./references/visualization.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-design-patterns/SKILL.md",
+    "target": "references/data-handling.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-design-patterns/SKILL.md",
+    "target": "references/resource-management.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-design-patterns/SKILL.md",
+    "target": "references/architecture.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-design-patterns/SKILL.md",
+    "target": "references/clean-architecture.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-design-patterns/SKILL.md",
+    "target": "references/hexagonal-architecture.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-design-patterns/SKILL.md",
+    "target": "references/ddd.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/library.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/application.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/code-comments.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./assets/templates/README.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./LICENSE",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/project-docs.md#readme",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/project-docs.md#contributingmd",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./assets/templates/CHANGELOG.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/project-docs.md#changelog",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/library.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/application.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/application.md#api-documentation",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./assets/templates/llms.txt",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-documentation/SKILL.md",
+    "target": "./references/project-docs.md#delivery",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-error-handling/SKILL.md",
+    "target": "./references/error-creation.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-error-handling/SKILL.md",
+    "target": "./references/error-wrapping.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-error-handling/SKILL.md",
+    "target": "./references/error-handling.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-grpc/SKILL.md",
+    "target": "references/protoc-reference.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-grpc/SKILL.md",
+    "target": "references/testing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-linter/SKILL.md",
+    "target": "./assets/.golangci.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-linter/SKILL.md",
+    "target": "./assets/.golangci.yml",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-linter/SKILL.md",
+    "target": "./references/linter-reference.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-linter/SKILL.md",
+    "target": "./references/nolint-directives.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-linter/SKILL.md",
+    "target": "./references/linter-reference.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-modernize/SKILL.md",
+    "target": "./references/versions.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-modernize/SKILL.md",
+    "target": "./references/tooling.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-naming/SKILL.md",
+    "target": "./references/packages-files.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-naming/SKILL.md",
+    "target": "./references/identifiers.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-naming/SKILL.md",
+    "target": "./references/functions-methods.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-naming/SKILL.md",
+    "target": "./references/types-errors.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-naming/SKILL.md",
+    "target": "./references/testing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-observability/SKILL.md",
+    "target": "references/logging.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-observability/SKILL.md",
+    "target": "references/metrics.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-observability/SKILL.md",
+    "target": "references/tracing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-observability/SKILL.md",
+    "target": "references/profiling.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-observability/SKILL.md",
+    "target": "references/rum.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-observability/SKILL.md",
+    "target": "references/alerting.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-observability/SKILL.md",
+    "target": "references/dashboards.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/caching.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/memory.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/cpu.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/runtime.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/io-networking.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/caching.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/caching.md#algorithmic-complexity",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/memory.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/cpu.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/io-networking.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/runtime.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/caching.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-performance/SKILL.md",
+    "target": "references/observability.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-popular-libraries/SKILL.md",
+    "target": "./references/stdlib.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-popular-libraries/SKILL.md",
+    "target": "./references/libraries.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-popular-libraries/SKILL.md",
+    "target": "./references/tools.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-project-layout/SKILL.md",
+    "target": "references/directory-layouts.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-project-layout/SKILL.md",
+    "target": "assets/Makefile",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-project-layout/SKILL.md",
+    "target": "assets/.gitignore",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-project-layout/SKILL.md",
+    "target": "references/config.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-project-layout/SKILL.md",
+    "target": "references/testing-layout.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-project-layout/SKILL.md",
+    "target": "references/workspaces.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-safety/SKILL.md",
+    "target": "./references/nil-safety.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-safety/SKILL.md",
+    "target": "./references/slice-map-safety.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "injector",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "injector",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "i",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "i",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "injector",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "injector, \"primary-db\"",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "i",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "i",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "injector",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "./references/advanced.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-do/SKILL.md",
+    "target": "./references/testing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-samber-oops/SKILL.md",
+    "target": "./references/advanced.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/threat-modeling.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/threat-modeling.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/cryptography.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/injection.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/filesystem.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/network.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/cookies.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/third-party.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/memory-safety.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/secrets.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/logging.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/threat-modeling.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/architecture.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/checklist.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-security/SKILL.md",
+    "target": "./references/architecture.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-stretchr-testify/SKILL.md",
+    "target": "./references/mock.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-structs-interfaces/SKILL.md",
+    "target": "slice []T, target T",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-testing/SKILL.md",
+    "target": "./references/http-testing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-testing/SKILL.md",
+    "target": "./references/mocking.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-testing/SKILL.md",
+    "target": "./references/helpers.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-testing/SKILL.md",
+    "target": "./references/integration-testing.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/golang-testing/SKILL.md",
+    "target": "./references/mocking.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/legacy-migration-planner/references/research-phase.md",
+    "target": "url",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/legacy-migration-planner/references/research-phase.md",
+    "target": "url",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/legacy-migration-planner/references/research-phase.md",
+    "target": "url",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/legacy-migration-planner/references/research-phase.md",
+    "target": "url",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/nx-workspace/SKILL.md",
+    "target": "reference/configuration.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/nx-workspace/SKILL.md",
+    "target": "reference/commands.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/nx-workspace/SKILL.md",
+    "target": "reference/ci-cd.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/nx-workspace/SKILL.md",
+    "target": "reference/best-practices.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/nx-workspace/SKILL.md",
+    "target": "reference/best-practices.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/perf-web-optimization/SKILL.md",
+    "target": "references/core-web-vitals.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/perf-web-optimization/SKILL.md",
+    "target": "references/bundle-optimization.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/perf-web-optimization/SKILL.md",
+    "target": "references/image-optimization.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/seo/SKILL.md",
+    "target": "../core-web-vitals/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/seo/SKILL.md",
+    "target": "../core-web-vitals/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/seo/SKILL.md",
+    "target": "../web-quality-audit/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/tactical-ddd/SKILL.md",
+    "target": "reference.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/tactical-ddd/SKILL.md",
+    "target": "detection.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/tactical-ddd/SKILL.md",
+    "target": "refactoring.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/tactical-ddd/SKILL.md",
+    "target": "reference.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/web-accessibility/SKILL.md",
+    "target": "../web-quality-audit/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/web-best-practices/SKILL.md",
+    "target": "../web-quality-audit/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/web-quality-audit/SKILL.md",
+    "target": "../performance/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/web-quality-audit/SKILL.md",
+    "target": "../core-web-vitals/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/web-quality-audit/SKILL.md",
+    "target": "../accessibility/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".agents/skills/web-quality-audit/SKILL.md",
+    "target": "../seo/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": ".agents/skills/web-quality-audit/SKILL.md",
+    "target": "../best-practices/SKILL.md",
+    "exists": false
+  },
+  {
+    "source": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "target": "../../AGENTS.md",
+    "exists": true
+  },
+  {
+    "source": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "target": "../../specs/shared/process/workflow.md",
+    "exists": true
+  },
+  {
+    "source": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "target": "../../STATUS.md",
+    "exists": true
+  },
+  {
+    "source": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "target": "../../STATUS.md",
+    "exists": true
+  },
+  {
+    "source": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "target": "../../STATUS.md",
+    "exists": true
+  },
+  {
+    "source": ".github/prompts/prompt-execucao.txt",
+    "target": "file:///c%3A/Desenvolvimento/ia/treinamento_codex/projeto-origem/.github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "exists": false
+  },
+  {
+    "source": "AGENTS.md",
+    "target": "specs/changes/10011-corrigir-leitura-cartao-pinpad/AGENTS-MEMORY.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": ".agents/skills/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "NotasProjeto.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "AGENTS.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/archive/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/shared/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/system/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "apps/frontend/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/adr/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": ".agents/skills/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/2026-09-09-066-lib-pinpad-abecs-go/",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "apps/desktop/libpinpadabecsgo/start_aplicacao.bat",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/2026-09-09-066-lib-pinpad-abecs-go/",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "AGENTS.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/2026-09-09-066-lib-pinpad-abecs-go/spec.md",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/2026-09-09-066-lib-pinpad-abecs-go/DESIGN.md",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/2026-09-09-066-lib-pinpad-abecs-go/tasks.md",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "specs/resumo_continuar_projeto.txt",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "specs/shared/process/workflow.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "apps/desktop/libpinpadabecsgo/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/templates/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "NotasProjeto.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/shared/architecture/backend-java.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/shared/api/rest-conventions.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/shared/testing/testing-strategy.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": ".agents/skills/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/system/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/archive/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "docs/security-audit/relatorio-auditoria-seguranca.pdf",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/changes/2026-09-09-066-lib-pinpad-abecs-go/",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "specs/resumo_continuar_projeto.txt",
+    "exists": false
+  },
+  {
+    "source": "README.md",
+    "target": "AGENTS.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": ".agents/skills/",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "target": "specs/archive/",
+    "exists": true
+  },
+  {
+    "source": "scripts/sonar/validar-codigo.ps1",
+    "target": "& docker compose -f $arquivoCompose ps -q postgres 2>$null | Select-Object -First 1",
+    "exists": false
+  },
+  {
+    "source": "scripts/sonar/validar-codigo.ps1",
+    "target": "& docker inspect --format '{{if .State.Health}}{{.State.Health.Status}}{{else}}{{.State.Status}}{{end}}' $identificador 2>$null | Select-Object -First 1",
+    "exists": false
+  },
+  {
+    "source": "scripts/sonar/validar-codigo.ps1",
+    "target": "(ConvertFrom-Json $resposta.Content",
+    "exists": false
+  },
+  {
+    "source": "specs/archive/2026-09-09-066-lib-pinpad-abecs-go/reviews/2026-09-09-spec-review-2.md",
+    "target": "2026-09-09-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-24-10000-arquitetura-microkernel-plugins-apk/DESIGN.md",
+    "target": "ADR-001-plugin-runtime-security-boundary.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-24-10000-arquitetura-microkernel-plugins-apk/DESIGN.md",
+    "target": "ADR-002-plugin-reload-lifecycle.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-24-10000-arquitetura-microkernel-plugins-apk/DESIGN.md",
+    "target": "ADR-003-view-contract-between-host-and-plugin.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-24-10000-arquitetura-microkernel-plugins-apk/proposal.md",
+    "target": "ADR-001-plugin-runtime-security-boundary.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-24-10003-sso-menu-negocio/DESIGN.md",
+    "target": "ADR-001-direct-access-grant.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-24-10003-sso-menu-negocio/proposal.md",
+    "target": "sources-and-decisions.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-24-10003-sso-menu-negocio/proposal.md",
+    "target": "ADR-001-direct-access-grant.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-067-android-emulator-transport-bridge/spec.md",
+    "target": "../2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-067-android-emulator-transport-bridge/validation.md",
+    "target": "../../archive/2026-09-27-068-diagnosticopinpad/validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-067-android-emulator-transport-bridge/validation.md",
+    "target": "../../archive/2026-09-27-069-diagnosticopinpad-functional-lab/validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-067-android-emulator-transport-bridge/validation.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-068-diagnosticopinpad/spec.md",
+    "target": "../2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-068-diagnosticopinpad/validation.md",
+    "target": "../../archive/2026-09-27-069-diagnosticopinpad-functional-lab/validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-068-diagnosticopinpad/validation.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-069-diagnosticopinpad-functional-lab/spec.md",
+    "target": "../2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-069-diagnosticopinpad-functional-lab/validation.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/diagnostico.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-070-bridge-log-android/spec.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-070-bridge-log-android/validation.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-070-bridge-log-android/validation.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/DESIGN.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/DESIGN.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/implementation-plan.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/implementation-plan.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/proposal.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/proposal.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/spec.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/spec.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/proposal.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/tasks.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/tasks.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/validation.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-071-bat-teste-modulo-windows/validation.md",
+    "target": "../../archive/2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-072-corrigir-abertura-bridge-android/proposal.md",
+    "target": "reviews/2026-09-27-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-072-corrigir-abertura-bridge-android/proposal.md",
+    "target": "reviews/2026-09-28-spec-review-porta-ambiente.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-072-corrigir-abertura-bridge-android/proposal.md",
+    "target": "diagnostico.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-072-corrigir-abertura-bridge-android/proposal.md",
+    "target": "spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "target": "reviews/2026-09-27-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-27-072-corrigir-abertura-bridge-android/spec.md",
+    "target": "reviews/2026-09-28-spec-review-porta-ambiente.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-28-073-remover-acoes-duplicadas-catalogo/proposal.md",
+    "target": "reviews/2026-09-28-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/archive/2026-09-28-073-remover-acoes-duplicadas-catalogo/spec.md",
+    "target": "reviews/2026-09-28-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/avaliacao-layouts.md",
+    "target": "reviews/2026-10-10-spec-review-layout.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/contrato-implementacao-homologacao.md",
+    "target": "spec.md#rf-002--confirmação-no-pinpad",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/contrato-implementacao-homologacao.md",
+    "target": "../../../docs/Pinpad-Abecs-Protocolo-de-Comunicacao-e-Funcionamento-v212190411212/Pinpad-Abecs-Protocolo-de-Comunicacao-e-Funcionamento-v212190411212.pdf",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/contrato-implementacao-homologacao.md",
+    "target": "reviews/2026-10-11-spec-review-modalidade.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "integracao-074.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "perfil-homologacao-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "reviews/2026-10-10-spec-review-layout.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "reviews/2026-10-10-spec-review-remocao-indicador.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "reviews/2026-10-10-spec-review-integracao-075.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "reviews/2026-10-11-spec-review-confirmacao-dex-gky.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "contrato-implementacao-homologacao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "reviews/2026-10-10-spec-review-primeira-tela.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "reviews/2026-10-11-spec-review-correcoes.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/DESIGN.md",
+    "target": "reviews/2026-10-11-spec-review-modalidade.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/evidence/README.md",
+    "target": "../validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/evidence/README.md",
+    "target": "layout/cinco-etapas.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/evidence/README.md",
+    "target": "layout/layout-10004/01-valores.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/evidence/README.md",
+    "target": "layout/layout-10004/07-primeira-tela-sem-perfil.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/evidence/README.md",
+    "target": "capturas-sha256.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/implementation-plan.md",
+    "target": "reviews/2026-10-10-spec-review-primeira-tela.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/implementation-plan.md",
+    "target": "reviews/2026-10-11-spec-review-correcoes.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/implementation-plan.md",
+    "target": "reviews/2026-10-11-spec-review-modalidade.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/integracao-074.md",
+    "target": "../074-pinpad-android-bridge-stack/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/integracao-074.md",
+    "target": "contrato-implementacao-homologacao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/integracao-074.md",
+    "target": "perfil-homologacao-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/integracao-074.md",
+    "target": "perfil-laboratorio-pendente.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/perfil-homologacao-des.md",
+    "target": "contrato-implementacao-homologacao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-implementacao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-layout.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-primeira-tela.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-pagamento-cartao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-remocao-indicador.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-integracao-075.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-11-spec-review-dex-gky-texto-final.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-11-spec-review-inicializacao-emv.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-11-spec-review-provisionamento.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "../074-pinpad-android-bridge-stack/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-layout.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "perfil-homologacao-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "contrato-implementacao-homologacao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-10-spec-review-primeira-tela.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-11-spec-review-correcoes.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/proposal.md",
+    "target": "reviews/2026-10-11-spec-review-modalidade.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/reviews/2026-10-10-spec-review-des.md",
+    "target": "../perfil-homologacao-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/reviews/2026-10-10-spec-review-remocao-indicador.md",
+    "target": "2026-10-10-spec-review-layout.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/reviews/2026-10-10-spec-review.md",
+    "target": "2026-10-10-spec-review-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/reviews/2026-10-10-spec-review.md",
+    "target": "../../../shared/process/workflow.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/reviews/2026-10-10-spec-review.md",
+    "target": "../../../../.agents/skills/android-native-engineering/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-dex-gky-texto-final.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-confirmacao-dex-gky.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-espera-sem-cancelar.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-inicializacao-emv.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-implementacao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-layout.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-primeira-tela.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-pagamento-cartao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-remocao-indicador.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-integracao-075.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-provisionamento.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "../074-pinpad-android-bridge-stack/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "perfil-homologacao-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "integracao-074.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-dex-gky-texto-final.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-layout.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-remocao-indicador.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "contrato-implementacao-homologacao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-primeira-tela.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-10-spec-review-integracao-075.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-correcoes.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/spec.md",
+    "target": "reviews/2026-10-11-spec-review-modalidade.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/tasks.md",
+    "target": "reviews/2026-10-11-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "evidence/layout/cinco-etapas.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "Get-Content -Raw -Encoding UTF8 -LiteralPath $svg.FullName",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "perfil-homologacao-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "reviews/2026-10-10-spec-review-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "integracao-074.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "reviews/2026-10-10-spec-review-remocao-indicador.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "evidence/layout/layout-10004/01-valores.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "reviews/2026-10-11-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "integracao-074.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "perfil-laboratorio-pendente.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10004-plugin-saque-cartao/validation.md",
+    "target": "perfil-laboratorio-pendente.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10007-cabecalho-global-autenticacao/spec.md",
+    "target": "proposal.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10007-cabecalho-global-autenticacao/spec.md",
+    "target": "DESIGN.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10007-cabecalho-global-autenticacao/spec.md",
+    "target": "source-material/README.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/adr/ADR-001-contexto-pan-no-core.md",
+    "target": "../reviews/2026-10-11-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/AGENTS-MEMORY.md",
+    "target": "../10015-configurar-gtk-claro/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/AGENTS-MEMORY.md",
+    "target": "../10014-preservar-dados-autorizacao/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/AGENTS-MEMORY.md",
+    "target": "../10013-retorno-pin-criptografado/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/AGENTS-MEMORY.md",
+    "target": "../10012-provisionar-pin-no-bridge/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/DESIGN.md",
+    "target": "../../shared/architecture/android-business-plugin.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/DESIGN.md",
+    "target": "adr/ADR-001-contexto-pan-no-core.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/arquitetura-implementada.md",
+    "target": "../spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/arquitetura-implementada.md",
+    "target": "../DESIGN.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/arquitetura-implementada.md",
+    "target": "configuracao-externa-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/arquitetura-implementada.md",
+    "target": "../validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/arquitetura-implementada.md",
+    "target": "artifact-verification-2026-10-13.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/arquitetura-implementada.md",
+    "target": "verify-artifacts.py",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/build-mobile-aar.ps1",
+    "target": "& git -C $repo status --porcelain",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/configuracao-externa-des.md",
+    "target": "validate-external-des.go",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/configuracao-externa-des.md",
+    "target": "../../../../scripts/gerar_start_aplicacao.ps1",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/configuracao-externa-des.md",
+    "target": "../../../../scripts/gerar_start_aplicacao_fotogaleria.ps1",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/evidence/configuracao-externa-des.md",
+    "target": "../../../../scripts/gerar_start_aplicacao_autenticador_sso.ps1",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/proposal.md",
+    "target": "reviews/2026-10-11-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/proposal.md",
+    "target": "../10004-plugin-saque-cartao/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/proposal.md",
+    "target": "../074-pinpad-android-bridge-stack/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/proposal.md",
+    "target": "../075-diagnosticopinpad-consolidado/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/proposal.md",
+    "target": "adr/ADR-001-contexto-pan-no-core.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/proposal.md",
+    "target": "validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/reviews/2026-10-12-implementation-handoff.md",
+    "target": "../validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/reviews/2026-10-12-implementation-handoff.md",
+    "target": "../implementation-plan.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/reviews/2026-10-13-implementation-review.md",
+    "target": "../evidence/arquitetura-implementada.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/reviews/2026-10-13-implementation-review.md",
+    "target": "../evidence/configuracao-externa-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "reviews/2026-10-11-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "../../shared/process/workflow.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "../10004-plugin-saque-cartao/reviews/2026-10-11-spec-review-modalidade.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "DESIGN.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "../10013-retorno-pin-criptografado/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "../10012-provisionar-pin-no-bridge/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "evidence/arquitetura-implementada.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "evidence/configuracao-externa-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "reviews/2026-10-13-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "validation.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "AGENTS-MEMORY.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/spec.md",
+    "target": "evidence/diagnostico.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/validation.md",
+    "target": "reviews/2026-10-13-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/validation.md",
+    "target": "reviews/2026-10-11-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/validation.md",
+    "target": "evidence/diagnostico-chip-2026-10-12.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/validation.md",
+    "target": "evidence/artifact-verification-2026-10-13.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/validation.md",
+    "target": "evidence/arquitetura-implementada.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10011-corrigir-leitura-cartao-pinpad/validation.md",
+    "target": "AGENTS-MEMORY.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10012-provisionar-pin-no-bridge/proposal.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10012-provisionar-pin-no-bridge/spec.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10012-provisionar-pin-no-bridge/validation.md",
+    "target": "reviews/2026-10-14-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10013-retorno-pin-criptografado/proposal.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10013-retorno-pin-criptografado/spec.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10013-retorno-pin-criptografado/validation.md",
+    "target": "reviews/2026-10-14-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10013-retorno-pin-criptografado/validation.md",
+    "target": "evidence/diagnostico-gtk-2026-10-14.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10013-retorno-pin-criptografado/validation.md",
+    "target": "evidence/artifact-verification-2026-10-14.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10014-preservar-dados-autorizacao/proposal.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10014-preservar-dados-autorizacao/spec.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10014-preservar-dados-autorizacao/validation.md",
+    "target": "reviews/2026-10-14-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10014-preservar-dados-autorizacao/validation.md",
+    "target": "evidence/artifact-verification-2026-10-14.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10015-configurar-gtk-claro/DESIGN.md",
+    "target": "adr/001-gtk-claro-des.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10015-configurar-gtk-claro/proposal.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10015-configurar-gtk-claro/spec.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10015-configurar-gtk-claro/validation.md",
+    "target": "reviews/2026-10-14-implementation-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10015-configurar-gtk-claro/validation.md",
+    "target": "evidence/artifact-verification-2026-10-14.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10015-configurar-gtk-claro/validation.md",
+    "target": "evidence/diagnostico-gox042-2026-10-14.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10016-descobrir-indice-pin-gix/DESIGN.md",
+    "target": "adr/001-indice-pin-sorteado.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10016-descobrir-indice-pin-gix/evidence/diagnostico-fisico.md",
+    "target": "query-discovered-pin.go.txt",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10016-descobrir-indice-pin-gix/proposal.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10016-descobrir-indice-pin-gix/spec.md",
+    "target": "reviews/2026-10-14-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10016-descobrir-indice-pin-gix/validation.md",
+    "target": "evidence/artifact-verification-2026-10-14.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10016-descobrir-indice-pin-gix/validation.md",
+    "target": "evidence/diagnostico-fisico.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10017-logging-semantico-abecs/AGENTS-MEMORY.md",
+    "target": "../../../docs/Pinpad-Abecs-Protocolo-de-Comunicacao-e-Funcionamento-v212190411212/abecs212.txt",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10017-logging-semantico-abecs/spec.md",
+    "target": "../../../docs/Pinpad-Abecs-Protocolo-de-Comunicacao-e-Funcionamento-v212190411212/abecs-212-referencia-protocolo.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10017-logging-semantico-abecs/spec.md",
+    "target": "../../../apps/desktop/libpinpadabecsgo/internal/infrastructure/logging/logging.go",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10017-logging-semantico-abecs/validation.md",
+    "target": "evidence/2026-10-15-bridge-detailed-synthetic.txt",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10017-logging-semantico-abecs/validation.md",
+    "target": "evidence/matriz-comandos.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10019-saque-cartao-componente/proposal.md",
+    "target": "../10004-plugin-saque-cartao/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10019-saque-cartao-componente/spec.md",
+    "target": "../10004-plugin-saque-cartao/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10019-saque-cartao-componente/spec.md",
+    "target": "../10011-corrigir-leitura-cartao-pinpad/AGENTS-MEMORY.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10019-saque-cartao-componente/validation.md",
+    "target": "evidence/2026-10-30-artifacts.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10020-plugin-venda-ingressos/discovery.md",
+    "target": "../10004-plugin-saque-cartao/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10020-plugin-venda-ingressos/discovery.md",
+    "target": "../10019-saque-cartao-componente/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/proposal.md",
+    "target": "reviews/2026-11-08-spec-review-r4.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/proposal.md",
+    "target": "../10020-plugin-venda-ingressos/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/proposal.md",
+    "target": "../10021-valor-pedido-pagamento/spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/spec.md",
+    "target": "reviews/2026-11-08-spec-review-r4.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/ingressos-layout-amplo.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/ingressos-layout-compacto-pedido.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/ingressos-fonte-ampliada.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/ingressos-layout-compacto.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/poster-prompts.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/posters.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/ingressos-prototipo-amplo.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/ingressos-layout-compacto-r4.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10022-layout-plugin-ingressos/validation.md",
+    "target": "evidence/ingressos-fonte-ampliada-r4.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10023-filmes-sessao-preconfigurada/proposal.md",
+    "target": "reviews/2026-11-08-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10023-filmes-sessao-preconfigurada/spec.md",
+    "target": "reviews/2026-11-08-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10023-filmes-sessao-preconfigurada/validation.md",
+    "target": "evidence/ingressos-catalogo-amplo.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10023-filmes-sessao-preconfigurada/validation.md",
+    "target": "evidence/ingressos-catalogo-compacto.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10023-filmes-sessao-preconfigurada/validation.md",
+    "target": "evidence/ingressos-catalogo-fonte-ampliada.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10024-animacao-conclusao-atendimento/proposal.md",
+    "target": "reviews/2026-11-08-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10024-animacao-conclusao-atendimento/spec.md",
+    "target": "reviews/2026-11-08-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10024-animacao-conclusao-atendimento/validation.md",
+    "target": "evidence/ingressos-sucesso-fluxo.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10024-animacao-conclusao-atendimento/validation.md",
+    "target": "evidence/ingressos-novo-atendimento.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10024-animacao-conclusao-atendimento/validation.md",
+    "target": "evidence/ingressos-sucesso.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10025-retorno-cartao-ao-plugin/proposal.md",
+    "target": "reviews/2026-11-08-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10025-retorno-cartao-ao-plugin/spec.md",
+    "target": "reviews/2026-11-08-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10025-retorno-cartao-ao-plugin/validation.md",
+    "target": "evidence/ingressos-captured-sucesso.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10025-retorno-cartao-ao-plugin/validation.md",
+    "target": "evidence/ingressos-captured-novo-atendimento.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "ADR-001-ambiente-local.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "validation-final.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/plugin-ui-full.xml",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/results.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "ui-focal.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/plugin-ui-focal.xml",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/mapaAmpliadoSelecionaCasaisComNumeracaoAteL15.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/showCombinaAssentoEPistasComPagamentoUnico.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/eventos-mapa-ampliado.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/eventos-casais-pedido.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/eventos-show-misto.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/ingressos-catalogo-compacto-pedido.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/ingressos-catalogo-fonte-ampliada.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "host-integration.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/host-integration.xml",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/coverage.xml",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "structural-validator.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "ADR-001-ambiente-local.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10026-eventos-mapa-comercial/validation.md",
+    "target": "evidence/artifacts.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "structural.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "checks-validated.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/ui-completa.xml",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "build-final.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "test-build.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/results.json",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/coverage.xml",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/resumoFicaNoTopoComAcaoVisivelAoRolarMapaEPedidoLongo.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/mapaAmpliadoSelecionaCasaisComNumeracaoAteL15.log",
+    "exists": false
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/resumo-tablet-altura-limitada.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/resumo-tablet-selecao.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/ingressos-catalogo-compacto-pedido.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/10027-resumo-compra-visivel/validation.md",
+    "target": "evidence/ingressos-catalogo-fonte-ampliada.png",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/DESIGN.md",
+    "target": "spec.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/DESIGN.md",
+    "target": "inventario-origem.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/DESIGN.md",
+    "target": "sources-and-decisions.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/inventario-origem.md",
+    "target": "source-material/README.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/proposal.md",
+    "target": "source-material/entrada/prompt.txt",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/proposal.md",
+    "target": "inventario-origem.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/proposal.md",
+    "target": "sources-and-decisions.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/proposal.md",
+    "target": "source-material/README.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/proposal.md",
+    "target": "compatibility-matrix.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/proposal.md",
+    "target": "ADR-001-toolchain-compile-sdk-37.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-19-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-19-spec-review-resubmissao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-19-spec-review-toolchain.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-19-spec-review-toolchain-resubmissao.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-19-spec-review-prompt2.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-19-compatibility-review-prompt2.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-28-spec-review.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/reviews/README.md",
+    "target": "2026-09-29-spec-rereview-pos-merge.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/sources-and-decisions.md",
+    "target": "compatibility-matrix.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "proposal.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "DESIGN.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "inventario-origem.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "migration-matrix.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "sources-and-decisions.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "source-material/README.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-fundacao-aplicativo.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-tema-assets-tipografia.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-button.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-label-panel.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-text-input.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-text-password.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-selection.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-data-display.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-feedback.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-componente-virtual-keyboard.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-tela-catalogo.md",
+    "exists": true
+  },
+  {
+    "source": "specs/changes/9999-sistema-prototipo-android/spec.md",
+    "target": "spec-menu-demonstrativo.md",
+    "exists": true
+  },
+  {
+    "source": "specs/README.md",
+    "target": "archive/2026-09-09-066-lib-pinpad-abecs-go/",
+    "exists": true
+  },
+  {
+    "source": "specs/README.md",
+    "target": "archive/2026-09-27-067-android-emulator-transport-bridge/",
+    "exists": true
+  },
+  {
+    "source": "specs/README.md",
+    "target": "archive/2026-09-27-068-diagnosticopinpad/",
+    "exists": true
+  },
+  {
+    "source": "specs/README.md",
+    "target": "archive/2026-09-27-069-diagnosticopinpad-functional-lab/",
+    "exists": true
+  },
+  {
+    "source": "specs/README.md",
+    "target": "archive/2026-09-27-070-bridge-log-android/",
+    "exists": true
+  },
+  {
+    "source": "specs/README.md",
+    "target": "archive/2026-09-27-071-bat-teste-modulo-windows/",
+    "exists": true
+  },
+  {
+    "source": "specs/README.md",
+    "target": "archive/2026-09-27-072-corrigir-abertura-bridge-android/",
+    "exists": true
+  }
+]

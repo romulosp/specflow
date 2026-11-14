@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "scope": "Windows local core library integration checkpoint, not final product acceptance",
+  "tests": {
+    "command": "PYTHONPATH=framework/src .venv-specflow/Scripts/python.exe -m coverage run --branch --source=framework/src/specflow -m unittest discover -s framework/tests -p test_core.py",
+    "run": 20,
+    "failures": 0,
+    "skipped": 1,
+    "skipReason": "Windows does not allow creating a symlink with current permissions"
+  },
+  "coverage": {
+    "covered_lines": 674,
+    "num_statements": 709,
+    "percent_covered": 93.93939393939394,
+    "percent_covered_display": "94",
+    "missing_lines": 35,
+    "excluded_lines": 0,
+    "percent_statements_covered": 95.06346967559944,
+    "percent_statements_covered_display": "95",
+    "num_branches": 182,
+    "num_partial_branches": 17,
+    "covered_branches": 163,
+    "missing_branches": 19,
+    "percent_branches_covered": 89.56043956043956,
+    "percent_branches_covered_display": "90"
+  },
+  "filesSha256": {
+    "framework/src/specflow/harness.py": "c91f6f5a9a721ec715295d95ed84994ea5e423a7de1a3748965ec505a8d623fa",
+    "framework/src/specflow/policy.py": "12d92ab4f5ad43c6009755666542936a5413dac87c7dab4d2c47bd170cf7422e",
+    "framework/src/specflow/security.py": "2e08e6fad4e0bfe9da91aa44759c6df9f87d9ca92dcc38aa21562a3277b153b6",
+    "framework/src/specflow/storage.py": "0b825738d01bf945479c0f364a559317565be793d094ce9e9b204a297cd41b9c",
+    "framework/src/specflow/__init__.py": "8c6d0b00a49946cfbdfa5cd45830bf18c34fb14ccc3032ff20ff22ba342d4834",
+    "framework/src/specflow/__main__.py": "ab32fe173cb58bcd08864653eee6b7e2471c471ac778a1e6219a48b207f63663",
+    "framework/src/specflow/contracts/__init__.py": "8514172652b8839f2ef93a6a167bd92ca0db93625b949e8e9fbe2d5b7236474e",
+    "framework/src/specflow/memory/__init__.py": "d234759985c3f2c5f53a0a1f259153db527e48b80f4dcac710d92ae39357aba7",
+    "framework/src/specflow/validation/__init__.py": "f29aff96b58cb2bcb425313fc998e1c30b4f6efcde4fbccdf887ee2c1bdc80e7",
+    "framework/src/specflow/workflow/__init__.py": "f7c0c7d6b85d526998a68eea6ecad94a1c5cb43501db97ff410ea969bbc127a8"
+  },
+  "linux": "not_run; no authorized general Linux environment",
+  "humanAcceptance": "pending",
+  "status": "local_integration_checks_passed"
+}

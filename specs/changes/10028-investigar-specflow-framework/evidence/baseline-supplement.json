@@ -1,0 +1,100 @@
+[
+  {
+    "path": ".agents/skills/web-quality-audit/scripts/analyze.sh",
+    "sha256": "5c500ceda2848f2e328ca54a2a5a2338e955176089a4f945e917d8473a4b4253",
+    "bytes": 2013,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/tlc-generative-engine-optimization/templates/faqpage.jsonld",
+    "sha256": "dbb204f13f5cd96d337c812698f3db5133dc078b7fe5a785e4c83577a121bd85",
+    "bytes": 584,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/tlc-generative-engine-optimization/templates/page-metadata.html",
+    "sha256": "db7e665e88e4814573e832817263f7582f4bdd787bbb03663e4a37d36dfb7b24",
+    "bytes": 1690,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/tlc-generative-engine-optimization/templates/techarticle.jsonld",
+    "sha256": "e06eefd1a047c6704a4345aed326663c7bec995a4afc0ca0a25c1780362db1b0",
+    "bytes": 792,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/mermaid-studio/scripts/batch.mjs",
+    "sha256": "2fb34cc0b0ec5e5aab6bda864adf855aa54387521c9d3202c01c0c5892432cc9",
+    "bytes": 6731,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/mermaid-studio/scripts/render-ascii.mjs",
+    "sha256": "32caf69ac63255ce458fadd720f906b550446969bf082f1d1fcf3c28d7011100",
+    "bytes": 5415,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/mermaid-studio/scripts/render.mjs",
+    "sha256": "258d69aa199fca3ddaa72a60279e5fcb8bfb060dd915d8a256c5ee055bf8ca1b",
+    "bytes": 18980,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/mermaid-studio/scripts/setup.sh",
+    "sha256": "9e190f4ad3893b183764cc263a63baad2adfeb08cd8789d803d742a96b8beae7",
+    "bytes": 3253,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/mermaid-studio/scripts/validate.mjs",
+    "sha256": "0d6cb480865a7bc77f1df45effceec366465f8e51d41f85c221bdd2a056c8df6",
+    "bytes": 9299,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/excalidraw-studio/scripts/.gitignore",
+    "sha256": "49f9ee4c099793eb02a72838891842a5ce6e26ecde0a79bd658dab5af79fa8ca",
+    "bytes": 484,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/evolutionary-modular-architecture/assets/architecture-template.html",
+    "sha256": "a2b661ff0706b1b9f919eba7bf1b7e5c74cbe2a419830ae86b34aeb35bbc7937",
+    "bytes": 25827,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/evolutionary-modular-architecture/scripts/validate-boundaries.mjs",
+    "sha256": "269dff46dd2dd8ce1197b4fb722bdbf052ff88e4ecbecba99789bd92a8dfca9c",
+    "bytes": 3755,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": ".agents/skills/evolutionary-modular-architecture/scripts/validate-structure.mjs",
+    "sha256": "119abd931ace000fe4121438165a5bd7f782f6acf9780f89545650a024f609ee",
+    "bytes": 3986,
+    "git": "ignorado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  },
+  {
+    "path": "scripts/tests/fixtures/chaves-multiplos-projetos.properties",
+    "sha256": "a667b0845d5cc00f35abf1148445e6402c501aff23fb7075fd8cbb87cf749ce0",
+    "bytes": 472,
+    "git": "rastreado",
+    "captured_stage": "suplemento antes da análise do recurso"
+  }
+]

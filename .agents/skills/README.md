@@ -1,0 +1,163 @@
+# Skills locais do SpecFlow
+
+## Comandos autorais por fase
+
+Os onze comandos `specflow-*` usam MIT e copyright Rômulo Penha. Veja [guia e diagramas](../../docs/comandos/COMANDOS.md), na raiz: especificar, esclarecer, revisar-spec, planejar, implementar, teste-humano, revisar-implementacao, validar, aprovar, encerrar e contexto. O composto teste-humano para em IMPLEMENTADA com resultado executável, aguardando o usuário testar; também aceita o alias `speckflow-teste-humano`. Use `$specflow-<nome>` no Codex ou `/specflow-<nome>` no Copilot. São instruções de fase, não aprovação automática ou binário de shell.
+
+Recursos copiados para este projeto por autorização expressa do usuário em 12/11/2026. Todos os caminhos abaixo são locais. Proveniência, hashes e adaptações estão em `imports/acervo-local-2026-11-12/manifest.json`, na raiz do projeto.
+
+As regras de `AGENTS.md` deste projeto prevalecem sobre convenções particulares herdadas. Revisão técnica não registra aprovação humana; nenhuma skill autoriza implementação sem SPEC_APROVADA, commit, archive ou publicação automática. Skills de stack são opcionais e não são dependências do núcleo Python. Recursos ausentes na própria origem constam em `imports/acervo-local-2026-11-12/dependencias.json`; uma cópia não comprova prontidão dessas extensões.
+
+## Processo Spec Driven
+
+| Fase | Skill |
+| --- | --- |
+| Revisar contrato | `spec-review` |
+| Implementar contrato aprovado | `spec-implement` |
+| Revisar aderência | `implementation-review` |
+| Validar por evidências | `implementation-validate` |
+| Aprovar mudança | `change-approve` |
+| Encerrar, arquivar e commitar | `git-commit` |
+
+## Skills técnicas
+
+- `android-native-engineering`: governa planejamento, implementação, revisão e validação de aplicações Android nativas em Kotlin, compondo fontes e skills externas somente após classificação e aprovação pela SPEC.
+
+- `java-quarkus-resource`: contratos e recursos REST Quarkus.
+- `java-panache-repository`: persistência com JPA e Panache.
+- `java-integration-test`: testes de integração Quarkus.
+- `java-unit-test`: criar, refatorar e revisar testes unitários Java com JUnit 5 e Mockito, validando regra de negócio e cobertura.
+- `security-audit`: auditar segurança pós-implementação com evidências verificáveis, histórico de segredos e relatório PDF opcional.
+
+## Backend Golang
+
+- `backend-golang`: gera e revisa aplicações Go nos perfis `api` e `desktop`, respeitando a arquitetura, os testes, a segurança e os gates da Change aprovada.
+- `golang-benchmark`: mede benchmarks, perfis e regressões de desempenho com rigor estatístico.
+- `golang-cli`: estrutura aplicações CLI com comandos, flags, configuração, códigos de saída e testes.
+- `golang-code-style`: orienta estilo, clareza, formatação e convenções de código Go.
+- `golang-concurrency`: orienta goroutines, canais, cancelamento, sincronização e prevenção de vazamentos.
+- `golang-context`: orienta propagação de `context.Context`, cancelamento, deadlines e rastreamento.
+- `golang-continuous-integration`: configura qualidade e CI/CD para projetos Go.
+- `golang-data-structures`: orienta escolha e uso de slices, mapas, arrays, containers e genéricos.
+- `golang-database`: orienta acesso seguro a bancos com `database/sql`, `sqlx` e `pgx`.
+- `golang-dependency-injection`: orienta injeção manual e bibliotecas de DI em Go.
+- `golang-dependency-management`: orienta `go.mod`, `go.sum`, atualizações e auditoria de dependências.
+- `golang-design-patterns`: orienta padrões idiomáticos, construtores, opções funcionais, erros e resiliência.
+- `golang-documentation`: orienta comentários GoDoc, README, exemplos e documentação de APIs.
+- `golang-error-handling`: orienta tratamento, wrapping, classificação e propagação de erros.
+- `golang-grpc`: orienta implementação de serviços e contratos gRPC em Go.
+- `golang-linter`: orienta configuração e execução de linters para Go.
+- `golang-modernize`: orienta modernização de código para versões atuais do Go.
+- `golang-naming`: orienta nomes de pacotes, tipos, funções, erros, testes e acrônimos.
+- `golang-observability`: orienta logs estruturados, métricas, traces, profiling e alertas.
+- `golang-performance`: orienta otimizações somente após medição e profiling.
+- `golang-popular-libraries`: orienta escolha de bibliotecas Go maduras, simples e mantidas.
+- `golang-project-layout`: orienta layout de projetos, módulos, `cmd`, `internal`, `pkg` e workspaces.
+- `golang-safety`: orienta programação defensiva contra pânicos, corrupção silenciosa e condições de corrida.
+- `golang-samber-do`: orienta uso de `samber/do` para injeção de dependências.
+- `golang-samber-oops`: orienta erros estruturados com `samber/oops`.
+- `golang-security`: orienta prevenção e auditoria de vulnerabilidades em aplicações Go.
+- `golang-stay-updated`: reúne fontes oficiais, comunidades, notícias e atualizações do ecossistema Go.
+- `golang-stretchr-testify`: orienta testes com `stretchr/testify`.
+- `golang-structs-interfaces`: orienta structs, interfaces, composição, ponteiros e genéricos.
+- `golang-testing`: orienta testes unitários, integração, cobertura, fuzzing e testes com dependências.
+- `golang-troubleshooting`: orienta diagnóstico sistemático, reprodução, pprof, Delve e análise de causa raiz.
+
+As Skills de processo seguem `specs/shared/process/workflow.md`.
+
+- `java-javadoc`: cria ou atualiza JavaDoc em português do Brasil para contratos Java comprovados, sem documentação especulativa. Exemplo de uso: "adicione JavaDoc ao `UsuarioService` com base no comportamento comprovado pelo código e testes".
+
+## Skills importadas do estudo
+
+As skills abaixo chegaram ao acervo de origem por importações anteriores, registradas no snapshot original preservado. Aqui são descobertas diretamente em `.agents/skills/<nome-da-skill>/`, sem acesso ao diretório anterior de estudo. Autoria e direitos não são inferidos dessa cópia.
+
+### Arquitetura
+
+Exemplo de uso: "analise este monolito e sugira limites de dominio" ou "monte um plano de decomposicao incremental".
+
+- `component-common-domain-detection`: encontra logica de negocio duplicada entre componentes e sugere consolidacao.
+- `component-flattening-analysis`: identifica classes fora do componente correto e problemas de hierarquia de modulos.
+- `component-identification-sizing`: mapeia componentes arquiteturais e mede tamanho para priorizar extracoes.
+- `coupling-analysis`: analisa acoplamento entre modulos por forca, distancia e volatilidade.
+- `decomposition-planning-roadmap`: cria roteiro de decomposicao e migracao incremental de monolitos.
+- `domain-analysis`: mapeia dominios de negocio e sugere bounded contexts com DDD estrategico.
+- `domain-identification-grouping`: agrupa componentes existentes em dominios logicos para planejar servicos.
+- `evolutionary-modular-architecture`: orienta arquitetura modular evolutiva com DDD, ACL, outbox e resiliencia.
+- `frontend-blueprint`: conduz descoberta estruturada antes de criar interfaces frontend.
+- `legacy-migration-planner`: planeja modernizacao e migracao incremental de sistemas legados.
+- `modular-decomposition`: executa pipeline de analise para dividir monolitos em unidades modulares.
+- `modular-design-principles`: orienta principios de desenho modular e separacao de responsabilidades.
+- `react-composition-patterns`: orienta composicao de componentes React e APIs reutilizaveis.
+- `tactical-ddd`: revisa e refatora modelos de dominio com DDD tatico.
+
+### Criacao
+
+Exemplo de uso: "crie uma skill para padronizar revisoes de contrato" ou "desenhe um subagente verificador".
+
+- `skill-architect`: guia a criacao de skills de alta qualidade a partir de um fluxo estruturado.
+- `subagent-creator`: orienta a criacao de subagentes especializados para fluxos complexos.
+
+### Decisao
+
+Exemplo de uso: "faça um pre-mortem deste plano" ou "monte um juri para decidir entre estas arquiteturas".
+
+- `the-fool`: desafia ideias, planos e propostas por pre-mortem, red team e analise de pontos cegos.
+- `the-jury`: organiza um painel de decisao com jurados independentes e veredito consolidado.
+
+### Desenvolvimento
+
+Exemplo de uso: "implemente uma tela React Native com Expo Router e lista performatica".
+
+- `react-native-expert`: apoia desenvolvimento React Native e Expo para apps moveis de producao.
+
+### Design
+
+Exemplo de uso: "crie uma interface web de dashboard" ou "revise a UI contra boas praticas visuais".
+
+- `frontend-design`: cria interfaces frontend polidas, distintas e prontas para producao.
+- `web-design-guidelines`: revisa UI e UX contra diretrizes de design, interacao e acessibilidade visual.
+
+### Ferramentas
+
+Exemplo de uso: "gere um diagrama Mermaid da arquitetura", "corrija o CI do PR" ou "rode tarefas Nx afetadas".
+
+- `chrome-devtools`: apoia depuracao, screenshots, rede e perfil de performance via Chrome DevTools.
+- `excalidraw-studio`: gera diagramas Excalidraw a partir de descricoes naturais.
+- `gh-fix-ci`: investiga falhas de checks de PR no GitHub Actions e prepara correcao com aprovacao.
+- `mermaid-studio`: cria, valida e renderiza diagramas Mermaid em varios formatos.
+- `nx-ci-monitor`: monitora pipelines Nx Cloud e conduz correcao assistida de falhas.
+- `nx-generate`: usa generators do Nx para scaffold de projetos, libs e recursos.
+- `nx-run-tasks`: executa build, test, lint, serve, run-many e affected em workspaces Nx.
+- `nx-workspace`: explora, configura e otimiza workspaces Nx.
+
+### Performance
+
+Exemplo de uso: "rode Lighthouse local", "otimize o bundle" ou "melhore o score de um site Astro".
+
+- `perf-astro`: aplica otimizacoes de performance especificas para sites Astro.
+- `perf-lighthouse`: executa e interpreta auditorias Lighthouse e budgets de performance.
+- `perf-web-optimization`: otimiza bundle, imagens, cache, lazy loading e velocidade web geral.
+
+### Qualidade
+
+Exemplo de uso: "revise este PR", "melhore SEO", "faça auditoria de acessibilidade" ou "audite qualidade web".
+
+- `pr-review`: revisa pull requests no GitHub com comentarios e resumo consolidado.
+- `react-best-practices`: aplica boas praticas de performance para React e Next.js.
+- `seo`: melhora visibilidade em buscadores com metadados, sitemap e dados estruturados.
+- `tlc-generative-engine-optimization`: otimiza paginas para descoberta e citacao por mecanismos de resposta com IA.
+- `web-accessibility`: audita e melhora acessibilidade web conforme WCAG.
+- `web-best-practices`: revisa seguranca, compatibilidade e qualidade de codigo web.
+- `web-quality-audit`: consolida auditoria web de performance, acessibilidade, SEO e boas praticas.
+
+### Seguranca
+
+Exemplo de uso: "gere um modelo de ameacas", "revise praticas seguras" ou "mapeie ownership de codigo sensivel".
+
+- `security-best-practices`: revisa praticas de seguranca por linguagem e framework.
+- `security-ownership-map`: mapeia ownership de codigo sensivel a partir do historico Git.
+- `security-threat-model`: produz modelo de ameacas baseado no repositorio, ativos e limites de confianca.
+
+## Limites atuais das extensões
+
+Das 149 referências históricas ausentes, três links têm substituto local corrigido e 146 pares continuam ausentes em 30 diretórios de skills. Confira DEPENDENCIAS-PENDENTES.md na skill selecionada e [lista de resolução](../../imports/acervo-local-2026-11-12/dependency-resolution.json). Operações dependentes não estão habilitadas por essa nota. [Pendências gerais](../../PENDENCIAS.md).

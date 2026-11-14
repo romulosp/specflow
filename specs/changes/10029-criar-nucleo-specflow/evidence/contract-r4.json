@@ -1,0 +1,8 @@
+{
+  "revision": "r4",
+  "status": "HISTORICAL_EXTERNAL_ARCHIVE",
+  "approved": false,
+  "archiveSha256": "b4858ac685f741843869f7cac01afe0a64d8673847b6bc2f19bd96bf3c8d10ff",
+  "manifestArchiveEntry": "specs/changes/10029-criar-nucleo-specflow/evidence/contract-r4.json",
+  "note": "Original exact manifest and corresponding revisions retained in verified external archive; local current contracts have separate manifests; no approval inherited"
+}

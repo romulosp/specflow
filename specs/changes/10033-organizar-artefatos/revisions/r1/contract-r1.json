@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "revision": "r1",
+  "status": "EM_REVISAO_SPEC",
+  "files": [
+    {
+      "path": "proposal.md",
+      "role": "proposal",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "f7b250561309327ddd609832ba79fd8ea0413cbe6b857ad74f5150973bd104eb"
+    },
+    {
+      "path": "spec.md",
+      "role": "spec",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "d9f6919b2d8270464dc5745246b3fd6e8b0adca4a0b96f88874d60d2f9affc21"
+    },
+    {
+      "path": "DESIGN.md",
+      "role": "design",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "9ee43f2932f8bcf114225474dfec8c169ffb8fb0fd5a5e88beb75fe74054579a"
+    },
+    {
+      "path": "tasks.md",
+      "role": "tasks",
+      "digestProfile": "sha256-utf8-lf-v1",
+      "sha256": "e31964c09db7d540b1b5400062840717829b3a0b13baacee8b0ab540836e4dc1"
+    }
+  ]
+}

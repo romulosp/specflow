@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-12",
+  "scope": "support assets, editorial neutralization, command materialization and diagrams; no framework runtime or client integration test",
+  "passed": 23,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "removed_identifier_absent",
+      "passed": true,
+      "details": {
+        "filesExamined": 11619,
+        "matches": []
+      }
+    },
+    {
+      "name": "authorial_document_links",
+      "passed": true,
+      "details": {
+        "documents": 40,
+        "missing": []
+      }
+    },
+    {
+      "name": "no_absolute_checkout_links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "RF_CA_01",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_02",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_03",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_04",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_05",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_06",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_07",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_08",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_09",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_10",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "RF_CA_11",
+      "passed": true,
+      "details": "documentary ID coverage only"
+    },
+    {
+      "name": "core_gate_pending",
+      "passed": true,
+      "details": "no implementation or approval inferred"
+    },
+    {
+      "name": "r3_contract_manifest",
+      "passed": true,
+      "details": "four text profiles and raw digests; unapproved"
+    },
+    {
+      "name": "generated_commands_match",
+      "passed": true,
+      "details": "20 artifacts; no command phase invoked"
+    },
+    {
+      "name": "audit_input_positive",
+      "passed": true,
+      "details": "valid synthetic input, no PDF"
+    },
+    {
+      "name": "audit_input_negative_type",
+      "passed": true,
+      "details": "boolean does not satisfy integer schema version"
+    },
+    {
+      "name": "audit_input_negative_json",
+      "passed": true,
+      "details": "invalid JSON fails without claims"
+    },
+    {
+      "name": "no_audit_pdf_generated",
+      "passed": true,
+      "details": "no historical audit substituted"
+    },
+    {
+      "name": "diagram_export_self_contained",
+      "passed": true,
+      "details": "parser and rendering were run separately; PNG visually inspected"
+    },
+    {
+      "name": "external_source_preserved",
+      "passed": true,
+      "details": {
+        "baselineFiles": 1385,
+        "supplementFiles": 3,
+        "changed": [],
+        "gitHeadUnchanged": true,
+        "gitStatusUnchanged": true
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B tools/gerar_comandos_specflow.py --check",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "{\"commands\": 10, \"artifacts\": 20, \"mismatch\": []}",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B docs/security-audit/gerar_relatorio.py --input docs/security-audit/relatorio-exemplo.json --validate-only",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "stdout": "Dados validos; nenhum PDF foi gerado e nenhuma auditoria executada.",
+      "stderr": ""
+    },
+    {
+      "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B docs/security-audit/gerar_relatorio.py --input C:\\Users\\ROMULO~1\\AppData\\Local\\Temp\\specflow-audit-515xug59\\invalid.json --validate-only",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "stdout": "",
+      "stderr": "Falha: confira o formato, arquivos, destino e dependencia opcional reportlab. Nenhum resultado de auditoria foi inferido."
+    },
+    {
+      "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B docs/security-audit/gerar_relatorio.py --input C:\\Users\\ROMULO~1\\AppData\\Local\\Temp\\specflow-audit-515xug59\\invalid.json --validate-only",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "stdout": "",
+      "stderr": "Falha: confira o formato, arquivos, destino e dependencia opcional reportlab. Nenhum resultado de auditoria foi inferido."
+    }
+  ],
+  "diagram": {
+    "mermaidParser": "passed without warnings",
+    "renderer": "beautiful-mermaid 1.1.3",
+    "visualInspection": "PNG inspected after portable SVG export"
+  }
+}

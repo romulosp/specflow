@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "IMP-REV-001",
+  "severity": "material",
+  "status": "resolved",
+  "source": "framework/src/specflow/assets/catalog-v1.json",
+  "evidence": "Catalog named auxiliary Skills omitted from the allowlisted package, whereas bundle prompts referenced available Markdown guides. CLI-09 single catalog invariant failed.",
+  "action": "Return from validation to implementation. Make helper guide instructions canonical in source and packaged catalogs; generate phase Skills/prompts from the same catalog; add a functional regression for exact steps and helper references. Rebuild/retest/review/audit current artifacts.",
+  "resolution": "Canonical helper guides used by all source/packaged catalogs, CLI/editor instructions; 24 generated files reconciled after baseline verification.",
+  "evidenceRefs": [
+    "docs/cli/tests-2026-11-14.log",
+    "docs/cli/installation-smoke-2026-11-14.json"
+  ]
+}

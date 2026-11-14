@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "changeId": "10029-criar-nucleo-specflow",
+  "status": "verificada",
+  "validationAllowed": true,
+  "exitCode": 0,
+  "reasons": [],
+  "method": "Evidence gate; security-audit analysis remains mandatory",
+  "limitations": [
+    "Does not authenticate reviewer or prove evidence truth or completeness outside declared scope",
+    "Does not run commands from audit JSON or approve the Change"
+  ]
+}

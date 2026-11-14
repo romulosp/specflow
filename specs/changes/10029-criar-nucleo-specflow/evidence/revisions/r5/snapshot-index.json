@@ -1,0 +1,27 @@
+{
+  "revision": "r5",
+  "representation": "exact local ZIP snapshot",
+  "manifestSha256": "1a4182bf9006938739ecf45a35494169294b97ed7156fd4587fd87b174ba7a40",
+  "approved": false,
+  "files": [
+    {
+      "path": "proposal.md",
+      "rawSha256": "c8fe3e9d73c56b236e6dfc6f3bdfde3951bded4abe64c07b711c08c16daae345"
+    },
+    {
+      "path": "spec.md",
+      "rawSha256": "7f5ded7dcf2385e79e3cca3f078264e8760abdde28f789c658741d5e121b62aa"
+    },
+    {
+      "path": "DESIGN.md",
+      "rawSha256": "ad9033c961bc2aeb1939876408b4e5f2031afa882a674149b6f6541816a9e31d"
+    },
+    {
+      "path": "tasks.md",
+      "rawSha256": "360cbbffbb699641ba7d957dcec2e57125e549a79681863e2ccaa10ab4155ca2"
+    }
+  ],
+  "archiveRelative": "../r5.zip",
+  "archiveSha256": "fe86c9459f1133861fc40f44e5212299bac0b42a626f53b43cd94a67000af5cf",
+  "looseContractFiles": false
+}

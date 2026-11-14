@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "command": [
+    "D:\\desenvolvimento\\ia\\specflow-investigacao\\.venv-specflow\\Scripts\\python.exe",
+    "-B",
+    "docs/security-audit/verificar_seguranca.py",
+    "--change",
+    "specs/changes/10031-criar-specflow-cli"
+  ],
+  "expectedCode": 0,
+  "actualCode": 0,
+  "stdout": "{\"schemaVersion\": 1, \"changeId\": \"10031-criar-specflow-cli\", \"status\": \"verificada\", \"validationAllowed\": true, \"exitCode\": 0, \"reasons\": [], \"method\": \"Evidence gate; security-audit analysis remains mandatory\", \"limitations\": [\"Does not authenticate reviewer or prove evidence truth or completeness outside declared scope\", \"Does not run commands from audit JSON or approve the Change\"]}\n",
+  "stderr": "",
+  "method": "automated",
+  "limitations": [
+    "Legacy support helper followed by actual native evidence binding verification; not a scanner"
+  ]
+}

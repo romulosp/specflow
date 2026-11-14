@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 329.42999999999995 1655.2309999999998" width="329.42999999999995" height="1655.2309999999998" style="background:#ffffff">
+
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#64748b" stroke="#64748b" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#64748b" stroke="#64748b" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="installCli" data-to="initialize" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="164.71499999999997,76.9 164.71499999999997,124.9" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="initialize" data-to="draftChange" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="164.71499999999997,161.8 164.71499999999997,209.8" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="draftChange" data-to="editorContract" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="164.71499999999997,246.70000000000002 164.71499999999997,294.70000000000005" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="editorContract" data-to="humanSpec" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="164.71499999999997,331.6 164.71499999999997,379.6" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="humanSpec" data-to="editorCode" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sim" points="164.71499999999997,624.131 164.71499999999997,740.4309999999999" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="editorCode" data-to="technicalChecks" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="164.71499999999997,777.3309999999999 164.71499999999997,825.3309999999999" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="technicalChecks" data-to="humanTest" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Satisfeitos" points="164.71499999999997,862.2309999999999 164.71499999999997,978.5309999999998" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="humanTest" data-to="formalReview" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Continuacao autorizada" points="164.71499999999997,1015.4309999999998 164.71499999999997,1131.7309999999998" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="formalReview" data-to="humanAcceptance" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Evidencias atuais" points="164.71499999999997,1168.6309999999999 164.71499999999997,1284.9309999999998" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="humanAcceptance" data-to="closure" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Aprovado" points="164.71499999999997,1462.031 164.71499999999997,1578.3309999999997" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="humanSpec" data-to="editorCode" data-label="Sim">
+  <rect x="147.21499999999997" y="667.131" width="34.282" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="164.35599999999997" y="682.281" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Sim</text>
+</g>
+<g class="edge-label" data-from="technicalChecks" data-to="humanTest" data-label="Satisfeitos">
+  <rect x="131.21499999999997" y="905.2309999999999" width="66.358" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="164.39399999999998" y="920.3809999999999" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Satisfeitos</text>
+</g>
+<g class="edge-label" data-from="humanTest" data-to="formalReview" data-label="Continuacao autorizada">
+  <rect x="99.71499999999999" y="1058.4309999999998" width="129.91600000000003" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="164.673" y="1073.581" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Continuacao autorizada</text>
+</g>
+<g class="edge-label" data-from="formalReview" data-to="humanAcceptance" data-label="Evidencias atuais">
+  <rect x="113.71499999999996" y="1211.6309999999999" width="101.40400000000002" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="164.41699999999997" y="1226.781" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Evidencias atuais</text>
+</g>
+<g class="edge-label" data-from="humanAcceptance" data-to="closure" data-label="Aprovado">
+  <rect x="131.71499999999997" y="1505.0309999999997" width="65.17" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="164.29999999999998" y="1520.1809999999998" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Aprovado</text>
+</g>
+<g class="node" data-id="installCli" data-label="Instalar wheel local" data-shape="rectangle">
+  <rect x="88.16499999999996" y="40" width="153.10000000000002" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">Instalar wheel local</text>
+</g>
+<g class="node" data-id="initialize" data-label="specflow init + doctor" data-shape="rectangle">
+  <rect x="83.34849999999996" y="124.9" width="162.73300000000003" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">specflow init + doctor</text>
+</g>
+<g class="node" data-id="draftChange" data-label="specflow nova-change" data-shape="rectangle">
+  <rect x="77.79099999999998" y="209.8" width="173.84799999999998" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="228.25" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">specflow nova-change</text>
+</g>
+<g class="node" data-id="editorContract" data-label="Editor: especificar e revisar SPEC" data-shape="rectangle">
+  <rect x="42.964" y="294.70000000000005" width="243.50199999999995" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="313.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">Editor: especificar e revisar SPEC</text>
+</g>
+<g class="node" data-id="humanSpec" data-label="SPEC aprovada pelo humano?" data-shape="diamond">
+  <polygon points="164.71499999999997,379.6 286.98049999999995,501.8655 164.71499999999997,624.131 42.449499999999986,501.8655" fill="#fef3c7" stroke="#d97706" stroke-width="0.75" />
+  <text x="164.71499999999997" y="501.8655" text-anchor="middle" font-size="13" font-weight="500" fill="#78350f" dy="4.55" font-family="Arial, sans-serif">SPEC aprovada pelo humano?</text>
+</g>
+<g class="node" data-id="editorCode" data-label="Editor: planejar e implementar" data-shape="rectangle">
+  <rect x="58.154499999999985" y="740.4309999999999" width="213.12099999999998" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="758.881" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">Editor: planejar e implementar</text>
+</g>
+<g class="node" data-id="technicalChecks" data-label="Testes e cobertura: minimo 80%" data-shape="rectangle">
+  <rect x="52.59700000000001" y="825.3309999999999" width="224.23599999999993" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="843.781" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">Testes e cobertura: minimo 80%</text>
+</g>
+<g class="node" data-id="humanTest" data-label="Entregar build para teste humano" data-shape="rectangle">
+  <rect x="47.40999999999998" y="978.5309999999998" width="234.60999999999999" height="36.900000000000006" rx="0" ry="0" fill="#fef3c7" stroke="#d97706" stroke-width="0.75" />
+  <text x="164.71499999999997" y="996.9809999999999" text-anchor="middle" font-size="13" font-weight="500" fill="#78350f" dy="4.55" font-family="Arial, sans-serif">Entregar build para teste humano</text>
+</g>
+<g class="node" data-id="formalReview" data-label="Revisar implementacao e validar" data-shape="rectangle">
+  <rect x="49.2625" y="1131.7309999999998" width="230.90499999999994" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="1150.1809999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">Revisar implementacao e validar</text>
+</g>
+<g class="node" data-id="humanAcceptance" data-label="Aceite humano final" data-shape="diamond">
+  <polygon points="164.71499999999997,1284.9309999999998 253.265,1373.4809999999998 164.71499999999997,1462.0309999999997 76.16499999999996,1373.4809999999998" fill="#fef3c7" stroke="#d97706" stroke-width="0.75" />
+  <text x="164.71499999999997" y="1373.4809999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#78350f" dy="4.55" font-family="Arial, sans-serif">Aceite humano final</text>
+</g>
+<g class="node" data-id="closure" data-label="Preparar encerramento autorizado" data-shape="rectangle">
+  <rect x="40" y="1578.3309999999997" width="249.42999999999995" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="164.71499999999997" y="1596.7809999999997" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">Preparar encerramento autorizado</text>
+</g>
+</svg>

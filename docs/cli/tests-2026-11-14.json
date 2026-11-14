@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "method": "functional",
+  "command": [
+    "D:\\desenvolvimento\\ia\\specflow-investigacao\\.venv-specflow\\Scripts\\python.exe",
+    "-m",
+    "coverage",
+    "run",
+    "--branch",
+    "--source=framework/src/specflow",
+    "-m",
+    "unittest",
+    "discover",
+    "-v",
+    "-s",
+    "framework/tests",
+    "-p",
+    "test_*.py"
+  ],
+  "cwd": ".",
+  "python": "3.14.6",
+  "system": "Windows-10-10.0.19045-SP0",
+  "expectedCode": 0,
+  "actualCode": 0,
+  "logRef": "docs/cli/tests-2026-11-14.log",
+  "limitations": [
+    "One OS symlink-creation case skipped for lack of Windows privilege; real junction/hardlink cases passed",
+    "Synthetic decisions in fixtures test gates; not product approval"
+  ],
+  "regression": "Catalog, phase Skills/prompts, description, steps and helper guide destinations must match in the initialized consumer"
+}

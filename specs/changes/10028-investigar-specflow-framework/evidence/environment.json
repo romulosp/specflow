@@ -1,0 +1,7 @@
+﻿{
+    "powershell":  "5.1.19041.6456",
+    "pester":  "3.4.0",
+    "git":  "git version 2.54.0.windows.1",
+    "python":  "Python 3.14.6",
+    "os":  "Microsoft Windows NT 10.0.19045.0"
+}

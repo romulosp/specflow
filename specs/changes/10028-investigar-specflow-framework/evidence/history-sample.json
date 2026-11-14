@@ -1,0 +1,228 @@
+{
+  "selection": "Intencional por mecanismo/fase, sem inferência estatística e sem reexecução de aplicações",
+  "changes": 6,
+  "archive_total": 55,
+  "files": [
+    {
+      "path": "specs/archive/2026-08-27-002-consolidar-governanca-spec-driven/validation.md",
+      "states": [
+        "VALIDADA"
+      ],
+      "lines": 24
+    },
+    {
+      "path": "specs/archive/2026-08-27-002-consolidar-governanca-spec-driven/reviews/2026-08-26-implementation-review.md",
+      "states": [
+        "IMPLEMENTACAO_APROVADA"
+      ],
+      "lines": 16
+    },
+    {
+      "path": "specs/archive/2026-08-27-002-consolidar-governanca-spec-driven/reviews/2026-08-27-approval.md",
+      "states": [
+        "APROVADA",
+        "IMPLEMENTACAO_APROVADA",
+        "SPEC_APROVADA",
+        "VALIDADA"
+      ],
+      "lines": 28
+    },
+    {
+      "path": "specs/archive/2026-08-27-002-consolidar-governanca-spec-driven/reviews/2026-08-27-spec-review.md",
+      "states": [
+        "SPEC_APROVADA"
+      ],
+      "lines": 25
+    },
+    {
+      "path": "specs/archive/2026-08-27-002-consolidar-governanca-spec-driven/reviews/README.md",
+      "states": [],
+      "lines": 3
+    },
+    {
+      "path": "specs/archive/2026-09-05-033-consolidar-governanca-sprint-planner/validation.md",
+      "states": [
+        "VALIDADA"
+      ],
+      "lines": 48
+    },
+    {
+      "path": "specs/archive/2026-09-05-033-consolidar-governanca-sprint-planner/reviews/2026-09-05-approval.md",
+      "states": [
+        "APROVADA",
+        "ARQUIVADA",
+        "IMPLEMENTACAO_APROVADA",
+        "SPEC_APROVADA",
+        "VALIDADA"
+      ],
+      "lines": 36
+    },
+    {
+      "path": "specs/archive/2026-09-05-033-consolidar-governanca-sprint-planner/reviews/2026-09-05-implementation-review-resubmissao.md",
+      "states": [
+        "IMPLEMENTACAO_APROVADA"
+      ],
+      "lines": 27
+    },
+    {
+      "path": "specs/archive/2026-09-05-033-consolidar-governanca-sprint-planner/reviews/2026-09-05-implementation-review.md",
+      "states": [
+        "REPROVADA"
+      ],
+      "lines": 17
+    },
+    {
+      "path": "specs/archive/2026-09-05-033-consolidar-governanca-sprint-planner/reviews/2026-09-05-spec-review.md",
+      "states": [
+        "SPEC_APROVADA"
+      ],
+      "lines": 24
+    },
+    {
+      "path": "specs/archive/2026-09-05-034-automatizar-sonar-local/validation.md",
+      "states": [
+        "VALIDADA"
+      ],
+      "lines": 61
+    },
+    {
+      "path": "specs/archive/2026-09-05-034-automatizar-sonar-local/reviews/2026-09-05-approval.md",
+      "states": [
+        "APROVADA",
+        "IMPLEMENTACAO_APROVADA",
+        "SPEC_APROVADA",
+        "VALIDADA"
+      ],
+      "lines": 20
+    },
+    {
+      "path": "specs/archive/2026-09-05-034-automatizar-sonar-local/reviews/2026-09-05-implementation-review.md",
+      "states": [
+        "IMPLEMENTACAO_APROVADA"
+      ],
+      "lines": 29
+    },
+    {
+      "path": "specs/archive/2026-09-05-034-automatizar-sonar-local/reviews/2026-09-05-spec-review.md",
+      "states": [
+        "SPEC_APROVADA"
+      ],
+      "lines": 29
+    },
+    {
+      "path": "specs/archive/2026-09-06-003-concluir-execucao-produto-base/validation.md",
+      "states": [
+        "VALIDADA"
+      ],
+      "lines": 35
+    },
+    {
+      "path": "specs/archive/2026-09-06-003-concluir-execucao-produto-base/reviews/2026-09-06-approval.md",
+      "states": [
+        "APROVADA",
+        "ARQUIVADA",
+        "IMPLEMENTACAO_APROVADA",
+        "SPEC_APROVADA",
+        "VALIDADA"
+      ],
+      "lines": 13
+    },
+    {
+      "path": "specs/archive/2026-09-06-003-concluir-execucao-produto-base/reviews/2026-09-06-implementation-review.md",
+      "states": [
+        "IMPLEMENTACAO_APROVADA"
+      ],
+      "lines": 12
+    },
+    {
+      "path": "specs/archive/2026-09-06-003-concluir-execucao-produto-base/reviews/2026-09-06-security-audit.md",
+      "states": [],
+      "lines": 13
+    },
+    {
+      "path": "specs/archive/2026-09-06-003-concluir-execucao-produto-base/reviews/2026-09-06-spec-review.md",
+      "states": [
+        "SPEC_APROVADA"
+      ],
+      "lines": 3
+    },
+    {
+      "path": "specs/archive/2026-09-18-067-android-native-engineering/validation.md",
+      "states": [
+        "VALIDADA"
+      ],
+      "lines": 70
+    },
+    {
+      "path": "specs/archive/2026-09-18-067-android-native-engineering/reviews/2026-09-18-implementation-review.md",
+      "states": [
+        "IMPLEMENTACAO_APROVADA"
+      ],
+      "lines": 28
+    },
+    {
+      "path": "specs/archive/2026-09-18-067-android-native-engineering/reviews/2026-09-18-security-audit.md",
+      "states": [],
+      "lines": 53
+    },
+    {
+      "path": "specs/archive/2026-09-18-067-android-native-engineering/reviews/2026-09-18-spec-review-complementar.md",
+      "states": [
+        "REPROVADA",
+        "SPEC_APROVADA",
+        "VALIDADA"
+      ],
+      "lines": 52
+    },
+    {
+      "path": "specs/archive/2026-09-18-067-android-native-engineering/reviews/2026-09-18-spec-review.md",
+      "states": [
+        "SPEC_APROVADA"
+      ],
+      "lines": 62
+    },
+    {
+      "path": "specs/archive/2026-09-18-067-android-native-engineering/reviews/2026-09-19-approval.md",
+      "states": [
+        "APROVADA",
+        "ARQUIVADA",
+        "IMPLEMENTACAO_APROVADA",
+        "SPEC_APROVADA",
+        "VALIDADA"
+      ],
+      "lines": 34
+    },
+    {
+      "path": "specs/archive/2026-09-19-998-importar-skill-kotlin/validation.md",
+      "states": [
+        "VALIDADA"
+      ],
+      "lines": 17
+    },
+    {
+      "path": "specs/archive/2026-09-19-998-importar-skill-kotlin/reviews/2026-09-19-approval.md",
+      "states": [
+        "APROVADA",
+        "ARQUIVADA",
+        "IMPLEMENTACAO_APROVADA",
+        "SPEC_APROVADA",
+        "VALIDADA"
+      ],
+      "lines": 23
+    },
+    {
+      "path": "specs/archive/2026-09-19-998-importar-skill-kotlin/reviews/2026-09-19-implementation-review.md",
+      "states": [
+        "IMPLEMENTACAO_APROVADA"
+      ],
+      "lines": 18
+    },
+    {
+      "path": "specs/archive/2026-09-19-998-importar-skill-kotlin/reviews/2026-09-19-spec-review.md",
+      "states": [
+        "SPEC_APROVADA"
+      ],
+      "lines": 31
+    }
+  ]
+}

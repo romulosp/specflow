@@ -1,0 +1,3319 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-12",
+  "source": "external provenance retained in audit archive; no checkout path distributed",
+  "sourceHead": "2c48154cdc5e2abdeb65733eb47b920d89a3235f",
+  "authorization": "Pedido expresso do usuario nesta conversa: importar recursos necessarios sem alterar projeto-origem",
+  "scope": "Local support corpus; authorial commands are separate; third-party rights are not replaced by root MIT license",
+  "license": "Direitos originais preservados; redistribuicao nao liberada",
+  "sourcePreservation": {
+    "examined": 1385,
+    "changed": [],
+    "headBefore": "2c48154cdc5e2abdeb65733eb47b920d89a3235f",
+    "headAfter": "2c48154cdc5e2abdeb65733eb47b920d89a3235f",
+    "statusBefore": "M apps/frontend/smartphone/sistema-prototipo-android/.idea/misc.xml",
+    "statusAfter": "M apps/frontend/smartphone/sistema-prototipo-android/.idea/misc.xml"
+  },
+  "files": [
+    {
+      "path": ".agents/skills/README.md",
+      "bytes": 9934,
+      "sourceSha256": "83e5c9f81fb5414b2b73b615a2d423a8cb8bfd4133ba942315a57bbf8c57586b",
+      "localSha256": "fad58bd5b65009050b0a718345db30f1c898b3c9cb6c680194a2118b44e2df91",
+      "adaptation": "Authorized local adaptation; original rights and source digest preserved",
+      "sourceBytes": 9934,
+      "localBytes": 11742,
+      "localSnapshotSha256": "83e5c9f81fb5414b2b73b615a2d423a8cb8bfd4133ba942315a57bbf8c57586b",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/SKILL.md",
+      "bytes": 3891,
+      "sourceSha256": "d9c97e80548fb4a9afc519387461f701bbc9e7de82b533511ece5e216da0d3ce",
+      "localSha256": "d9c97e80548fb4a9afc519387461f701bbc9e7de82b533511ece5e216da0d3ce",
+      "adaptation": null,
+      "sourceBytes": 3891,
+      "localBytes": 3891
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/agents/openai.yaml",
+      "bytes": 235,
+      "sourceSha256": "5cc7154a7eab097653caef13da46e257cefae4b12035ea88d913786e1e4e92f4",
+      "localSha256": "5cc7154a7eab097653caef13da46e257cefae4b12035ea88d913786e1e4e92f4",
+      "adaptation": null,
+      "sourceBytes": 235,
+      "localBytes": 235
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/INDEX.md",
+      "bytes": 679,
+      "sourceSha256": "b4d4d53467b2865add3cafee11135ac1f4307563d89626f6e23da71ab1a4380c",
+      "localSha256": "b4d4d53467b2865add3cafee11135ac1f4307563d89626f6e23da71ab1a4380c",
+      "adaptation": null,
+      "sourceBytes": 679,
+      "localBytes": 679
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-animations/SKILL.md",
+      "bytes": 4002,
+      "sourceSha256": "008f020fe3e366a0f00eab1cd7bdbc4c9836e15c929ee1304ca3dfec3c187841",
+      "localSha256": "008f020fe3e366a0f00eab1cd7bdbc4c9836e15c929ee1304ca3dfec3c187841",
+      "adaptation": null,
+      "sourceBytes": 4002,
+      "localBytes": 4002
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-animations/references/animated-content.md",
+      "bytes": 1568,
+      "sourceSha256": "0c09460e27deb1c71580ee67dd3394ad8be1d37a681d8b455b2965a2a6edc924",
+      "localSha256": "0c09460e27deb1c71580ee67dd3394ad8be1d37a681d8b455b2965a2a6edc924",
+      "adaptation": null,
+      "sourceBytes": 1568,
+      "localBytes": 1568
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-component-design/SKILL.md",
+      "bytes": 2540,
+      "sourceSha256": "51c78fe4c3df734691eaeff8e694048b57dfd2cad361cb9dd876e5232362f14e",
+      "localSha256": "51c78fe4c3df734691eaeff8e694048b57dfd2cad361cb9dd876e5232362f14e",
+      "adaptation": null,
+      "sourceBytes": 2540,
+      "localBytes": 2540
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/modifier-layout.md",
+      "bytes": 2886,
+      "sourceSha256": "aa61270f571e65a8b22bd3293a28a850eac56b52f88b6db2aef3d3c46b86fb11",
+      "localSha256": "aa61270f571e65a8b22bd3293a28a850eac56b52f88b6db2aef3d3c46b86fb11",
+      "adaptation": null,
+      "sourceBytes": 2886,
+      "localBytes": 2886
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-component-design/references/slot-apis.md",
+      "bytes": 2510,
+      "sourceSha256": "0ab722760a27c08bae0cb6157865ca7bb1f393b33a3987b52452418efdfe9e14",
+      "localSha256": "0ab722760a27c08bae0cb6157865ca7bb1f393b33a3987b52452418efdfe9e14",
+      "adaptation": null,
+      "sourceBytes": 2510,
+      "localBytes": 2510
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-focus-navigation/SKILL.md",
+      "bytes": 3870,
+      "sourceSha256": "3d0c42b847ea26f773bc4ff47dc70af7b9334888da054d6236f4d51a4d41341c",
+      "localSha256": "3d0c42b847ea26f773bc4ff47dc70af7b9334888da054d6236f4d51a4d41341c",
+      "adaptation": null,
+      "sourceBytes": 3870,
+      "localBytes": 3870
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/SKILL.md",
+      "bytes": 3370,
+      "sourceSha256": "4764e7bd27064561f538c5428a3dfd6343f72de050b74086bf7a0552d9dc2049",
+      "localSha256": "4764e7bd27064561f538c5428a3dfd6343f72de050b74086bf7a0552d9dc2049",
+      "adaptation": null,
+      "sourceBytes": 3370,
+      "localBytes": 3370
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/local-state.md",
+      "bytes": 1892,
+      "sourceSha256": "bfcceedcef5d75ae646a43b44c5f3aaf1c6da92ae4012dbd731a8a73e73e630f",
+      "localSha256": "bfcceedcef5d75ae646a43b44c5f3aaf1c6da92ae4012dbd731a8a73e73e630f",
+      "adaptation": null,
+      "sourceBytes": 1892,
+      "localBytes": 1892
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/side-effects.md",
+      "bytes": 2738,
+      "sourceSha256": "ee4b7052d06983c3b4cb863cf544a4785097eb79d332acfeba67eb7b2b4037ae",
+      "localSha256": "ee4b7052d06983c3b4cb863cf544a4785097eb79d332acfeba67eb7b2b4037ae",
+      "adaptation": null,
+      "sourceBytes": 2738,
+      "localBytes": 2738
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-state-and-effects/references/state-hoisting.md",
+      "bytes": 3035,
+      "sourceSha256": "15ad6bfc65967af02c8f84f6906ca2865ec724f16f68afe98e3b5900087a5325",
+      "localSha256": "15ad6bfc65967af02c8f84f6906ca2865ec724f16f68afe98e3b5900087a5325",
+      "adaptation": null,
+      "sourceBytes": 3035,
+      "localBytes": 3035
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/compose-ui-testing-patterns/SKILL.md",
+      "bytes": 7829,
+      "sourceSha256": "57020fba67b595c9534293e296e7d7db0eadf3269e8e3bfab7bc20a7b363cfc3",
+      "localSha256": "57020fba67b595c9534293e296e7d7db0eadf3269e8e3bfab7bc20a7b363cfc3",
+      "adaptation": null,
+      "sourceBytes": 7829,
+      "localBytes": 7829
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/grounded-writing/SKILL.md",
+      "bytes": 4034,
+      "sourceSha256": "4b62605adc888df4178d9bd0f414622c1d34d1afe771bcd0fb77b73ee693fc4f",
+      "localSha256": "4b62605adc888df4178d9bd0f414622c1d34d1afe771bcd0fb77b73ee693fc4f",
+      "adaptation": null,
+      "sourceBytes": 4034,
+      "localBytes": 4034
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/grounded-writing/agents/openai.yaml",
+      "bytes": 282,
+      "sourceSha256": "1882375c0fbd89a51ff74ae22a923c15bba4c1d9ade7a41c6c22d49f925c4874",
+      "localSha256": "1882375c0fbd89a51ff74ae22a923c15bba4c1d9ade7a41c6c22d49f925c4874",
+      "adaptation": null,
+      "sourceBytes": 282,
+      "localBytes": 282
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/kotlin/grounded-writing/references/style-profile.md",
+      "bytes": 7311,
+      "sourceSha256": "2ac7bfe4740dc44fe4ff8d713890bab249cfa31b7ad108f00f96ff2396457dbd",
+      "localSha256": "2ac7bfe4740dc44fe4ff8d713890bab249cfa31b7ad108f00f96ff2396457dbd",
+      "adaptation": null,
+      "sourceBytes": 7311,
+      "localBytes": 7311
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/architecture-and-profiles.md",
+      "bytes": 1553,
+      "sourceSha256": "7522c85f9cd5833dad903926e3db549019286285efc690a6c5d247c2cf886893",
+      "localSha256": "7522c85f9cd5833dad903926e3db549019286285efc690a6c5d247c2cf886893",
+      "adaptation": null,
+      "sourceBytes": 1553,
+      "localBytes": 1553
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/kdoc-guidelines.md",
+      "bytes": 3682,
+      "sourceSha256": "6555756428500732f34f13c3f4390937dac4cd4c08bd63089f0b9be4d42080b4",
+      "localSha256": "6555756428500732f34f13c3f4390937dac4cd4c08bd63089f0b9be4d42080b4",
+      "adaptation": null,
+      "sourceBytes": 3682,
+      "localBytes": 3682
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/quality-gates.md",
+      "bytes": 1342,
+      "sourceSha256": "a67d1de11d17fc6cfb472430f5a31fce6ab89239eecc6156a35dd450771abd90",
+      "localSha256": "a67d1de11d17fc6cfb472430f5a31fce6ab89239eecc6156a35dd450771abd90",
+      "adaptation": null,
+      "sourceBytes": 1342,
+      "localBytes": 1342
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/sources-and-decisions.md",
+      "bytes": 2676,
+      "sourceSha256": "f1d6edf0860f51431848e9d70d0f2d6a1fa1f98a76a794aebab222e5e99801d8",
+      "localSha256": "f1d6edf0860f51431848e9d70d0f2d6a1fa1f98a76a794aebab222e5e99801d8",
+      "adaptation": null,
+      "sourceBytes": 2676,
+      "localBytes": 2676
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/references/spec-driven-workflow.md",
+      "bytes": 1096,
+      "sourceSha256": "ab33234ab5aeb6b22df6d9d325fd11b27620b2c9c3e31d192266489c75f77f64",
+      "localSha256": "ab33234ab5aeb6b22df6d9d325fd11b27620b2c9c3e31d192266489c75f77f64",
+      "adaptation": null,
+      "sourceBytes": 1096,
+      "localBytes": 1096
+    },
+    {
+      "path": ".agents/skills/android-native-engineering/scripts/validate_android_project.py",
+      "bytes": 1662,
+      "sourceSha256": "747718bdc44d777d5ec1ce19a6ec107c3d98b09f42a9ee68f5af03a879acc0bb",
+      "localSha256": "747718bdc44d777d5ec1ce19a6ec107c3d98b09f42a9ee68f5af03a879acc0bb",
+      "adaptation": null,
+      "sourceBytes": 1662,
+      "localBytes": 1662
+    },
+    {
+      "path": ".agents/skills/backend-golang/SKILL.md",
+      "bytes": 2089,
+      "sourceSha256": "8f3000644beeb2e876a590ec6b30e18df024d5dd3348a88fcdefbe2d08b80988",
+      "localSha256": "8f3000644beeb2e876a590ec6b30e18df024d5dd3348a88fcdefbe2d08b80988",
+      "adaptation": null,
+      "sourceBytes": 2089,
+      "localBytes": 2089
+    },
+    {
+      "path": ".agents/skills/change-approve/SKILL.md",
+      "bytes": 797,
+      "sourceSha256": "a27ecc694fdfdec0c2fffe7231359ec6d14443defbb1a67fbc090edf18c9dae7",
+      "localSha256": "6c1ee108636334b99b42893f0fa7f219f304ac5b511b242b954a6fd8a033dcb8",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "sourceBytes": 797,
+      "localBytes": 1052,
+      "localSnapshotSha256": "a27ecc694fdfdec0c2fffe7231359ec6d14443defbb1a67fbc090edf18c9dae7",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/chrome-devtools/SKILL.md",
+      "bytes": 5319,
+      "sourceSha256": "d7742933d037059b53f43523cb3d78929af1fadffdddf47ad28ca12b939d84ab",
+      "localSha256": "d7742933d037059b53f43523cb3d78929af1fadffdddf47ad28ca12b939d84ab",
+      "adaptation": null,
+      "sourceBytes": 5319,
+      "localBytes": 5319
+    },
+    {
+      "path": ".agents/skills/component-common-domain-detection/QUICK-REFERENCE.md",
+      "bytes": 4180,
+      "sourceSha256": "e5ad9a95a794bbad876d97479091ecb312dd28786a54dd1cf12d2a88a0dc2c90",
+      "localSha256": "e5ad9a95a794bbad876d97479091ecb312dd28786a54dd1cf12d2a88a0dc2c90",
+      "adaptation": null,
+      "sourceBytes": 4180,
+      "localBytes": 4180
+    },
+    {
+      "path": ".agents/skills/component-common-domain-detection/README.md",
+      "bytes": 17893,
+      "sourceSha256": "461303b047e0fd76e3c6535e30e6ce924e266583515ad071e3d92a49d0915f9e",
+      "localSha256": "461303b047e0fd76e3c6535e30e6ce924e266583515ad071e3d92a49d0915f9e",
+      "adaptation": null,
+      "sourceBytes": 17893,
+      "localBytes": 17893
+    },
+    {
+      "path": ".agents/skills/component-common-domain-detection/SKILL.md",
+      "bytes": 18066,
+      "sourceSha256": "fc21e2e73a0b9adb6da901281ab18130f2890c200670ac074a412d3063497196",
+      "localSha256": "fc21e2e73a0b9adb6da901281ab18130f2890c200670ac074a412d3063497196",
+      "adaptation": null,
+      "sourceBytes": 18066,
+      "localBytes": 18066
+    },
+    {
+      "path": ".agents/skills/component-flattening-analysis/QUICK-REFERENCE.md",
+      "bytes": 5358,
+      "sourceSha256": "5c3199a93373115a40dda9c736ac5eafa0df8ac9975aa1ec0afd4fe988decfc0",
+      "localSha256": "5c3199a93373115a40dda9c736ac5eafa0df8ac9975aa1ec0afd4fe988decfc0",
+      "adaptation": null,
+      "sourceBytes": 5358,
+      "localBytes": 5358
+    },
+    {
+      "path": ".agents/skills/component-flattening-analysis/README.md",
+      "bytes": 15959,
+      "sourceSha256": "4a60dd092359e546bc7112ff92ef26f82ebb2f11b0c575a25aafb168e44b3dd0",
+      "localSha256": "4a60dd092359e546bc7112ff92ef26f82ebb2f11b0c575a25aafb168e44b3dd0",
+      "adaptation": null,
+      "sourceBytes": 15959,
+      "localBytes": 15959
+    },
+    {
+      "path": ".agents/skills/component-flattening-analysis/SKILL.md",
+      "bytes": 18804,
+      "sourceSha256": "2da32ab47b0386c1687202f2a95ea75f38080acfcf5c7b9d02fa7bb32ab626ba",
+      "localSha256": "2da32ab47b0386c1687202f2a95ea75f38080acfcf5c7b9d02fa7bb32ab626ba",
+      "adaptation": null,
+      "sourceBytes": 18804,
+      "localBytes": 18804
+    },
+    {
+      "path": ".agents/skills/component-identification-sizing/QUICK-REFERENCE.md",
+      "bytes": 2779,
+      "sourceSha256": "be38ed14527f3678275152cce64459a19c28c0d0103c70ee1f136d8f9e9ca3da",
+      "localSha256": "be38ed14527f3678275152cce64459a19c28c0d0103c70ee1f136d8f9e9ca3da",
+      "adaptation": null,
+      "sourceBytes": 2779,
+      "localBytes": 2779
+    },
+    {
+      "path": ".agents/skills/component-identification-sizing/README.md",
+      "bytes": 16792,
+      "sourceSha256": "33eb8ebade57c57f5119339a022d8585450b7cb196e4751f899cef7f73822762",
+      "localSha256": "33eb8ebade57c57f5119339a022d8585450b7cb196e4751f899cef7f73822762",
+      "adaptation": null,
+      "sourceBytes": 16792,
+      "localBytes": 16792
+    },
+    {
+      "path": ".agents/skills/component-identification-sizing/SKILL.md",
+      "bytes": 14310,
+      "sourceSha256": "e97ed7757931c4acb4a77ac4add7c8b85c871c9a4b092ee74119bd8ae37d2501",
+      "localSha256": "e97ed7757931c4acb4a77ac4add7c8b85c871c9a4b092ee74119bd8ae37d2501",
+      "adaptation": null,
+      "sourceBytes": 14310,
+      "localBytes": 14310
+    },
+    {
+      "path": ".agents/skills/coupling-analysis/SKILL.md",
+      "bytes": 16219,
+      "sourceSha256": "7d2364b3f9861c7684b4aa2b07c36833eef1a530f998bc05f4f8ac6ce1232d25",
+      "localSha256": "7d2364b3f9861c7684b4aa2b07c36833eef1a530f998bc05f4f8ac6ce1232d25",
+      "adaptation": null,
+      "sourceBytes": 16219,
+      "localBytes": 16219
+    },
+    {
+      "path": ".agents/skills/decomposition-planning-roadmap/QUICK-REFERENCE.md",
+      "bytes": 4311,
+      "sourceSha256": "1b13a95f4e3d77fcfd3b31d220c102cbdb8dba0bff415d298876353c82b56289",
+      "localSha256": "1b13a95f4e3d77fcfd3b31d220c102cbdb8dba0bff415d298876353c82b56289",
+      "adaptation": null,
+      "sourceBytes": 4311,
+      "localBytes": 4311
+    },
+    {
+      "path": ".agents/skills/decomposition-planning-roadmap/README.md",
+      "bytes": 14106,
+      "sourceSha256": "ea2aa3d50aa2371e26b0825dfd9f39e737e1218e698297acb803ab8be9d21007",
+      "localSha256": "ea2aa3d50aa2371e26b0825dfd9f39e737e1218e698297acb803ab8be9d21007",
+      "adaptation": null,
+      "sourceBytes": 14106,
+      "localBytes": 14106
+    },
+    {
+      "path": ".agents/skills/decomposition-planning-roadmap/SKILL.md",
+      "bytes": 17922,
+      "sourceSha256": "df049193c7048cdaa1eb86b4c8c3c95ec388c6f9e65af47b5ba047e87b3376a6",
+      "localSha256": "df049193c7048cdaa1eb86b4c8c3c95ec388c6f9e65af47b5ba047e87b3376a6",
+      "adaptation": null,
+      "sourceBytes": 17922,
+      "localBytes": 17922
+    },
+    {
+      "path": ".agents/skills/domain-analysis/EXAMPLES.md",
+      "bytes": 12928,
+      "sourceSha256": "cf7b055768dde849b75be8d37a09e6aa3917ce44eb9782c4a6424551db959241",
+      "localSha256": "cf7b055768dde849b75be8d37a09e6aa3917ce44eb9782c4a6424551db959241",
+      "adaptation": null,
+      "sourceBytes": 12928,
+      "localBytes": 12928
+    },
+    {
+      "path": ".agents/skills/domain-analysis/QUICK-REFERENCE.md",
+      "bytes": 9643,
+      "sourceSha256": "c97b52fad030c834b8218ad9f93192e1139005031072082a4835342c095e4101",
+      "localSha256": "c97b52fad030c834b8218ad9f93192e1139005031072082a4835342c095e4101",
+      "adaptation": null,
+      "sourceBytes": 9643,
+      "localBytes": 9643
+    },
+    {
+      "path": ".agents/skills/domain-analysis/README.md",
+      "bytes": 9049,
+      "sourceSha256": "b3cf5b1b65e2b1d05d0c02ab78ecd20b8e83f9f3d40c6e0eac7106f8212c18f8",
+      "localSha256": "b3cf5b1b65e2b1d05d0c02ab78ecd20b8e83f9f3d40c6e0eac7106f8212c18f8",
+      "adaptation": null,
+      "sourceBytes": 9049,
+      "localBytes": 9049
+    },
+    {
+      "path": ".agents/skills/domain-analysis/SKILL.md",
+      "bytes": 12198,
+      "sourceSha256": "13183670941a1cd3bc0fabc36a6b261bb0ba1a36531147184a9bcdc15411ab11",
+      "localSha256": "13183670941a1cd3bc0fabc36a6b261bb0ba1a36531147184a9bcdc15411ab11",
+      "adaptation": null,
+      "sourceBytes": 12198,
+      "localBytes": 12198
+    },
+    {
+      "path": ".agents/skills/domain-identification-grouping/QUICK-REFERENCE.md",
+      "bytes": 4255,
+      "sourceSha256": "0d0f9edfbca53927a2c71ce582172cf4a5dc1c1510d9e050f67fdacaf4e7648e",
+      "localSha256": "0d0f9edfbca53927a2c71ce582172cf4a5dc1c1510d9e050f67fdacaf4e7648e",
+      "adaptation": null,
+      "sourceBytes": 4255,
+      "localBytes": 4255
+    },
+    {
+      "path": ".agents/skills/domain-identification-grouping/README.md",
+      "bytes": 17005,
+      "sourceSha256": "0e1e981521ee3ffa4fe01914864b5eb0e07c8637779d57691274b79234d6cdb6",
+      "localSha256": "0e1e981521ee3ffa4fe01914864b5eb0e07c8637779d57691274b79234d6cdb6",
+      "adaptation": null,
+      "sourceBytes": 17005,
+      "localBytes": 17005
+    },
+    {
+      "path": ".agents/skills/domain-identification-grouping/SKILL.md",
+      "bytes": 22111,
+      "sourceSha256": "f89d3aaa1f707e414da05d27f5cfbdebab3f9ae740f214fc2e694c48a87ef5aa",
+      "localSha256": "f89d3aaa1f707e414da05d27f5cfbdebab3f9ae740f214fc2e694c48a87ef5aa",
+      "adaptation": null,
+      "sourceBytes": 22111,
+      "localBytes": 22111
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/SKILL.md",
+      "bytes": 15264,
+      "sourceSha256": "f42265c813a17006ae673f0a8af06c27ddfda1905b8a931ee80c4c2931aa6759",
+      "localSha256": "f42265c813a17006ae673f0a8af06c27ddfda1905b8a931ee80c4c2931aa6759",
+      "adaptation": null,
+      "sourceBytes": 15264,
+      "localBytes": 15264
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/assets/architecture-template.html",
+      "bytes": 25827,
+      "sourceSha256": "a2b661ff0706b1b9f919eba7bf1b7e5c74cbe2a419830ae86b34aeb35bbc7937",
+      "localSha256": "a2b661ff0706b1b9f919eba7bf1b7e5c74cbe2a419830ae86b34aeb35bbc7937",
+      "adaptation": null,
+      "sourceBytes": 25827,
+      "localBytes": 25827
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/acl-and-communication.md",
+      "bytes": 4243,
+      "sourceSha256": "8c4b381b815c555bf838b116fcaee0e0c09a84533b472ed99c63443cb62db846",
+      "localSha256": "8c4b381b815c555bf838b116fcaee0e0c09a84533b472ed99c63443cb62db846",
+      "adaptation": null,
+      "sourceBytes": 4243,
+      "localBytes": 4243
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/architecture-doc.md",
+      "bytes": 6194,
+      "sourceSha256": "569d777433967463b9c820988abbac5facb4652a44cea396564a21a4f93b7fd5",
+      "localSha256": "569d777433967463b9c820988abbac5facb4652a44cea396564a21a4f93b7fd5",
+      "adaptation": null,
+      "sourceBytes": 6194,
+      "localBytes": 6194
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/ddd.md",
+      "bytes": 4659,
+      "sourceSha256": "5c7265749b68933faa00ad084a74d2d135308a8f769f42d25cb0b965b0e5b057",
+      "localSha256": "5c7265749b68933faa00ad084a74d2d135308a8f769f42d25cb0b965b0e5b057",
+      "adaptation": null,
+      "sourceBytes": 4659,
+      "localBytes": 4659
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/flat-by-aggregate.md",
+      "bytes": 6009,
+      "sourceSha256": "502d168d04b676774e56b7aaf79109982f67dfbf561f3a9ff06a8c4418792602",
+      "localSha256": "502d168d04b676774e56b7aaf79109982f67dfbf561f3a9ff06a8c4418792602",
+      "adaptation": null,
+      "sourceBytes": 6009,
+      "localBytes": 6009
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/principles.md",
+      "bytes": 5805,
+      "sourceSha256": "6d382c3c80f87f1fd329a956aa62e1adda9b3d4a5a1f42d376214a6832026e18",
+      "localSha256": "6d382c3c80f87f1fd329a956aa62e1adda9b3d4a5a1f42d376214a6832026e18",
+      "adaptation": null,
+      "sourceBytes": 5805,
+      "localBytes": 5805
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/resilience.md",
+      "bytes": 3471,
+      "sourceSha256": "2f147b0ff7fed4cc547f263cea1ac1b6628e743b2e5eda6bc724421c28258749",
+      "localSha256": "2f147b0ff7fed4cc547f263cea1ac1b6628e743b2e5eda6bc724421c28258749",
+      "adaptation": null,
+      "sourceBytes": 3471,
+      "localBytes": 3471
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/references/stack-2026.md",
+      "bytes": 3818,
+      "sourceSha256": "3dac9995aba8f8b388d7bbd096ab164ee67017855c9567a5fc3a09c370c381f1",
+      "localSha256": "3dac9995aba8f8b388d7bbd096ab164ee67017855c9567a5fc3a09c370c381f1",
+      "adaptation": null,
+      "sourceBytes": 3818,
+      "localBytes": 3818
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/scripts/validate-boundaries.mjs",
+      "bytes": 3755,
+      "sourceSha256": "269dff46dd2dd8ce1197b4fb722bdbf052ff88e4ecbecba99789bd92a8dfca9c",
+      "localSha256": "269dff46dd2dd8ce1197b4fb722bdbf052ff88e4ecbecba99789bd92a8dfca9c",
+      "adaptation": null,
+      "sourceBytes": 3755,
+      "localBytes": 3755
+    },
+    {
+      "path": ".agents/skills/evolutionary-modular-architecture/scripts/validate-structure.mjs",
+      "bytes": 3986,
+      "sourceSha256": "119abd931ace000fe4121438165a5bd7f782f6acf9780f89545650a024f609ee",
+      "localSha256": "119abd931ace000fe4121438165a5bd7f782f6acf9780f89545650a024f609ee",
+      "adaptation": null,
+      "sourceBytes": 3986,
+      "localBytes": 3986
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/SKILL.md",
+      "bytes": 14622,
+      "sourceSha256": "d7cf49062743f4fd6ccff3325a17bfb1ca4c6e812845d21c015aadd2d46c8989",
+      "localSha256": "d7cf49062743f4fd6ccff3325a17bfb1ca4c6e812845d21c015aadd2d46c8989",
+      "adaptation": null,
+      "sourceBytes": 14622,
+      "localBytes": 14622
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/business-flow-swimlane-template.json",
+      "bytes": 10556,
+      "sourceSha256": "36ecd1ed6a50bfddf5d515c2dbf9e0dfc7e707fd1cd4deb86548667593953920",
+      "localSha256": "36ecd1ed6a50bfddf5d515c2dbf9e0dfc7e707fd1cd4deb86548667593953920",
+      "adaptation": null,
+      "sourceBytes": 10556,
+      "localBytes": 10556
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/class-diagram-template.json",
+      "bytes": 12175,
+      "sourceSha256": "0d083a5ee614755cd2a1772ba4099f46b44b70a107a0283aeaff5d3573e0674e",
+      "localSha256": "0d083a5ee614755cd2a1772ba4099f46b44b70a107a0283aeaff5d3573e0674e",
+      "adaptation": null,
+      "sourceBytes": 12175,
+      "localBytes": 12175
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/data-flow-diagram-template.json",
+      "bytes": 10211,
+      "sourceSha256": "8b77db0e83db6b709744eb9a46d64ec45d7ce6f0386ae75a4c5fb085dfee53a7",
+      "localSha256": "8b77db0e83db6b709744eb9a46d64ec45d7ce6f0386ae75a4c5fb085dfee53a7",
+      "adaptation": null,
+      "sourceBytes": 10211,
+      "localBytes": 10211
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/er-diagram-template.json",
+      "bytes": 14204,
+      "sourceSha256": "aa189a47f6ba5f6158d00acf1fa23d54d59cfaae50d5647f08a0b6bce36ebd6d",
+      "localSha256": "aa189a47f6ba5f6158d00acf1fa23d54d59cfaae50d5647f08a0b6bce36ebd6d",
+      "adaptation": null,
+      "sourceBytes": 14204,
+      "localBytes": 14204
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/flowchart-template.json",
+      "bytes": 16813,
+      "sourceSha256": "8e428968579c8f05aa0926ea974737b0a243c38aebc6ea7645ad6f4f7b5d7a25",
+      "localSha256": "8e428968579c8f05aa0926ea974737b0a243c38aebc6ea7645ad6f4f7b5d7a25",
+      "adaptation": null,
+      "sourceBytes": 16813,
+      "localBytes": 16813
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/mindmap-template.json",
+      "bytes": 33108,
+      "sourceSha256": "5cf76f569ee5de79b8e8e5ef00bf411da531ce77341ba3ac0664d6d08d296262",
+      "localSha256": "5cf76f569ee5de79b8e8e5ef00bf411da531ce77341ba3ac0664d6d08d296262",
+      "adaptation": null,
+      "sourceBytes": 33108,
+      "localBytes": 33108
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/relationship-template.json",
+      "bytes": 9419,
+      "sourceSha256": "437328bdb9c22b3fd5008d9e1c62d8b74fae00b158189967dea242aae708f631",
+      "localSha256": "437328bdb9c22b3fd5008d9e1c62d8b74fae00b158189967dea242aae708f631",
+      "adaptation": null,
+      "sourceBytes": 9419,
+      "localBytes": 9419
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/assets/sequence-diagram-template.json",
+      "bytes": 14983,
+      "sourceSha256": "cb60460e30636a9f85b4ec22548cdf6d2ca794331afea93fb9af2c0e46114dd0",
+      "localSha256": "cb60460e30636a9f85b4ec22548cdf6d2ca794331afea93fb9af2c0e46114dd0",
+      "adaptation": null,
+      "sourceBytes": 14983,
+      "localBytes": 14983
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/references/element-types.md",
+      "bytes": 17714,
+      "sourceSha256": "0967fc96e6493ff675d0797287578dbc29aa6255e91899d1a6cc2dbf086c32c8",
+      "localSha256": "0967fc96e6493ff675d0797287578dbc29aa6255e91899d1a6cc2dbf086c32c8",
+      "adaptation": null,
+      "sourceBytes": 17714,
+      "localBytes": 17714
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/references/excalidraw-schema.md",
+      "bytes": 25941,
+      "sourceSha256": "b99e4fc8b8b91b29ff6cb52af04a4302b84ea073352d3e16222d0963d103c0bd",
+      "localSha256": "b99e4fc8b8b91b29ff6cb52af04a4302b84ea073352d3e16222d0963d103c0bd",
+      "adaptation": null,
+      "sourceBytes": 25941,
+      "localBytes": 25941
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/references/icon-libraries.md",
+      "bytes": 5466,
+      "sourceSha256": "dab9c36e24b005c0cff94dcf39c76eabe22a175585fb171cbcfb80e8ee4f4477",
+      "localSha256": "dab9c36e24b005c0cff94dcf39c76eabe22a175585fb171cbcfb80e8ee4f4477",
+      "adaptation": null,
+      "sourceBytes": 5466,
+      "localBytes": 5466
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/.gitignore",
+      "bytes": 484,
+      "sourceSha256": "49f9ee4c099793eb02a72838891842a5ce6e26ecde0a79bd658dab5af79fa8ca",
+      "localSha256": "49f9ee4c099793eb02a72838891842a5ce6e26ecde0a79bd658dab5af79fa8ca",
+      "adaptation": null,
+      "sourceBytes": 484,
+      "localBytes": 484
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/README.md",
+      "bytes": 6706,
+      "sourceSha256": "790018c757f4fde5da9b4d59410eff67ba8727a74ac7b4f54c4dcb1a43e5be67",
+      "localSha256": "790018c757f4fde5da9b4d59410eff67ba8727a74ac7b4f54c4dcb1a43e5be67",
+      "adaptation": null,
+      "sourceBytes": 6706,
+      "localBytes": 6706
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/add-arrow.py",
+      "bytes": 9775,
+      "sourceSha256": "2895b8bc96d3fc298c3c33c5ff0470e0f89fd3727c7668d007fc9a635d779778",
+      "localSha256": "2895b8bc96d3fc298c3c33c5ff0470e0f89fd3727c7668d007fc9a635d779778",
+      "adaptation": null,
+      "sourceBytes": 9775,
+      "localBytes": 9775
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/add-icon-to-diagram.py",
+      "bytes": 13391,
+      "sourceSha256": "2f8a013d3ea6f73b4154a3abb86fa1781d32786d0ec905517de0628f1493b203",
+      "localSha256": "2f8a013d3ea6f73b4154a3abb86fa1781d32786d0ec905517de0628f1493b203",
+      "adaptation": null,
+      "sourceBytes": 13391,
+      "localBytes": 13391
+    },
+    {
+      "path": ".agents/skills/excalidraw-studio/scripts/split-excalidraw-library.py",
+      "bytes": 5531,
+      "sourceSha256": "160fa6e88cf10a0f3300aa948daa32abf3925f90c3befccba5afb9240cf360a8",
+      "localSha256": "160fa6e88cf10a0f3300aa948daa32abf3925f90c3befccba5afb9240cf360a8",
+      "adaptation": null,
+      "sourceBytes": 5531,
+      "localBytes": 5531
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/SKILL.md",
+      "bytes": 21793,
+      "sourceSha256": "77a5b1ef34093dc5264d45b9d0005c025d6cfe518449abcb85c6c45df9c32916",
+      "localSha256": "77a5b1ef34093dc5264d45b9d0005c025d6cfe518449abcb85c6c45df9c32916",
+      "adaptation": null,
+      "sourceBytes": 21793,
+      "localBytes": 21793
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/references/collection-guide.md",
+      "bytes": 7884,
+      "sourceSha256": "6a7a9d85e2becf56b1f87d3d72b9a78532faed43a3c1ae562547bf55e07e71f8",
+      "localSha256": "6a7a9d85e2becf56b1f87d3d72b9a78532faed43a3c1ae562547bf55e07e71f8",
+      "adaptation": null,
+      "sourceBytes": 7884,
+      "localBytes": 7884
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/references/design-principles.md",
+      "bytes": 12029,
+      "sourceSha256": "05466d5704792a9732e7c9811d9301796967281c266c3a699d136a585af83f45",
+      "localSha256": "05466d5704792a9732e7c9811d9301796967281c266c3a699d136a585af83f45",
+      "adaptation": null,
+      "sourceBytes": 12029,
+      "localBytes": 12029
+    },
+    {
+      "path": ".agents/skills/frontend-blueprint/references/stitch-integration.md",
+      "bytes": 25798,
+      "sourceSha256": "1ab91b609097d298fa1565fdb59e5e2d651705ceed62e0b208e0aefea1c4cb80",
+      "localSha256": "1ab91b609097d298fa1565fdb59e5e2d651705ceed62e0b208e0aefea1c4cb80",
+      "adaptation": null,
+      "sourceBytes": 25798,
+      "localBytes": 25798
+    },
+    {
+      "path": ".agents/skills/frontend-design/SKILL.md",
+      "bytes": 10020,
+      "sourceSha256": "e175ad9e8f3895549a938e00fc6281ee3be58121fdce0e6a96770aea182e4d24",
+      "localSha256": "e175ad9e8f3895549a938e00fc6281ee3be58121fdce0e6a96770aea182e4d24",
+      "adaptation": null,
+      "sourceBytes": 10020,
+      "localBytes": 10020
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/color-and-contrast.md",
+      "bytes": 5423,
+      "sourceSha256": "b88de86bcc9d74dc8698b9111ab43de196a855d610a0199744d2cc6d6d2dce69",
+      "localSha256": "b88de86bcc9d74dc8698b9111ab43de196a855d610a0199744d2cc6d6d2dce69",
+      "adaptation": null,
+      "sourceBytes": 5423,
+      "localBytes": 5423
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/interaction-design.md",
+      "bytes": 4327,
+      "sourceSha256": "fff3ddcba398965d437b053dc4d17a162feafe6ca4a1b41baf9d78f9c42a9dd4",
+      "localSha256": "fff3ddcba398965d437b053dc4d17a162feafe6ca4a1b41baf9d78f9c42a9dd4",
+      "adaptation": null,
+      "sourceBytes": 4327,
+      "localBytes": 4327
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/motion-design.md",
+      "bytes": 4852,
+      "sourceSha256": "03e84a02508291e294b42505b592fdf484a868beac09e59fe8bb0169e70e8acb",
+      "localSha256": "03e84a02508291e294b42505b592fdf484a868beac09e59fe8bb0169e70e8acb",
+      "adaptation": null,
+      "sourceBytes": 4852,
+      "localBytes": 4852
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/responsive-design.md",
+      "bytes": 3578,
+      "sourceSha256": "712d9c0776d22a420ebc7b2f82d9446ad4621597694f32ca046e371d293f35b6",
+      "localSha256": "712d9c0776d22a420ebc7b2f82d9446ad4621597694f32ca046e371d293f35b6",
+      "adaptation": null,
+      "sourceBytes": 3578,
+      "localBytes": 3578
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/spatial-design.md",
+      "bytes": 3645,
+      "sourceSha256": "c76eb186ddf04c03470f1efca0feeb85db14d53b6a6b770f524b51e6a23754e8",
+      "localSha256": "c76eb186ddf04c03470f1efca0feeb85db14d53b6a6b770f524b51e6a23754e8",
+      "adaptation": null,
+      "sourceBytes": 3645,
+      "localBytes": 3645
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/typography.md",
+      "bytes": 5634,
+      "sourceSha256": "231d6a9a29e5b8729c72ed50afa0ab633285103edd79b76cf2cfd8a6fd9b4da7",
+      "localSha256": "231d6a9a29e5b8729c72ed50afa0ab633285103edd79b76cf2cfd8a6fd9b4da7",
+      "adaptation": null,
+      "sourceBytes": 5634,
+      "localBytes": 5634
+    },
+    {
+      "path": ".agents/skills/frontend-design/references/ux-writing.md",
+      "bytes": 4437,
+      "sourceSha256": "122312381a5c93a7a7a3d73742d219c1061bd2a025938d2c042cd5eb7c105523",
+      "localSha256": "122312381a5c93a7a7a3d73742d219c1061bd2a025938d2c042cd5eb7c105523",
+      "adaptation": null,
+      "sourceBytes": 4437,
+      "localBytes": 4437
+    },
+    {
+      "path": ".agents/skills/gh-fix-ci/LICENSE.txt",
+      "bytes": 10977,
+      "sourceSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "localSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "adaptation": null,
+      "sourceBytes": 10977,
+      "localBytes": 10977
+    },
+    {
+      "path": ".agents/skills/gh-fix-ci/SKILL.md",
+      "bytes": 3897,
+      "sourceSha256": "94365ff39a1cd8b4bc63792c311720cf3dd6782d3de47570b1566d9903baddb2",
+      "localSha256": "94365ff39a1cd8b4bc63792c311720cf3dd6782d3de47570b1566d9903baddb2",
+      "adaptation": null,
+      "sourceBytes": 3897,
+      "localBytes": 3897
+    },
+    {
+      "path": ".agents/skills/gh-fix-ci/scripts/inspect_pr_checks.py",
+      "bytes": 15222,
+      "sourceSha256": "9459e5b03f86785d184a83e5cd8d621b832e918ec04158a2962d867785812c6c",
+      "localSha256": "9459e5b03f86785d184a83e5cd8d621b832e918ec04158a2962d867785812c6c",
+      "adaptation": null,
+      "sourceBytes": 15222,
+      "localBytes": 15222
+    },
+    {
+      "path": ".agents/skills/git-commit/SKILL.md",
+      "bytes": 919,
+      "sourceSha256": "72422161e5804f038afbcf514285ff6c94699c7a7d0215bbe308b8c252eb3aa0",
+      "localSha256": "72422161e5804f038afbcf514285ff6c94699c7a7d0215bbe308b8c252eb3aa0",
+      "adaptation": null,
+      "sourceBytes": 919,
+      "localBytes": 919
+    },
+    {
+      "path": ".agents/skills/golang-benchmark/SKILL.md",
+      "bytes": 9659,
+      "sourceSha256": "2f3e50c9fa2dc8b717342b0ae988a73c43ed3cd3692cb6baea8f6da0cb495c99",
+      "localSha256": "2f3e50c9fa2dc8b717342b0ae988a73c43ed3cd3692cb6baea8f6da0cb495c99",
+      "adaptation": null,
+      "sourceBytes": 9659,
+      "localBytes": 9659
+    },
+    {
+      "path": ".agents/skills/golang-cli/SKILL.md",
+      "bytes": 10339,
+      "sourceSha256": "aeff1f2ed97925132b37ed0bdd22b2515b297f23d4da3988cd496cd293f17cbf",
+      "localSha256": "aeff1f2ed97925132b37ed0bdd22b2515b297f23d4da3988cd496cd293f17cbf",
+      "adaptation": null,
+      "sourceBytes": 10339,
+      "localBytes": 10339
+    },
+    {
+      "path": ".agents/skills/golang-code-style/SKILL.md",
+      "bytes": 8677,
+      "sourceSha256": "debe99f2336d9326a36efe3a0982dcf45ea6dff0a401b3275ab19b0f9ba6701e",
+      "localSha256": "debe99f2336d9326a36efe3a0982dcf45ea6dff0a401b3275ab19b0f9ba6701e",
+      "adaptation": null,
+      "sourceBytes": 8677,
+      "localBytes": 8677
+    },
+    {
+      "path": ".agents/skills/golang-concurrency/SKILL.md",
+      "bytes": 8072,
+      "sourceSha256": "8d4946f79501b1a1bfaf42e36184cfb9c3cbb9ce9a4c163b38abf876172585de",
+      "localSha256": "8d4946f79501b1a1bfaf42e36184cfb9c3cbb9ce9a4c163b38abf876172585de",
+      "adaptation": null,
+      "sourceBytes": 8072,
+      "localBytes": 8072
+    },
+    {
+      "path": ".agents/skills/golang-context/SKILL.md",
+      "bytes": 4979,
+      "sourceSha256": "2f26197b393208bf7a432965826cacd96a3a92506f9427cdda46fa8885d90e3b",
+      "localSha256": "2f26197b393208bf7a432965826cacd96a3a92506f9427cdda46fa8885d90e3b",
+      "adaptation": null,
+      "sourceBytes": 4979,
+      "localBytes": 4979
+    },
+    {
+      "path": ".agents/skills/golang-continuous-integration/SKILL.md",
+      "bytes": 12183,
+      "sourceSha256": "1bc6c7df594d40acbf8e2ba8735556e361134077ded3e1c24e97187a56d89d97",
+      "localSha256": "1bc6c7df594d40acbf8e2ba8735556e361134077ded3e1c24e97187a56d89d97",
+      "adaptation": null,
+      "sourceBytes": 12183,
+      "localBytes": 12183
+    },
+    {
+      "path": ".agents/skills/golang-data-structures/SKILL.md",
+      "bytes": 10338,
+      "sourceSha256": "be15526694edf1810d97edfc475595de1a949d4afe03451658464b2a29cbfef3",
+      "localSha256": "be15526694edf1810d97edfc475595de1a949d4afe03451658464b2a29cbfef3",
+      "adaptation": null,
+      "sourceBytes": 10338,
+      "localBytes": 10338
+    },
+    {
+      "path": ".agents/skills/golang-database/SKILL.md",
+      "bytes": 12145,
+      "sourceSha256": "15bb313d762a2b4c46be6131d863bcb472bfaae0ceae68028a15f032b44f1244",
+      "localSha256": "15bb313d762a2b4c46be6131d863bcb472bfaae0ceae68028a15f032b44f1244",
+      "adaptation": null,
+      "sourceBytes": 12145,
+      "localBytes": 12145
+    },
+    {
+      "path": ".agents/skills/golang-dependency-injection/SKILL.md",
+      "bytes": 12574,
+      "sourceSha256": "2c284ed268075908a2e1aac5db099b70a3824620be21ed3485b665de85c545a4",
+      "localSha256": "2c284ed268075908a2e1aac5db099b70a3824620be21ed3485b665de85c545a4",
+      "adaptation": null,
+      "sourceBytes": 12574,
+      "localBytes": 12574
+    },
+    {
+      "path": ".agents/skills/golang-dependency-management/SKILL.md",
+      "bytes": 8829,
+      "sourceSha256": "5a6dea4650f93b6ca91a3c583c95d9ccd7443b5f93c6291d43e8293a39dc6ccc",
+      "localSha256": "5a6dea4650f93b6ca91a3c583c95d9ccd7443b5f93c6291d43e8293a39dc6ccc",
+      "adaptation": null,
+      "sourceBytes": 8829,
+      "localBytes": 8829
+    },
+    {
+      "path": ".agents/skills/golang-design-patterns/SKILL.md",
+      "bytes": 11707,
+      "sourceSha256": "ccf5c41d32f61961b659e9120cf6b31fde44a3f5ec0212c1e1e1705d916477c8",
+      "localSha256": "ccf5c41d32f61961b659e9120cf6b31fde44a3f5ec0212c1e1e1705d916477c8",
+      "adaptation": null,
+      "sourceBytes": 11707,
+      "localBytes": 11707
+    },
+    {
+      "path": ".agents/skills/golang-documentation/SKILL.md",
+      "bytes": 11976,
+      "sourceSha256": "4be01b6a5eff702b00dcef7a73478bdbb048d4057f5af8df73402a886905e0bd",
+      "localSha256": "4be01b6a5eff702b00dcef7a73478bdbb048d4057f5af8df73402a886905e0bd",
+      "adaptation": null,
+      "sourceBytes": 11976,
+      "localBytes": 11976
+    },
+    {
+      "path": ".agents/skills/golang-error-handling/SKILL.md",
+      "bytes": 6683,
+      "sourceSha256": "e16d4f9cbd5e75c4632ce83d02a9ec9a070559680e9537ff6eba03e7f0590ef1",
+      "localSha256": "e16d4f9cbd5e75c4632ce83d02a9ec9a070559680e9537ff6eba03e7f0590ef1",
+      "adaptation": null,
+      "sourceBytes": 6683,
+      "localBytes": 6683
+    },
+    {
+      "path": ".agents/skills/golang-grpc/SKILL.md",
+      "bytes": 9510,
+      "sourceSha256": "3fc03f26a43cc5b051aa5781130935eb0eb13dc43f23e80d7ad0f71d0c8d2619",
+      "localSha256": "3fc03f26a43cc5b051aa5781130935eb0eb13dc43f23e80d7ad0f71d0c8d2619",
+      "adaptation": null,
+      "sourceBytes": 9510,
+      "localBytes": 9510
+    },
+    {
+      "path": ".agents/skills/golang-linter/SKILL.md",
+      "bytes": 7130,
+      "sourceSha256": "ba7bfaf62459d1e32967ff2a7464d20be741824ee97a949b29aa057bb59a815f",
+      "localSha256": "ba7bfaf62459d1e32967ff2a7464d20be741824ee97a949b29aa057bb59a815f",
+      "adaptation": null,
+      "sourceBytes": 7130,
+      "localBytes": 7130
+    },
+    {
+      "path": ".agents/skills/golang-modernize/SKILL.md",
+      "bytes": 9879,
+      "sourceSha256": "e70bcfd0444c06a75d08724683c487f530813a78ca76909b1a0a172394d55939",
+      "localSha256": "e70bcfd0444c06a75d08724683c487f530813a78ca76909b1a0a172394d55939",
+      "adaptation": null,
+      "sourceBytes": 9879,
+      "localBytes": 9879
+    },
+    {
+      "path": ".agents/skills/golang-naming/SKILL.md",
+      "bytes": 12567,
+      "sourceSha256": "3fce2e37357d1d3a3c77dd4b946ea468d9335104899348364a986bd123cba3dc",
+      "localSha256": "3fce2e37357d1d3a3c77dd4b946ea468d9335104899348364a986bd123cba3dc",
+      "adaptation": null,
+      "sourceBytes": 12567,
+      "localBytes": 12567
+    },
+    {
+      "path": ".agents/skills/golang-observability/SKILL.md",
+      "bytes": 13633,
+      "sourceSha256": "c2c559be5e3e6156477e7b363f504ba24282b065405a6f4a125b1aad53cddaf1",
+      "localSha256": "c2c559be5e3e6156477e7b363f504ba24282b065405a6f4a125b1aad53cddaf1",
+      "adaptation": null,
+      "sourceBytes": 13633,
+      "localBytes": 13633
+    },
+    {
+      "path": ".agents/skills/golang-performance/SKILL.md",
+      "bytes": 8547,
+      "sourceSha256": "3c32b0dd0ac4a1ca1b31619b84c31057417d31ed89387ba197b5c5581d87fb9f",
+      "localSha256": "3c32b0dd0ac4a1ca1b31619b84c31057417d31ed89387ba197b5c5581d87fb9f",
+      "adaptation": null,
+      "sourceBytes": 8547,
+      "localBytes": 8547
+    },
+    {
+      "path": ".agents/skills/golang-popular-libraries/SKILL.md",
+      "bytes": 3729,
+      "sourceSha256": "d15220559c17fc5e6cf0bf00fbcaf744bdd31ae6f4141037e51d464bdedc15a3",
+      "localSha256": "d15220559c17fc5e6cf0bf00fbcaf744bdd31ae6f4141037e51d464bdedc15a3",
+      "adaptation": null,
+      "sourceBytes": 3729,
+      "localBytes": 3729
+    },
+    {
+      "path": ".agents/skills/golang-project-layout/SKILL.md",
+      "bytes": 6434,
+      "sourceSha256": "e90e8a0b56f5c775af39f0009627eedab918ce89cd6bb3d79b4f29334a727630",
+      "localSha256": "e90e8a0b56f5c775af39f0009627eedab918ce89cd6bb3d79b4f29334a727630",
+      "adaptation": null,
+      "sourceBytes": 6434,
+      "localBytes": 6434
+    },
+    {
+      "path": ".agents/skills/golang-safety/SKILL.md",
+      "bytes": 10153,
+      "sourceSha256": "7ea89dd75b698c5eb943fd84347ecc9bdb589e6a9d508dad5908ff4021d104bb",
+      "localSha256": "7ea89dd75b698c5eb943fd84347ecc9bdb589e6a9d508dad5908ff4021d104bb",
+      "adaptation": null,
+      "sourceBytes": 10153,
+      "localBytes": 10153
+    },
+    {
+      "path": ".agents/skills/golang-samber-do/SKILL.md",
+      "bytes": 7763,
+      "sourceSha256": "bf7cee8f73fde171757e1c9c6baca5d6b331aaa043d1794709946f3686425855",
+      "localSha256": "bf7cee8f73fde171757e1c9c6baca5d6b331aaa043d1794709946f3686425855",
+      "adaptation": null,
+      "sourceBytes": 7763,
+      "localBytes": 7763
+    },
+    {
+      "path": ".agents/skills/golang-samber-oops/SKILL.md",
+      "bytes": 10168,
+      "sourceSha256": "30aaa12ccaadc321677c3a9d07ac81dc500d8d08cad64e585e2c8832034a7743",
+      "localSha256": "30aaa12ccaadc321677c3a9d07ac81dc500d8d08cad64e585e2c8832034a7743",
+      "adaptation": null,
+      "sourceBytes": 10168,
+      "localBytes": 10168
+    },
+    {
+      "path": ".agents/skills/golang-security/SKILL.md",
+      "bytes": 12842,
+      "sourceSha256": "7892b7918c36ca2c039b1763cc589390d489f2982daea8dd3ba39f7bc8fc7045",
+      "localSha256": "7892b7918c36ca2c039b1763cc589390d489f2982daea8dd3ba39f7bc8fc7045",
+      "adaptation": null,
+      "sourceBytes": 12842,
+      "localBytes": 12842
+    },
+    {
+      "path": ".agents/skills/golang-stay-updated/SKILL.md",
+      "bytes": 6866,
+      "sourceSha256": "0b9bc0e64e4aad0d140fd28c2d12955416c6f83cdb4343782122f5de0aabf268",
+      "localSha256": "0b9bc0e64e4aad0d140fd28c2d12955416c6f83cdb4343782122f5de0aabf268",
+      "adaptation": null,
+      "sourceBytes": 6866,
+      "localBytes": 6866
+    },
+    {
+      "path": ".agents/skills/golang-stretchr-testify/SKILL.md",
+      "bytes": 7067,
+      "sourceSha256": "9215a0a9d7182d90a7553436397cf58b67fd354a562219c365e001c599111a40",
+      "localSha256": "9215a0a9d7182d90a7553436397cf58b67fd354a562219c365e001c599111a40",
+      "adaptation": null,
+      "sourceBytes": 7067,
+      "localBytes": 7067
+    },
+    {
+      "path": ".agents/skills/golang-structs-interfaces/SKILL.md",
+      "bytes": 13936,
+      "sourceSha256": "9249ab52a43ada4da4db808993fab95e677720cfe2dc587057cb8c5b4fafba25",
+      "localSha256": "9249ab52a43ada4da4db808993fab95e677720cfe2dc587057cb8c5b4fafba25",
+      "adaptation": null,
+      "sourceBytes": 13936,
+      "localBytes": 13936
+    },
+    {
+      "path": ".agents/skills/golang-testing/SKILL.md",
+      "bytes": 13420,
+      "sourceSha256": "1832551a3ce01a5e986b837dee82035a0c27723db8f1d9b1b41567e25b6a6ebe",
+      "localSha256": "1832551a3ce01a5e986b837dee82035a0c27723db8f1d9b1b41567e25b6a6ebe",
+      "adaptation": null,
+      "sourceBytes": 13420,
+      "localBytes": 13420
+    },
+    {
+      "path": ".agents/skills/golang-troubleshooting/SKILL.md",
+      "bytes": 2099,
+      "sourceSha256": "fd54afa4484fef99dac021c6a0ca79610856f29a89a9b400ce5acf6b3432b150",
+      "localSha256": "fd54afa4484fef99dac021c6a0ca79610856f29a89a9b400ce5acf6b3432b150",
+      "adaptation": null,
+      "sourceBytes": 2099,
+      "localBytes": 2099
+    },
+    {
+      "path": ".agents/skills/implementation-review/SKILL.md",
+      "bytes": 789,
+      "sourceSha256": "3e25e210ef0243d74cd3129086ad3695b6e46a6e9cfe6d453521d68dfef68687",
+      "localSha256": "f6a9740e181f53c6b87ee5b2a5ff9ad5fd586592f5a564c8bbdb1f95843bb10b",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 789,
+      "localBytes": 1297,
+      "localSnapshotSha256": "3e25e210ef0243d74cd3129086ad3695b6e46a6e9cfe6d453521d68dfef68687",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/implementation-validate/SKILL.md",
+      "bytes": 802,
+      "sourceSha256": "1c505bd12db525aa5fe2ef3586416cf55c350f3c5976c7b08dbb95f90beffd69",
+      "localSha256": "e83a65c67d1f16e9f397849158087be032ac9498c0f901093733b0addb53de2b",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 802,
+      "localBytes": 2333,
+      "localSnapshotSha256": "1c505bd12db525aa5fe2ef3586416cf55c350f3c5976c7b08dbb95f90beffd69",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/java-integration-test/SKILL.md",
+      "bytes": 528,
+      "sourceSha256": "ff61654dd2670bce36c40706a0b16dff5054754955317e119eae82923effb25e",
+      "localSha256": "ff61654dd2670bce36c40706a0b16dff5054754955317e119eae82923effb25e",
+      "adaptation": null,
+      "sourceBytes": 528,
+      "localBytes": 528
+    },
+    {
+      "path": ".agents/skills/java-javadoc/SKILL.md",
+      "bytes": 5801,
+      "sourceSha256": "e4ab531059fb621afefc82e1080d8f536cd4d78ae88aa8507cdf33ea2f2fc342",
+      "localSha256": "e4ab531059fb621afefc82e1080d8f536cd4d78ae88aa8507cdf33ea2f2fc342",
+      "adaptation": null,
+      "sourceBytes": 5801,
+      "localBytes": 5801
+    },
+    {
+      "path": ".agents/skills/java-panache-repository/SKILL.md",
+      "bytes": 516,
+      "sourceSha256": "b032acecf7d55afb7a0522fb4ec959474a1305f56f4003ee0dcca1847fd4160e",
+      "localSha256": "b032acecf7d55afb7a0522fb4ec959474a1305f56f4003ee0dcca1847fd4160e",
+      "adaptation": null,
+      "sourceBytes": 516,
+      "localBytes": 516
+    },
+    {
+      "path": ".agents/skills/java-quarkus-resource/SKILL.md",
+      "bytes": 529,
+      "sourceSha256": "9ad2d47121f4e3cc353913857a89463e9abb0066b0c5195b6d03b936d2b3464c",
+      "localSha256": "9ad2d47121f4e3cc353913857a89463e9abb0066b0c5195b6d03b936d2b3464c",
+      "adaptation": null,
+      "sourceBytes": 529,
+      "localBytes": 529
+    },
+    {
+      "path": ".agents/skills/java-unit-test/SKILL.md",
+      "bytes": 3034,
+      "sourceSha256": "c24a72a81b30a43c4cb3658f5ce6835ec0f177757a7c4c5a9ac45bc3834a8fb3",
+      "localSha256": "c24a72a81b30a43c4cb3658f5ce6835ec0f177757a7c4c5a9ac45bc3834a8fb3",
+      "adaptation": null,
+      "sourceBytes": 3034,
+      "localBytes": 3034
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/SKILL.md",
+      "bytes": 7523,
+      "sourceSha256": "a9601eccfa086e8c28e9b2f6ba56d73a7ba4c41228f62ea152617ed9b4b6bf03",
+      "localSha256": "a9601eccfa086e8c28e9b2f6ba56d73a7ba4c41228f62ea152617ed9b4b6bf03",
+      "adaptation": null,
+      "sourceBytes": 7523,
+      "localBytes": 7523
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/assessment-framework.md",
+      "bytes": 8184,
+      "sourceSha256": "065f8ec37ad60e30c1618bb4e44b489d865170162db5b7d6a8eed6e896b4fd89",
+      "localSha256": "065f8ec37ad60e30c1618bb4e44b489d865170162db5b7d6a8eed6e896b4fd89",
+      "adaptation": null,
+      "sourceBytes": 8184,
+      "localBytes": 8184
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/frontend-backend-strategies.md",
+      "bytes": 12383,
+      "sourceSha256": "f3c5cc5d86a4bc40ddf4bba5074288962e553cfa7ef68cf340a3937a9ea41ff5",
+      "localSha256": "f3c5cc5d86a4bc40ddf4bba5074288962e553cfa7ef68cf340a3937a9ea41ff5",
+      "adaptation": null,
+      "sourceBytes": 12383,
+      "localBytes": 12383
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/plan-phase.md",
+      "bytes": 9064,
+      "sourceSha256": "9db418582847f17b6d02346c134822e82ea3ce204dfb13e0e88d9187af8f2fa7",
+      "localSha256": "9db418582847f17b6d02346c134822e82ea3ce204dfb13e0e88d9187af8f2fa7",
+      "adaptation": null,
+      "sourceBytes": 9064,
+      "localBytes": 9064
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/research-phase.md",
+      "bytes": 8440,
+      "sourceSha256": "e4786f6c674183ce82d1962721373d2863ec34340f304d072ebfe58873581319",
+      "localSha256": "e4786f6c674183ce82d1962721373d2863ec34340f304d072ebfe58873581319",
+      "adaptation": null,
+      "sourceBytes": 8440,
+      "localBytes": 8440
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/strangler-fig-patterns.md",
+      "bytes": 10814,
+      "sourceSha256": "9d74cfe8fb90fd36dc4937c81eeaa7c455c88a71b68268c8a172153ccb21f63c",
+      "localSha256": "9d74cfe8fb90fd36dc4937c81eeaa7c455c88a71b68268c8a172153ccb21f63c",
+      "adaptation": null,
+      "sourceBytes": 10814,
+      "localBytes": 10814
+    },
+    {
+      "path": ".agents/skills/legacy-migration-planner/references/testing-safety-nets.md",
+      "bytes": 10518,
+      "sourceSha256": "6fa5326e3042cbdf8fbe014469d5edeea3d29125dbcf45f5a6a5f92017f9ca20",
+      "localSha256": "6fa5326e3042cbdf8fbe014469d5edeea3d29125dbcf45f5a6a5f92017f9ca20",
+      "adaptation": null,
+      "sourceBytes": 10518,
+      "localBytes": 10518
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/SKILL.md",
+      "bytes": 18983,
+      "sourceSha256": "fce1306df953d3d89687646d5cb56e0f68d4f40f27b8ec404ac33242c7d57b60",
+      "localSha256": "fce1306df953d3d89687646d5cb56e0f68d4f40f27b8ec404ac33242c7d57b60",
+      "adaptation": null,
+      "sourceBytes": 18983,
+      "localBytes": 18983
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/assets/puppeteer-config.json",
+      "bytes": 167,
+      "sourceSha256": "6c7543a9be6885e1b975fde094b3e9565a83343ac648220551823f809ffd4ac2",
+      "localSha256": "6c7543a9be6885e1b975fde094b3e9565a83343ac648220551823f809ffd4ac2",
+      "adaptation": null,
+      "sourceBytes": 167,
+      "localBytes": 167
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/aws-architecture.md",
+      "bytes": 14969,
+      "sourceSha256": "881613f120523ac005af8c269cd85a6ab3b3cc642f11c1f3e7b2be4def1fb490",
+      "localSha256": "881613f120523ac005af8c269cd85a6ab3b3cc642f11c1f3e7b2be4def1fb490",
+      "adaptation": null,
+      "sourceBytes": 14969,
+      "localBytes": 14969
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/c4-architecture.md",
+      "bytes": 19848,
+      "sourceSha256": "6cbdf4969c41266bb8bd33dce3c7ad94a4ffe9e13a6eb3c073933d696d11b9a6",
+      "localSha256": "6cbdf4969c41266bb8bd33dce3c7ad94a4ffe9e13a6eb3c073933d696d11b9a6",
+      "adaptation": null,
+      "sourceBytes": 19848,
+      "localBytes": 19848
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/code-to-diagram.md",
+      "bytes": 8385,
+      "sourceSha256": "1902a2b62a8bfe7bd5f15cf178f296c609d73ccb058fbec5fd4ed82d507a04ee",
+      "localSha256": "1902a2b62a8bfe7bd5f15cf178f296c609d73ccb058fbec5fd4ed82d507a04ee",
+      "adaptation": null,
+      "sourceBytes": 8385,
+      "localBytes": 8385
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/diagram-types.md",
+      "bytes": 15516,
+      "sourceSha256": "74c14ad44f187610ede06441a40daf448cb198453c2fc3275715633ebdd02096",
+      "localSha256": "74c14ad44f187610ede06441a40daf448cb198453c2fc3275715633ebdd02096",
+      "adaptation": null,
+      "sourceBytes": 15516,
+      "localBytes": 15516
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/themes.md",
+      "bytes": 14334,
+      "sourceSha256": "00deff85f93b6bdae1af26dd97b3c0e925f258a720856ac8bc59fb0d62604774",
+      "localSha256": "00deff85f93b6bdae1af26dd97b3c0e925f258a720856ac8bc59fb0d62604774",
+      "adaptation": null,
+      "sourceBytes": 14334,
+      "localBytes": 14334
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/references/troubleshooting.md",
+      "bytes": 13386,
+      "sourceSha256": "732c57360583322a53e2bf1763dddc3d5fe6ddaf0c20a8a482c4bea22d114ddb",
+      "localSha256": "732c57360583322a53e2bf1763dddc3d5fe6ddaf0c20a8a482c4bea22d114ddb",
+      "adaptation": null,
+      "sourceBytes": 13386,
+      "localBytes": 13386
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/batch.mjs",
+      "bytes": 6731,
+      "sourceSha256": "2fb34cc0b0ec5e5aab6bda864adf855aa54387521c9d3202c01c0c5892432cc9",
+      "localSha256": "2fb34cc0b0ec5e5aab6bda864adf855aa54387521c9d3202c01c0c5892432cc9",
+      "adaptation": null,
+      "sourceBytes": 6731,
+      "localBytes": 6731
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/render-ascii.mjs",
+      "bytes": 5415,
+      "sourceSha256": "32caf69ac63255ce458fadd720f906b550446969bf082f1d1fcf3c28d7011100",
+      "localSha256": "32caf69ac63255ce458fadd720f906b550446969bf082f1d1fcf3c28d7011100",
+      "adaptation": null,
+      "sourceBytes": 5415,
+      "localBytes": 5415
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/render.mjs",
+      "bytes": 18980,
+      "sourceSha256": "258d69aa199fca3ddaa72a60279e5fcb8bfb060dd915d8a256c5ee055bf8ca1b",
+      "localSha256": "bd490da99ebffaac65046a615248ad19880c1d2238a5075735c09139bee49e35",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "sourceBytes": 18980,
+      "localBytes": 19055,
+      "localSnapshotSha256": "258d69aa199fca3ddaa72a60279e5fcb8bfb060dd915d8a256c5ee055bf8ca1b",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/setup.sh",
+      "bytes": 3253,
+      "sourceSha256": "9e190f4ad3893b183764cc263a63baad2adfeb08cd8789d803d742a96b8beae7",
+      "localSha256": "9e190f4ad3893b183764cc263a63baad2adfeb08cd8789d803d742a96b8beae7",
+      "adaptation": null,
+      "sourceBytes": 3253,
+      "localBytes": 3253
+    },
+    {
+      "path": ".agents/skills/mermaid-studio/scripts/validate.mjs",
+      "bytes": 9299,
+      "sourceSha256": "0d6cb480865a7bc77f1df45effceec366465f8e51d41f85c221bdd2a056c8df6",
+      "localSha256": "560818dd45d4027bf9945dab81f1a595d0e34da267f560186d22cd2487c7cf31",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "sourceBytes": 9299,
+      "localBytes": 9791,
+      "localSnapshotSha256": "0d6cb480865a7bc77f1df45effceec366465f8e51d41f85c221bdd2a056c8df6",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/SKILL.md",
+      "bytes": 7067,
+      "sourceSha256": "930c092e51564789fd304aaca2dcecd1ebacf56d505c14494bc28510d0e3cb66",
+      "localSha256": "930c092e51564789fd304aaca2dcecd1ebacf56d505c14494bc28510d0e3cb66",
+      "adaptation": null,
+      "sourceBytes": 7067,
+      "localBytes": 7067
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/domain-analysis-examples.md",
+      "bytes": 12928,
+      "sourceSha256": "cf7b055768dde849b75be8d37a09e6aa3917ce44eb9782c4a6424551db959241",
+      "localSha256": "cf7b055768dde849b75be8d37a09e6aa3917ce44eb9782c4a6424551db959241",
+      "adaptation": null,
+      "sourceBytes": 12928,
+      "localBytes": 12928
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/domain-analysis-quick-reference.md",
+      "bytes": 9643,
+      "sourceSha256": "c97b52fad030c834b8218ad9f93192e1139005031072082a4835342c095e4101",
+      "localSha256": "c97b52fad030c834b8218ad9f93192e1139005031072082a4835342c095e4101",
+      "adaptation": null,
+      "sourceBytes": 9643,
+      "localBytes": 9643
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/domain-analysis.md",
+      "bytes": 12011,
+      "sourceSha256": "142bac2cf1758484d1420129fc8d2729465cfc6f6b3e6f92aa5ba03208749fb9",
+      "localSha256": "142bac2cf1758484d1420129fc8d2729465cfc6f6b3e6f92aa5ba03208749fb9",
+      "adaptation": null,
+      "sourceBytes": 12011,
+      "localBytes": 12011
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-01-identify-and-size-quick-reference.md",
+      "bytes": 2779,
+      "sourceSha256": "be38ed14527f3678275152cce64459a19c28c0d0103c70ee1f136d8f9e9ca3da",
+      "localSha256": "be38ed14527f3678275152cce64459a19c28c0d0103c70ee1f136d8f9e9ca3da",
+      "adaptation": null,
+      "sourceBytes": 2779,
+      "localBytes": 2779
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-01-identify-and-size.md",
+      "bytes": 13860,
+      "sourceSha256": "cd277cf539f5875dc8a0edc29a0cffdd669018d8b2c8595b3bdbc463f45ca726",
+      "localSha256": "cd277cf539f5875dc8a0edc29a0cffdd669018d8b2c8595b3bdbc463f45ca726",
+      "adaptation": null,
+      "sourceBytes": 13860,
+      "localBytes": 13860
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-02-common-domain-quick-reference.md",
+      "bytes": 4180,
+      "sourceSha256": "e5ad9a95a794bbad876d97479091ecb312dd28786a54dd1cf12d2a88a0dc2c90",
+      "localSha256": "e5ad9a95a794bbad876d97479091ecb312dd28786a54dd1cf12d2a88a0dc2c90",
+      "adaptation": null,
+      "sourceBytes": 4180,
+      "localBytes": 4180
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-02-common-domain.md",
+      "bytes": 17598,
+      "sourceSha256": "bbfda5b460e316381a806953a3e88d4c1e68f40446ae088f1d578e2661cf7f9d",
+      "localSha256": "bbfda5b460e316381a806953a3e88d4c1e68f40446ae088f1d578e2661cf7f9d",
+      "adaptation": null,
+      "sourceBytes": 17598,
+      "localBytes": 17598
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-03-flattening-quick-reference.md",
+      "bytes": 5358,
+      "sourceSha256": "5c3199a93373115a40dda9c736ac5eafa0df8ac9975aa1ec0afd4fe988decfc0",
+      "localSha256": "5c3199a93373115a40dda9c736ac5eafa0df8ac9975aa1ec0afd4fe988decfc0",
+      "adaptation": null,
+      "sourceBytes": 5358,
+      "localBytes": 5358
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-03-flattening.md",
+      "bytes": 18304,
+      "sourceSha256": "f03e952e4882aea0c2d9cae401fe07f52cfdfc1126e961c8d6171d47a870d0af",
+      "localSha256": "f03e952e4882aea0c2d9cae401fe07f52cfdfc1126e961c8d6171d47a870d0af",
+      "adaptation": null,
+      "sourceBytes": 18304,
+      "localBytes": 18304
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-04-coupling.md",
+      "bytes": 15704,
+      "sourceSha256": "a3234ad0c6794da0371455afa744ed1c9b6c3e9aa8800b2b211da05249b95d4c",
+      "localSha256": "a3234ad0c6794da0371455afa744ed1c9b6c3e9aa8800b2b211da05249b95d4c",
+      "adaptation": null,
+      "sourceBytes": 15704,
+      "localBytes": 15704
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-05-domain-grouping-quick-reference.md",
+      "bytes": 4255,
+      "sourceSha256": "0d0f9edfbca53927a2c71ce582172cf4a5dc1c1510d9e050f67fdacaf4e7648e",
+      "localSha256": "0d0f9edfbca53927a2c71ce582172cf4a5dc1c1510d9e050f67fdacaf4e7648e",
+      "adaptation": null,
+      "sourceBytes": 4255,
+      "localBytes": 4255
+    },
+    {
+      "path": ".agents/skills/modular-decomposition/references/pattern-05-domain-grouping.md",
+      "bytes": 21640,
+      "sourceSha256": "1d44f4567d9c3414b73ed21c73817feb54336387ac80ed12d3bb61b1f170aa5b",
+      "localSha256": "1d44f4567d9c3414b73ed21c73817feb54336387ac80ed12d3bb61b1f170aa5b",
+      "adaptation": null,
+      "sourceBytes": 21640,
+      "localBytes": 21640
+    },
+    {
+      "path": ".agents/skills/modular-design-principles/SKILL.md",
+      "bytes": 12634,
+      "sourceSha256": "65757a9efd6930201edef27daca7f7e148bc0414f0d6903dfa24412cea88d9f5",
+      "localSha256": "65757a9efd6930201edef27daca7f7e148bc0414f0d6903dfa24412cea88d9f5",
+      "adaptation": null,
+      "sourceBytes": 12634,
+      "localBytes": 12634
+    },
+    {
+      "path": ".agents/skills/modular-design-principles/references/principles.md",
+      "bytes": 6943,
+      "sourceSha256": "4ad178fc3ba7ce0f62a8712caa5cdffc8b9c3c40825664275a1b2d5965d9f94c",
+      "localSha256": "4ad178fc3ba7ce0f62a8712caa5cdffc8b9c3c40825664275a1b2d5965d9f94c",
+      "adaptation": null,
+      "sourceBytes": 6943,
+      "localBytes": 6943
+    },
+    {
+      "path": ".agents/skills/nx-ci-monitor/SKILL.md",
+      "bytes": 21617,
+      "sourceSha256": "9f980b1932afde3efaae34250565b28df664fc1186e28562bb34e74a2f7f2fb1",
+      "localSha256": "9f980b1932afde3efaae34250565b28df664fc1186e28562bb34e74a2f7f2fb1",
+      "adaptation": null,
+      "sourceBytes": 21617,
+      "localBytes": 21617
+    },
+    {
+      "path": ".agents/skills/nx-generate/SKILL.md",
+      "bytes": 9101,
+      "sourceSha256": "1c1be1f86101362ded1c3d139618d13736d66b17b63a601261be0bcb70306f8b",
+      "localSha256": "1c1be1f86101362ded1c3d139618d13736d66b17b63a601261be0bcb70306f8b",
+      "adaptation": null,
+      "sourceBytes": 9101,
+      "localBytes": 9101
+    },
+    {
+      "path": ".agents/skills/nx-run-tasks/SKILL.md",
+      "bytes": 2709,
+      "sourceSha256": "27fe32c1e07627db240ee2d3b28445cef05902a9d633cc57cfcf78a3c4016ecf",
+      "localSha256": "27fe32c1e07627db240ee2d3b28445cef05902a9d633cc57cfcf78a3c4016ecf",
+      "adaptation": null,
+      "sourceBytes": 2709,
+      "localBytes": 2709
+    },
+    {
+      "path": ".agents/skills/nx-workspace/SKILL.md",
+      "bytes": 4149,
+      "sourceSha256": "4a4644e2a14d937f47889892eb7b54b9298a41f4a84cb6d6c22201155148f688",
+      "localSha256": "4a4644e2a14d937f47889892eb7b54b9298a41f4a84cb6d6c22201155148f688",
+      "adaptation": null,
+      "sourceBytes": 4149,
+      "localBytes": 4149
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/best-practices.md",
+      "bytes": 6940,
+      "sourceSha256": "4671ab9cf1a384dea8c9a30cbaf34d55e94efa188badf8b3e8fd52ffb819cd6d",
+      "localSha256": "4671ab9cf1a384dea8c9a30cbaf34d55e94efa188badf8b3e8fd52ffb819cd6d",
+      "adaptation": null,
+      "sourceBytes": 6940,
+      "localBytes": 6940
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/ci-cd.md",
+      "bytes": 7221,
+      "sourceSha256": "7f25bffbad73a5130d295c4095759d73759a67d42b26861e142bcc8a82151186",
+      "localSha256": "7f25bffbad73a5130d295c4095759d73759a67d42b26861e142bcc8a82151186",
+      "adaptation": null,
+      "sourceBytes": 7221,
+      "localBytes": 7221
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/commands.md",
+      "bytes": 6751,
+      "sourceSha256": "e3021a5708324715ddd1c41dba1ab336556ef33da35c803bfae246dec9328966",
+      "localSha256": "e3021a5708324715ddd1c41dba1ab336556ef33da35c803bfae246dec9328966",
+      "adaptation": null,
+      "sourceBytes": 6751,
+      "localBytes": 6751
+    },
+    {
+      "path": ".agents/skills/nx-workspace/reference/configuration.md",
+      "bytes": 7572,
+      "sourceSha256": "e83a8c0640dfb7798ce55c81ecbe7b9bdd0c224c4261cbbf440881aaeb6bd460",
+      "localSha256": "e83a8c0640dfb7798ce55c81ecbe7b9bdd0c224c4261cbbf440881aaeb6bd460",
+      "adaptation": null,
+      "sourceBytes": 7572,
+      "localBytes": 7572
+    },
+    {
+      "path": ".agents/skills/perf-astro/SKILL.md",
+      "bytes": 3840,
+      "sourceSha256": "141d57e266e612b65f6947f190e49c4e919c182ea01912a4a713ce1161cf0c0f",
+      "localSha256": "141d57e266e612b65f6947f190e49c4e919c182ea01912a4a713ce1161cf0c0f",
+      "adaptation": null,
+      "sourceBytes": 3840,
+      "localBytes": 3840
+    },
+    {
+      "path": ".agents/skills/perf-lighthouse/SKILL.md",
+      "bytes": 6640,
+      "sourceSha256": "d58e254a729ae442280cd60076b2eeebfb8e5032713e2df801463b465cd98427",
+      "localSha256": "d58e254a729ae442280cd60076b2eeebfb8e5032713e2df801463b465cd98427",
+      "adaptation": null,
+      "sourceBytes": 6640,
+      "localBytes": 6640
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/SKILL.md",
+      "bytes": 4332,
+      "sourceSha256": "c9a19e4652cd5120840e042aa83a71d656d482a0c12fc1401c95d3260fe44015",
+      "localSha256": "c9a19e4652cd5120840e042aa83a71d656d482a0c12fc1401c95d3260fe44015",
+      "adaptation": null,
+      "sourceBytes": 4332,
+      "localBytes": 4332
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/references/bundle-optimization.md",
+      "bytes": 3542,
+      "sourceSha256": "8cbf4aeb3b4ac30dbd9bc2ee449bca1b0257066396cd896bd548665a17741e07",
+      "localSha256": "8cbf4aeb3b4ac30dbd9bc2ee449bca1b0257066396cd896bd548665a17741e07",
+      "adaptation": null,
+      "sourceBytes": 3542,
+      "localBytes": 3542
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/references/core-web-vitals.md",
+      "bytes": 3311,
+      "sourceSha256": "43f9dc7561fb1daa6633049e5709a9e6231ab81236e8764650786d9f4f25a6aa",
+      "localSha256": "43f9dc7561fb1daa6633049e5709a9e6231ab81236e8764650786d9f4f25a6aa",
+      "adaptation": null,
+      "sourceBytes": 3311,
+      "localBytes": 3311
+    },
+    {
+      "path": ".agents/skills/perf-web-optimization/references/image-optimization.md",
+      "bytes": 3563,
+      "sourceSha256": "cd646fd96c729bb13ff856006338c2b5290ee2fae927ac6f3405f567cedd9ede",
+      "localSha256": "cd646fd96c729bb13ff856006338c2b5290ee2fae927ac6f3405f567cedd9ede",
+      "adaptation": null,
+      "sourceBytes": 3563,
+      "localBytes": 3563
+    },
+    {
+      "path": ".agents/skills/pr-review/SKILL.md",
+      "bytes": 23385,
+      "sourceSha256": "b3fca321e22e69624bd450fdeda4198cf449d18cc2368c0d02bc21ef2fcbf8da",
+      "localSha256": "b3fca321e22e69624bd450fdeda4198cf449d18cc2368c0d02bc21ef2fcbf8da",
+      "adaptation": null,
+      "sourceBytes": 23385,
+      "localBytes": 23385
+    },
+    {
+      "path": ".agents/skills/react-best-practices/AGENTS.md",
+      "bytes": 84650,
+      "sourceSha256": "2f99883abb8b0702727c7437ad895f9132afe2c521d680eb76f86f6042952221",
+      "localSha256": "2f99883abb8b0702727c7437ad895f9132afe2c521d680eb76f86f6042952221",
+      "adaptation": null,
+      "sourceBytes": 84650,
+      "localBytes": 84650
+    },
+    {
+      "path": ".agents/skills/react-best-practices/README.md",
+      "bytes": 3483,
+      "sourceSha256": "2e7e6cbe3952689bf9c00b9a7032f1bffb263cde2d01635f0aa49d3375c33ff5",
+      "localSha256": "2e7e6cbe3952689bf9c00b9a7032f1bffb263cde2d01635f0aa49d3375c33ff5",
+      "adaptation": null,
+      "sourceBytes": 3483,
+      "localBytes": 3483
+    },
+    {
+      "path": ".agents/skills/react-best-practices/SKILL.md",
+      "bytes": 6574,
+      "sourceSha256": "e5d2d7b43572453ba8fb329a6fbb15c5d7c939d4a80adb8d88c17121b2049ae0",
+      "localSha256": "e5d2d7b43572453ba8fb329a6fbb15c5d7c939d4a80adb8d88c17121b2049ae0",
+      "adaptation": null,
+      "sourceBytes": 6574,
+      "localBytes": 6574
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/_sections.md",
+      "bytes": 1600,
+      "sourceSha256": "f352f75b84d6c6ee644c3fade99eaf2186bdfdc1d9e5b598bae436f32b3bce4f",
+      "localSha256": "f352f75b84d6c6ee644c3fade99eaf2186bdfdc1d9e5b598bae436f32b3bce4f",
+      "adaptation": null,
+      "sourceBytes": 1600,
+      "localBytes": 1600
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/_template.md",
+      "bytes": 659,
+      "sourceSha256": "21231af1b4c70cfe6f07625830d982934295c735f91fddd9741b3a8e3688d735",
+      "localSha256": "21231af1b4c70cfe6f07625830d982934295c735f91fddd9741b3a8e3688d735",
+      "adaptation": null,
+      "sourceBytes": 659,
+      "localBytes": 659
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/advanced-event-handler-refs.md",
+      "bytes": 1538,
+      "sourceSha256": "029f0c929c665fb9263b8c72a44e50610caf94a6e22a8142821a84482eda825d",
+      "localSha256": "029f0c929c665fb9263b8c72a44e50610caf94a6e22a8142821a84482eda825d",
+      "adaptation": null,
+      "sourceBytes": 1538,
+      "localBytes": 1538
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/advanced-init-once.md",
+      "bytes": 1000,
+      "sourceSha256": "3d209bc4b17c2a503fdbb53b39261bc5ee824703a8b387daef3f53bad1f32ce4",
+      "localSha256": "3d209bc4b17c2a503fdbb53b39261bc5ee824703a8b387daef3f53bad1f32ce4",
+      "adaptation": null,
+      "sourceBytes": 1000,
+      "localBytes": 1000
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/advanced-use-latest.md",
+      "bytes": 1111,
+      "sourceSha256": "84b3504ef0dc85f171c6aa0c5d15ac6d252ba72e38fc4e87872c0a3b1728345f",
+      "localSha256": "84b3504ef0dc85f171c6aa0c5d15ac6d252ba72e38fc4e87872c0a3b1728345f",
+      "adaptation": null,
+      "sourceBytes": 1111,
+      "localBytes": 1111
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-api-routes.md",
+      "bytes": 1163,
+      "sourceSha256": "adf38ea4f34fa74b275b908e49aa20de20af9d9935b4a656314a49217b182663",
+      "localSha256": "adf38ea4f34fa74b275b908e49aa20de20af9d9935b4a656314a49217b182663",
+      "adaptation": null,
+      "sourceBytes": 1163,
+      "localBytes": 1163
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-defer-await.md",
+      "bytes": 2108,
+      "sourceSha256": "6a2b9e19555a17662755e01d129fa21b8c6a659731d860b7cc918ba47be2a942",
+      "localSha256": "6a2b9e19555a17662755e01d129fa21b8c6a659731d860b7cc918ba47be2a942",
+      "adaptation": null,
+      "sourceBytes": 2108,
+      "localBytes": 2108
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-dependencies.md",
+      "bytes": 1344,
+      "sourceSha256": "4901341bd7f7b7036eb8d98b243515ce294e6e4079370b3187c1514c3e597ec6",
+      "localSha256": "4901341bd7f7b7036eb8d98b243515ce294e6e4079370b3187c1514c3e597ec6",
+      "adaptation": null,
+      "sourceBytes": 1344,
+      "localBytes": 1344
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-parallel.md",
+      "bytes": 682,
+      "sourceSha256": "ff95abbb67b62a889d7ef71f1d06834238c47ecd3d49483f7823b4cd17d92680",
+      "localSha256": "ff95abbb67b62a889d7ef71f1d06834238c47ecd3d49483f7823b4cd17d92680",
+      "adaptation": null,
+      "sourceBytes": 682,
+      "localBytes": 682
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/async-suspense-boundaries.md",
+      "bytes": 2609,
+      "sourceSha256": "8a6e88c6e5190e10d3e3ebca89a1bc4fefc4bdb0cbc9c6f406ce02452a5759df",
+      "localSha256": "8a6e88c6e5190e10d3e3ebca89a1bc4fefc4bdb0cbc9c6f406ce02452a5759df",
+      "adaptation": null,
+      "sourceBytes": 2609,
+      "localBytes": 2609
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-barrel-imports.md",
+      "bytes": 2429,
+      "sourceSha256": "f3a0d74c71aaa98547d970901d73d1bc4c082762e891244e9103def40846eecb",
+      "localSha256": "f3a0d74c71aaa98547d970901d73d1bc4c082762e891244e9103def40846eecb",
+      "adaptation": null,
+      "sourceBytes": 2429,
+      "localBytes": 2429
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-conditional.md",
+      "bytes": 980,
+      "sourceSha256": "16992beeaf9bdd1e7ff20989b8672cfffc8b918deb0783c058560c7a233dd37c",
+      "localSha256": "16992beeaf9bdd1e7ff20989b8672cfffc8b918deb0783c058560c7a233dd37c",
+      "adaptation": null,
+      "sourceBytes": 980,
+      "localBytes": 980
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-defer-third-party.md",
+      "bytes": 969,
+      "sourceSha256": "64de0f01dfe58b4d3a3865baa623f743ef1b8c363106c7dfaf2b2867f69b96d4",
+      "localSha256": "64de0f01dfe58b4d3a3865baa623f743ef1b8c363106c7dfaf2b2867f69b96d4",
+      "adaptation": null,
+      "sourceBytes": 969,
+      "localBytes": 969
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-dynamic-imports.md",
+      "bytes": 826,
+      "sourceSha256": "0fb947cdfec5ce0e95a894c6b68220f88983eff73ce65b98e4f00c885ebd9b36",
+      "localSha256": "0fb947cdfec5ce0e95a894c6b68220f88983eff73ce65b98e4f00c885ebd9b36",
+      "adaptation": null,
+      "sourceBytes": 826,
+      "localBytes": 826
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/bundle-preload.md",
+      "bytes": 1199,
+      "sourceSha256": "b673a49f4cf4bf385ddf6956ca704139ec2915802bade1925134f8cfabb2278c",
+      "localSha256": "b673a49f4cf4bf385ddf6956ca704139ec2915802bade1925134f8cfabb2278c",
+      "adaptation": null,
+      "sourceBytes": 1199,
+      "localBytes": 1199
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-event-listeners.md",
+      "bytes": 2043,
+      "sourceSha256": "e2229c8e121dfdd6bad8063ba6c41213ff612e19e077f17ba805b70d48151775",
+      "localSha256": "e2229c8e121dfdd6bad8063ba6c41213ff612e19e077f17ba805b70d48151775",
+      "adaptation": null,
+      "sourceBytes": 2043,
+      "localBytes": 2043
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-localstorage-schema.md",
+      "bytes": 2021,
+      "sourceSha256": "f9d177a557f4bd4bd1a81f30f841f75041821dd88f706a6b8c4eac86c7472e05",
+      "localSha256": "f9d177a557f4bd4bd1a81f30f841f75041821dd88f706a6b8c4eac86c7472e05",
+      "adaptation": null,
+      "sourceBytes": 2021,
+      "localBytes": 2021
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-passive-event-listeners.md",
+      "bytes": 1692,
+      "sourceSha256": "277118e32363381459bc7439fa942966da668d2c128d93968f9a289f0bb32861",
+      "localSha256": "277118e32363381459bc7439fa942966da668d2c128d93968f9a289f0bb32861",
+      "adaptation": null,
+      "sourceBytes": 1692,
+      "localBytes": 1692
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/client-swr-dedup.md",
+      "bytes": 1215,
+      "sourceSha256": "866e6cc267f06df39129c44c68c5e6a2e62faa554bc8cdb6ada1f58afe4bcbbe",
+      "localSha256": "866e6cc267f06df39129c44c68c5e6a2e62faa554bc8cdb6ada1f58afe4bcbbe",
+      "adaptation": null,
+      "sourceBytes": 1215,
+      "localBytes": 1215
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-batch-dom-css.md",
+      "bytes": 3373,
+      "sourceSha256": "d7343005afc6a9c7e86368e22318f49b88492973e673f7b0ba2eb65697597143",
+      "localSha256": "d7343005afc6a9c7e86368e22318f49b88492973e673f7b0ba2eb65697597143",
+      "adaptation": null,
+      "sourceBytes": 3373,
+      "localBytes": 3373
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-cache-function-results.md",
+      "bytes": 2029,
+      "sourceSha256": "bbef6423ad250227e8c73a5d9be6fd687707dd187ef50236fd5b6883a41d49b6",
+      "localSha256": "bbef6423ad250227e8c73a5d9be6fd687707dd187ef50236fd5b6883a41d49b6",
+      "adaptation": null,
+      "sourceBytes": 2029,
+      "localBytes": 2029
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-cache-property-access.md",
+      "bytes": 560,
+      "sourceSha256": "bbecc553a5b51caab2ddc90423a23d4c3245669439ff91e5204e48d62aaf1c5e",
+      "localSha256": "bbecc553a5b51caab2ddc90423a23d4c3245669439ff91e5204e48d62aaf1c5e",
+      "adaptation": null,
+      "sourceBytes": 560,
+      "localBytes": 560
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-cache-storage.md",
+      "bytes": 1721,
+      "sourceSha256": "7710a2ceb421d9b6d3828d7f38ec8a093af4a372c2b3b4ea2299d5df2518f770",
+      "localSha256": "7710a2ceb421d9b6d3828d7f38ec8a093af4a372c2b3b4ea2299d5df2518f770",
+      "adaptation": null,
+      "sourceBytes": 1721,
+      "localBytes": 1721
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-combine-iterations.md",
+      "bytes": 785,
+      "sourceSha256": "c43a02979586d39f341fa6da7fc61bdd6a6917fa0c4f9c926091fa540cdf8022",
+      "localSha256": "c43a02979586d39f341fa6da7fc61bdd6a6917fa0c4f9c926091fa540cdf8022",
+      "adaptation": null,
+      "sourceBytes": 785,
+      "localBytes": 785
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-early-exit.md",
+      "bytes": 1183,
+      "sourceSha256": "b6b967ab80d2a5fc19851d9db9464cf8e4d0e57dccb607a474b8f7818015951d",
+      "localSha256": "b6b967ab80d2a5fc19851d9db9464cf8e4d0e57dccb607a474b8f7818015951d",
+      "adaptation": null,
+      "sourceBytes": 1183,
+      "localBytes": 1183
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-hoist-regexp.md",
+      "bytes": 1073,
+      "sourceSha256": "86f4772c5d732c1f5f0656412713c6dc919360f0f3ea32bb1a45937eaaa5866e",
+      "localSha256": "86f4772c5d732c1f5f0656412713c6dc919360f0f3ea32bb1a45937eaaa5866e",
+      "adaptation": null,
+      "sourceBytes": 1073,
+      "localBytes": 1073
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-index-maps.md",
+      "bytes": 874,
+      "sourceSha256": "752dd0803a7394a70e8d437b7eb025d1e085566e30ad733e75b9d2e04cc6c4d9",
+      "localSha256": "752dd0803a7394a70e8d437b7eb025d1e085566e30ad733e75b9d2e04cc6c4d9",
+      "adaptation": null,
+      "sourceBytes": 874,
+      "localBytes": 874
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-length-check-first.md",
+      "bytes": 1796,
+      "sourceSha256": "9e57362d76e57ea6a2ff8cd137cf2a87b094aaff152eac61758305acb450a25c",
+      "localSha256": "9e57362d76e57ea6a2ff8cd137cf2a87b094aaff152eac61758305acb450a25c",
+      "adaptation": null,
+      "sourceBytes": 1796,
+      "localBytes": 1796
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-min-max-loop.md",
+      "bytes": 2372,
+      "sourceSha256": "f0054bcd1c3168ea8a6474df33c398bc0066eb1e813d59ae57fe36806ec900b6",
+      "localSha256": "f0054bcd1c3168ea8a6474df33c398bc0066eb1e813d59ae57fe36806ec900b6",
+      "adaptation": null,
+      "sourceBytes": 2372,
+      "localBytes": 2372
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-set-map-lookups.md",
+      "bytes": 556,
+      "sourceSha256": "7143f8d7b71cdbc77a171fc801bdcf5e7a209e0f471ff17bb669acc986a6b064",
+      "localSha256": "7143f8d7b71cdbc77a171fc801bdcf5e7a209e0f471ff17bb669acc986a6b064",
+      "adaptation": null,
+      "sourceBytes": 556,
+      "localBytes": 556
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/js-tosorted-immutable.md",
+      "bytes": 1839,
+      "sourceSha256": "2722514cac46990f3361fa35ee20d499a12da2539362e7871b670978664d158a",
+      "localSha256": "2722514cac46990f3361fa35ee20d499a12da2539362e7871b670978664d158a",
+      "adaptation": null,
+      "sourceBytes": 1839,
+      "localBytes": 1839
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-activity.md",
+      "bytes": 590,
+      "sourceSha256": "e23dd494d955db99d376b5bf62a59ce7df9f14576d94094f2e53cfdc388453a0",
+      "localSha256": "e23dd494d955db99d376b5bf62a59ce7df9f14576d94094f2e53cfdc388453a0",
+      "adaptation": null,
+      "sourceBytes": 590,
+      "localBytes": 590
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "bytes": 1232,
+      "sourceSha256": "dca7f0251244489b3bbb6f5aaf7d70f280d91dc13de8ebd24403286f382ec0f4",
+      "localSha256": "dca7f0251244489b3bbb6f5aaf7d70f280d91dc13de8ebd24403286f382ec0f4",
+      "adaptation": null,
+      "sourceBytes": 1232,
+      "localBytes": 1232
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-conditional-render.md",
+      "bytes": 1020,
+      "sourceSha256": "6db58f36c8b080c35e91f6504281f85ea2dbd133030610c860e60181d6d9556a",
+      "localSha256": "6db58f36c8b080c35e91f6504281f85ea2dbd133030610c860e60181d6d9556a",
+      "adaptation": null,
+      "sourceBytes": 1020,
+      "localBytes": 1020
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-content-visibility.md",
+      "bytes": 853,
+      "sourceSha256": "45437e9594857ee1066ee061e946ed129731cf2e80f7e08f3cc621fa0554c567",
+      "localSha256": "45437e9594857ee1066ee061e946ed129731cf2e80f7e08f3cc621fa0554c567",
+      "adaptation": null,
+      "sourceBytes": 853,
+      "localBytes": 853
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-hoist-jsx.md",
+      "bytes": 1085,
+      "sourceSha256": "c5fa7274f067ce3760107196a9416df333a7b4187254ef66c547fad7c45cd8d3",
+      "localSha256": "c5fa7274f067ce3760107196a9416df333a7b4187254ef66c547fad7c45cd8d3",
+      "adaptation": null,
+      "sourceBytes": 1085,
+      "localBytes": 1085
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "bytes": 2390,
+      "sourceSha256": "bfedc3a73f9687c7836acf915165fb845880453b6dfcf2fa6475dfec96b23027",
+      "localSha256": "bfedc3a73f9687c7836acf915165fb845880453b6dfcf2fa6475dfec96b23027",
+      "adaptation": null,
+      "sourceBytes": 2390,
+      "localBytes": 2390
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-hydration-suppress-warning.md",
+      "bytes": 902,
+      "sourceSha256": "7ec1623c69e1a82b09b8b5a6028005e3eb8485741898447af1bcaed8ff8c0139",
+      "localSha256": "7ec1623c69e1a82b09b8b5a6028005e3eb8485741898447af1bcaed8ff8c0139",
+      "adaptation": null,
+      "sourceBytes": 902,
+      "localBytes": 902
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-svg-precision.md",
+      "bytes": 616,
+      "sourceSha256": "d57cdfaaaf660a28a9a5d6d10e97202a5eb13e1bc1675e024cb1ccbfa8bb2c32",
+      "localSha256": "d57cdfaaaf660a28a9a5d6d10e97202a5eb13e1bc1675e024cb1ccbfa8bb2c32",
+      "adaptation": null,
+      "sourceBytes": 616,
+      "localBytes": 616
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rendering-usetransition-loading.md",
+      "bytes": 2149,
+      "sourceSha256": "c2186f944b60630c67d42222f60ecb12b5a85395e7f31f193982f85983165720",
+      "localSha256": "c2186f944b60630c67d42222f60ecb12b5a85395e7f31f193982f85983165720",
+      "adaptation": null,
+      "sourceBytes": 2149,
+      "localBytes": 2149
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-defer-reads.md",
+      "bytes": 1012,
+      "sourceSha256": "bb98d9b7c7622641887df6407406a8c4f61510af9cc1bd275574ebee71bac8c8",
+      "localSha256": "bb98d9b7c7622641887df6407406a8c4f61510af9cc1bd275574ebee71bac8c8",
+      "adaptation": null,
+      "sourceBytes": 1012,
+      "localBytes": 1012
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-dependencies.md",
+      "bytes": 869,
+      "sourceSha256": "4f0a1806694c2391c0b5b79bb4dee89fdf2c02ee322acf308509c17542240446",
+      "localSha256": "4f0a1806694c2391c0b5b79bb4dee89fdf2c02ee322acf308509c17542240446",
+      "adaptation": null,
+      "sourceBytes": 869,
+      "localBytes": 869
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-derived-state-no-effect.md",
+      "bytes": 1241,
+      "sourceSha256": "1d50f7b1b86d24f987c557415590f79b06250e3ec1ca552da981e31a31f9edb9",
+      "localSha256": "1d50f7b1b86d24f987c557415590f79b06250e3ec1ca552da981e31a31f9edb9",
+      "adaptation": null,
+      "sourceBytes": 1241,
+      "localBytes": 1241
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-derived-state.md",
+      "bytes": 757,
+      "sourceSha256": "6a501211aa53036905df7531deaf25fdb8582697366fd071d4c2607828662dcb",
+      "localSha256": "6a501211aa53036905df7531deaf25fdb8582697366fd071d4c2607828662dcb",
+      "adaptation": null,
+      "sourceBytes": 757,
+      "localBytes": 757
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-functional-setstate.md",
+      "bytes": 3042,
+      "sourceSha256": "e46096d4c2c8fc89ab717bd7e56b8a884b612a88013a99b0c63e7dfc45d8cf25",
+      "localSha256": "e46096d4c2c8fc89ab717bd7e56b8a884b612a88013a99b0c63e7dfc45d8cf25",
+      "adaptation": null,
+      "sourceBytes": 3042,
+      "localBytes": 3042
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-lazy-state-init.md",
+      "bytes": 2074,
+      "sourceSha256": "b8b9e6b6001a1e94979776e744eb38a98432858dd2369995731c9a095ecd1d2e",
+      "localSha256": "b8b9e6b6001a1e94979776e744eb38a98432858dd2369995731c9a095ecd1d2e",
+      "adaptation": null,
+      "sourceBytes": 2074,
+      "localBytes": 2074
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-memo-with-default-value.md",
+      "bytes": 1211,
+      "sourceSha256": "e69d637687b85967554df7d5fcfd83cc6fbb89237e9b80d10fbea7916244aa8b",
+      "localSha256": "e69d637687b85967554df7d5fcfd83cc6fbb89237e9b80d10fbea7916244aa8b",
+      "adaptation": null,
+      "sourceBytes": 1211,
+      "localBytes": 1211
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-memo.md",
+      "bytes": 1192,
+      "sourceSha256": "8cc2d062f22ae762f7f5f93baf2bfc374c917079131896559721f9dfbd402a7c",
+      "localSha256": "8cc2d062f22ae762f7f5f93baf2bfc374c917079131896559721f9dfbd402a7c",
+      "adaptation": null,
+      "sourceBytes": 1192,
+      "localBytes": 1192
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-move-effect-to-event.md",
+      "bytes": 1313,
+      "sourceSha256": "00f5eaf8d4380c736c9177b67583f6b33f6b1f84addc252653cd6dea9551ad8d",
+      "localSha256": "00f5eaf8d4380c736c9177b67583f6b33f6b1f84addc252653cd6dea9551ad8d",
+      "adaptation": null,
+      "sourceBytes": 1313,
+      "localBytes": 1313
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-simple-expression-in-memo.md",
+      "bytes": 1053,
+      "sourceSha256": "1e41299336d72ce42ffe0b4d397496e520eae13ea544b1412b83761555f4e631",
+      "localSha256": "1e41299336d72ce42ffe0b4d397496e520eae13ea544b1412b83761555f4e631",
+      "adaptation": null,
+      "sourceBytes": 1053,
+      "localBytes": 1053
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-transitions.md",
+      "bytes": 1095,
+      "sourceSha256": "b51a82fb6b223d13c585dfddaeb753c79d7da0524da87b708f61fd6939600ab6",
+      "localSha256": "b51a82fb6b223d13c585dfddaeb753c79d7da0524da87b708f61fd6939600ab6",
+      "adaptation": null,
+      "sourceBytes": 1095,
+      "localBytes": 1095
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/rerender-use-ref-transient-values.md",
+      "bytes": 1815,
+      "sourceSha256": "26ddded1d59cc04cddf7c1412ffb05315dd1f358510edcce3c3474d5acb63f32",
+      "localSha256": "26ddded1d59cc04cddf7c1412ffb05315dd1f358510edcce3c3474d5acb63f32",
+      "adaptation": null,
+      "sourceBytes": 1815,
+      "localBytes": 1815
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-after-nonblocking.md",
+      "bytes": 2085,
+      "sourceSha256": "86c8670ad8e6285753645c2cebd164c56baf6f0fa74f914c0ca496d0a0156bcc",
+      "localSha256": "86c8670ad8e6285753645c2cebd164c56baf6f0fa74f914c0ca496d0a0156bcc",
+      "adaptation": null,
+      "sourceBytes": 2085,
+      "localBytes": 2085
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-auth-actions.md",
+      "bytes": 2745,
+      "sourceSha256": "a413aba63b73f7f82cf2482646c8c1598eaa75753c8f73f33055b8508de99fea",
+      "localSha256": "a413aba63b73f7f82cf2482646c8c1598eaa75753c8f73f33055b8508de99fea",
+      "adaptation": null,
+      "sourceBytes": 2745,
+      "localBytes": 2745
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-cache-lru.md",
+      "bytes": 1394,
+      "sourceSha256": "19d844eebd1fb7ef5f43f4d1e85baf1fc0160547400ab838ba4d40226eb891b9",
+      "localSha256": "19d844eebd1fb7ef5f43f4d1e85baf1fc0160547400ab838ba4d40226eb891b9",
+      "adaptation": null,
+      "sourceBytes": 1394,
+      "localBytes": 1394
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-cache-react.md",
+      "bytes": 2304,
+      "sourceSha256": "7448470adc9f0066455f9cf45b658f5c3f1884a7990c89f880fbb272a4028b05",
+      "localSha256": "7448470adc9f0066455f9cf45b658f5c3f1884a7990c89f880fbb272a4028b05",
+      "adaptation": null,
+      "sourceBytes": 2304,
+      "localBytes": 2304
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-dedup-props.md",
+      "bytes": 2125,
+      "sourceSha256": "5c4d4c9930812d3ab98e28ad97ca2f5af778effbf9b50b6a7558c18abf2e98b5",
+      "localSha256": "5c4d4c9930812d3ab98e28ad97ca2f5af778effbf9b50b6a7558c18abf2e98b5",
+      "adaptation": null,
+      "sourceBytes": 2125,
+      "localBytes": 2125
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-parallel-fetching.md",
+      "bytes": 1637,
+      "sourceSha256": "f8f275fea2378e7707a50f2df4af6a2f65fe1fa84edb3ffc4720af805ebabe42",
+      "localSha256": "f8f275fea2378e7707a50f2df4af6a2f65fe1fa84edb3ffc4720af805ebabe42",
+      "adaptation": null,
+      "sourceBytes": 1637,
+      "localBytes": 1637
+    },
+    {
+      "path": ".agents/skills/react-best-practices/rules/server-serialization.md",
+      "bytes": 1034,
+      "sourceSha256": "567ce457f775d4e03e2a6ef7bf67213fee35c6c3b9d1bcfa783007d1df414d4b",
+      "localSha256": "567ce457f775d4e03e2a6ef7bf67213fee35c6c3b9d1bcfa783007d1df414d4b",
+      "adaptation": null,
+      "sourceBytes": 1034,
+      "localBytes": 1034
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/AGENTS.md",
+      "bytes": 23573,
+      "sourceSha256": "ad5b5de8eef5c67b7fa370ea8f9ca79e9e17e3c1727e71af612b699fc90c9c90",
+      "localSha256": "ad5b5de8eef5c67b7fa370ea8f9ca79e9e17e3c1727e71af612b699fc90c9c90",
+      "adaptation": null,
+      "sourceBytes": 23573,
+      "localBytes": 23573
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/README.md",
+      "bytes": 2200,
+      "sourceSha256": "d6dc98821fb02558c54faf6cd39e5af15837b808c25c0fb4f16e4ec66b9f595c",
+      "localSha256": "d6dc98821fb02558c54faf6cd39e5af15837b808c25c0fb4f16e4ec66b9f595c",
+      "adaptation": null,
+      "sourceBytes": 2200,
+      "localBytes": 2200
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/SKILL.md",
+      "bytes": 3049,
+      "sourceSha256": "0a248e8720fd5f5a0c3e5270910060433ce17f95cd75255875d4ae8eab04ecde",
+      "localSha256": "0a248e8720fd5f5a0c3e5270910060433ce17f95cd75255875d4ae8eab04ecde",
+      "adaptation": null,
+      "sourceBytes": 3049,
+      "localBytes": 3049
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/_sections.md",
+      "bytes": 858,
+      "sourceSha256": "738f4d5a8f96e939d5a2d38e59b53613074a173c2b9207ab813fd72f417f4f9f",
+      "localSha256": "738f4d5a8f96e939d5a2d38e59b53613074a173c2b9207ab813fd72f417f4f9f",
+      "adaptation": null,
+      "sourceBytes": 858,
+      "localBytes": 858
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/_template.md",
+      "bytes": 353,
+      "sourceSha256": "d688f7c382511d1354bbaf05accdf0c93b5c2ce1d2ab60ab4cc217120fc29f8f",
+      "localSha256": "d688f7c382511d1354bbaf05accdf0c93b5c2ce1d2ab60ab4cc217120fc29f8f",
+      "adaptation": null,
+      "sourceBytes": 353,
+      "localBytes": 353
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "bytes": 2367,
+      "sourceSha256": "bf497b4166c70efca0328558ff3b30cf16bccd94bdc321adf5fa690d759739cb",
+      "localSha256": "bf497b4166c70efca0328558ff3b30cf16bccd94bdc321adf5fa690d759739cb",
+      "adaptation": null,
+      "sourceBytes": 2367,
+      "localBytes": 2367
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/architecture-compound-components.md",
+      "bytes": 2712,
+      "sourceSha256": "dfad1d28de90868a8b8311a3974f5b89648a2a8208caa316ff63ead0b6194914",
+      "localSha256": "dfad1d28de90868a8b8311a3974f5b89648a2a8208caa316ff63ead0b6194914",
+      "adaptation": null,
+      "sourceBytes": 2712,
+      "localBytes": 2712
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/patterns-children-over-render-props.md",
+      "bytes": 1973,
+      "sourceSha256": "6e44da5931fcb09f2d631a462324035fb4d42d0a4ddbf4064ae1bddd2cbe387c",
+      "localSha256": "6e44da5931fcb09f2d631a462324035fb4d42d0a4ddbf4064ae1bddd2cbe387c",
+      "adaptation": null,
+      "sourceBytes": 1973,
+      "localBytes": 1973
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/patterns-explicit-variants.md",
+      "bytes": 2495,
+      "sourceSha256": "b741d51cefc5bad25ae725a3e8791b47198cdb576aa5f34e609e13b4e910d2d9",
+      "localSha256": "b741d51cefc5bad25ae725a3e8791b47198cdb576aa5f34e609e13b4e910d2d9",
+      "adaptation": null,
+      "sourceBytes": 2495,
+      "localBytes": 2495
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/react19-no-forwardref.md",
+      "bytes": 995,
+      "sourceSha256": "10ab8f9b640133f371c327ebbdde0169d94fdf9684c6798f135d5f0f5efd2b21",
+      "localSha256": "10ab8f9b640133f371c327ebbdde0169d94fdf9684c6798f135d5f0f5efd2b21",
+      "adaptation": null,
+      "sourceBytes": 995,
+      "localBytes": 995
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/state-context-interface.md",
+      "bytes": 5165,
+      "sourceSha256": "1d6923baa2726aa2fd8f3d75b7e820e895f89efc4c42d9f71cff229cbe21cb41",
+      "localSha256": "1d6923baa2726aa2fd8f3d75b7e820e895f89efc4c42d9f71cff229cbe21cb41",
+      "adaptation": null,
+      "sourceBytes": 5165,
+      "localBytes": 5165
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/state-decouple-implementation.md",
+      "bytes": 2812,
+      "sourceSha256": "1b8757b07e62d869c4019f40cf75545516cc86386896b429090b2a54b13f301f",
+      "localSha256": "1b8757b07e62d869c4019f40cf75545516cc86386896b429090b2a54b13f301f",
+      "adaptation": null,
+      "sourceBytes": 2812,
+      "localBytes": 2812
+    },
+    {
+      "path": ".agents/skills/react-composition-patterns/rules/state-lift-state.md",
+      "bytes": 3349,
+      "sourceSha256": "2c70589fc7c8e2104269d1fda424f005daa470d38e1efe3feef32e0dd01d2ead",
+      "localSha256": "2c70589fc7c8e2104269d1fda424f005daa470d38e1efe3feef32e0dd01d2ead",
+      "adaptation": null,
+      "sourceBytes": 3349,
+      "localBytes": 3349
+    },
+    {
+      "path": ".agents/skills/react-native-expert/SKILL.md",
+      "bytes": 13135,
+      "sourceSha256": "b22c188cac58a9ec5324e979cdaebc23b3eac4491a1284e629be327be1655383",
+      "localSha256": "b22c188cac58a9ec5324e979cdaebc23b3eac4491a1284e629be327be1655383",
+      "adaptation": null,
+      "sourceBytes": 13135,
+      "localBytes": 13135
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/expo-router.md",
+      "bytes": 5851,
+      "sourceSha256": "ffc516a32a8f07b24af027b4c3bb7abff18ae15532c108121fc8f3b887acda8d",
+      "localSha256": "ffc516a32a8f07b24af027b4c3bb7abff18ae15532c108121fc8f3b887acda8d",
+      "adaptation": null,
+      "sourceBytes": 5851,
+      "localBytes": 5851
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/performance-rules.md",
+      "bytes": 18144,
+      "sourceSha256": "3a0ab04a8a0bbcbf62c0a193ba84ff7c4451fc914802483d6106af9a565907f5",
+      "localSha256": "3a0ab04a8a0bbcbf62c0a193ba84ff7c4451fc914802483d6106af9a565907f5",
+      "adaptation": null,
+      "sourceBytes": 18144,
+      "localBytes": 18144
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/platform-handling.md",
+      "bytes": 4486,
+      "sourceSha256": "939566c7bead33cdede0085148e5754c1878597c0963045968b37f8a0276c16a",
+      "localSha256": "939566c7bead33cdede0085148e5754c1878597c0963045968b37f8a0276c16a",
+      "adaptation": null,
+      "sourceBytes": 4486,
+      "localBytes": 4486
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/project-structure.md",
+      "bytes": 5312,
+      "sourceSha256": "04b46c62440bb0ebbcbef9f62f1ecdb374877d0dd474751c8c6ba1405e333eeb",
+      "localSha256": "04b46c62440bb0ebbcbef9f62f1ecdb374877d0dd474751c8c6ba1405e333eeb",
+      "adaptation": null,
+      "sourceBytes": 5312,
+      "localBytes": 5312
+    },
+    {
+      "path": ".agents/skills/react-native-expert/references/storage-patterns.md",
+      "bytes": 6609,
+      "sourceSha256": "9d87e49fdf491b453143ba831d875838f6cf9b47aeb22e5671ff914760fd4162",
+      "localSha256": "9d87e49fdf491b453143ba831d875838f6cf9b47aeb22e5671ff914760fd4162",
+      "adaptation": null,
+      "sourceBytes": 6609,
+      "localBytes": 6609
+    },
+    {
+      "path": ".agents/skills/security-audit/SKILL.md",
+      "bytes": 3697,
+      "sourceSha256": "3e7399b041f1606b802d35297c3b8d1ff61b32c31aea929312efbbb433ebcbd9",
+      "localSha256": "9879c67259280f18c36d838eded175bf71b6d97e9c3f943dd797fd5c443f05c0",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "sourceBytes": 3697,
+      "localBytes": 4954,
+      "localSnapshotSha256": "3e7399b041f1606b802d35297c3b8d1ff61b32c31aea929312efbbb433ebcbd9",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/security-best-practices/LICENSE.txt",
+      "bytes": 10977,
+      "sourceSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "localSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "adaptation": null,
+      "sourceBytes": 10977,
+      "localBytes": 10977
+    },
+    {
+      "path": ".agents/skills/security-best-practices/SKILL.md",
+      "bytes": 8748,
+      "sourceSha256": "53011bb93069dee94930c9f6c4234051e6767d5e5ad1441b432053d8ad398562",
+      "localSha256": "53011bb93069dee94930c9f6c4234051e6767d5e5ad1441b432053d8ad398562",
+      "adaptation": null,
+      "sourceBytes": 8748,
+      "localBytes": 8748
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/golang-general-backend-security.md",
+      "bytes": 39357,
+      "sourceSha256": "e304ea508d271195bbeb783d43a01ad7fcd2af1f8ec63a47bf939b9ddd626f10",
+      "localSha256": "e304ea508d271195bbeb783d43a01ad7fcd2af1f8ec63a47bf939b9ddd626f10",
+      "adaptation": null,
+      "sourceBytes": 39357,
+      "localBytes": 39357
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-express-web-server-security.md",
+      "bytes": 50477,
+      "sourceSha256": "2775b882057abf34a4adc708eeff39da31e8f7f9ce3911c8715f4243c474c0a3",
+      "localSha256": "2775b882057abf34a4adc708eeff39da31e8f7f9ce3911c8715f4243c474c0a3",
+      "adaptation": null,
+      "sourceBytes": 50477,
+      "localBytes": 50477
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "bytes": 39342,
+      "sourceSha256": "540538f312cb78b9398d9431e9c36af81e82806426c5de3415db6b21de68d3ff",
+      "localSha256": "540538f312cb78b9398d9431e9c36af81e82806426c5de3415db6b21de68d3ff",
+      "adaptation": null,
+      "sourceBytes": 39342,
+      "localBytes": 39342
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-jquery-web-frontend-security.md",
+      "bytes": 33649,
+      "sourceSha256": "d74a7b32ff189521b664cbbe25d4893a58252cce28200249c74cf24557e64a05",
+      "localSha256": "d74a7b32ff189521b664cbbe25d4893a58252cce28200249c74cf24557e64a05",
+      "adaptation": null,
+      "sourceBytes": 33649,
+      "localBytes": 33649
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "bytes": 44465,
+      "sourceSha256": "c937465c375545318fd3d4da065d361ff185145e6881dc21a5fdcd1bb4a86732",
+      "localSha256": "c937465c375545318fd3d4da065d361ff185145e6881dc21a5fdcd1bb4a86732",
+      "adaptation": null,
+      "sourceBytes": 44465,
+      "localBytes": 44465
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+      "bytes": 42646,
+      "sourceSha256": "df89de68e9a286ca90a7db86e725e5150319dec3bfacc6f1afa48e18e8c12aaf",
+      "localSha256": "df89de68e9a286ca90a7db86e725e5150319dec3bfacc6f1afa48e18e8c12aaf",
+      "adaptation": null,
+      "sourceBytes": 42646,
+      "localBytes": 42646
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/javascript-typescript-vue-web-frontend-security.md",
+      "bytes": 32188,
+      "sourceSha256": "19993b4e4f57775d51e87517256fd4d0f548b957cbc4256908efd10ceedf1b84",
+      "localSha256": "19993b4e4f57775d51e87517256fd4d0f548b957cbc4256908efd10ceedf1b84",
+      "adaptation": null,
+      "sourceBytes": 32188,
+      "localBytes": 32188
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/python-django-web-server-security.md",
+      "bytes": 39538,
+      "sourceSha256": "de0121b6ac64644a660df70c1e60742888f90b6bf3e4e095f3d487157ec4e955",
+      "localSha256": "de0121b6ac64644a660df70c1e60742888f90b6bf3e4e095f3d487157ec4e955",
+      "adaptation": null,
+      "sourceBytes": 39538,
+      "localBytes": 39538
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/python-fastapi-web-server-security.md",
+      "bytes": 45697,
+      "sourceSha256": "641d4ae372ae250a4d98ecc3b7273944484f7a9eb01f92e1966ed41e2de46669",
+      "localSha256": "641d4ae372ae250a4d98ecc3b7273944484f7a9eb01f92e1966ed41e2de46669",
+      "adaptation": null,
+      "sourceBytes": 45697,
+      "localBytes": 45697
+    },
+    {
+      "path": ".agents/skills/security-best-practices/references/python-flask-web-server-security.md",
+      "bytes": 32261,
+      "sourceSha256": "65658bbe00776e1b9514a46be258692d6073be35ca73eb89b47e2b213ea2b06a",
+      "localSha256": "65658bbe00776e1b9514a46be258692d6073be35ca73eb89b47e2b213ea2b06a",
+      "adaptation": null,
+      "sourceBytes": 32261,
+      "localBytes": 32261
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/LICENSE.txt",
+      "bytes": 10977,
+      "sourceSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "localSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "adaptation": null,
+      "sourceBytes": 10977,
+      "localBytes": 10977
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/SKILL.md",
+      "bytes": 9042,
+      "sourceSha256": "1fb522f7fac0286f1947d636365522c62e0df363a61ab65b185c6c765ead0c13",
+      "localSha256": "1fb522f7fac0286f1947d636365522c62e0df363a61ab65b185c6c765ead0c13",
+      "adaptation": null,
+      "sourceBytes": 9042,
+      "localBytes": 9042
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/references/neo4j-import.md",
+      "bytes": 2488,
+      "sourceSha256": "497c4d601d96d10bdb178c81b375f80f17855e705349a74dfc22dd5600b6b2d9",
+      "localSha256": "497c4d601d96d10bdb178c81b375f80f17855e705349a74dfc22dd5600b6b2d9",
+      "adaptation": null,
+      "sourceBytes": 2488,
+      "localBytes": 2488
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/build_ownership_map.py",
+      "bytes": 34330,
+      "sourceSha256": "c0454c47c7eb001b6e247cd7e473df1b28a3a148a2dca6b2fe88a74a7602cc9b",
+      "localSha256": "c0454c47c7eb001b6e247cd7e473df1b28a3a148a2dca6b2fe88a74a7602cc9b",
+      "adaptation": null,
+      "sourceBytes": 34330,
+      "localBytes": 34330
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/community_maintainers.py",
+      "bytes": 18122,
+      "sourceSha256": "95adec5458cc85b41d0ae7965b0a17e4e8eaa6aaab274459324580d9a91cc3cc",
+      "localSha256": "95adec5458cc85b41d0ae7965b0a17e4e8eaa6aaab274459324580d9a91cc3cc",
+      "adaptation": null,
+      "sourceBytes": 18122,
+      "localBytes": 18122
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/query_ownership.py",
+      "bytes": 17991,
+      "sourceSha256": "0f8d1a1ac3ef807a9b66939a8cdfd02564f4cda018489a3664d37f8c3a7b1b93",
+      "localSha256": "0f8d1a1ac3ef807a9b66939a8cdfd02564f4cda018489a3664d37f8c3a7b1b93",
+      "adaptation": null,
+      "sourceBytes": 17991,
+      "localBytes": 17991
+    },
+    {
+      "path": ".agents/skills/security-ownership-map/scripts/run_ownership_map.py",
+      "bytes": 5890,
+      "sourceSha256": "362b547d6133659eb5c4fe889b8b930bea790f31e412f3198671baae09eec692",
+      "localSha256": "362b547d6133659eb5c4fe889b8b930bea790f31e412f3198671baae09eec692",
+      "adaptation": null,
+      "sourceBytes": 5890,
+      "localBytes": 5890
+    },
+    {
+      "path": ".agents/skills/security-threat-model/LICENSE.txt",
+      "bytes": 10977,
+      "sourceSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "localSha256": "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+      "adaptation": null,
+      "sourceBytes": 10977,
+      "localBytes": 10977
+    },
+    {
+      "path": ".agents/skills/security-threat-model/SKILL.md",
+      "bytes": 5755,
+      "sourceSha256": "824d2c494e17eccf6e5da409ce78fe2579fb6255d0c1a121cf67c8de7871825c",
+      "localSha256": "824d2c494e17eccf6e5da409ce78fe2579fb6255d0c1a121cf67c8de7871825c",
+      "adaptation": null,
+      "sourceBytes": 5755,
+      "localBytes": 5755
+    },
+    {
+      "path": ".agents/skills/security-threat-model/references/prompt-template.md",
+      "bytes": 12895,
+      "sourceSha256": "e77a1b90ac578538ac613eac3a72e0545ea145e20a7e84b5f9a3dff5a94cd117",
+      "localSha256": "e77a1b90ac578538ac613eac3a72e0545ea145e20a7e84b5f9a3dff5a94cd117",
+      "adaptation": null,
+      "sourceBytes": 12895,
+      "localBytes": 12895
+    },
+    {
+      "path": ".agents/skills/security-threat-model/references/security-controls-and-assets.md",
+      "bytes": 1718,
+      "sourceSha256": "849afdd72f8e9b32aabd23a373bf72a62dda5539d974e6755b250dc0e33dd9cc",
+      "localSha256": "849afdd72f8e9b32aabd23a373bf72a62dda5539d974e6755b250dc0e33dd9cc",
+      "adaptation": null,
+      "sourceBytes": 1718,
+      "localBytes": 1718
+    },
+    {
+      "path": ".agents/skills/seo/SKILL.md",
+      "bytes": 12764,
+      "sourceSha256": "bdd97aa54ffe9c82e394ce365298a80b02f01ff5da85d7111bbaefc6a612bd4e",
+      "localSha256": "bdd97aa54ffe9c82e394ce365298a80b02f01ff5da85d7111bbaefc6a612bd4e",
+      "adaptation": null,
+      "sourceBytes": 12764,
+      "localBytes": 12764
+    },
+    {
+      "path": ".agents/skills/skill-architect/SKILL.md",
+      "bytes": 14210,
+      "sourceSha256": "f18f868ead23869d817224e314aca0e4edd9d287c3cdc061f0213f9bd35f5ff0",
+      "localSha256": "f18f868ead23869d817224e314aca0e4edd9d287c3cdc061f0213f9bd35f5ff0",
+      "adaptation": null,
+      "sourceBytes": 14210,
+      "localBytes": 14210
+    },
+    {
+      "path": ".agents/skills/skill-architect/references/examples.md",
+      "bytes": 7432,
+      "sourceSha256": "18f2857bd5e27399ad3b2522bd7594267525ea064a328d83e2f6c5f12c86706f",
+      "localSha256": "18f2857bd5e27399ad3b2522bd7594267525ea064a328d83e2f6c5f12c86706f",
+      "adaptation": null,
+      "sourceBytes": 7432,
+      "localBytes": 7432
+    },
+    {
+      "path": ".agents/skills/skill-architect/references/patterns.md",
+      "bytes": 8513,
+      "sourceSha256": "38b65644738bcd24583301af3c909ed8ead4aedb2726fb81d6a43cda7086c0b3",
+      "localSha256": "38b65644738bcd24583301af3c909ed8ead4aedb2726fb81d6a43cda7086c0b3",
+      "adaptation": null,
+      "sourceBytes": 8513,
+      "localBytes": 8513
+    },
+    {
+      "path": ".agents/skills/skill-architect/references/quality-checklist.md",
+      "bytes": 2592,
+      "sourceSha256": "19c20cd2842e565faf8b161249fa38087a2245e32166f908dad4f2283573db27",
+      "localSha256": "19c20cd2842e565faf8b161249fa38087a2245e32166f908dad4f2283573db27",
+      "adaptation": null,
+      "sourceBytes": 2592,
+      "localBytes": 2592
+    },
+    {
+      "path": ".agents/skills/skill-architect/scripts/validate_skill.py",
+      "bytes": 19742,
+      "sourceSha256": "56fa253b7de06b6c8d30d4cb5011c8961ddb7b87af49d686dbeaad5e0b454910",
+      "localSha256": "56fa253b7de06b6c8d30d4cb5011c8961ddb7b87af49d686dbeaad5e0b454910",
+      "adaptation": null,
+      "sourceBytes": 19742,
+      "localBytes": 19742
+    },
+    {
+      "path": ".agents/skills/spec-implement/SKILL.md",
+      "bytes": 755,
+      "sourceSha256": "6038cf2fc217115fce7e2b469d238962c42b9dd46197f1408d2824c5de4bc781",
+      "localSha256": "70bd5d4c06a002d19645bc6bfb0d8ba1c3b29239bd28e4c6f1401d2c487d7c0c",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 755,
+      "localBytes": 1436,
+      "localSnapshotSha256": "6038cf2fc217115fce7e2b469d238962c42b9dd46197f1408d2824c5de4bc781",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/spec-review/SKILL.md",
+      "bytes": 841,
+      "sourceSha256": "edc490e8e77e392d725b1d1029f199babd66b455a609b995ef45027a6fb739dc",
+      "localSha256": "431ffc6511844781b15c80f90a0c299e1bf9604e93e7fb629e9fe03d05c97b3c",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "sourceBytes": 841,
+      "localBytes": 1020,
+      "localSnapshotSha256": "edc490e8e77e392d725b1d1029f199babd66b455a609b995ef45027a6fb739dc",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".agents/skills/subagent-creator/SKILL.md",
+      "bytes": 7406,
+      "sourceSha256": "ab1566fd7540ee01b2c245cb7a75d94855e1e9460682d7fb600d1efa93a5d133",
+      "localSha256": "ab1566fd7540ee01b2c245cb7a75d94855e1e9460682d7fb600d1efa93a5d133",
+      "adaptation": null,
+      "sourceBytes": 7406,
+      "localBytes": 7406
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/SKILL.md",
+      "bytes": 4055,
+      "sourceSha256": "034a5d247ff8ebbf1ed7e119a40200627cc96fe1f4b3ae2fe8ccd8959db7c19b",
+      "localSha256": "034a5d247ff8ebbf1ed7e119a40200627cc96fe1f4b3ae2fe8ccd8959db7c19b",
+      "adaptation": null,
+      "sourceBytes": 4055,
+      "localBytes": 4055
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/detection.md",
+      "bytes": 2829,
+      "sourceSha256": "3f7e4bc1aa96c6618b67ae66bf64faabebb603fc7268a1baffd12b1a4e7228a0",
+      "localSha256": "3f7e4bc1aa96c6618b67ae66bf64faabebb603fc7268a1baffd12b1a4e7228a0",
+      "adaptation": null,
+      "sourceBytes": 2829,
+      "localBytes": 2829
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/refactoring.md",
+      "bytes": 5918,
+      "sourceSha256": "04276b61fddbe7508418387e344f571762eae1ca1cb64fc067eddb737d728d23",
+      "localSha256": "04276b61fddbe7508418387e344f571762eae1ca1cb64fc067eddb737d728d23",
+      "adaptation": null,
+      "sourceBytes": 5918,
+      "localBytes": 5918
+    },
+    {
+      "path": ".agents/skills/tactical-ddd/reference.md",
+      "bytes": 6562,
+      "sourceSha256": "10299bfe4b514d055b1d29a5e1cddd6b84030ff3c911c1c2c870f50c6340d920",
+      "localSha256": "10299bfe4b514d055b1d29a5e1cddd6b84030ff3c911c1c2c870f50c6340d920",
+      "adaptation": null,
+      "sourceBytes": 6562,
+      "localBytes": 6562
+    },
+    {
+      "path": ".agents/skills/the-fool/SKILL.md",
+      "bytes": 8842,
+      "sourceSha256": "75c56b3cc12a8801a72374ee095fd964f59c8ea5ea8eef274b3e33559b5a5bfd",
+      "localSha256": "75c56b3cc12a8801a72374ee095fd964f59c8ea5ea8eef274b3e33559b5a5bfd",
+      "adaptation": null,
+      "sourceBytes": 8842,
+      "localBytes": 8842
+    },
+    {
+      "path": ".agents/skills/the-fool/references/cognitive-bias-inventory.md",
+      "bytes": 7830,
+      "sourceSha256": "b2592a0cec10901b98fa9e8fec1f11eb63a94a336899d16b31130ad857ce2167",
+      "localSha256": "b2592a0cec10901b98fa9e8fec1f11eb63a94a336899d16b31130ad857ce2167",
+      "adaptation": null,
+      "sourceBytes": 7830,
+      "localBytes": 7830
+    },
+    {
+      "path": ".agents/skills/the-fool/references/dialectic-synthesis.md",
+      "bytes": 7566,
+      "sourceSha256": "440afd034ad216475973f92fd541cc86e6265a051021304f6f85fced2bc8a500",
+      "localSha256": "440afd034ad216475973f92fd541cc86e6265a051021304f6f85fced2bc8a500",
+      "adaptation": null,
+      "sourceBytes": 7566,
+      "localBytes": 7566
+    },
+    {
+      "path": ".agents/skills/the-fool/references/evidence-audit.md",
+      "bytes": 9617,
+      "sourceSha256": "db319eab785277584c0203a5563f7b637f91fcf844341f3c23ec03687d8e5ace",
+      "localSha256": "db319eab785277584c0203a5563f7b637f91fcf844341f3c23ec03687d8e5ace",
+      "adaptation": null,
+      "sourceBytes": 9617,
+      "localBytes": 9617
+    },
+    {
+      "path": ".agents/skills/the-fool/references/mode-selection-guide.md",
+      "bytes": 6030,
+      "sourceSha256": "f0cdbd72e94afced1a75089d16c5ee4cfc32e9164e9f3ad4e37a158b080aa990",
+      "localSha256": "f0cdbd72e94afced1a75089d16c5ee4cfc32e9164e9f3ad4e37a158b080aa990",
+      "adaptation": null,
+      "sourceBytes": 6030,
+      "localBytes": 6030
+    },
+    {
+      "path": ".agents/skills/the-fool/references/pre-mortem-analysis.md",
+      "bytes": 9214,
+      "sourceSha256": "56e440d16c30ab2f4abf88c57897e90576caf9ef7e80c6144caedfb13a054c3b",
+      "localSha256": "56e440d16c30ab2f4abf88c57897e90576caf9ef7e80c6144caedfb13a054c3b",
+      "adaptation": null,
+      "sourceBytes": 9214,
+      "localBytes": 9214
+    },
+    {
+      "path": ".agents/skills/the-fool/references/red-team-adversarial.md",
+      "bytes": 9995,
+      "sourceSha256": "d9bae06519d2f8b73ee31007045ea4f1b5a0ed5648cc5a13b13fb690bc9b2a51",
+      "localSha256": "d9bae06519d2f8b73ee31007045ea4f1b5a0ed5648cc5a13b13fb690bc9b2a51",
+      "adaptation": null,
+      "sourceBytes": 9995,
+      "localBytes": 9995
+    },
+    {
+      "path": ".agents/skills/the-fool/references/socratic-questioning.md",
+      "bytes": 7492,
+      "sourceSha256": "4bccb61572cffb7f9a8f5cebdd34f614ab2c8ef69d849b320d1f4197b32fc90f",
+      "localSha256": "4bccb61572cffb7f9a8f5cebdd34f614ab2c8ef69d849b320d1f4197b32fc90f",
+      "adaptation": null,
+      "sourceBytes": 7492,
+      "localBytes": 7492
+    },
+    {
+      "path": ".agents/skills/the-jury/SKILL.md",
+      "bytes": 18260,
+      "sourceSha256": "b1e30d457a53252d88561198dd5a8ee664758a93cadab89d28353b4cddc7cd2b",
+      "localSha256": "b1e30d457a53252d88561198dd5a8ee664758a93cadab89d28353b4cddc7cd2b",
+      "adaptation": null,
+      "sourceBytes": 18260,
+      "localBytes": 18260
+    },
+    {
+      "path": ".agents/skills/the-jury/references/deliberation-craft.md",
+      "bytes": 9597,
+      "sourceSha256": "7521cd0a3abfd0caf8e8bf8a68df33c6d2b9292e12712c8041d9a1abb196aff2",
+      "localSha256": "7521cd0a3abfd0caf8e8bf8a68df33c6d2b9292e12712c8041d9a1abb196aff2",
+      "adaptation": null,
+      "sourceBytes": 9597,
+      "localBytes": 9597
+    },
+    {
+      "path": ".agents/skills/the-jury/references/juror-archetypes.md",
+      "bytes": 7097,
+      "sourceSha256": "c6eaf5156ff91d5604ecd6d2426937466c130c032aded2d90cdf16a4b38eab79",
+      "localSha256": "c6eaf5156ff91d5604ecd6d2426937466c130c032aded2d90cdf16a4b38eab79",
+      "adaptation": null,
+      "sourceBytes": 7097,
+      "localBytes": 7097
+    },
+    {
+      "path": ".agents/skills/the-jury/scripts/tally.py",
+      "bytes": 9758,
+      "sourceSha256": "d30fcaca2bd5910dc9d950b54dcd10e1192626724b50233a5dffe9b785d7defb",
+      "localSha256": "d30fcaca2bd5910dc9d950b54dcd10e1192626724b50233a5dffe9b785d7defb",
+      "adaptation": null,
+      "sourceBytes": 9758,
+      "localBytes": 9758
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/SKILL.md",
+      "bytes": 10281,
+      "sourceSha256": "1c8974fb39a10681881367125159d57a24e6e9682cffedcf7a8b9169f289c088",
+      "localSha256": "1c8974fb39a10681881367125159d57a24e6e9682cffedcf7a8b9169f289c088",
+      "adaptation": null,
+      "sourceBytes": 10281,
+      "localBytes": 10281
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/references/measurement-and-tools.md",
+      "bytes": 5544,
+      "sourceSha256": "eb8ed0511de7b9c75f721beb4db7e87dac023edee05f524d8a2d0681d1b9ed8d",
+      "localSha256": "eb8ed0511de7b9c75f721beb4db7e87dac023edee05f524d8a2d0681d1b9ed8d",
+      "adaptation": null,
+      "sourceBytes": 5544,
+      "localBytes": 5544
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/references/pillars-and-workflow.md",
+      "bytes": 5855,
+      "sourceSha256": "d423a7ff3746e8acbdd90ebcffd8b9e181066d55bf598634f82b9da18a4958a9",
+      "localSha256": "d423a7ff3746e8acbdd90ebcffd8b9e181066d55bf598634f82b9da18a4958a9",
+      "adaptation": null,
+      "sourceBytes": 5855,
+      "localBytes": 5855
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/faqpage.jsonld",
+      "bytes": 584,
+      "sourceSha256": "dbb204f13f5cd96d337c812698f3db5133dc078b7fe5a785e4c83577a121bd85",
+      "localSha256": "dbb204f13f5cd96d337c812698f3db5133dc078b7fe5a785e4c83577a121bd85",
+      "adaptation": null,
+      "sourceBytes": 584,
+      "localBytes": 584
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/llms.txt",
+      "bytes": 586,
+      "sourceSha256": "76f3973b9e62fa68c9efa4432c5c3533955d01fd980891e0989c61018e27bdf9",
+      "localSha256": "76f3973b9e62fa68c9efa4432c5c3533955d01fd980891e0989c61018e27bdf9",
+      "adaptation": null,
+      "sourceBytes": 586,
+      "localBytes": 586
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/page-metadata.html",
+      "bytes": 1690,
+      "sourceSha256": "db7e665e88e4814573e832817263f7582f4bdd787bbb03663e4a37d36dfb7b24",
+      "localSha256": "db7e665e88e4814573e832817263f7582f4bdd787bbb03663e4a37d36dfb7b24",
+      "adaptation": null,
+      "sourceBytes": 1690,
+      "localBytes": 1690
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/quotable-article-outline.md",
+      "bytes": 1507,
+      "sourceSha256": "94f16ae413abb8c4ba8cfc142409698a5dc9ef75880f4348b95ca390466ae73e",
+      "localSha256": "94f16ae413abb8c4ba8cfc142409698a5dc9ef75880f4348b95ca390466ae73e",
+      "adaptation": null,
+      "sourceBytes": 1507,
+      "localBytes": 1507
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/robots-ai-crawlers.txt",
+      "bytes": 1254,
+      "sourceSha256": "aaa8cfadeeb60337a23551c9fd9c59daaa58df39c062ea433f855b35378f2767",
+      "localSha256": "aaa8cfadeeb60337a23551c9fd9c59daaa58df39c062ea433f855b35378f2767",
+      "adaptation": null,
+      "sourceBytes": 1254,
+      "localBytes": 1254
+    },
+    {
+      "path": ".agents/skills/tlc-generative-engine-optimization/templates/techarticle.jsonld",
+      "bytes": 792,
+      "sourceSha256": "e06eefd1a047c6704a4345aed326663c7bec995a4afc0ca0a25c1780362db1b0",
+      "localSha256": "e06eefd1a047c6704a4345aed326663c7bec995a4afc0ca0a25c1780362db1b0",
+      "adaptation": null,
+      "sourceBytes": 792,
+      "localBytes": 792
+    },
+    {
+      "path": ".agents/skills/web-accessibility/SKILL.md",
+      "bytes": 13624,
+      "sourceSha256": "861b28263ea3b661db6da54c70efd9c0ba553f3ffdce2889849422156313acd3",
+      "localSha256": "861b28263ea3b661db6da54c70efd9c0ba553f3ffdce2889849422156313acd3",
+      "adaptation": null,
+      "sourceBytes": 13624,
+      "localBytes": 13624
+    },
+    {
+      "path": ".agents/skills/web-accessibility/references/WCAG.md",
+      "bytes": 10889,
+      "sourceSha256": "a71b5bd47aa35a9be34edc1c8c8121c0a14761df2c8e619df4d49893151ff687",
+      "localSha256": "a71b5bd47aa35a9be34edc1c8c8121c0a14761df2c8e619df4d49893151ff687",
+      "adaptation": null,
+      "sourceBytes": 10889,
+      "localBytes": 10889
+    },
+    {
+      "path": ".agents/skills/web-best-practices/SKILL.md",
+      "bytes": 13398,
+      "sourceSha256": "a0e751a9aa34a3249b63e2cd16569df237bf46fd7b3bd75ed0304446be63c26b",
+      "localSha256": "a0e751a9aa34a3249b63e2cd16569df237bf46fd7b3bd75ed0304446be63c26b",
+      "adaptation": null,
+      "sourceBytes": 13398,
+      "localBytes": 13398
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/SKILL.md",
+      "bytes": 2100,
+      "sourceSha256": "a0e45959a490cbb8e6400abb99083ced93cf9fbf16da031c1b8bb4d9b3763725",
+      "localSha256": "a0e45959a490cbb8e6400abb99083ced93cf9fbf16da031c1b8bb4d9b3763725",
+      "adaptation": null,
+      "sourceBytes": 2100,
+      "localBytes": 2100
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/references/guideline.md",
+      "bytes": 6890,
+      "sourceSha256": "cdb129e629ba18cca5f9d1ea8aa00f4f850929b00a6912bb010f23a3c6ec6612",
+      "localSha256": "cdb129e629ba18cca5f9d1ea8aa00f4f850929b00a6912bb010f23a3c6ec6612",
+      "adaptation": null,
+      "sourceBytes": 6890,
+      "localBytes": 6890
+    },
+    {
+      "path": ".agents/skills/web-quality-audit/SKILL.md",
+      "bytes": 7201,
+      "sourceSha256": "f2cb6e228e8c5617b10a8be936bfcb7672e38852b5526d1e23c586f5dc1e5dc1",
+      "localSha256": "a437822424460a33a8276d2db1fae04c04017bfe8fb85d46bdc44ad7efb767dc",
+      "adaptation": "Authorized local adaptation; original rights and source digest preserved",
+      "sourceBytes": 7201,
+      "localBytes": 7219,
+      "originalArchiveSha256": "f6e9c96bc8b8af40b65678270d4624531a1aa61cad5242947aa4ef91b82ac523"
+    },
+    {
+      "path": ".agents/skills/web-quality-audit/scripts/analyze.sh",
+      "bytes": 2013,
+      "sourceSha256": "5c500ceda2848f2e328ca54a2a5a2338e955176089a4f945e917d8473a4b4253",
+      "localSha256": "5c500ceda2848f2e328ca54a2a5a2338e955176089a4f945e917d8473a4b4253",
+      "adaptation": null,
+      "sourceBytes": 2013,
+      "localBytes": 2013
+    },
+    {
+      "path": ".github/agents/implementador-para-teste.agent.md",
+      "bytes": 1629,
+      "sourceSha256": "f37f3841bd1c79a22b1c41d58a1107ee69ad6f03eab788ee265b20da22c40c90",
+      "localSha256": "061b092b6615ae0c5c16c47d5a57ae035759c3d50619419987213ccac83efd4c",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 1629,
+      "localBytes": 2028,
+      "localSnapshotSha256": "f37f3841bd1c79a22b1c41d58a1107ee69ad6f03eab788ee265b20da22c40c90",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+      "bytes": 11807,
+      "sourceSha256": "bbd29e6cac69b85086c2884064a73685002307f3f2f10824073f32bdffab4b04",
+      "localSha256": "f16d9b94a8cfe5283cee194e57bb2b632834493bc925241adcfbda087612b988",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 11807,
+      "localBytes": 3948,
+      "localSnapshotSha256": null,
+      "originalArchiveSha256": "f6e9c96bc8b8af40b65678270d4624531a1aa61cad5242947aa4ef91b82ac523"
+    },
+    {
+      "path": ".github/prompts/implementar-mudanca-para-teste.prompt.md",
+      "bytes": 547,
+      "sourceSha256": "4b71782f0ecb31db62e292da0ed88d4d06222ac1762504945d47c7603b4f671a",
+      "localSha256": "4b71782f0ecb31db62e292da0ed88d4d06222ac1762504945d47c7603b4f671a",
+      "adaptation": null,
+      "sourceBytes": 547,
+      "localBytes": 547
+    },
+    {
+      "path": ".github/prompts/prompt-execucao.txt",
+      "bytes": 230,
+      "sourceSha256": "234a80ad8613bde3af4ecc3276e8612518334eccd7fc235f022d03ce1c59d0dd",
+      "localSha256": "309142041ce3921093df7c87d59ea7cd0137bf3e4c334383fe701d5bdf7f4797",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "sourceBytes": 230,
+      "localBytes": 162,
+      "localSnapshotSha256": "076a0f842297782c1110acdbbc63e5f9ca2b8644b39aad5412dae6502614ebd8",
+      "snapshotRepresentation": "neutralized derivative; exact original in external archive"
+    },
+    {
+      "path": "scripts/sonar/tests/validar-codigo.Tests.ps1",
+      "bytes": 1080,
+      "sourceSha256": "c03f9505bfe6751ee2020e8e75762fcc26344904e6f04fb9b0a8caac6e309fd7",
+      "localSha256": "c03f9505bfe6751ee2020e8e75762fcc26344904e6f04fb9b0a8caac6e309fd7",
+      "adaptation": null,
+      "sourceBytes": 1080,
+      "localBytes": 1080
+    },
+    {
+      "path": "scripts/sonar/validar-codigo.ps1",
+      "bytes": 15359,
+      "sourceSha256": "2799c4a33640afe603585eaecb569e399838d7a1978851a9f9a47b9fd566738e",
+      "localSha256": "7993355dd85dea79b70d084de5bb50d89f2bc889ec8da65b474deb7d32cf2dde",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "sourceBytes": 15359,
+      "localBytes": 15377,
+      "localSnapshotSha256": null,
+      "originalArchiveSha256": "f6e9c96bc8b8af40b65678270d4624531a1aa61cad5242947aa4ef91b82ac523"
+    },
+    {
+      "path": "specs/shared/api/golang-rest.md",
+      "bytes": 2951,
+      "sourceSha256": "eba1ccc9723cec6a4e7856363f33754af6d1e9f019a4e2cda4d1b3f12e5fea5f",
+      "localSha256": "eba1ccc9723cec6a4e7856363f33754af6d1e9f019a4e2cda4d1b3f12e5fea5f",
+      "adaptation": null,
+      "sourceBytes": 2951,
+      "localBytes": 2951
+    },
+    {
+      "path": "specs/shared/api/rest-conventions.md",
+      "bytes": 288,
+      "sourceSha256": "575e58a0eebeaa77839a173262204620a7783e14c29c572ecd37d6fa2d04bf94",
+      "localSha256": "575e58a0eebeaa77839a173262204620a7783e14c29c572ecd37d6fa2d04bf94",
+      "adaptation": null,
+      "sourceBytes": 288,
+      "localBytes": 288
+    },
+    {
+      "path": "specs/shared/architecture/android-business-plugin.md",
+      "bytes": 4164,
+      "sourceSha256": "e55636dab078d240b9b655b109b442c5a79e118c7dea48343d076a870299f1a4",
+      "localSha256": "e55636dab078d240b9b655b109b442c5a79e118c7dea48343d076a870299f1a4",
+      "adaptation": null,
+      "sourceBytes": 4164,
+      "localBytes": 4164
+    },
+    {
+      "path": "specs/shared/architecture/backend-golang.md",
+      "bytes": 3605,
+      "sourceSha256": "4a07bcf96a6a65011840294b1a0da408748f50963383f8c720514ed5cf2b2f3f",
+      "localSha256": "4a07bcf96a6a65011840294b1a0da408748f50963383f8c720514ed5cf2b2f3f",
+      "adaptation": null,
+      "sourceBytes": 3605,
+      "localBytes": 3605
+    },
+    {
+      "path": "specs/shared/architecture/backend-java.md",
+      "bytes": 464,
+      "sourceSha256": "c94447a134495c9a41696149cb7e29dda33da3163157780bf9a919740d2508fc",
+      "localSha256": "c94447a134495c9a41696149cb7e29dda33da3163157780bf9a919740d2508fc",
+      "adaptation": null,
+      "sourceBytes": 464,
+      "localBytes": 464
+    },
+    {
+      "path": "specs/shared/backend-golang/conventions.md",
+      "bytes": 2404,
+      "sourceSha256": "9c971b48ef283d8abfa2afa3ba37a31d7a10c6bac2eda10a837907c92d0848b9",
+      "localSha256": "9c971b48ef283d8abfa2afa3ba37a31d7a10c6bac2eda10a837907c92d0848b9",
+      "adaptation": null,
+      "sourceBytes": 2404,
+      "localBytes": 2404
+    },
+    {
+      "path": "specs/shared/backend-golang/examples/README.md",
+      "bytes": 1644,
+      "sourceSha256": "8ffe5834b5376ac429aaaaf532a2ff7c8584d54b59fc679ed6c6d15b3d71a166",
+      "localSha256": "8ffe5834b5376ac429aaaaf532a2ff7c8584d54b59fc679ed6c6d15b3d71a166",
+      "adaptation": null,
+      "sourceBytes": 1644,
+      "localBytes": 1644
+    },
+    {
+      "path": "specs/shared/backend-golang/templates/README.md",
+      "bytes": 1514,
+      "sourceSha256": "86ea3b1722eccce64a987059bec0671bd76b6ea2a39128bff167d21c4be6b2db",
+      "localSha256": "86ea3b1722eccce64a987059bec0671bd76b6ea2a39128bff167d21c4be6b2db",
+      "adaptation": null,
+      "sourceBytes": 1514,
+      "localBytes": 1514
+    },
+    {
+      "path": "specs/shared/database/golang-persistence.md",
+      "bytes": 2023,
+      "sourceSha256": "5dd55fdadeafde2858f159f4644b9e511835ce4ef8caebdef1ab35dd057498f0",
+      "localSha256": "5dd55fdadeafde2858f159f4644b9e511835ce4ef8caebdef1ab35dd057498f0",
+      "adaptation": null,
+      "sourceBytes": 2023,
+      "localBytes": 2023
+    },
+    {
+      "path": "specs/shared/database/migration-rules.md",
+      "bytes": 1538,
+      "sourceSha256": "7565ae6c0a7644abfebed13c43a9fbaba06c59d367658fca6561a1419eebcfce",
+      "localSha256": "7565ae6c0a7644abfebed13c43a9fbaba06c59d367658fca6561a1419eebcfce",
+      "adaptation": null,
+      "sourceBytes": 1538,
+      "localBytes": 1538
+    },
+    {
+      "path": "specs/shared/process/evidence-conventions.md",
+      "bytes": 943,
+      "sourceSha256": "d7d07291650b7bcb4a6170d9f304b5b74cc04c539620e8c459313ae6b6b22796",
+      "localSha256": "d7d07291650b7bcb4a6170d9f304b5b74cc04c539620e8c459313ae6b6b22796",
+      "adaptation": null,
+      "sourceBytes": 943,
+      "localBytes": 943
+    },
+    {
+      "path": "specs/shared/process/workflow.md",
+      "bytes": 2441,
+      "sourceSha256": "f03ca1cd64a62c9625479a8555a86aa6f82c08a3ce5938481c3b8f7a40d06a4d",
+      "localSha256": "bec4c2b1c0cb266bcde03165e8d870d1c41f5e500f96071ef20a13ba62c132b5",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 2441,
+      "localBytes": 5128,
+      "localSnapshotSha256": "f03ca1cd64a62c9625479a8555a86aa6f82c08a3ce5938481c3b8f7a40d06a4d",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/shared/security/golang-security.md",
+      "bytes": 2758,
+      "sourceSha256": "ddf879e5a1758adca9f5a8a0811a63aca1db46b6901a6b702210744fd73e642e",
+      "localSha256": "ddf879e5a1758adca9f5a8a0811a63aca1db46b6901a6b702210744fd73e642e",
+      "adaptation": null,
+      "sourceBytes": 2758,
+      "localBytes": 2758
+    },
+    {
+      "path": "specs/shared/testing/golang-testing.md",
+      "bytes": 3072,
+      "sourceSha256": "a303f49be0cc39647c178621939f8cc5800a5fa1095ca889b2f0d3635ebb47ff",
+      "localSha256": "a303f49be0cc39647c178621939f8cc5800a5fa1095ca889b2f0d3635ebb47ff",
+      "adaptation": null,
+      "sourceBytes": 3072,
+      "localBytes": 3072
+    },
+    {
+      "path": "specs/shared/testing/testing-strategy.md",
+      "bytes": 5005,
+      "sourceSha256": "ba336409dfe96561465e16a99b2d87d0017a3a470207ab818cc114365971bd06",
+      "localSha256": "24c93359195e6cfc5b47af28534f760acdb7aabaf2ea9e3e1de93d571450c6cf",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 5005,
+      "localBytes": 5698,
+      "localSnapshotSha256": "ba336409dfe96561465e16a99b2d87d0017a3a470207ab818cc114365971bd06",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/sprint/README.md",
+      "bytes": 3766,
+      "sourceSha256": "427bc2df65305dfd8c98d930675bf143f664905da0a3ad6e5e55623958b9fb40",
+      "localSha256": "aa920279d23ed13691fc820a550ab5c3d860327c67c3ecc0d11478de10c2ee8a",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 3766,
+      "localBytes": 4041,
+      "localSnapshotSha256": "427bc2df65305dfd8c98d930675bf143f664905da0a3ad6e5e55623958b9fb40",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-finalizar-sprint.md",
+      "bytes": 4827,
+      "sourceSha256": "db2d3a1f433d8288e71ce7cda9d1e2213e09bb1692481ddac7395b968675a1e1",
+      "localSha256": "72ba7067ae3fb09395e38bbdea2de0d5d857e7bc39d7945baf6fcb396bc08730",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 4827,
+      "localBytes": 4364,
+      "localSnapshotSha256": "db2d3a1f433d8288e71ce7cda9d1e2213e09bb1692481ddac7395b968675a1e1",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-planejar-implementacao.md",
+      "bytes": 4928,
+      "sourceSha256": "21a70b24dce320766a209a5eb0f8194c501f091b6dd1b97df59d70137223f39a",
+      "localSha256": "8526ce1364073b864ac0d4c07af5ff4591e9b68c645e0669e982314c36ea1f30",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 4928,
+      "localBytes": 5199,
+      "localSnapshotSha256": "21a70b24dce320766a209a5eb0f8194c501f091b6dd1b97df59d70137223f39a",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-planejar-sprint.md",
+      "bytes": 2366,
+      "sourceSha256": "752a501d78a29a06c96c3177886b8fbea198d267c50da60eb85e76543d409317",
+      "localSha256": "9bf4112165270530004f13654553b42eeb096f00038103329c78b445e8a50413",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 2366,
+      "localBytes": 2673,
+      "localSnapshotSha256": "752a501d78a29a06c96c3177886b8fbea198d267c50da60eb85e76543d409317",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/sprint/prompts/prompt-status-sprint.md",
+      "bytes": 2091,
+      "sourceSha256": "952f4c1ea614a6167e4d465d498ddda78ade54efbbc18bdc15476d6a7caa0fbf",
+      "localSha256": "0ef318c03bd5185cc8f5a410ed7f06488078e69953da9bc87d393b6a1f1af5ef",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 2091,
+      "localBytes": 2436,
+      "localSnapshotSha256": "952f4c1ea614a6167e4d465d498ddda78ade54efbbc18bdc15476d6a7caa0fbf",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/sprint/templates/template-sprint.md",
+      "bytes": 10888,
+      "sourceSha256": "dfa5de28502bfb9ded9d703757169afc4091fd426d8bbf72d17f5e60dab1706f",
+      "localSha256": "681ae2e8fa87f0f36de537c613d573bb45f60a3e803256d19bc6b26c660c7353",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 10888,
+      "localBytes": 10953,
+      "localSnapshotSha256": "dfa5de28502bfb9ded9d703757169afc4091fd426d8bbf72d17f5e60dab1706f",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/templates/business-plugin-spec-template.md",
+      "bytes": 774,
+      "sourceSha256": "abd931f2f8e91bbe8999236aa07ad07cad08163b72a13fd6de93000e5f1dc6da",
+      "localSha256": "abd931f2f8e91bbe8999236aa07ad07cad08163b72a13fd6de93000e5f1dc6da",
+      "adaptation": null,
+      "sourceBytes": 774,
+      "localBytes": 774
+    },
+    {
+      "path": "specs/templates/design-template.md",
+      "bytes": 141,
+      "sourceSha256": "2c43460d6a96f3a6a695da79e9486d347d2b6af0096759c9168751835cfef4bb",
+      "localSha256": "2c43460d6a96f3a6a695da79e9486d347d2b6af0096759c9168751835cfef4bb",
+      "adaptation": null,
+      "sourceBytes": 141,
+      "localBytes": 141
+    },
+    {
+      "path": "specs/templates/proposal-template.md",
+      "bytes": 221,
+      "sourceSha256": "4996984d6a17749b3a8f5149b0bdaec649a3023331be4643b5dc3950b38d30e7",
+      "localSha256": "4996984d6a17749b3a8f5149b0bdaec649a3023331be4643b5dc3950b38d30e7",
+      "adaptation": null,
+      "sourceBytes": 221,
+      "localBytes": 221
+    },
+    {
+      "path": "specs/templates/spec-template.md",
+      "bytes": 206,
+      "sourceSha256": "945a55a57e4d519b82afcc44e45f53793095ba187b6979d3038e56d4c8d782b9",
+      "localSha256": "945a55a57e4d519b82afcc44e45f53793095ba187b6979d3038e56d4c8d782b9",
+      "adaptation": null,
+      "sourceBytes": 206,
+      "localBytes": 206
+    },
+    {
+      "path": "specs/templates/tasks-template.md",
+      "bytes": 203,
+      "sourceSha256": "fced53f3aa277c37c434eab07ecf7f3773e390ca3ed76cd4b3c8acd41279cb3e",
+      "localSha256": "28ef7636de0d60f114ab79e1f248ae4bb5ee8f1cebebe013587e743e9d8a3f69",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 203,
+      "localBytes": 584,
+      "localSnapshotSha256": "fced53f3aa277c37c434eab07ecf7f3773e390ca3ed76cd4b3c8acd41279cb3e",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "specs/templates/validation-template.md",
+      "bytes": 449,
+      "sourceSha256": "bf90c7b4c4e6b06c639adbf2643450a71f0baf8c0c56da345c8e7a84e005458d",
+      "localSha256": "89b861e69318417cc84c7a9384208e6842eb464251f72a82c61b9a323c13a97b",
+      "adaptation": "Authorized rule consolidation, mandatory coverage and human gate reconciliation; source rights unchanged",
+      "sourceBytes": 449,
+      "localBytes": 1200,
+      "localSnapshotSha256": "bf90c7b4c4e6b06c639adbf2643450a71f0baf8c0c56da345c8e7a84e005458d",
+      "snapshotRepresentation": "byte-exact"
+    },
+    {
+      "path": "docs/security-audit/gerar_relatorio.py",
+      "sourcePath": "docs/security-audit/gerar_relatorio.py",
+      "sourceSha256": "ecfd9f4c5f6ce9db453e84b67cd4b7a935dd1a28b2c0638f6d7886003ac781a3",
+      "sourceBytes": 26044,
+      "bytes": 26044,
+      "localSha256": "e10e81ce99bfdb310a915e5326a8ed387358e67f3130bdd92390b25df0ba7e75",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "originalArchiveSha256": "ac3392fa4490c9cc954fd82dc4cbea9d7544e3690119668f7034a503290325de",
+      "localBytes": 5634,
+      "localSnapshotSha256": null
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sourcePath": "docs/adr/README.md",
+      "sourceSha256": "de6f0a7402adec6c368812e75195f9c3067c44523859ddc4b47226c0800bb957",
+      "sourceBytes": 179,
+      "bytes": 179,
+      "localSha256": "bf1410669e060ef8e225ba4237a2279b94f149090e70134f62bcdf48289ccb74",
+      "adaptation": "Authorized authorial ADR index link added; original rights and source digest preserved",
+      "originalArchiveSha256": "ac3392fa4490c9cc954fd82dc4cbea9d7544e3690119668f7034a503290325de",
+      "localBytes": 1284,
+      "localSnapshotSha256": null,
+      "priorLocalSnapshot": "imports/acervo-local-2026-11-12/revisoes-locais/2026-11-13-pre-ajustes/docs/adr/README.md",
+      "priorLocalSnapshotSha256": "40ee73c5574c981bbbf02eb01b1d6a5977f2be5b45c53f8b54fbbd2dcec3e5c7"
+    },
+    {
+      "path": "docs/adr/exemplos/ADR-001-java-17-quarkus-3.md",
+      "sourcePath": "docs/adr/ADR-001-java-17-quarkus-3.md",
+      "sourceSha256": "32981b72a66993c86a0ccd6145ae99c446262f9d58a3288303aa8e0dc7b8019e",
+      "sourceBytes": 614,
+      "bytes": 614,
+      "localSha256": "5962168d51032ed9d44b4bc2152c056aff6ffd6800125463aa069a37a9320bfd",
+      "adaptation": "Authorized local adaptation or neutralized derivative; source rights unchanged",
+      "originalArchiveSha256": "ac3392fa4490c9cc954fd82dc4cbea9d7544e3690119668f7034a503290325de",
+      "localBytes": 723,
+      "localSnapshotSha256": null
+    }
+  ],
+  "sourceLicenseStatus": "Original component notices retained; unknown rights not cleared for redistribution",
+  "editorialStatus": "Neutralized local representation, not a byte-exact export of source"
+}

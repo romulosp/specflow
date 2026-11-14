@@ -113,7 +113,8 @@ def phase(root, change_id, name):
                 # Reload under our own lock, directly through the library (no CLI redispatch).
                 ctx = load(tx.root, change_id)
                 assess(ctx, "IMPLEMENTACAO_APROVADA")
-                ref = (ctx["folder"] / "security-gate.json").relative_to(tx.root).as_posix()
+                from .security import security_path
+                ref = security_path(tx.root, ctx["folder"], "security-gate.json")
                 path = confined(tx.root, ref, writing=True)
                 if path.exists():
                     try:
@@ -123,7 +124,7 @@ def phase(root, change_id, name):
                     except Fault as error:
                         raise Fault(1, "GATE_DESTINATION_CONFLICT") from error
                 gate = gate_result(tx.root, ctx["folder"])
-                tx.apply({ref: dump(gate).encode("utf-8")}, mutable={ref})
+                tx.apply({ref: dump(gate).encode("utf-8")})
                 value["localChecksExecuted"] = ["security_gate"]
                 require(gate["exitCode"] == 0, "SECURITY_PENDING", gate["exitCode"])
                 assess(ctx, "VALIDADA")

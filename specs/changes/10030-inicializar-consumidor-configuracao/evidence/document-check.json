@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-13",
+  "revision": "r1",
+  "status": "EM_REVISAO_SPEC",
+  "approved": false,
+  "templateProperties": 25,
+  "allValuesDEFINIR": true,
+  "requiredCriteriaPresent": true,
+  "contractDigestsVerified": true,
+  "runtimeExecuted": false,
+  "evidence": "docs/comandos/evidence/2026-11-13-regras-consolidadas.json"
+}

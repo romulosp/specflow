@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-13",
+  "scope": "support command definitions and security evidence gate; no real product audit or core implementation",
+  "commands": {
+    "canonical": 11,
+    "aliases": 1,
+    "generatedFiles": 24,
+    "checkResult": "passed with no mismatch"
+  },
+  "unitTests": {
+    "command": "python -B -m unittest discover -s tools/tests -p test_security_gate.py -v",
+    "passed": 10,
+    "failed": 0,
+    "scope": "synthetic fixtures"
+  },
+  "cliTests": [
+    {
+      "scenario": "complete",
+      "expectedCode": 0,
+      "actualCode": 0,
+      "status": "verificada"
+    },
+    {
+      "scenario": "open_finding",
+      "expectedCode": 1,
+      "actualCode": 1,
+      "status": "pendente"
+    },
+    {
+      "scenario": "malformed",
+      "expectedCode": 2,
+      "actualCode": 2,
+      "status": "pendente"
+    }
+  ],
+  "localVerification": {
+    "passed": 36,
+    "failed": 0,
+    "sourceRead": false
+  },
+  "documents": {
+    "checked": 5,
+    "missingLinks": []
+  },
+  "diagrams": {
+    "sources": [
+      "docs/comandos/fluxo-comandos.mmd",
+      "docs/comandos/fluxo-teste-humano.mmd"
+    ],
+    "parser": "passed",
+    "svg": "rendered and flattened",
+    "png": "visually inspected"
+  },
+  "coreContractR3Unchanged": true,
+  "coreSpecApproved": false,
+  "humanTestsPerformed": false,
+  "securityAuditOfProductPerformed": false
+}

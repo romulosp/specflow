@@ -1,0 +1,6 @@
+{
+  "method": "Python audit hook rejects source paths on file, directory and subprocess events in verifier process; child validator is a local inspected read-only script; MJS syntax checks do not execute code",
+  "exitCode": 0,
+  "blockedAccessAttempts": [],
+  "passed": true
+}

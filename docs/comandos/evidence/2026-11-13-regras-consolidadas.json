@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-13",
+  "scope": "Documentary rule consolidation and future init/apps specification; no runtime implementation, coverage measurement or new approvals",
+  "passed": 14,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "40_consolidated_rules",
+      "passed": true,
+      "details": [
+        "SF-01",
+        "SF-02",
+        "SF-03",
+        "SF-04",
+        "SF-05",
+        "SF-06",
+        "SF-07",
+        "SF-08",
+        "SF-09",
+        "SF-10",
+        "SF-11",
+        "SF-12",
+        "SF-13",
+        "SF-14",
+        "SF-15",
+        "SF-16",
+        "SF-17",
+        "SF-18",
+        "SF-19",
+        "SF-20",
+        "SF-21",
+        "SF-22",
+        "SF-23",
+        "SF-24",
+        "SF-25",
+        "SF-26",
+        "SF-27",
+        "SF-28",
+        "SF-29",
+        "SF-30",
+        "SF-31",
+        "SF-32",
+        "SF-33",
+        "SF-34",
+        "SF-35",
+        "SF-36",
+        "SF-37",
+        "SF-38",
+        "SF-39",
+        "SF-40"
+      ]
+    },
+    {
+      "name": "proposals_not_approvals",
+      "passed": true,
+      "details": "P-01..07 distinct from user determinations"
+    },
+    {
+      "name": "coverage_rule_in_specflow-especificar",
+      "passed": true,
+      "details": "command source; no phase executed"
+    },
+    {
+      "name": "coverage_rule_in_specflow-planejar",
+      "passed": true,
+      "details": "command source; no phase executed"
+    },
+    {
+      "name": "coverage_rule_in_specflow-implementar",
+      "passed": true,
+      "details": "command source; no phase executed"
+    },
+    {
+      "name": "coverage_rule_in_specflow-teste-humano",
+      "passed": true,
+      "details": "command source; no phase executed"
+    },
+    {
+      "name": "coverage_rule_in_specflow-revisar-implementacao",
+      "passed": true,
+      "details": "command source; no phase executed"
+    },
+    {
+      "name": "coverage_rule_in_specflow-validar",
+      "passed": true,
+      "details": "command source; no phase executed"
+    },
+    {
+      "name": "properties_all_DEFINIR",
+      "passed": true,
+      "details": {
+        "properties": 25,
+        "templateOnly": true
+      }
+    },
+    {
+      "name": "no_real_init_or_generation",
+      "passed": true,
+      "details": "no executable framework or consumer initialized"
+    },
+    {
+      "name": "new_change_criteria",
+      "passed": true,
+      "details": [
+        "INIT-01",
+        "INIT-02",
+        "INIT-03",
+        "INIT-04",
+        "INIT-05",
+        "INIT-06",
+        "APP-01",
+        "APP-02",
+        "GATE-01",
+        "GATE-02",
+        "QUAL-01"
+      ]
+    },
+    {
+      "name": "unapproved_contract_10029-criar-nucleo-specflow",
+      "passed": true,
+      "details": "four artifacts match recorded raw/canonical digests"
+    },
+    {
+      "name": "unapproved_contract_10030-inicializar-consumidor-configuracao",
+      "passed": true,
+      "details": "four artifacts match recorded raw/canonical digests"
+    },
+    {
+      "name": "local_document_links",
+      "passed": true,
+      "details": {
+        "documents": 16,
+        "missing": []
+      }
+    }
+  ]
+}

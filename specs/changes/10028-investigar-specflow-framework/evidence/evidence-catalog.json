@@ -1,0 +1,240 @@
+[
+  {
+    "id": "E01",
+    "path": "AGENTS.md",
+    "line": 12,
+    "claim": "Processo obrigatório e exceção autorizada somente para este dossiê",
+    "type": "documentado"
+  },
+  {
+    "id": "E02",
+    "path": "specs/shared/process/workflow.md",
+    "line": 3,
+    "claim": "Fonte canônica; sete fases e plano preparatório",
+    "type": "documentado"
+  },
+  {
+    "id": "E03",
+    "path": "specs/shared/process/evidence-conventions.md",
+    "line": 20,
+    "claim": "Formato, severidade e evidência mínima de testes",
+    "type": "documentado"
+  },
+  {
+    "id": "E04",
+    "path": ".agents/skills/spec-review/SKILL.md",
+    "line": 13,
+    "claim": "Revisão contratual e veredito limitado",
+    "type": "documentado"
+  },
+  {
+    "id": "E05",
+    "path": ".agents/skills/git-commit/SKILL.md",
+    "line": 11,
+    "claim": "Move para archive antes de commit",
+    "type": "documentado"
+  },
+  {
+    "id": "E06",
+    "path": ".github/prompts/executar-mudanca-spec-driven.prompt.md",
+    "line": 154,
+    "claim": "Prompt manda mover depois de commit; ordem diverge da skill",
+    "type": "documentado"
+  },
+  {
+    "id": "E07",
+    "path": "STATUS.md",
+    "line": 23,
+    "claim": "Índice não contém 10027 apesar da pasta presente",
+    "type": "documentado"
+  },
+  {
+    "id": "E08",
+    "path": "README.md",
+    "line": 237,
+    "claim": "Referência a resumo de continuidade ausente",
+    "type": "documentado"
+  },
+  {
+    "id": "E09",
+    "path": "specs/system/README.md",
+    "line": 5,
+    "claim": "Declara política documental que já tem exceções técnicas",
+    "type": "documentado"
+  },
+  {
+    "id": "E10",
+    "path": ".gitignore",
+    "line": 20,
+    "claim": "Política documental com inclusões explícitas de scripts e código",
+    "type": "documentado"
+  },
+  {
+    "id": "E11",
+    "path": "scripts/sonar/validar-codigo.ps1",
+    "line": 9,
+    "claim": "Caminhos locais configuráveis e imagem latest",
+    "type": "implementação localizada"
+  },
+  {
+    "id": "E12",
+    "path": "scripts/sonar/validar-codigo.ps1",
+    "line": 350,
+    "claim": "Build Java não executa os testes; não comprova qualidade completa",
+    "type": "implementação localizada"
+  },
+  {
+    "id": "E13",
+    "path": "scripts/sonar/tests/validar-codigo.Tests.ps1",
+    "line": 3,
+    "claim": "Quatro testes estruturais, não end-to-end",
+    "type": "implementação localizada"
+  },
+  {
+    "id": "E14",
+    "path": "scripts/gerar_start_aplicacao.ps1",
+    "line": 3,
+    "claim": "Algoritmo reutilizável misturado com caminho fixo e credenciais",
+    "type": "implementação localizada"
+  },
+  {
+    "id": "E15",
+    "path": "scripts/gerar_start_aplicacao_fotogaleria.ps1",
+    "line": 5,
+    "claim": "Valida duplicata e aceita destino explícito; ainda específico",
+    "type": "implementação localizada"
+  },
+  {
+    "id": "E16",
+    "path": ".agents/skills/android-native-engineering/scripts/validate_android_project.py",
+    "line": 11,
+    "claim": "Validador mínimo somente leitura, sem validar a totalidade dos gates",
+    "type": "implementação localizada"
+  },
+  {
+    "id": "E17",
+    "path": ".agents/skills/android-native-engineering/kotlin/compose-animations/SKILL.md",
+    "line": 18,
+    "claim": "Referência interna a compose-performance não presente",
+    "type": "documentado"
+  },
+  {
+    "id": "E18",
+    "path": ".agents/skills/golang-benchmark/SKILL.md",
+    "line": 104,
+    "claim": "Referência a pprof.md não presente no caminho local",
+    "type": "documentado"
+  },
+  {
+    "id": "E19",
+    "path": "specs/sprint/README.md",
+    "line": 10,
+    "claim": "Backlog e DoR/DoD por evidência; fallback não declara Sonar",
+    "type": "documentado"
+  },
+  {
+    "id": "E20",
+    "path": "specs/sprint/SPRINT-001-Produto-Base.md",
+    "line": 58,
+    "claim": "Retificação explicita encerramento prematuro; lições registradas",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E21",
+    "path": "docs/adr/ADR-001-java-17-quarkus-3.md",
+    "line": 10,
+    "claim": "Decisão persistida com contexto e consequências",
+    "type": "documentado"
+  },
+  {
+    "id": "E22",
+    "path": "specs/changes/10017-logging-semantico-abecs/AGENTS-MEMORY.md",
+    "line": 5,
+    "claim": "Memória de Change com fase, decisões, pendências e dados operacionais",
+    "type": "documentado"
+  },
+  {
+    "id": "E23",
+    "path": "specs/archive/2026-08-27-002-consolidar-governanca-spec-driven/validation.md",
+    "line": 15,
+    "claim": "Validação histórica estrutural da governança",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E24",
+    "path": "specs/archive/2026-09-05-033-consolidar-governanca-sprint-planner/reviews/2026-09-05-implementation-review.md",
+    "line": 3,
+    "claim": "Gate negativo por ausência de risco em pendências",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E25",
+    "path": "specs/archive/2026-09-05-033-consolidar-governanca-sprint-planner/reviews/2026-09-05-implementation-review-resubmissao.md",
+    "line": 3,
+    "claim": "Revisão de retorno confirma correção",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E26",
+    "path": "specs/archive/2026-09-05-034-automatizar-sonar-local/validation.md",
+    "line": 6,
+    "claim": "Histórico de quatro asserts Pester e fallback 20; Sonar real não validado",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E27",
+    "path": "specs/archive/2026-09-06-003-concluir-execucao-produto-base/validation.md",
+    "line": 11,
+    "claim": "Falhas iniciais, correções e resultado efetivamente executado",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E28",
+    "path": "specs/archive/2026-09-18-067-android-native-engineering/reviews/2026-09-18-spec-review-complementar.md",
+    "line": 16,
+    "claim": "Reprovação por proveniência, fixture e estados adiantados",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E29",
+    "path": "specs/archive/2026-09-18-067-android-native-engineering/validation.md",
+    "line": 9,
+    "claim": "Fixtures, comandos, ferramentas e limites registrados após correção",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E30",
+    "path": "specs/archive/2026-09-19-998-importar-skill-kotlin/validation.md",
+    "line": 11,
+    "claim": "Hashes comprovam cópia; não comprovam fechamento das referências transitivas",
+    "type": "evidência histórica localizada"
+  },
+  {
+    "id": "E31",
+    "path": ".agents/skills/README.md",
+    "line": 62,
+    "claim": "Acervo importado de estudo; upstream e licença por item ainda necessários",
+    "type": "documentado"
+  },
+  {
+    "id": "E32",
+    "path": ".github/agents/implementador-para-teste.agent.md",
+    "line": 15,
+    "claim": "Adaptador impõe parada textual em IMPLEMENTADA",
+    "type": "documentado"
+  },
+  {
+    "id": "E33",
+    "path": "specs/shared/testing/testing-strategy.md",
+    "line": 10,
+    "claim": "Testes Java por comportamento e inventário de classes",
+    "type": "documentado"
+  },
+  {
+    "id": "E34",
+    "path": "specs/templates/spec-template.md",
+    "line": 8,
+    "claim": "Template de contrato genérico",
+    "type": "documentado"
+  }
+]

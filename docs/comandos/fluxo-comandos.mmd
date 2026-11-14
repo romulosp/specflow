@@ -1,0 +1,20 @@
+%%{init: {"theme":"base","themeVariables":{"primaryColor":"#eef2ff","primaryTextColor":"#1e293b","primaryBorderColor":"#6366f1","lineColor":"#94a3b8","secondaryColor":"#ecfdf5","tertiaryColor":"#fffbeb","background":"#ffffff","edgeLabelBackground":"#ffffff"},"flowchart":{"nodeSpacing":35,"rankSpacing":45}}}%%
+flowchart TD
+    contexto["specflow-contexto<br/>Retome uma Change existente"] --> especificar["1. specflow-especificar<br/>Proposta, SPEC, design e tarefas"]
+    especificar --> esclarecer["specflow-esclarecer<br/>Resolva ambiguidades"]
+    esclarecer --> revisarSpec["2. specflow-revisar-spec<br/>Parecer tecnico + decisao humana"]
+    revisarSpec --> gateSpec{"SPEC_APROVADA<br/>para esta revisao?"}:::human
+    gateSpec -->|Nao| corrigirSpec["Revise o contrato<br/>e repita a revisao da SPEC"]
+    gateSpec -->|Sim| planejar["specflow-planejar<br/>Plano preparatorio"]
+    planejar --> implementar["3. specflow-implementar<br/>Codigo e testes autorizados"]
+    implementar --> revisarImpl["4. specflow-revisar-implementacao<br/>Confira aderencia ao contrato"]
+    revisarImpl -->|Achado de codigo| corrigirCodigo["Retorne a implementar<br/>e repita revisao e validacao"]
+    revisarImpl -->|Revisao tecnica aprovada| validar["5. specflow-validar<br/>security-audit + script de gate obrigatorios"]
+    validar -->|Falha de implementacao| corrigirCodigo
+    validar -->|Gate pendente ou achado aberto| pendente["Mantenha a fase pendente<br/>nao avance sem os gates"]
+    validar -->|Gate de seguranca e cenarios passaram| aprovar["6. specflow-aprovar<br/>Aceite humano da entrega"]:::human
+    aprovar --> gateFinal{"APROVADA + autorizacao<br/>de encerramento?"}:::human
+    gateFinal -->|Nao| pendente
+    gateFinal -->|Sim| encerrar["7. specflow-encerrar<br/>System, archive e recibo autorizado"]:::terminal
+    classDef human fill:#fffbeb,stroke:#d97706,color:#78350f;
+    classDef terminal fill:#ecfdf5,stroke:#059669,color:#064e3b;

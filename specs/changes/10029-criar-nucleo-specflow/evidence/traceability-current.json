@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "requirementId": "LOCAL-TESTS",
+      "acceptanceId": "TEST-SUITE",
+      "taskIds": [
+        "T01"
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log"
+      ],
+      "evidenceIds": [
+        "VAL-SUITE"
+      ],
+      "requiredMethod": "functional"
+    },
+    {
+      "requirementId": "RNF-05",
+      "acceptanceId": "ENV-LINUX",
+      "taskIds": [
+        "T10"
+      ],
+      "artifactRefs": [
+        "docs/cli/ENTREGA-0.1.0.md"
+      ],
+      "evidenceIds": [
+        "VAL-HOMOLOG-PENDING"
+      ],
+      "requiredMethod": "functional"
+    }
+  ]
+}

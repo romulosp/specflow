@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-13",
+  "scope": "Incremental local documentary reconciliation and support checks; no product runtime or approval",
+  "passed": 36,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "10029-criar-nucleo-specflow human gate pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow digest proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow valid contract text proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow digest spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow valid contract text spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow digest design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow valid contract text design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow digest tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow valid contract text tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10029-criar-nucleo-specflow previous revision preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "14 RF/CA pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "T11 and all manual scenarios planned",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao human gate pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao digest proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao valid contract text proposal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao digest spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao valid contract text spec",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao digest design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao valid contract text design",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao digest tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao valid contract text tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "10030-inicializar-consumidor-configuracao previous revision preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "11 init acceptance pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "25 example properties all DEFINIR",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "149 historical links reconciled",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "corrected targets exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "146 genuine unresolved pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all affected capabilities carry local notes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "360 local import digests current",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "local verifier 36/0",
+      "passed": true,
+      "details": {
+        "artifact": "imports\\acervo-local-2026-11-12\\local-verification.json",
+        "sha256": "79bd707306cda26d863e575104891b454028c439c46812ebdf1817be43598229",
+        "embeddedDateIsHistorical": true
+      }
+    },
+    {
+      "name": "no simulated framework/apps/config",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "pending register links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "no merge markers",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "removed project identifier absent",
+      "passed": true,
+      "details": {
+        "examinedTextFiles": 595,
+        "matches": []
+      }
+    },
+    {
+      "name": "synthetic PDF generated and extracted",
+      "passed": true,
+      "details": {
+        "artifact": "output\\pdf\\exemplo-sintetico-security-audit.pdf",
+        "sha256": "95c6fa33240a1b15a189a81594806fdac87265f056e74e18414002088ebdb8ed",
+        "pages": 1,
+        "visualInspection": "passed: entire page inspected; no clipping/overlap; not a real audit"
+      }
+    },
+    {
+      "name": "PDF generator refuses overwrite",
+      "passed": true,
+      "details": {
+        "command": "C:\\Users\\RomuloPenha\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe -B docs/security-audit/gerar_relatorio.py --input docs/security-audit/relatorio-exemplo.json --output output\\pdf\\exemplo-sintetico-security-audit.pdf",
+        "code": 2
+      }
+    }
+  ],
+  "securityGateTests": {
+    "command": "python -B -m unittest discover -s tools/tests -p test_security_gate.py",
+    "code": 0,
+    "tests": 10,
+    "limitation": "Synthetic evidence validator tests; not a product audit"
+  },
+  "sourceCheckoutAccess": false,
+  "frameworkImplemented": false,
+  "humanApprovalRecorded": false
+}

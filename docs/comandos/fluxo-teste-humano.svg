@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744.6487499999998 1535.1699999999996" width="744.6487499999998" height="1535.1699999999996" style="background:#ffffff">
+
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="#64748b" stroke="#64748b" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="#64748b" stroke="#64748b" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="comando" data-to="contexto" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="281.75575,93.80000000000001 281.75575,141.8" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="contexto" data-to="contrato" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="281.75575,195.60000000000002 281.75575,243.60000000000002" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="contrato" data-to="revisao" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="281.75575,297.40000000000003 281.75575,345.40000000000003" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="revisao" data-to="gate" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="281.75575,399.20000000000005 281.75575,447.20000000000005" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="gate" data-to="pausa" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Nao" points="243.71758333333332,637.3908333333333 243.71758333333332,711.429 161.75099999999998,711.429 161.75099999999998,800.1789999999999" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="gate" data-to="plano" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sim, inclusive aceite ja registrado" points="319.79391666666663,637.3908333333333 319.79391666666663,728.329 401.7605,728.329 401.7605,800.1789999999999" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="plano" data-to="implementar" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="401.7605,837.0789999999998 401.7605,893.5289999999999" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="implementar" data-to="artefato" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="401.7605,947.3289999999998 401.7605,995.3289999999998" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="artefato" data-to="bloqueio" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Nao" points="359.77033333333327,1205.279833333333 359.77033333333327,1259.2699999999998 242.11225,1259.2699999999998 242.11225,1339.5699999999997" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="artefato" data-to="entrega" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sim" points="443.75066666666663,1205.279833333333 443.75066666666663,1259.2699999999998 561.4087499999999,1259.2699999999998 561.4087499999999,1339.5699999999997" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="entrega" data-to="usuario" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="561.4087499999999,1393.3699999999997 561.4087499999999,1441.3699999999997" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="gate" data-to="pausa" data-label="Nao">
+  <rect x="143.25099999999998" y="718.429" width="36.658" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="161.57999999999998" y="733.579" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Nao</text>
+</g>
+<g class="edge-label" data-from="gate" data-to="plano" data-label="Sim, inclusive aceite ja registrado">
+  <rect x="314.7605" y="735.329" width="173.27800000000002" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="401.3995" y="750.4789999999999" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Sim, inclusive aceite ja registrado</text>
+</g>
+<g class="edge-label" data-from="artefato" data-to="bloqueio" data-label="Nao">
+  <rect x="223.61225" y="1266.2699999999998" width="36.658" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="241.94125" y="1281.4199999999998" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Nao</text>
+</g>
+<g class="edge-label" data-from="artefato" data-to="entrega" data-label="Sim">
+  <rect x="543.9087499999999" y="1266.2699999999998" width="34.282" height="30.3" rx="2" ry="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="561.0497499999999" y="1281.4199999999998" text-anchor="middle" font-size="11" font-weight="400" fill="#475569" dy="3.8499999999999996" font-family="Arial, sans-serif">Sim</text>
+</g>
+<g class="node" data-id="comando" data-label="specflow-teste-humano Objetivo ou Change existente" data-shape="rectangle">
+  <rect x="176.67725000000002" y="40" width="210.15699999999995" height="53.800000000000004" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="281.75575" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="281.75575" dy="-3.9000000000000012">specflow-teste-humano</tspan><tspan x="281.75575" dy="16.900000000000002">Objetivo ou Change existente</tspan></text>
+</g>
+<g class="node" data-id="contexto" data-label="Retomar contexto e preservar evidencias" data-shape="rectangle">
+  <rect x="191.12675000000002" y="141.8" width="181.25799999999995" height="53.800000000000004" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="281.75575" y="168.70000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="281.75575" dy="-3.9000000000000012">Retomar contexto</tspan><tspan x="281.75575" dy="16.900000000000002">e preservar evidencias</tspan></text>
+</g>
+<g class="node" data-id="contrato" data-label="Especificar e esclarecer se necessario" data-shape="rectangle">
+  <rect x="187.42174999999997" y="243.60000000000002" width="188.668" height="53.800000000000004" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="281.75575" y="270.5" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="281.75575" dy="-3.9000000000000012">Especificar e esclarecer</tspan><tspan x="281.75575" dy="16.900000000000002">se necessario</tspan></text>
+</g>
+<g class="node" data-id="revisao" data-label="Revisar SPEC contrato e criterios verificaveis" data-shape="rectangle">
+  <rect x="169.26725000000002" y="345.40000000000003" width="224.97699999999995" height="53.800000000000004" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="281.75575" y="372.3" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="281.75575" dy="-3.9000000000000012">Revisar SPEC</tspan><tspan x="281.75575" dy="16.900000000000002">contrato e criterios verificaveis</tspan></text>
+</g>
+<g class="node" data-id="gate" data-label="SPEC_APROVADA humana desta revisao?" data-shape="diamond">
+  <polygon points="281.75575,447.2 395.87024999999994,561.3145 281.75575,675.4289999999999 167.64125,561.3145" fill="#fffbeb" stroke="#d97706" stroke-width="0.75" />
+  <text x="281.75575" y="561.3145" text-anchor="middle" font-size="13" font-weight="500" fill="#78350f" font-family="Arial, sans-serif"><tspan x="281.75575" dy="-3.9000000000000012">SPEC_APROVADA humana</tspan><tspan x="281.75575" dy="16.900000000000002">desta revisao?</tspan></text>
+</g>
+<g class="node" data-id="pausa" data-label="PARE antes do codigo apresente o contrato para decisao" data-shape="rectangle">
+  <rect x="40" y="800.1789999999999" width="243.50199999999998" height="53.800000000000004" rx="0" ry="0" fill="#fffbeb" stroke="#d97706" stroke-width="0.75" />
+  <text x="161.75099999999998" y="827.0789999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#78350f" font-family="Arial, sans-serif"><tspan x="161.75099999999998" dy="-3.9000000000000012">PARE antes do codigo</tspan><tspan x="161.75099999999998" dy="16.900000000000002">apresente o contrato para decisao</tspan></text>
+</g>
+<g class="node" data-id="plano" data-label="Planejar implementacao" data-shape="rectangle">
+  <rect x="311.50199999999995" y="800.1789999999999" width="180.51699999999997" height="36.900000000000006" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="401.7604999999999" y="818.6289999999999" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" dy="4.55" font-family="Arial, sans-serif">Planejar implementacao</text>
+</g>
+<g class="node" data-id="implementar" data-label="Implementar escopo aprovado build, testes e correcoes tecnicas" data-shape="rectangle">
+  <rect x="282.23249999999996" y="893.5289999999999" width="239.05599999999998" height="53.800000000000004" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="401.7605" y="920.4289999999999" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="401.7605" dy="-3.9000000000000012">Implementar escopo aprovado</tspan><tspan x="401.7605" dy="16.900000000000002">build, testes e correcoes tecnicas</tspan></text>
+</g>
+<g class="node" data-id="artefato" data-label="Artefato real utilizavel e checks aplicaveis passaram?" data-shape="diamond">
+  <polygon points="401.7605,995.3289999999998 527.731,1121.2994999999999 401.7605,1247.2699999999998 275.78999999999996,1121.2994999999999" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="401.7605" y="1121.2994999999999" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="401.7605" dy="-3.9000000000000012">Artefato real utilizavel</tspan><tspan x="401.7605" dy="16.900000000000002">e checks aplicaveis passaram?</tspan></text>
+</g>
+<g class="node" data-id="bloqueio" data-label="Corrija no escopo ou registre BLOQUEADA nao afirme pronto para teste" data-shape="rectangle">
+  <rect x="94.05575000000002" y="1339.5699999999997" width="296.11299999999994" height="53.800000000000004" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="242.11225" y="1366.4699999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="242.11225" dy="-3.9000000000000012">Corrija no escopo ou registre BLOQUEADA</tspan><tspan x="242.11225" dy="16.900000000000002">nao afirme pronto para teste</tspan></text>
+</g>
+<g class="node" data-id="entrega" data-label="IMPLEMENTADA build/harness + revisao/hash + quickstart" data-shape="rectangle">
+  <rect x="418.16874999999993" y="1339.5699999999997" width="286.47999999999996" height="53.800000000000004" rx="0" ry="0" fill="#eef2ff" stroke="#6366f1" stroke-width="0.75" />
+  <text x="561.4087499999999" y="1366.4699999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#1e293b" font-family="Arial, sans-serif"><tspan x="561.4087499999999" dy="-3.9000000000000012">IMPLEMENTADA</tspan><tspan x="561.4087499999999" dy="16.900000000000002">build/harness + revisao/hash + quickstart</tspan></text>
+</g>
+<g class="node" data-id="usuario" data-label="PARE e aguarde o usuario testar nao revise, valide ou aprove formalmente" data-shape="rectangle">
+  <rect x="421.5032499999999" y="1441.3699999999997" width="279.811" height="53.800000000000004" rx="0" ry="0" fill="#fffbeb" stroke="#d97706" stroke-width="0.75" />
+  <text x="561.4087499999999" y="1468.2699999999998" text-anchor="middle" font-size="13" font-weight="500" fill="#78350f" font-family="Arial, sans-serif"><tspan x="561.4087499999999" dy="-3.9000000000000012">PARE e aguarde o usuario testar</tspan><tspan x="561.4087499999999" dy="16.900000000000002">nao revise, valide ou aprove formalmente</tspan></text>
+</g>
+</svg>

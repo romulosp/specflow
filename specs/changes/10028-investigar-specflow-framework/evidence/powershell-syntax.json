@@ -1,0 +1,37 @@
+﻿[
+    {
+        "arquivo":  "origem-externa\\scripts\\gerar_start_aplicacao.ps1",
+        "erros":  [
+
+                  ],
+        "codigo":  0
+    },
+    {
+        "arquivo":  "origem-externa\\scripts\\gerar_start_aplicacao_autenticador_sso.ps1",
+        "erros":  [
+
+                  ],
+        "codigo":  0
+    },
+    {
+        "arquivo":  "origem-externa\\scripts\\gerar_start_aplicacao_fotogaleria.ps1",
+        "erros":  [
+
+                  ],
+        "codigo":  0
+    },
+    {
+        "arquivo":  "origem-externa\\scripts\\sonar\\validar-codigo.ps1",
+        "erros":  [
+
+                  ],
+        "codigo":  0
+    },
+    {
+        "arquivo":  "origem-externa\\scripts\\sonar\\tests\\validar-codigo.Tests.ps1",
+        "erros":  [
+
+                  ],
+        "codigo":  0
+    }
+]

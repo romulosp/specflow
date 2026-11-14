@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-12",
+  "scope": "revisao documental; nao testa runtime",
+  "passed": 15,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "referencias locais",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "criterio RF-01",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-02",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-03",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-04",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-05",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-06",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-07",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-08",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-09",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-10",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "criterio RF-11",
+      "passed": true,
+      "details": "RF e CA presentes"
+    },
+    {
+      "name": "tarefas de implementacao pendentes",
+      "passed": true,
+      "details": "T01..T10 checked with Unicode-safe matching"
+    },
+    {
+      "name": "gate humano pendente",
+      "passed": true,
+      "details": "sem aprovacao inferida"
+    },
+    {
+      "name": "sem implementacao",
+      "passed": true,
+      "details": "framework/ ainda inexistente"
+    }
+  ]
+}

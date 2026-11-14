@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "revision": "r6",
+  "items": [
+    {
+      "requirementId": "RF-01",
+      "acceptanceId": "CA-01",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_strict_json_and_paths",
+          "line": 62
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_strict_records_mutations",
+          "line": 230
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_input_diagnostic_names_source_without_echoing_unknown_keys",
+          "line": 75
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-02",
+      "acceptanceId": "CA-02",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_all_gates_read_only_deterministic_and_two_consumers",
+          "line": 25
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-03",
+      "acceptanceId": "CA-03",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_missing_human_never_advanced_by_filename_or_checkbox",
+          "line": 45
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_contract_change_and_scope_invalidate_approval",
+          "line": 118
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-04",
+      "acceptanceId": "CA-04",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_digest_profiles",
+          "line": 52
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-05",
+      "acceptanceId": "CA-05",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_manual_and_omission_never_approve",
+          "line": 216
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-06",
+      "acceptanceId": "CA-06",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_status_and_declared_state_conflicts",
+          "line": 109
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_supersession_and_human_rejection",
+          "line": 149
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-07",
+      "acceptanceId": "CA-07",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_all_gates_read_only_deterministic_and_two_consumers",
+          "line": 25
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-08",
+      "acceptanceId": "CA-08",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_traceability_methods_and_missing_ids",
+          "line": 179
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-09",
+      "acceptanceId": "CA-09",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_harness_and_redacted_errors",
+          "line": 267
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_harness_invalid_arguments_do_not_echo_values",
+          "line": 282
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-10",
+      "acceptanceId": "CA-10",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_strict_json_and_paths",
+          "line": 62
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_actual_junction_cannot_escape_or_receive_writes",
+          "line": 248
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-11",
+      "acceptanceId": "CA-11",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_all_gates_read_only_deterministic_and_two_consumers",
+          "line": 25
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-12",
+      "acceptanceId": "CA-12",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_coverage_floor_exact_and_no_zero_success",
+          "line": 188
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_executable_source_cannot_be_excluded",
+          "line": 291
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-13",
+      "acceptanceId": "CA-13",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_security_all_severities_pending_and_no_command_execution",
+          "line": 202
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-14",
+      "acceptanceId": "CA-14",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_manual_and_omission_never_approve",
+          "line": 216
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-15",
+      "acceptanceId": "CA-15",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_policy_is_pinned",
+          "line": 96
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_changed_test_log_report_or_source_invalidates",
+          "line": 195
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_new_contract_cannot_reuse_old_implementation_evidence",
+          "line": 129
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    },
+    {
+      "requirementId": "RF-16",
+      "acceptanceId": "CA-16",
+      "taskIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T11",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "requiredMethod": "functional",
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_draft_and_conflicting_records",
+          "line": 165
+        }
+      ],
+      "artifactRefs": [
+        "docs/cli/tests-2026-11-14.log",
+        "docs/cli/coverage-2026-11-14.json"
+      ],
+      "outcome": "passed_local",
+      "limitations": []
+    }
+  ],
+  "note": "Local evidence mapping, not a blanket acceptance. Manual homologation is separately not_run. Shared suite includes functional and negative cases; taskIds identify implementation work supporting the checks."
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "changeId": "PREENCHER-NOME-DA-CHANGE",
+  "revision": "PENDENTE",
+  "review": {
+    "skill": "security-audit",
+    "reviewer": "",
+    "status": "pending",
+    "limitations": ["Auditoria ainda não executada; preencher com a análise da implementação atual."]
+  },
+  "scope": [],
+  "artifacts": [],
+  "findings": [],
+  "checks": []
+}

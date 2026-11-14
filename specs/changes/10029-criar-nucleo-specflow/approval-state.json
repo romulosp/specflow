@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "status": "SPEC_APROVADA",
+  "revision": "r6",
+  "decisionRef": "evidence/spec-approval-r6.json",
+  "contractManifest": "evidence/contract-r6.json",
+  "contractManifestSha256": "c918e2613f6b24fd0d94e7904dc434db4dea99bab1670f36dfa37d3535f70c48",
+  "note": "Frozen contract headers describe pre-approval history; current authority is the human decision. Four approved documents remain byte-for-byte unchanged."
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "recordType": "human_feedback",
+  "date": "2026-11-13",
+  "source": "User response to explicit approval question in this conversation",
+  "response": "Quero corrigir os contratos antes de aprovar",
+  "outcome": "changes_requested",
+  "approved": false,
+  "contracts": [
+    {
+      "changeId": "10029-criar-nucleo-specflow",
+      "revision": "r5",
+      "manifestSha256": "1a4182bf9006938739ecf45a35494169294b97ed7156fd4587fd87b174ba7a40"
+    },
+    {
+      "changeId": "10030-inicializar-consumidor-configuracao",
+      "revision": "r3",
+      "manifestSha256": "3bba99c2ba491bef4fdec9237c6dcc423811aa3c960d07c879be82920ad59065"
+    },
+    {
+      "changeId": "10031-criar-specflow-cli",
+      "revision": "r1",
+      "manifestSha256": "6952d218ff94bd89e5447537a9b02d5107e14e4e2f2e49d9bc458b29d91076ad"
+    }
+  ],
+  "requestedChanges": null,
+  "nextAction": "Await user description of requested changes; do not implement or fabricate approval",
+  "notAnApprovalDecision": true
+}

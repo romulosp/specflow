@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "recordType": "human_source",
+  "occurredAt": "2026-11-14T02:03:18.476119+00:00",
+  "actor": "usuario nesta conversa",
+  "message": "aprovo as spec vamos proseguir",
+  "context": "Direct affirmative reply to the approval request for 10029 r6, 10030 r4 and 10031 r2",
+  "scope": [
+    {
+      "changeId": "10029-criar-nucleo-specflow",
+      "revision": "r6"
+    },
+    {
+      "changeId": "10030-inicializar-consumidor-configuracao",
+      "revision": "r4"
+    },
+    {
+      "changeId": "10031-criar-specflow-cli",
+      "revision": "r2"
+    }
+  ],
+  "publicationAuthorized": false,
+  "finalProductAcceptance": false
+}

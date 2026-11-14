@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "expectedCode": 0,
+  "actualCode": 0,
+  "frozenContractFilesExact": 12,
+  "sourceTestCoverage": [
+    {
+      "path": "framework/src/specflow/__init__.py",
+      "covered": 0,
+      "total": 0,
+      "percentLines": 100.0,
+      "nonExecutable": true,
+      "tests": []
+    },
+    {
+      "path": "framework/src/specflow/__main__.py",
+      "covered": 2,
+      "total": 2,
+      "percentLines": 100.0,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_module_entrypoint",
+          "line": 276
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/assets/gate_wrapper.py",
+      "covered": 36,
+      "total": 36,
+      "percentLines": 100.0,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_explicit_wrapper_uses_only_trusted_fixed_cli_operation",
+          "line": 266
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/cli.py",
+      "covered": 162,
+      "total": 165,
+      "percentLines": 98.18181818181819,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_cli.py",
+          "function": "test_phase_preconditions_and_read_only_handoffs",
+          "line": 65
+        },
+        {
+          "path": "framework/tests/test_cli.py",
+          "function": "test_packaged_catalog_matches_every_editor_instruction",
+          "line": 24
+        },
+        {
+          "path": "framework/tests/test_cli.py",
+          "function": "test_validar_calls_real_gate_and_requires_bindings",
+          "line": 79
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/configuration.py",
+      "covered": 75,
+      "total": 76,
+      "percentLines": 98.6842105263158,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_every_placeholder_prevents_probes_independently",
+          "line": 100
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_properties_literal_values_and_errors_are_redacted",
+          "line": 89
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_optional_authentication_and_bad_configuration",
+          "line": 116
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/consumer.py",
+      "covered": 150,
+      "total": 153,
+      "percentLines": 98.03921568627452,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_generation_gate_and_paths",
+          "line": 156
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_initialize_empty_and_repeated_adaptive_integrations",
+          "line": 27
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_new_changes_never_recycle_reservations_or_overwrite",
+          "line": 133
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/contracts/__init__.py",
+      "covered": 160,
+      "total": 174,
+      "percentLines": 91.95402298850574,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_strict_records_mutations",
+          "line": 230
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_manifest_invariants_and_errors",
+          "line": 250
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/fileops.py",
+      "covered": 133,
+      "total": 144,
+      "percentLines": 92.36111111111111,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_write_lock_conflict_and_ownership",
+          "line": 176
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_failed_write_rolls_back_without_deleting_external_edit",
+          "line": 210
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_preflight_case_and_file_directory_collisions",
+          "line": 193
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_atomic_replace_does_not_modify_hardlink_target",
+          "line": 202
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/harness.py",
+      "covered": 18,
+      "total": 18,
+      "percentLines": 100.0,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_harness_and_redacted_errors",
+          "line": 267
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_harness_invalid_arguments_do_not_echo_values",
+          "line": 282
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/memory/__init__.py",
+      "covered": 120,
+      "total": 120,
+      "percentLines": 100.0,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_all_gates_read_only_deterministic_and_two_consumers",
+          "line": 25
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_status_and_declared_state_conflicts",
+          "line": 109
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_draft_and_conflicting_records",
+          "line": 165
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/policy.py",
+      "covered": 17,
+      "total": 17,
+      "percentLines": 100.0,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_policy_is_pinned",
+          "line": 96
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/security.py",
+      "covered": 57,
+      "total": 59,
+      "percentLines": 96.61016949152543,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_security_all_severities_pending_and_no_command_execution",
+          "line": 202
+        },
+        {
+          "path": "framework/tests/test_cli.py",
+          "function": "test_validar_any_security_problem_remains_pending",
+          "line": 94
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/storage.py",
+      "covered": 136,
+      "total": 140,
+      "percentLines": 97.14285714285714,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_digest_profiles",
+          "line": 52
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_strict_json_and_paths",
+          "line": 62
+        },
+        {
+          "path": "framework/tests/test_consumer.py",
+          "function": "test_actual_junction_cannot_escape_or_receive_writes",
+          "line": 248
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/validation/__init__.py",
+      "covered": 80,
+      "total": 81,
+      "percentLines": 98.76543209876543,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_traceability_methods_and_missing_ids",
+          "line": 179
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_coverage_floor_exact_and_no_zero_success",
+          "line": 188
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_manual_source_and_quickstart_bytes_are_bound",
+          "line": 143
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_changed_test_log_report_or_source_invalidates",
+          "line": 195
+        }
+      ]
+    },
+    {
+      "path": "framework/src/specflow/workflow/__init__.py",
+      "covered": 134,
+      "total": 139,
+      "percentLines": 96.40287769784173,
+      "nonExecutable": false,
+      "tests": [
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_all_gates_read_only_deterministic_and_two_consumers",
+          "line": 25
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_new_contract_cannot_reuse_old_implementation_evidence",
+          "line": 129
+        },
+        {
+          "path": "framework/tests/test_core.py",
+          "function": "test_manual_and_omission_never_approve",
+          "line": 216
+        }
+      ]
+    }
+  ],
+  "commandCatalogMatches": true,
+  "checksRefs": [
+    "docs/cli/package-inventory-2026-11-14.json",
+    "docs/cli/installation-smoke-2026-11-14.json",
+    "docs/cli/validation-summary-2026-11-14.json"
+  ],
+  "limitations": [
+    "Current Windows proof only; Linux and real clients/human test not_run",
+    "Authoring project has legacy documentary workflow; native gates checked through direct library context with actual records"
+  ]
+}
